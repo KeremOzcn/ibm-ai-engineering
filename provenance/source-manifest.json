@@ -1,0 +1,2595 @@
+[
+  {
+    "course": 1,
+    "title": "Comparing DBSCAN and HDBSCAN clustering",
+    "file": "01_Machine_Learning_with_Python/Comparing_DBScan_HDBScan.ipynb",
+    "sha256": "846ea744960b61d0e221fa060c772340d8c800ad894e2b3d1430beef7b4abbf8",
+    "target": "courses/01-machine-learning-with-python/notebooks/comparing-dbscan-and-hdbscan-clustering.ipynb",
+    "semantic_sha256": "f611a572ae1f265dd48cf3fcd01fbcfbe500a3ca727ab3033c625b7b6916e602",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "f611a572ae1f265dd48cf3fcd01fbcfbe500a3ca727ab3033c625b7b6916e602"
+  },
+  {
+    "course": 1,
+    "title": "Decision Trees",
+    "file": "01_Machine_Learning_with_Python/Decision_trees.ipynb",
+    "sha256": "3954d4a4d1c12a2159dca036ed7f6172b95dd7cce0bbd64781263de32a156bc4",
+    "target": "courses/01-machine-learning-with-python/notebooks/decision-trees.ipynb",
+    "semantic_sha256": "503ab6ed604872f34a0258084da8fb06930918cc736713b83c3ee1e6a8704ba7",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "503ab6ed604872f34a0258084da8fb06930918cc736713b83c3ee1e6a8704ba7"
+  },
+  {
+    "course": 1,
+    "title": "Evaluating Classification Models",
+    "file": "01_Machine_Learning_with_Python/Evaluating_Classification_Models-v1.ipynb",
+    "sha256": "8f089315f265abd76066ca9fc4577407b644a226d5e78812e8555c9dc80cfd86",
+    "target": "courses/01-machine-learning-with-python/notebooks/evaluating-classification-models.ipynb",
+    "semantic_sha256": "c212e48fb42ad3caaeec2df8bfb67ed91464e67cfd5877c725b9cb4055f6eba1",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "c212e48fb42ad3caaeec2df8bfb67ed91464e67cfd5877c725b9cb4055f6eba1"
+  },
+  {
+    "course": 1,
+    "title": "Evaluating k-means clustering",
+    "file": "01_Machine_Learning_with_Python/Evaluating_k-means_clustering.ipynb",
+    "sha256": "05390d559c9af516266cd47c194567ecd402726286d524ebc634fdda90bb3501",
+    "target": "courses/01-machine-learning-with-python/notebooks/evaluating-k-means-clustering.ipynb",
+    "semantic_sha256": "be03a21cbc2837e1df057962ec23829055260c9cc26b717fed1104ce1a9219ac",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "be03a21cbc2837e1df057962ec23829055260c9cc26b717fed1104ce1a9219ac"
+  },
+  {
+    "course": 1,
+    "title": "Evaluating Random Forest Performance",
+    "file": "01_Machine_Learning_with_Python/Evaluating_random_forest.ipynb",
+    "sha256": "a2b8fecece8ccf10efaeb84a68949fd8975e48010fde1b364462d6ef14ffee8a",
+    "target": "courses/01-machine-learning-with-python/notebooks/evaluating-random-forest-performance.ipynb",
+    "semantic_sha256": "c2ab97eef397b011c536064da55e3b35ca3f0023bba32907ebb247831ef2ad58",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "c2ab97eef397b011c536064da55e3b35ca3f0023bba32907ebb247831ef2ad58"
+  },
+  {
+    "course": 1,
+    "title": "Final Project: Building a Rainfall Prediction Classifier",
+    "file": "01_Machine_Learning_with_Python/FinalProject_AUSWeather.ipynb",
+    "sha256": "dc9fb20e82585785b3fc9aecf0a4f43c2a8857643d9d3f25450a6be2d99c2373",
+    "target": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "semantic_sha256": "d569445e6c7aee7f80e1cea57f5b847d99e45b7edcd28416a3712ebc592ea693",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "d569445e6c7aee7f80e1cea57f5b847d99e45b7edcd28416a3712ebc592ea693"
+  },
+  {
+    "course": 1,
+    "title": "K-Means Customer Segmentation",
+    "file": "01_Machine_Learning_with_Python/K-Means-Customer-Seg-v1.ipynb",
+    "sha256": "763f9ebad4e4f4b98ccb67e8c3b18b96f0ca8379d8ddffa63be675c5a44b1f06",
+    "target": "courses/01-machine-learning-with-python/notebooks/k-means-customer-segmentation.ipynb",
+    "semantic_sha256": "8f0f16c7789c3c0cb2a183d164931d08d3fa8acdf7d490f5330e739951e2d980",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "8f0f16c7789c3c0cb2a183d164931d08d3fa8acdf7d490f5330e739951e2d980"
+  },
+  {
+    "course": 1,
+    "title": "K-Nearest Neighbors Classification",
+    "file": "01_Machine_Learning_with_Python/KNN_Classification.ipynb",
+    "sha256": "032c848b4d82d18006542d365ac0b16e81290cc54377c62966262fae1a0fa80e",
+    "target": "courses/01-machine-learning-with-python/notebooks/k-nearest-neighbors-classification.ipynb",
+    "semantic_sha256": "2c9435eeb803bc2d6acee8c6a9c98a277344f8ee2d336cfce080f6f85344c33e",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "2c9435eeb803bc2d6acee8c6a9c98a277344f8ee2d336cfce080f6f85344c33e"
+  },
+  {
+    "course": 1,
+    "title": "Logistic Regression with Python",
+    "file": "01_Machine_Learning_with_Python/Logistic_Regression.ipynb",
+    "sha256": "9d8413bf6c8b0bda47d00a22c824fa4721754e0fb957c54c22abd0a12e342ce4",
+    "target": "courses/01-machine-learning-with-python/notebooks/logistic-regression-with-python.ipynb",
+    "semantic_sha256": "447dae6d265fd668751da8c45a19a4866ec1854f28ecd7e9ce2c91581587811a",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "447dae6d265fd668751da8c45a19a4866ec1854f28ecd7e9ce2c91581587811a"
+  },
+  {
+    "course": 1,
+    "title": "Machine Learning Pipelines and GridSearchCV",
+    "file": "01_Machine_Learning_with_Python/ML_Pipelines_and_GridSearchCV.ipynb",
+    "sha256": "9711f68b240267c03bd1d05671fc14010aef2bae8a2c1a7fbf39edd571a0f023",
+    "target": "courses/01-machine-learning-with-python/notebooks/machine-learning-pipelines-and-gridsearchcv.ipynb",
+    "semantic_sha256": "0a16a87041f3611989d3bd4e64fac89e12fde891629c193d2cfeda10d5cd8d41",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "0a16a87041f3611989d3bd4e64fac89e12fde891629c193d2cfeda10d5cd8d41"
+  },
+  {
+    "course": 1,
+    "title": "Multiple Linear Regression",
+    "file": "01_Machine_Learning_with_Python/Mulitple-Linear-Regression-v1.ipynb",
+    "sha256": "f7a5da6055f4910d32f83f7279a90c21709c6e23d891655c6dfcad20c6be9df3",
+    "target": "courses/01-machine-learning-with-python/notebooks/multiple-linear-regression.ipynb",
+    "semantic_sha256": "fd1e31a4a075f4a4f8c228ce461a7989638a42e3467377b10666402c05396ead",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "fd1e31a4a075f4a4f8c228ce461a7989638a42e3467377b10666402c05396ead"
+  },
+  {
+    "course": 1,
+    "title": "Multiple Linear Regression",
+    "file": "01_Machine_Learning_with_Python/Mulitple-Linear-Regression.ipynb",
+    "sha256": "6a9d7da5591cfb1484e2056e6b9a9e576af412006e0a53565c69456c350e0b89",
+    "target": "courses/01-machine-learning-with-python/notebooks/multiple-linear-regression.ipynb",
+    "semantic_sha256": "fd1e31a4a075f4a4f8c228ce461a7989638a42e3467377b10666402c05396ead",
+    "duplicate": true
+  },
+  {
+    "course": 1,
+    "title": "Multi-class Classification",
+    "file": "01_Machine_Learning_with_Python/Multi-class_Classification.ipynb",
+    "sha256": "2d1c5ba03ce288d3c6a3679eadbb4c34e41a71a773efdab638977a4aaffb2662",
+    "target": "courses/01-machine-learning-with-python/notebooks/multi-class-classification.ipynb",
+    "semantic_sha256": "f7a733a8d3cf0c81cdbd1f99c24bf922b1727945d64ff07b268e600048785635",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "f7a733a8d3cf0c81cdbd1f99c24bf922b1727945d64ff07b268e600048785635"
+  },
+  {
+    "course": 1,
+    "title": "Lab: Applications of Principal Component Analysis (PCA)",
+    "file": "01_Machine_Learning_with_Python/PCA.ipynb",
+    "sha256": "593b0bd2a33484037b122e30ef32dd47fc77d502ce4b0bac29179d56ddb1284b",
+    "target": "courses/01-machine-learning-with-python/notebooks/lab-applications-of-principal-component-analysis-pca.ipynb",
+    "semantic_sha256": "7ccd141253c5d2d6badd1debb1fed69c4e8855e72bc6f9c99942b70dc085fd46",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "7ccd141253c5d2d6badd1debb1fed69c4e8855e72bc6f9c99942b70dc085fd46"
+  },
+  {
+    "course": 1,
+    "title": "Practice Project: Titanic Survival Prediction",
+    "file": "01_Machine_Learning_with_Python/Practice_Project.ipynb",
+    "sha256": "2a08f1ffc3f012d6b8eaa8d59975fad09b68fe19f429f08f58edbc8d0a73ae9c",
+    "target": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "semantic_sha256": "0d993352281f967a3b1e68466dbab302f4cac40af785837bb74ec4601c9c95ae",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "0d993352281f967a3b1e68466dbab302f4cac40af785837bb74ec4601c9c95ae"
+  },
+  {
+    "course": 1,
+    "title": "Lab: Comparing Random Forest and XGBoost modeling performance",
+    "file": "01_Machine_Learning_with_Python/Random-_Forests_-XGBoost-v1.ipynb",
+    "sha256": "78c2500cd4c784d46d6d6771c0df0631ee3617bc90908e37b0448627587caaf2",
+    "target": "courses/01-machine-learning-with-python/notebooks/lab-comparing-random-forest-and-xgboost-modeling-performance.ipynb",
+    "semantic_sha256": "17abdb06a83e5ef461728d86090ce35c71627655fc21c60b0e3eb0a6e32001d6",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "17abdb06a83e5ef461728d86090ce35c71627655fc21c60b0e3eb0a6e32001d6"
+  },
+  {
+    "course": 1,
+    "title": "Regression Trees for Taxi Tip Prediction",
+    "file": "01_Machine_Learning_with_Python/Regression-Trees-Taxi-Tip-v1.ipynb",
+    "sha256": "38d55519686038219a9ca8dba6bea2dd7baf7efa7743cc211d09aaad012711e8",
+    "target": "courses/01-machine-learning-with-python/notebooks/regression-trees-for-taxi-tip-prediction.ipynb",
+    "semantic_sha256": "8bb67ffe28a0ccd9c79c6b8d85f50a45ae6a3d4414803ce0c7bf4576c6f6f457",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "8bb67ffe28a0ccd9c79c6b8d85f50a45ae6a3d4414803ce0c7bf4576c6f6f457"
+  },
+  {
+    "course": 1,
+    "title": "Regression Trees for Taxi Tip Prediction",
+    "file": "01_Machine_Learning_with_Python/Regression_Trees_Taxi_Tip.ipynb",
+    "sha256": "07380abba2bc4c192f6a08a48931faf3b97bd10cf6bffa038f8c1eddc783be0c",
+    "target": "courses/01-machine-learning-with-python/notebooks/regression-trees-for-taxi-tip-prediction.ipynb",
+    "semantic_sha256": "8bb67ffe28a0ccd9c79c6b8d85f50a45ae6a3d4414803ce0c7bf4576c6f6f457",
+    "duplicate": true
+  },
+  {
+    "course": 1,
+    "title": "Regularization in Linear Regression",
+    "file": "01_Machine_Learning_with_Python/Regularization_in_LinearRegression.ipynb",
+    "sha256": "e4a157125e3df5fb0f70799c27da1267f2c74a9f9c52fd9cec9309c0eba16024",
+    "target": "courses/01-machine-learning-with-python/notebooks/regularization-in-linear-regression.ipynb",
+    "semantic_sha256": "c354cba21d96bd5057663f348d678b88aba45e1b1733c032996fe3f89a3cced3",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "c354cba21d96bd5057663f348d678b88aba45e1b1733c032996fe3f89a3cced3"
+  },
+  {
+    "course": 1,
+    "title": "Simple Linear Regression",
+    "file": "01_Machine_Learning_with_Python/Simple-Linear-Regression-v1.ipynb",
+    "sha256": "0b8937145c0ce387581c3919ead65cdc9d2229e60e26a164264b7f5830b6afba",
+    "target": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "semantic_sha256": "bb2f7e10e8428f080ffa36391be0663dd6aca42eb118cf73eb397e0ad74b9bc7",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "bb2f7e10e8428f080ffa36391be0663dd6aca42eb118cf73eb397e0ad74b9bc7"
+  },
+  {
+    "course": 1,
+    "title": "Simple Linear Regression",
+    "file": "01_Machine_Learning_with_Python/Simple-Linear-Regression.ipynb",
+    "sha256": "6695f59c227eb14f894efeea4d2f835cc5ec2cf2b922e1cf60eb24e37816a5ee",
+    "target": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "semantic_sha256": "bb2f7e10e8428f080ffa36391be0663dd6aca42eb118cf73eb397e0ad74b9bc7",
+    "duplicate": true
+  },
+  {
+    "course": 1,
+    "title": "Credit Card Fraud Detection with Decision Trees and SVM",
+    "file": "01_Machine_Learning_with_Python/decision_tree_svm_ccFraud.ipynb",
+    "sha256": "b16cdb3326adc0f62d907dd175ab411a961905ea6f324ff0fef30ff0576cccbd",
+    "target": "courses/01-machine-learning-with-python/notebooks/credit-card-fraud-detection-with-decision-trees-and-svm.ipynb",
+    "semantic_sha256": "ff4d3a2ab4e39b9e9f85fc7283b1f17c6d70c532382a19164619a71a0b37b38b",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "ff4d3a2ab4e39b9e9f85fc7283b1f17c6d70c532382a19164619a71a0b37b38b"
+  },
+  {
+    "course": 1,
+    "title": "Lab: Comparing tSNE and UMAP Dimension Reduction Models",
+    "file": "01_Machine_Learning_with_Python/tSNE_UMAP.ipynb",
+    "sha256": "a3f1e0426a4a5fa03a1b7c1d57dc8c3ca6ba81f7a1ac0d895e352a20d5d83de4",
+    "target": "courses/01-machine-learning-with-python/notebooks/lab-comparing-tsne-and-umap-dimension-reduction-models.ipynb",
+    "semantic_sha256": "7b1eb27648152e0b67e0af39b66df3037446839c64681a3f56bf8184a3e4e405",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "7b1eb27648152e0b67e0af39b66df3037446839c64681a3f56bf8184a3e4e405"
+  },
+  {
+    "course": 2,
+    "title": "Artificial Neural Networks - Forward Propagation",
+    "file": "02_Introduction_to_Deep_Learning_with_Keras/DL0101EN-1-1-Forward-Propgation-py-v1.jupyterlite.ipynb",
+    "sha256": "99e0dc3245278bb69f875da1652d7ba4c5c1f081e0077785284d6b960de2d60a",
+    "target": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "semantic_sha256": "3f57db7b42b11d1da557f910f5bc36495dfcc69cb3aa4198d5501e8b3ede1015",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "3f57db7b42b11d1da557f910f5bc36495dfcc69cb3aa4198d5501e8b3ede1015"
+  },
+  {
+    "course": 2,
+    "title": "Activation Functions and Vanishing Gradients",
+    "file": "02_Introduction_to_Deep_Learning_with_Keras/DL0101EN-2-1-Activation_functions_and_Vanishing-py-v1_0__1__.ipynb",
+    "sha256": "d3de09b3aaecc42beb8db1b42e24e6474d85af28203ba1fc886d358ef790bc2e",
+    "target": "courses/02-deep-learning-with-keras/notebooks/activation-functions-and-vanishing-gradients.ipynb",
+    "semantic_sha256": "34771bf837c6b2fa2e8388026af1a569e6ef7fbb0daf1d9cafaf939302bcff67",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "34771bf837c6b2fa2e8388026af1a569e6ef7fbb0daf1d9cafaf939302bcff67"
+  },
+  {
+    "course": 2,
+    "title": "Backpropagation",
+    "file": "02_Introduction_to_Deep_Learning_with_Keras/DL0101EN-2-1-Backpropagation-py-v1.jupyterlite.ipynb",
+    "sha256": "f847b9b957bda7e5fa34ba51e2428886e6fc0fc8f75d2b1a00618bca482c72bd",
+    "target": "courses/02-deep-learning-with-keras/notebooks/backpropagation.ipynb",
+    "semantic_sha256": "4416665436392731cd23d00a599579c694cbfffd13ef01a23c8118f129345de2",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "4416665436392731cd23d00a599579c694cbfffd13ef01a23c8118f129345de2"
+  },
+  {
+    "course": 2,
+    "title": "Regression Models with Keras",
+    "file": "02_Introduction_to_Deep_Learning_with_Keras/DL0101EN-3-1-Regression-with-Keras-py-v1_0__2_.ipynb",
+    "sha256": "e134710d0c1c0c46c41a09f15543c3084e66dbefe2a853affdcb0a2842f96f15",
+    "target": "courses/02-deep-learning-with-keras/notebooks/regression-models-with-keras.ipynb",
+    "semantic_sha256": "0f759a8b9bf332c4743eecaa25f389e6e409bbcf9fb871e6b8c77be547a6af49",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "0f759a8b9bf332c4743eecaa25f389e6e409bbcf9fb871e6b8c77be547a6af49"
+  },
+  {
+    "course": 2,
+    "title": "Classification Models with Keras",
+    "file": "02_Introduction_to_Deep_Learning_with_Keras/DL0101EN-3-2-Classification-with-Keras-py-v1_0__1.ipynb",
+    "sha256": "b167a9b0c359e03884024e233a94fec295441ba4f6c21270d7eb662f3e2866d0",
+    "target": "courses/02-deep-learning-with-keras/notebooks/classification-models-with-keras.ipynb",
+    "semantic_sha256": "3acf7c5e6cc9f78fd11f23517e7988bc773ddb5300d529c72083ce9f36744c97",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "3acf7c5e6cc9f78fd11f23517e7988bc773ddb5300d529c72083ce9f36744c97"
+  },
+  {
+    "course": 2,
+    "title": "Convolutional Neural Networks with Keras",
+    "file": "02_Introduction_to_Deep_Learning_with_Keras/DL0101EN-4-1-Convolutional-Neural-Networks-with-K.ipynb",
+    "sha256": "26fd2326a7fdf2782381a1dc41f3c2734ab7f7a8a83a0dfc9bf0f20d8b6f1d0f",
+    "target": "courses/02-deep-learning-with-keras/notebooks/convolutional-neural-networks-with-keras.ipynb",
+    "semantic_sha256": "f56d5c6a04f8391c880f7726762e7a1b0efcc9ceca928124c52b05cd95d7a42c",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "f56d5c6a04f8391c880f7726762e7a1b0efcc9ceca928124c52b05cd95d7a42c"
+  },
+  {
+    "course": 2,
+    "title": "Transformers with Keras",
+    "file": "02_Introduction_to_Deep_Learning_with_Keras/DL0101EN-4-1-Transformers-with-Keras-py-v1.ipynb",
+    "sha256": "d79c290d995d317e9b7aa4c4b00bb276ff81e9e94259f8838b0579b2943b6518",
+    "target": "courses/02-deep-learning-with-keras/notebooks/transformers-with-keras.ipynb",
+    "semantic_sha256": "317de359e764b7020b0f037d7dd6f905d09f98442bcca3a015e9ea7fb24647cf",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "317de359e764b7020b0f037d7dd6f905d09f98442bcca3a015e9ea7fb24647cf"
+  },
+  {
+    "course": 2,
+    "title": "Aircraft Damage Classification and Captioning",
+    "file": "02_Introduction_to_Deep_Learning_with_Keras/Final_Project_Classification_and_Captioning.ipynb",
+    "sha256": "4eb658c606d27eb776135245c80b7c9aea476619a1baf0f45495854de8915aaf",
+    "target": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "semantic_sha256": "2d43dcef18185ad35f4486fa31c64915f6f89e7a2b9ecb8c1b9fc628ccd397ba",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "2d43dcef18185ad35f4486fa31c64915f6f89e7a2b9ecb8c1b9fc628ccd397ba"
+  },
+  {
+    "course": 3,
+    "title": "Waste Classification Using Transfer Learning",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/Final_Proj-Classify_Waste_Products_Using_TL_FT.ipynb",
+    "sha256": "47cc45931296b2ce5b81484eb587aca376bf6497110f8c5a8c57a0082a428211",
+    "target": "courses/03-keras-and-tensorflow/notebooks/waste-classification-using-transfer-learning.ipynb",
+    "semantic_sha256": "5b438bdc4d2989455c7a9fda60563c8afc1486002d0a3b2aea541927f91794ec",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "5b438bdc4d2989455c7a9fda60563c8afc1486002d0a3b2aea541927f91794ec"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Practical Application of Transpose Convolution",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/Lab_Practical_Application_of_Transpose_Convolution.ipynb",
+    "sha256": "79257e925283e4fbcb1a9e7b9317faa034847f3f3669400af1e06ac7bcbb95f5",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-practical-application-of-transpose-convolution.ipynb",
+    "semantic_sha256": "23048cee257fa43566c4887b30ed492f2eec45c6b5b18beb9ed225c758d842f4",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "23048cee257fa43566c4887b30ed492f2eec45c6b5b18beb9ed225c758d842f4"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Implementing the Functional API in Keras",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M01L01_Lab__Implementing_the_Functional_API_in_Keras.ipynb",
+    "sha256": "febc9d96dfb4b61942b1cbba1d7e6d5b9120fbf5229e41a0ee07267056db185c",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-the-functional-api-in-keras.ipynb",
+    "semantic_sha256": "dd80c51d45d2ca409f0d8193496725ee2566c83902937e21e03d9cd606f33056",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "dd80c51d45d2ca409f0d8193496725ee2566c83902937e21e03d9cd606f33056"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Creating Custom Layers and Models",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M01L02_Lab_Creating_Custom_Layers_and_Models.ipynb",
+    "sha256": "e85cb3a7314e7c9bdc71edd90f82cbfc40edde026bf947e3ace5ad16c40b7cad",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-creating-custom-layers-and-models.ipynb",
+    "semantic_sha256": "a8047307332dedb3877147b2bb5b442cdc402c7922ae5e124967c8db23eadd1b",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "source cell 30: copyright text changed from code to markdown",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "49ea619697fdd98f327a14ad973f87a254b307a0a78a47d8b67be393ca810174"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Transfer Learning Implementation",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M02L02_Lab_Transfer_Learning_Implementation.ipynb",
+    "sha256": "ba54348254885438f583895ec7806a7778083be1d54e5015660a4ae3f4a961f0",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-transfer-learning-implementation.ipynb",
+    "semantic_sha256": "aaf2a1df0afbd5ff97327880d18c25e2d1f59b7294b49f79ae52caa1807c2aee",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "aaf2a1df0afbd5ff97327880d18c25e2d1f59b7294b49f79ae52caa1807c2aee"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Implementing Transformers for Text Generation",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M03L02_Lab_Implementing_Transformers_for_Text_Genera.ipynb",
+    "sha256": "0e5462f4929b67b69b9d95a9421d1114789e83ef13424fdeaf45bea51c4cb85e",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb",
+    "semantic_sha256": "7f85dbadc41849258abcf2d397f1c3edd3a93bf5676ceb2df65206ce488b3c78",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "7f85dbadc41849258abcf2d397f1c3edd3a93bf5676ceb2df65206ce488b3c78"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Building Autoencoders",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M04L01_Lab_Building_Autoencoders.ipynb",
+    "sha256": "cb333d0f9207278a03c0fb61616e651c35bb7b469f52c49ed79a4c53d49c14ee",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-building-autoencoders.ipynb",
+    "semantic_sha256": "01c15dda6529c3460b12255097e823a7336801d4bbf8a519ab10c0c47e3c1cb9",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "01c15dda6529c3460b12255097e823a7336801d4bbf8a519ab10c0c47e3c1cb9"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Develop GANs Using Keras",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M04L02_Lab_Develop_GANs_using_Keras.ipynb",
+    "sha256": "c4cf01011e0abcf69ef3e06c8e5945ddde2d88ff71bf93a333192c7870c3bfcc",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-develop-gans-using-keras.ipynb",
+    "semantic_sha256": "a24697e51f2e7eb54f6270f37aeed661f2795e246454617682583c1afd307e2a",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "a24697e51f2e7eb54f6270f37aeed661f2795e246454617682583c1afd307e2a"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Implementing Diffusion Models",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M04_Lab_Implementing_Diffusion_Models.ipynb",
+    "sha256": "0086a1d8cb3c299bc935525991588f04d7ffc1b192e8887a89fac56744db4f40",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-diffusion-models.ipynb",
+    "semantic_sha256": "277f4cbcc44740256be44d2f9d507df8549dc877ed591fda96cd1c2d4d5a7494",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "277f4cbcc44740256be44d2f9d507df8549dc877ed591fda96cd1c2d4d5a7494"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Custom Training Loops in Keras",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M05L01_Lab_Custom_Training_Loops_in_Keras.ipynb",
+    "sha256": "95cd093134e25c45142cd8d973facd2b468e310a497c1e46867c17e3734397b2",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "semantic_sha256": "6e7c842db8b2d6d0cf0a2bcb3e0f9d6caed7c93ddf85502510ab2fa1012819b0",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "6e7c842db8b2d6d0cf0a2bcb3e0f9d6caed7c93ddf85502510ab2fa1012819b0"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Hyperparameter Tuning with Keras Tuner",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M05L02_Lab_Hyperparameter_Tuning_with_Keras_Tuner.ipynb",
+    "sha256": "d53c7a846d1f4830477b8a91543ce282d3e3e3a5dbf22a695b73e76e33fd43d3",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb",
+    "semantic_sha256": "a1dc735f6f9adba89a7201a4f633e3ea9bbb6f6781ebdee29582696877d5bb72",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "a1dc735f6f9adba89a7201a4f633e3ea9bbb6f6781ebdee29582696877d5bb72"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Building a Deep Q-Network with Keras",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M06L01_Lab_Building_a_Deep_Q-Network_with_Keras.ipynb",
+    "sha256": "478ef029db35a8cfbad88af9cc615ec9aa38dd3d9704ef50a6ad7d98390183df",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-building-a-deep-q-network-with-keras.ipynb",
+    "semantic_sha256": "4c5e396b372d1dc83b1c3eda3cbcefa24b9e392d5c85142118fd224320ded4d8",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "4c5e396b372d1dc83b1c3eda3cbcefa24b9e392d5c85142118fd224320ded4d8"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Implementing Q-Learning in Keras",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M06L01_Lab_Implementing_Q-Learning_in_Keras.ipynb",
+    "sha256": "92915d3f7f25d9f5a3b89042f0dfaa9fe5fcdaa8494153c8c03c4c098e49c1ea",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-q-learning-in-keras.ipynb",
+    "semantic_sha256": "e1ad8326e5bb2681bcee48719b73f3cb53ce3b45d5b83c4179ca76c3c66cd584",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "e1ad8326e5bb2681bcee48719b73f3cb53ce3b45d5b83c4179ca76c3c66cd584"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Advanced Data Augmentation with Keras",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/M2L1_Lab__Advanced_Data_Augmentation_with_Keras.ipynb",
+    "sha256": "0d84ec8472c832d2cdfd01dfb061a9772581216064f3af585835d97a32a26796",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-advanced-data-augmentation-with-keras.ipynb",
+    "semantic_sha256": "d65bd16f1bae222e4b94d9c3d66401d17b4f17200c3d7e43c3290001f4a61cde",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "d65bd16f1bae222e4b94d9c3d66401d17b4f17200c3d7e43c3290001f4a61cde"
+  },
+  {
+    "course": 3,
+    "title": "Practice Project: Fruit Classification Using Transfer Learning",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/Practice_Project_Fruit_Classification_Using_TF.ipynb",
+    "sha256": "17f579e702a923ea7b59d1bb2cc27c3f5795b1d4f3fc42d120f019e25a1b4d36",
+    "target": "courses/03-keras-and-tensorflow/notebooks/practice-project-fruit-classification-using-transfer-learning.ipynb",
+    "semantic_sha256": "87fff26295585449078a91c440fcc128257b82dd8db8cccf60e79c4d9e1bd900",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "87fff26295585449078a91c440fcc128257b82dd8db8cccf60e79c4d9e1bd900"
+  },
+  {
+    "course": 3,
+    "title": "Lab: Building Advanced Transformers",
+    "file": "03_Deep_Learning_with_Keras_and_TensorFlow/REVIEW-Lab_Building_Advanced_Transformers.ipynb",
+    "sha256": "95f8856c2855e0bcb04eff81d7ac715446f72a18f1d7abc242c02d4201eeae0b",
+    "target": "courses/03-keras-and-tensorflow/notebooks/lab-building-advanced-transformers.ipynb",
+    "semantic_sha256": "c947f0bed19c75b45b69d0c66f5bbd51bef7c6641c2a0b51b73c212fe3cfb55f",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "c947f0bed19c75b45b69d0c66f5bbd51bef7c6641c2a0b51b73c212fe3cfb55f"
+  },
+  {
+    "course": 4,
+    "title": "Deep Neural Network for Breast Cancer Classification",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Deep_Neural_Network_for_Wine_Classification-v1.ipynb",
+    "sha256": "d6dd64e2f4a4f5078033dc8ad9058b091f23969118f6786315d0926208bc4aed",
+    "target": "courses/04-pytorch-foundations/notebooks/deep-neural-network-for-breast-cancer-classification.ipynb",
+    "semantic_sha256": "8e5c697952fb5de332c27523471038095d74fd61c324e18888517a9839a0b426",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "8e5c697952fb5de332c27523471038095d74fd61c324e18888517a9839a0b426"
+  },
+  {
+    "course": 4,
+    "title": "Differentiation in PyTorch",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Differentiation_in_PyTorch.ipynb",
+    "sha256": "e4ff569d256ecc1274b9ecc4738b6afb40ffb33f48c697bceaf9f8565b772981",
+    "target": "courses/04-pytorch-foundations/notebooks/differentiation-in-pytorch.ipynb",
+    "semantic_sha256": "293b7f1a16ae0868132afd90cdc4f8b12ddc555d60e780afea686dfc4e0abd94",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "293b7f1a16ae0868132afd90cdc4f8b12ddc555d60e780afea686dfc4e0abd94"
+  },
+  {
+    "course": 4,
+    "title": "Final Project: League of Legends Match Predictor",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Final_Project_League_of_Legends_Match_Predictor-v2.ipynb",
+    "sha256": "7d1f25166bba0ac61b9368e17571c956fc64c9f3441643eb802c1a175fac80ea",
+    "target": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "semantic_sha256": "b9c1b43625744b11b80708e97f691a51d1246adca052c75c15322d37e0b1895b",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "b9c1b43625744b11b80708e97f691a51d1246adca052c75c15322d37e0b1895b"
+  },
+  {
+    "course": 4,
+    "title": "Linear Regression 1D: Optimization in PyTorch",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Linear_Regression_1D_Optimization_in_PyTorch.ipynb",
+    "sha256": "0e8ccc10a8b59c7f2b62d478ace62422c82d603677d665f8a67e60d4385ab56c",
+    "target": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-optimization-in-pytorch.ipynb",
+    "semantic_sha256": "9ef62b25a5bbb86fa535c8a7631e9fa87c524f4d7218454b57bbb0e6aa1f5c45",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "9ef62b25a5bbb86fa535c8a7631e9fa87c524f4d7218454b57bbb0e6aa1f5c45"
+  },
+  {
+    "course": 4,
+    "title": "Linear Regression 1D: Prediction",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Linear_Regression_1D_Prediction.ipynb",
+    "sha256": "d02bb1c614afcd4f52d54daff46a3a18bd21ead44f792baeb8d4a365ed7fa0ae",
+    "target": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-prediction.ipynb",
+    "semantic_sha256": "e5cde0031d133157ac5db8cee8820d83d45589fc79b976fb6f34e8022a698f68",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "e5cde0031d133157ac5db8cee8820d83d45589fc79b976fb6f34e8022a698f68"
+  },
+  {
+    "course": 4,
+    "title": "Linear Regression 1D: Training Two Parameter Mini-Batch Gradient Descent",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Linear_Regression_1D_Training_Two_Parameter_Mini_Batch_Gradient_Descent.ipynb",
+    "sha256": "476afd53af9a14e758de8fa5012363c8d973345afe8dcf7c1b9ba33091eeef0c",
+    "target": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-mini-batch-gradient-descent.ipynb",
+    "semantic_sha256": "b99760784f70c91ebc476f0961f92acd664aa040a35ac9f3d3cb0ae84932ee6c",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "b99760784f70c91ebc476f0961f92acd664aa040a35ac9f3d3cb0ae84932ee6c"
+  },
+  {
+    "course": 4,
+    "title": "Linear Regression Multiple Outputs",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Linear_Regression_Multiple_Outputs.ipynb",
+    "sha256": "8cc5ff8e71e3f10644a24192c4b31ed602b5ebae41da4f8c717bad1cbec713cf",
+    "target": "courses/04-pytorch-foundations/notebooks/linear-regression-multiple-outputs.ipynb",
+    "semantic_sha256": "c3d739fbbde16b7182c1359e4fb3c4409ebfecebabff5e9422b2d926f7d4c633",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "c3d739fbbde16b7182c1359e4fb3c4409ebfecebabff5e9422b2d926f7d4c633"
+  },
+  {
+    "course": 4,
+    "title": "Linear regression 1D: Training Two Parameter",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Linear_regression_1D_Training_Two_Parameter.ipynb",
+    "sha256": "3d255a07620ff0b78a2a72965fb83c3ab7128a88f45ecdf84fb1168347df97a6",
+    "target": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter.ipynb",
+    "semantic_sha256": "df998df26ef4ad2e593b531676fd7727e6ccaa9f08d40447e3cae142d906cc99",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "df998df26ef4ad2e593b531676fd7727e6ccaa9f08d40447e3cae142d906cc99"
+  },
+  {
+    "course": 4,
+    "title": "Linear regression 1D: Training Two Parameter Stochastic Gradient Descent (SGD)",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Linear_regression_1D_Training_Two_Parameter_Stochastic_Gradient_Descent_SGD.ipynb",
+    "sha256": "b9063b45b6bf0dcdcf91109cfaf044551054e7eff9e688f35cc97903caab0cb6",
+    "target": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-stochastic-gradient-descent-sgd.ipynb",
+    "semantic_sha256": "03ca5eefdb52cc60496140fd6e2c74fb1c874dc46c9888d1d1b00b314575b394",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "03ca5eefdb52cc60496140fd6e2c74fb1c874dc46c9888d1d1b00b314575b394"
+  },
+  {
+    "course": 4,
+    "title": "Linear regression: Training and Validation Data",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Linear_regression_Training_and_Validation_Data.ipynb",
+    "sha256": "2f7d30f60a6fa9b832a20899cf65bdea1ab3213c485977019a7a1d5390f276f0",
+    "target": "courses/04-pytorch-foundations/notebooks/linear-regression-training-and-validation-data.ipynb",
+    "semantic_sha256": "b280ef59ea98f2fb7d1eca53c923aefc9a128fc18ecfb91436bf894ca883e93b",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "b280ef59ea98f2fb7d1eca53c923aefc9a128fc18ecfb91436bf894ca883e93b"
+  },
+  {
+    "course": 4,
+    "title": "Logistic Regression",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Logistic_Regression.ipynb",
+    "sha256": "1c19aaa4828d293af43be6a3ab6c152cbde1af94d77d2eb4d6d5c7cb4cf507ab",
+    "target": "courses/04-pytorch-foundations/notebooks/logistic-regression.ipynb",
+    "semantic_sha256": "2b5b56ff1aaa5d5abd1deca66186dabe239f95f3fa19a465225f471c3372fefa",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "2b5b56ff1aaa5d5abd1deca66186dabe239f95f3fa19a465225f471c3372fefa"
+  },
+  {
+    "course": 4,
+    "title": "Logistic Regression Cross Entropy",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Logistic_Regression_Cross_Entropy.ipynb",
+    "sha256": "0ea548abcb0fad610e3510351af6abfc75d7bc97e2410b8cd08e679ca649611f",
+    "note": "Shared topic; downloaded from advanced PyTorch course because introductory page exposed no direct notebook link.",
+    "target": "courses/04-pytorch-foundations/notebooks/logistic-regression-cross-entropy.ipynb",
+    "semantic_sha256": "5496ad6842f5f779c3eea056e464d378c83c3f9ef8384a4a4408b9efdcb40b5a",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "5496ad6842f5f779c3eea056e464d378c83c3f9ef8384a4a4408b9efdcb40b5a"
+  },
+  {
+    "course": 4,
+    "title": "Logistic Regression and Bad Initialization Value",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Logistic_Regression_and_Bad_Initialization_Value.ipynb",
+    "sha256": "94718040e097803b536ac61461500305e573dccbff99814a282141f1b806d766",
+    "target": "courses/04-pytorch-foundations/notebooks/logistic-regression-and-bad-initialization-value.ipynb",
+    "semantic_sha256": "d1d2bf8d94c95452bf339e3a13e935177e71dbca8a2311a8f3ad9e165e0d24e1",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "d1d2bf8d94c95452bf339e3a13e935177e71dbca8a2311a8f3ad9e165e0d24e1"
+  },
+  {
+    "course": 4,
+    "title": "Multiple Linear Regression",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Multiple_Linear_Regression.ipynb",
+    "sha256": "4c94ab6a2ccbd12cb2b423508867f744e3e201d4e004ec1f8b1d6f9bc96764e6",
+    "target": "courses/04-pytorch-foundations/notebooks/multiple-linear-regression.ipynb",
+    "semantic_sha256": "af98b96ab6ccb58fc15f85a430bb15b2d00af6ec30aa4631019dea2a6b8b3611",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "af98b96ab6ccb58fc15f85a430bb15b2d00af6ec30aa4631019dea2a6b8b3611"
+  },
+  {
+    "course": 4,
+    "title": "Linear Regression with Multiple Outputs",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Objective.ipynb",
+    "sha256": "2d6074c01b53f702c97ff2281c5c6e6be4347fef00f2f419d1cb375c5f2b628f",
+    "target": "courses/04-pytorch-foundations/notebooks/linear-regression-with-multiple-outputs.ipynb",
+    "semantic_sha256": "a3f7c64e8edf778b33def1adb43f78cc8382ad2627d4735c410ba46d603f8af2",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "a3f7c64e8edf778b33def1adb43f78cc8382ad2627d4735c410ba46d603f8af2"
+  },
+  {
+    "course": 4,
+    "title": "Training Linear Regression with Multiple Outputs",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Objective__d25d6030.ipynb",
+    "sha256": "d25d603094411711bd237dce382959e9a2bf32d8eaf2ff68d3ee415a444e40b8",
+    "target": "courses/04-pytorch-foundations/notebooks/training-linear-regression-with-multiple-outputs.ipynb",
+    "semantic_sha256": "78dc1a6d019a0e73544478dbce82694bb5d4995345e807c530e608be29104d13",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "78dc1a6d019a0e73544478dbce82694bb5d4995345e807c530e608be29104d13"
+  },
+  {
+    "course": 4,
+    "title": "Prebuilt Datasets and Transforms",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Prebuilt_Datasets_and_Transforms.ipynb",
+    "sha256": "98031c540bce1dfdd8dd4c8d964ce40f63deadad60843757885812388bda6280",
+    "target": "courses/04-pytorch-foundations/notebooks/prebuilt-datasets-and-transforms.ipynb",
+    "semantic_sha256": "8c6b38985cbae96785b9bb4dd17d8848db83abf22d7620df4e827a414daf8e07",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "8c6b38985cbae96785b9bb4dd17d8848db83abf22d7620df4e827a414daf8e07"
+  },
+  {
+    "course": 4,
+    "title": "Simple Dataset",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Simple_Dataset.ipynb",
+    "sha256": "038b5d4b828517ba9b0b59959432cca4eaeb0a4a069f87a3c3cdc1ce36caf80b",
+    "target": "courses/04-pytorch-foundations/notebooks/simple-dataset.ipynb",
+    "semantic_sha256": "805da3987a4ba680c813896f6f4d4122fd89e98da63c5dfe0dd9bc0878187d15",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "805da3987a4ba680c813896f6f4d4122fd89e98da63c5dfe0dd9bc0878187d15"
+  },
+  {
+    "course": 4,
+    "title": "Torch Tensors in 1D",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Torch_Tensors_in_1D.ipynb",
+    "sha256": "ca4c5522935c858f087dd6081e69963164542e20551b6184b3dd238ad8e51107",
+    "target": "courses/04-pytorch-foundations/notebooks/torch-tensors-in-1d.ipynb",
+    "semantic_sha256": "929072779edde483a10fef52e53b23e2773531cbadc223ffcba37abb4573bb2b",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "929072779edde483a10fef52e53b23e2773531cbadc223ffcba37abb4573bb2b"
+  },
+  {
+    "course": 4,
+    "title": "Two-Dimensional Tensors",
+    "file": "04_Introduction_to_Neural_Networks_and_PyTorch/Two_Dimensional_Tensors.ipynb",
+    "sha256": "b04327bcbbae24d55b24a28c04faa7afabc250d6c136f09b056296edbb18c7ff",
+    "target": "courses/04-pytorch-foundations/notebooks/two-dimensional-tensors.ipynb",
+    "semantic_sha256": "058630c24ecf43e1e32028799b93f685b9162d80a28254d6471121b9780274e7",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "058630c24ecf43e1e32028799b93f685b9162d80a28254d6471121b9780274e7"
+  },
+  {
+    "course": 5,
+    "title": "Activation Functions",
+    "file": "05_Deep_Learning_with_PyTorch/Activation_Functions.ipynb",
+    "sha256": "0c3147a2ad4bd04f39a8a9447fbb81be977b5d2cc5c247fad37273f9e3d7df24",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/activation-functions.ipynb",
+    "semantic_sha256": "618c1cc5aaadeec874a72767f6534ef008af441381fdde3e9cb9d62f70de7373",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "618c1cc5aaadeec874a72767f6534ef008af441381fdde3e9cb9d62f70de7373"
+  },
+  {
+    "course": 5,
+    "title": "Batch Normalization with the MNIST Dataset",
+    "file": "05_Deep_Learning_with_PyTorch/Batch_Normalization_with_the_MNIST_Dataset.ipynb",
+    "sha256": "4539b610a39e684e155dfe6fc20b07893ca56606597e71b004453e4572bf32db",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/batch-normalization-with-the-mnist-dataset.ipynb",
+    "semantic_sha256": "7a33c3417c7f8a60dd4ed1e16318990170606879e133f01e610bd12ea1c05470",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "7a33c3417c7f8a60dd4ed1e16318990170606879e133f01e610bd12ea1c05470"
+  },
+  {
+    "course": 5,
+    "title": "Convolutional Neural Network MNIST",
+    "file": "05_Deep_Learning_with_PyTorch/Convolutional_Neural_Network_MNIST.ipynb",
+    "sha256": "23804efacc581ccc2b54bbf836fac721439a64789bdafea84f2599f7701537b8",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-mnist.ipynb",
+    "semantic_sha256": "1d51287201a6e57caffe651fc1a5ae1aad35161de379e857d512d707bd657850",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "1d51287201a6e57caffe651fc1a5ae1aad35161de379e857d512d707bd657850"
+  },
+  {
+    "course": 5,
+    "title": "Convolutional Neural Network Simple Example",
+    "file": "05_Deep_Learning_with_PyTorch/Convolutional_Neural_Network_Simple_Example.ipynb",
+    "sha256": "39b4de94056ca127b6d98c33305b534d8323a1491cc2f078cad7288ff6382f62",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-simple-example.ipynb",
+    "semantic_sha256": "02d0f81a2023c7fcff9b1610a3d4675f94b419eaaf9249ac5ad41225740f598a",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "02d0f81a2023c7fcff9b1610a3d4675f94b419eaaf9249ac5ad41225740f598a"
+  },
+  {
+    "course": 5,
+    "title": "Convolutional Neural Network for Anime Image Classification",
+    "file": "05_Deep_Learning_with_PyTorch/Convolutional_Neural_Network_for_Anime_Image_Classification-v1.ipynb",
+    "sha256": "f81b56372f52099979bc0c36a16e60193c1d2a3d4d908ac2458b799447b4c85c",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-for-anime-image-classification.ipynb",
+    "semantic_sha256": "d6d0c4ed0fdcc9c5fc98f9d5a22eda2d2d7d47055fcf40b965924f906845c156",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "d6d0c4ed0fdcc9c5fc98f9d5a22eda2d2d7d47055fcf40b965924f906845c156"
+  },
+  {
+    "course": 5,
+    "title": "Convolutional Neural Networks with Batch Norms",
+    "file": "05_Deep_Learning_with_PyTorch/Convolutional_Neural_Networks_with_Batch_Norms.ipynb",
+    "sha256": "721be7064e1e4955cb0a22e837c6019ef6c03b3d53872a3fa058379baca38b30",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-networks-with-batch-norms.ipynb",
+    "semantic_sha256": "cec01ee10d9c7b1600affe913ee9025d63c0e42c6773d408a0b9d155d6950737",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "cec01ee10d9c7b1600affe913ee9025d63c0e42c6773d408a0b9d155d6950737"
+  },
+  {
+    "course": 5,
+    "title": "Deep Neural Networks",
+    "file": "05_Deep_Learning_with_PyTorch/Deep_Neural_Networks.ipynb",
+    "sha256": "483e3153d9eb134c28c69e13a2f58bc1ad276552fc5e3143da95545db613254a",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/deep-neural-networks.ipynb",
+    "semantic_sha256": "4cf08aeffc9eff9a1efc35ab2ea6414a187c1668e985ab165cda63765f8e322d",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "4cf08aeffc9eff9a1efc35ab2ea6414a187c1668e985ab165cda63765f8e322d"
+  },
+  {
+    "course": 5,
+    "title": "Deeper Neural Networks with nn.ModuleList()",
+    "file": "05_Deep_Learning_with_PyTorch/Deeper_Neural_Networks_with_nn_ModuleList.ipynb",
+    "sha256": "e4df3969721e4ca82f357f37dd8348023b2f28f7b6aedc01ae351a3fe2a920e6",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/deeper-neural-networks-with-nn-modulelist.ipynb",
+    "semantic_sha256": "a20531b75156037cd22c28988490e36069f3143a6736ad2952df7a77b1bda299",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "a20531b75156037cd22c28988490e36069f3143a6736ad2952df7a77b1bda299"
+  },
+  {
+    "course": 5,
+    "title": "Fashion-MNIST Project",
+    "file": "05_Deep_Learning_with_PyTorch/FashionMNISTProject.ipynb",
+    "sha256": "2bf4ed1642da9fc9d212aba0d4a98ddc75dc2ce37282855ae7b4b371c8345e08",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/fashion-mnist-project.ipynb",
+    "semantic_sha256": "c8ad05297ac86ec9bcfcf206f41d5c55fdf539def5a3280b238e25083323304e",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "c8ad05297ac86ec9bcfcf206f41d5c55fdf539def5a3280b238e25083323304e"
+  },
+  {
+    "course": 5,
+    "title": "Initialization with Same Weights",
+    "file": "05_Deep_Learning_with_PyTorch/Initialization_with_Same_Weights.ipynb",
+    "sha256": "d5b986ff029cb62c0656491d3fb2e561c606aa8fd2caa45d094fb2bd34bf2c4b",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/initialization-with-same-weights.ipynb",
+    "semantic_sha256": "092b687ea081c66f2405bbc235c31eb060d37e81c5525c9686b5511601a117c0",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "092b687ea081c66f2405bbc235c31eb060d37e81c5525c9686b5511601a117c0"
+  },
+  {
+    "course": 5,
+    "title": "Activation Functions and Max Pooling",
+    "file": "05_Deep_Learning_with_PyTorch/Learning_Objectives.ipynb",
+    "sha256": "d576ba8393380bd9720679a6ee63a0990b651e2b4d4255ae3fca8985dd10f851",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/activation-functions-and-max-pooling.ipynb",
+    "semantic_sha256": "f85f8a228c6a41c3aafa0e4af1847d358169b2430aacabe3cef2324a0e01415a",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "f85f8a228c6a41c3aafa0e4af1847d358169b2430aacabe3cef2324a0e01415a"
+  },
+  {
+    "course": 5,
+    "title": "Logistic Regression Cross Entropy",
+    "file": "05_Deep_Learning_with_PyTorch/Logistic_Regression_Cross_Entropy.ipynb",
+    "sha256": "0ea548abcb0fad610e3510351af6abfc75d7bc97e2410b8cd08e679ca649611f",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/logistic-regression-cross-entropy.ipynb",
+    "semantic_sha256": "5496ad6842f5f779c3eea056e464d378c83c3f9ef8384a4a4408b9efdcb40b5a",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "5496ad6842f5f779c3eea056e464d378c83c3f9ef8384a4a4408b9efdcb40b5a"
+  },
+  {
+    "course": 5,
+    "title": "Logistic Regression and Bad Initialization Value",
+    "file": "05_Deep_Learning_with_PyTorch/Logistic_Regression_and_Bad_Initialization_Value.ipynb",
+    "sha256": "94718040e097803b536ac61461500305e573dccbff99814a282141f1b806d766",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/logistic-regression-and-bad-initialization-value.ipynb",
+    "semantic_sha256": "d1d2bf8d94c95452bf339e3a13e935177e71dbca8a2311a8f3ad9e165e0d24e1",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "d1d2bf8d94c95452bf339e3a13e935177e71dbca8a2311a8f3ad9e165e0d24e1"
+  },
+  {
+    "course": 5,
+    "title": "Momentum with Different Polynomials",
+    "file": "05_Deep_Learning_with_PyTorch/Momentum_with_Different_Polynomials.ipynb",
+    "sha256": "3a6f182db24bd20e04b7098fba25a39942adcb9d1f5b9b9c859f0208a78fbbb0",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/momentum-with-different-polynomials.ipynb",
+    "semantic_sha256": "00dd11c1db1305d0912fdb0095c76d2fbbca7bbab23183cbff3af65b7c32cae5",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "00dd11c1db1305d0912fdb0095c76d2fbbca7bbab23183cbff3af65b7c32cae5"
+  },
+  {
+    "course": 5,
+    "title": "Multiple Input and Output Channels",
+    "file": "05_Deep_Learning_with_PyTorch/Multiple_Input_and_Output_Channels.ipynb",
+    "sha256": "b5e0ba9905ed4d6002141b59dc7acaa82d9031092b3a8c12b35038c83be4e5b5",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/multiple-input-and-output-channels.ipynb",
+    "semantic_sha256": "4b7da1703d72f7afdbb1a2eb7d69d744aaeb959c3ab37bcaed6b109ef16eb796",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "4b7da1703d72f7afdbb1a2eb7d69d744aaeb959c3ab37bcaed6b109ef16eb796"
+  },
+  {
+    "course": 5,
+    "title": "Neural Networks More Hidden Neurons",
+    "file": "05_Deep_Learning_with_PyTorch/Neural_Networks_More_Hidden_Neurons.ipynb",
+    "sha256": "960316eb6034638e5ccc768f5fd8998ea948e6ad310a20d6b3e27e8b375bc6cc",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/neural-networks-more-hidden-neurons.ipynb",
+    "semantic_sha256": "aaf6c247edd14670b1bffed33384dd09de539d185cf4466a0886f68040ef15d0",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "aaf6c247edd14670b1bffed33384dd09de539d185cf4466a0886f68040ef15d0"
+  },
+  {
+    "course": 5,
+    "title": "Neural Networks with Momentum",
+    "file": "05_Deep_Learning_with_PyTorch/Neural_Networks_with_Momentum.ipynb",
+    "sha256": "7b426fd29f265126b8c1f36dedd6d39d0fa72d592ed95e405e592089d5a15367",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/neural-networks-with-momentum.ipynb",
+    "semantic_sha256": "fa9ee2af007e8db2bb2a497dc765c4da525921cdf8c9b4fb58f734a224581fdf",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "fa9ee2af007e8db2bb2a497dc765c4da525921cdf8c9b4fb58f734a224581fdf"
+  },
+  {
+    "course": 5,
+    "title": "Neural Networks with One Hidden Layer",
+    "file": "05_Deep_Learning_with_PyTorch/Neural_Networks_with_One_Hidden_Layer.ipynb",
+    "sha256": "5aeb706dc5c6a8f490fa095d02641e0a5bcf441eee1d7bf66ff395edeb0cc405",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/neural-networks-with-one-hidden-layer.ipynb",
+    "semantic_sha256": "a38f28a9056a6fd7e95aaf7cb3960167202a8f4f2694e36b28c755307e2218ea",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "a38f28a9056a6fd7e95aaf7cb3960167202a8f4f2694e36b28c755307e2218ea"
+  },
+  {
+    "course": 5,
+    "title": "Practice: Neural Networks with One Hidden Layer: Noisy XOR",
+    "file": "05_Deep_Learning_with_PyTorch/Practice_Neural_Networks_with_One_Hidden_Layer_Noisy_XOR.ipynb",
+    "sha256": "e24bf12669922ce235b4aee525b0251cc857d4a41b1b9a383f70c482eee42327",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/practice-neural-networks-with-one-hidden-layer-noisy-xor.ipynb",
+    "semantic_sha256": "f2a1075f73ff476823eb81936d077398ec294679a4f677dc7fb1b9bd5ee4919b",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "f2a1075f73ff476823eb81936d077398ec294679a4f677dc7fb1b9bd5ee4919b"
+  },
+  {
+    "course": 5,
+    "title": "Simple One Hidden Layer Neural Network",
+    "file": "05_Deep_Learning_with_PyTorch/Simple_One_Hidden_Layer_Neural_Network.ipynb",
+    "sha256": "a6f18832dec669fe3d4da6e923c220a0050ab7a235f7104e19a7f1714d3d0e19",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/simple-one-hidden-layer-neural-network.ipynb",
+    "semantic_sha256": "553bff0105fefef82894afad15a658508cd924285db1912aa3b5eea0dcdccb1f",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "553bff0105fefef82894afad15a658508cd924285db1912aa3b5eea0dcdccb1f"
+  },
+  {
+    "course": 5,
+    "title": "Softmax Classifier",
+    "file": "05_Deep_Learning_with_PyTorch/Softmax_Classifier.ipynb",
+    "sha256": "d1b0d8be12515ff73188b3d8fc274e14711e5d2a3a533ff86f516d4c14ad90ee",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/softmax-classifier.ipynb",
+    "semantic_sha256": "eff45c07791671f8d9a1baddd603704e4673895c9a200dfdb8f8b4f7766baf79",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "eff45c07791671f8d9a1baddd603704e4673895c9a200dfdb8f8b4f7766baf79"
+  },
+  {
+    "course": 5,
+    "title": "Softmax Classifier 1D",
+    "file": "05_Deep_Learning_with_PyTorch/Softmax_Classifier_1D.ipynb",
+    "sha256": "48178e868da20a2bb8ebb4ee56ff8fd1c703531e9cbd5995c9b60bc52e76277a",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/softmax-classifier-1d.ipynb",
+    "semantic_sha256": "57d7d71059afc4b5253571b377a1af89a5ff5a53f8a38177c88b1aa756352d12",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "57d7d71059afc4b5253571b377a1af89a5ff5a53f8a38177c88b1aa756352d12"
+  },
+  {
+    "course": 5,
+    "title": "Test Default, He, and Uniform Initialization on MNIST Dataset with ReLU Activation",
+    "file": "05_Deep_Learning_with_PyTorch/Test_Default_He_and_Uniform_Initialization_on_MNIST_Dataset_with_ReLU_Activation.ipynb",
+    "sha256": "a3f3e419a50d8d74edb681bfcf571fbec6d0b0c9e7680c33b95278254d08cb42",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/test-default-he-and-uniform-initialization-on-mnist-dataset-with-relu-activation.ipynb",
+    "semantic_sha256": "a850e75eaedc115c7b697c81287de7b8aa36eb0a92c9f9cbcd5e2b7c1551be58",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "a850e75eaedc115c7b697c81287de7b8aa36eb0a92c9f9cbcd5e2b7c1551be58"
+  },
+  {
+    "course": 5,
+    "title": "Test Default, Xavier, and Uniform Initialization on MNIST Dataset with Tanh Activation",
+    "file": "05_Deep_Learning_with_PyTorch/Test_Default_Xavier_and_Uniform_Initialization_on_MNIST_Dataset_with_Tanh_Activation.ipynb",
+    "sha256": "8886b6a9827a73d35ae1b18f4e197706165906402459bd102b153e154b710ef2",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/test-default-xavier-and-uniform-initialization-on-mnist-dataset-with-tanh-activation.ipynb",
+    "semantic_sha256": "deefcfb9f8bfc20fca546b8254b4aec6927851da89e0e9bf64621bb90a378b78",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "deefcfb9f8bfc20fca546b8254b4aec6927851da89e0e9bf64621bb90a378b78"
+  },
+  {
+    "course": 5,
+    "title": "Test Sigmoid, Tanh, and Relu Activations Functions on the MNIST Dataset",
+    "file": "05_Deep_Learning_with_PyTorch/Test_Sigmoid_Tanh_and_Relu_Activations_Functions_on_the_MNIST_Dataset.ipynb",
+    "sha256": "d9e5289e7f0b939c9e467f63b2bad7109eff8030ad55488dc9ce37b955ca4908",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/test-sigmoid-tanh-and-relu-activations-functions-on-the-mnist-dataset.ipynb",
+    "semantic_sha256": "22822e16b6cbc96288d48e4cc6d0d8b94b8a5c83647b6acd1328c9fc68cfd58f",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "22822e16b6cbc96288d48e4cc6d0d8b94b8a5c83647b6acd1328c9fc68cfd58f"
+  },
+  {
+    "course": 5,
+    "title": "Using Dropout for Classification",
+    "file": "05_Deep_Learning_with_PyTorch/Using_Dropout_for_Classification.ipynb",
+    "sha256": "a701612e7fb3ef65dd3b9fe7c4d96ae952da3c946a5a93d6ee5e4b430748c311",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/using-dropout-for-classification.ipynb",
+    "semantic_sha256": "a510b7b94debb9fd626c51eccd0a46f3ec1b4492a81ac269311ca3d1e6f07089",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "a510b7b94debb9fd626c51eccd0a46f3ec1b4492a81ac269311ca3d1e6f07089"
+  },
+  {
+    "course": 5,
+    "title": "Using Dropout in Regression",
+    "file": "05_Deep_Learning_with_PyTorch/Using_Dropout_in_Regression.ipynb",
+    "sha256": "fc327a165b239431bee30ef392f672e245dfb7632ed894f46ccbce574cdfc77d",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/using-dropout-in-regression.ipynb",
+    "semantic_sha256": "57215cb1ec00c1b6dd1398048fceed9ed8dca5dc38967ad5b95cea59f8c34aca",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "57215cb1ec00c1b6dd1398048fceed9ed8dca5dc38967ad5b95cea59f8c34aca"
+  },
+  {
+    "course": 5,
+    "title": "What is Convolution?",
+    "file": "05_Deep_Learning_with_PyTorch/What_is_Convolution.ipynb",
+    "sha256": "c1df705edb4cb70a8eb1c1ede79b94bde4d65798c144cfbf59ab0620b5965932",
+    "target": "courses/05-deep-learning-with-pytorch/notebooks/what-is-convolution.ipynb",
+    "semantic_sha256": "7c0ad1de46c0892675914a190df9012302521816b1bea2a2d30c315d2b5c5f9e",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "7c0ad1de46c0892675914a190df9012302521816b1bea2a2d30c315d2b5c5f9e"
+  },
+  {
+    "course": 6,
+    "title": "Compare Memory-Based versus Generator-Based Data Loading",
+    "file": "06_AI_Capstone/AI-capstone-M1L1-v1.ipynb",
+    "sha256": "ac0de3729b8fb51b41c80da3dd0039f97cfa034c84d643a67d2a00e746ed39db",
+    "target": "courses/06-computer-vision-capstone/notebooks/compare-memory-based-versus-generator-based-data-loading.ipynb",
+    "semantic_sha256": "f83bdcd44094e3d18287c5df9a7f9bb7013e6825db4299fd248558c80117b929",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "f83bdcd44094e3d18287c5df9a7f9bb7013e6825db4299fd248558c80117b929"
+  },
+  {
+    "course": 6,
+    "title": "Data Loading and Augmentation Using Keras",
+    "file": "06_AI_Capstone/AI-capstone-M1L2-v1.ipynb",
+    "sha256": "428ebac43b636db45e71e0d4df4fc12d4c46e6f47f53ba6fa919feb9dd003240",
+    "target": "courses/06-computer-vision-capstone/notebooks/data-loading-and-augmentation-using-keras.ipynb",
+    "semantic_sha256": "f240f07852e6e5f195b5a630df67e320f378d32d1d5c2d0c3d5646ce863d7311",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "f240f07852e6e5f195b5a630df67e320f378d32d1d5c2d0c3d5646ce863d7311"
+  },
+  {
+    "course": 6,
+    "title": "Lab: Data Loading and Augmentation Using PyTorch",
+    "file": "06_AI_Capstone/AI-capstone-M1L3-v1.ipynb",
+    "sha256": "ac2bde210dfe798f511fd6ffc1ca0c51f475ce66c762c2a570d8d23b7242ea32",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+    "semantic_sha256": "bd49a89d5d0b1a3aacca4d9628190acceba0c259eb146e4db6f28fb1cc8db0e5",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "bd49a89d5d0b1a3aacca4d9628190acceba0c259eb146e4db6f28fb1cc8db0e5"
+  },
+  {
+    "course": 6,
+    "title": "Lab: Train and Evaluate a Keras-Based Classifier",
+    "file": "06_AI_Capstone/Lab-M2L1-Train-and-Evaluate-a-Keras-Based-Classifier-v1.ipynb",
+    "sha256": "dc488d84b1d54b4224ad3531042b1066e32456fe728b29fd7274318773b76f10",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "semantic_sha256": "7ebabc023d61e3445f27616b4edb56e7599b26157e63814d5b97e85826a7bcca",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "7ebabc023d61e3445f27616b4edb56e7599b26157e63814d5b97e85826a7bcca"
+  },
+  {
+    "course": 6,
+    "title": "Lab: Implement and Test a PyTorch-Based Classifier",
+    "file": "06_AI_Capstone/Lab-M2L2-Implement-and-Test-a-PyTorch-Based-Classifier-v1.ipynb",
+    "sha256": "548e07bb1b08c8b134f2f7d484b7c978cbaafd5b87d2ecc25136ae8a75eb0804",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "semantic_sha256": "fc1f00f42c79e785f17034966785a626a18dbecd3dd4801dac2a344d62724a6c",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "fc1f00f42c79e785f17034966785a626a18dbecd3dd4801dac2a344d62724a6c"
+  },
+  {
+    "course": 6,
+    "title": "Lab: Comparative Analysis of Keras and PyTorch Models",
+    "file": "06_AI_Capstone/Lab-M2L3-Comparative-Analysis-of-Keras-and-PyTorch-Models-v1.ipynb",
+    "sha256": "13661ae93437136248b6f101197a490853085a75c7d73d772764aa2074e650f0",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb",
+    "semantic_sha256": "4da3b0a0ea7e32b785145b3afe5f29f7eef0e626fc6ce35ed285dea67af9b2b6",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "4da3b0a0ea7e32b785145b3afe5f29f7eef0e626fc6ce35ed285dea67af9b2b6"
+  },
+  {
+    "course": 6,
+    "title": "Lab: Vision Transformers Using Keras",
+    "file": "06_AI_Capstone/Lab-M3L1-Vision-Transformers-in-Keras-v1.ipynb",
+    "sha256": "4ac331840e1eafc5c4daae7ca656a54ac9a7147e3ecff773d492042d4f660fa9",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "semantic_sha256": "0845c1a6749fad39a51d337f560211f9a49372b47743ed4c049bff0b7162122f",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "0845c1a6749fad39a51d337f560211f9a49372b47743ed4c049bff0b7162122f"
+  },
+  {
+    "course": 6,
+    "title": "Lab: Vision Transformers Using PyTorch",
+    "file": "06_AI_Capstone/Lab-M3L2-Vision-Transformers-in-PyTorch-v1.ipynb",
+    "sha256": "4ca198dd0281401ef0df8268dc4834935bff69c1cf1b0596d00cdc10ef1606ef",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "semantic_sha256": "7bc6b07d9574e5e69c87ddf57a99ddeeee9a3d53daf92ad7d7043b820412afa6",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "7bc6b07d9574e5e69c87ddf57a99ddeeee9a3d53daf92ad7d7043b820412afa6"
+  },
+  {
+    "course": 6,
+    "title": "Lab: Train and Evaluate a Keras-Based Classifier",
+    "file": "06_AI_Capstone/Lab_M2L1_Train_and_Evaluate_a_Keras-Based_Classifier.ipynb",
+    "sha256": "351fb257d3098df98836d260eee9234e3ddab3eee15b70a7d1b8517cb85a8114",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "semantic_sha256": "7ebabc023d61e3445f27616b4edb56e7599b26157e63814d5b97e85826a7bcca",
+    "duplicate": true
+  },
+  {
+    "course": 6,
+    "title": "Lab: Implement and Test a PyTorch-Based Classifier",
+    "file": "06_AI_Capstone/Lab_M2L2_Implement_and_Test_a_PyTorch-Based_Classifier.ipynb",
+    "sha256": "a87077923da342b344dbeab369cb5ec91e9290fa573eaabe9c553416fbb9b089",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "semantic_sha256": "fc1f00f42c79e785f17034966785a626a18dbecd3dd4801dac2a344d62724a6c",
+    "duplicate": true
+  },
+  {
+    "course": 6,
+    "title": "Lab: Comparative Analysis of Keras and PyTorch Models",
+    "file": "06_AI_Capstone/Lab_M2L3_Comparative_Analysis_of_Keras_and_PyTorch_Models.ipynb",
+    "sha256": "6393ff9882540489a9855829f6990bffaf6967c7c348682d29d2b31de163ca46",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb",
+    "semantic_sha256": "4da3b0a0ea7e32b785145b3afe5f29f7eef0e626fc6ce35ed285dea67af9b2b6",
+    "duplicate": true
+  },
+  {
+    "course": 6,
+    "title": "Lab: Vision Transformers Using Keras",
+    "file": "06_AI_Capstone/Lab_M3L1_Vision_Transformers_in_Keras.ipynb",
+    "sha256": "f14d53a262220479516905ee0eb81e1e56f5084220d247b6e0a9c18ba68d78e8",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "semantic_sha256": "0845c1a6749fad39a51d337f560211f9a49372b47743ed4c049bff0b7162122f",
+    "duplicate": true
+  },
+  {
+    "course": 6,
+    "title": "Lab: Vision Transformers Using PyTorch",
+    "file": "06_AI_Capstone/Lab_M3L2_Vision_Transformers_in_PyTorch.ipynb",
+    "sha256": "23dcdaae2f143e47e617e8e7a02e6006d333a38c8a94eca70ca035202836d806",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "semantic_sha256": "7bc6b07d9574e5e69c87ddf57a99ddeeee9a3d53daf92ad7d7043b820412afa6",
+    "duplicate": true
+  },
+  {
+    "course": 6,
+    "title": "Lab: Land Classification: CNN-Transformer Integration evaluation",
+    "file": "06_AI_Capstone/lab-M4L1-Land-Classification-CNN-ViT-Integration-Evaluation-v1.ipynb",
+    "sha256": "7babf571f0e7df8e0a9ad7015793ff9532e0717fe3b4b223ff7dc82debd38054",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "semantic_sha256": "0184502425b702a8228a7969c0dfa11bdedffe194504fbe9c37b65a762b53fce",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "0184502425b702a8228a7969c0dfa11bdedffe194504fbe9c37b65a762b53fce"
+  },
+  {
+    "course": 6,
+    "title": "Lab: Land Classification: CNN-Transformer Integration evaluation",
+    "file": "06_AI_Capstone/lab_M4L1_Land_Classification_CNN-ViT_Integration_Evaluation.ipynb",
+    "sha256": "a6d2738b1d6e9a57105c9b0924b7a4c284b76325bfaf8f09e49d5f82e26fcab1",
+    "target": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "semantic_sha256": "0184502425b702a8228a7969c0dfa11bdedffe194504fbe9c37b65a762b53fce",
+    "duplicate": true
+  },
+  {
+    "course": 7,
+    "title": "Creating an NLP Data Loader",
+    "file": "07_LLM_Architecture_and_Data_Preparation/Creating_an_NLP_Data_Loader.ipynb",
+    "sha256": "bffd0646b874424396803703149be3534d8ff9cea80dddc4650a84e91b5664b4",
+    "target": "courses/07-llm-data-preparation/notebooks/creating-an-nlp-data-loader.ipynb",
+    "semantic_sha256": "9c47163501547f9228c1cfd38d3905c801d1453a5d31cb8e9cba9920620b7b86",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "9c47163501547f9228c1cfd38d3905c801d1453a5d31cb8e9cba9920620b7b86"
+  },
+  {
+    "course": 7,
+    "title": "Exploring Generative AI Libraries",
+    "file": "07_LLM_Architecture_and_Data_Preparation/Exploring_Generative_AI_Libraries.ipynb",
+    "sha256": "7ac2fd9e89a0903a7778d1491fcf65d1f14defa34dab04929611c10b49d806aa",
+    "target": "courses/07-llm-data-preparation/notebooks/exploring-generative-ai-libraries.ipynb",
+    "semantic_sha256": "60c69eff8354bfb6a4cb7ee8361b1361b1aac7a5236594d09b6ea310b9baa96d",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "60c69eff8354bfb6a4cb7ee8361b1361b1aac7a5236594d09b6ea310b9baa96d"
+  },
+  {
+    "course": 7,
+    "title": "Implementing Tokenization",
+    "file": "07_LLM_Architecture_and_Data_Preparation/Implementing_Tokenization.ipynb",
+    "sha256": "d5a9800a450595b2f0efb74ca14e69044e4393c77701157592e08faf351e283e",
+    "target": "courses/07-llm-data-preparation/notebooks/implementing-tokenization.ipynb",
+    "semantic_sha256": "4ebe35cee8b6b1da09604473cd3aeb00dc2ffbac5657d5fb12628d2682e9db6e",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "4ebe35cee8b6b1da09604473cd3aeb00dc2ffbac5657d5fb12628d2682e9db6e"
+  },
+  {
+    "course": 8,
+    "title": "Document Classification with Word Embeddings",
+    "file": "08_Foundational_Models_for_NLP/Classifying_Document.ipynb",
+    "sha256": "8f6e8a790472595305da8a2ce88b2fe0da2f31551d7abba0515945fa332de13b",
+    "target": "courses/08-foundational-nlp-models/notebooks/document-classification-with-word-embeddings.ipynb",
+    "semantic_sha256": "6e5eef2e3058067038a18c3c01495135af154ac7b62fbcabd13d34e4f33f9f1e",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "6e5eef2e3058067038a18c3c01495135af154ac7b62fbcabd13d34e4f33f9f1e"
+  },
+  {
+    "course": 8,
+    "title": "Sequence-to-Sequence RNN Models: Translation Task",
+    "file": "08_Foundational_Models_for_NLP/Developing_a_Sequence-to-Sequence_Model.ipynb",
+    "sha256": "798a6ff1b7d2920c15811d8396961d0fe34cc78bfb5f2889ca70a822039b32c4",
+    "target": "courses/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb",
+    "semantic_sha256": "02edfd2e7f23f4e22566d5248904bd58a7b8faed8a49d6c9f294c5b8b315827f",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "02edfd2e7f23f4e22566d5248904bd58a7b8faed8a49d6c9f294c5b8b315827f"
+  },
+  {
+    "course": 8,
+    "title": "Building and Training a Feedforward Neural Network for Language Modeling",
+    "file": "08_Foundational_Models_for_NLP/FeedForwardNeuralNetworks.ipynb",
+    "sha256": "84459b97f45e992ab432aacf8936efb09a1c56729ea258b21fadd51f10550520",
+    "target": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "semantic_sha256": "8f5cc0c9d7aa2e035f696791b5710b864c3a35f9c2d8d1a4d2141e3ad950334f",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "8f5cc0c9d7aa2e035f696791b5710b864c3a35f9c2d8d1a4d2141e3ad950334f"
+  },
+  {
+    "course": 8,
+    "title": "Integrating Word2Vec Part1",
+    "file": "08_Foundational_Models_for_NLP/Integrating_Word2Vec_Part1.ipynb",
+    "sha256": "51437865971ae722d047a23944b013748f603c8ce10a3987c2008651895b402c",
+    "target": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part1.ipynb",
+    "semantic_sha256": "b03b4493ec9d9e02663fd8a46c816bd36b6a546844c3e3189578fe621b48cd76",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "b03b4493ec9d9e02663fd8a46c816bd36b6a546844c3e3189578fe621b48cd76"
+  },
+  {
+    "course": 8,
+    "title": "Integrating Word2Vec Part2",
+    "file": "08_Foundational_Models_for_NLP/Integrating_Word2Vec_Part2.ipynb",
+    "sha256": "570b688b6e0c99860b5311d4e5df6fddb3294af1282faf0e4d9de04320285f27",
+    "target": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part2.ipynb",
+    "semantic_sha256": "7c3b69012e999b2ffb60d42448c8412d17f73d0387ed4f6d5a5d36110c5df729",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "7c3b69012e999b2ffb60d42448c8412d17f73d0387ed4f6d5a5d36110c5df729"
+  },
+  {
+    "course": 8,
+    "title": "Building a Language Model Using Histogram N-Gram Analysis",
+    "file": "08_Foundational_Models_for_NLP/LanguageModelling.ipynb",
+    "sha256": "66d2da9a0878533c1dd69fddb38a2a0d916bf6fe5b8577b997d9064b367739d8",
+    "target": "courses/08-foundational-nlp-models/notebooks/building-a-language-model-using-histogram-n-gram-analysis.ipynb",
+    "semantic_sha256": "2b45ae7b95d5e12454b27e2c89a7a31ade9af2fb699cf87e13d982c618fff116",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "2b45ae7b95d5e12454b27e2c89a7a31ade9af2fb699cf87e13d982c618fff116"
+  },
+  {
+    "course": 9,
+    "title": "Self-Attention and Positional Encoding",
+    "file": "09_Language_Modeling_with_Transformers/Attention_Mechanism_and_Positional_Encoding.ipynb",
+    "sha256": "fc4b89cd51ce25d4136e8bba06b902e9be3459a04a253efe9541d94161535356",
+    "target": "courses/09-transformer-language-models/notebooks/self-attention-and-positional-encoding.ipynb",
+    "semantic_sha256": "8fe5b916bafb1c531490b146f1da2be70d9851481b101c9d3a667cb5e901ff20",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "8fe5b916bafb1c531490b146f1da2be70d9851481b101c9d3a667cb5e901ff20"
+  },
+  {
+    "course": 9,
+    "title": "Data Loading and Text Processing for BERT",
+    "file": "09_Language_Modeling_with_Transformers/Data_Preparations_for_BERT.ipynb",
+    "sha256": "d2de7b158e30c1e750847da9aa2e1e662b270bdbeb84daa166ea7eb0e1722be7",
+    "target": "courses/09-transformer-language-models/notebooks/data-loading-and-text-processing-for-bert.ipynb",
+    "semantic_sha256": "420ab4a0c2b5411456b436c8435c7037c00490e117c4ba6f504ab18fb36a3715",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "420ab4a0c2b5411456b436c8435c7037c00490e117c4ba6f504ab18fb36a3715"
+  },
+  {
+    "course": 9,
+    "title": "Decoder Causal Language Models",
+    "file": "09_Language_Modeling_with_Transformers/Decoder_Causal_LM_GPT-like_Models.ipynb",
+    "sha256": "151d0bfd5483596f84f1e8000a94a55d3af322bea96979119b166d3c52f3c073",
+    "target": "courses/09-transformer-language-models/notebooks/decoder-causal-language-models.ipynb",
+    "semantic_sha256": "71d666c3365ddb15acb83c80eae91b5938ca2a1bf70197ec40fd9a0c3815c460",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "71d666c3365ddb15acb83c80eae91b5938ca2a1bf70197ec40fd9a0c3815c460"
+  },
+  {
+    "course": 9,
+    "title": "Pretraining BERT Models",
+    "file": "09_Language_Modeling_with_Transformers/Encoder_Models_with_Baby_BERT.ipynb",
+    "sha256": "08c5d9f7d9d0244f4f0a3939f0fbea6f6d061a7ad507274ac0a123201bb43e80",
+    "target": "courses/09-transformer-language-models/notebooks/pretraining-bert-models.ipynb",
+    "semantic_sha256": "353b8dde3906133370fc813e1152f36bee677630044948d55c11a9b4bf43b3eb",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "353b8dde3906133370fc813e1152f36bee677630044948d55c11a9b4bf43b3eb"
+  },
+  {
+    "course": 9,
+    "title": "Applying Transformers for Classification",
+    "file": "09_Language_Modeling_with_Transformers/M3-L2-Applying_Transformers_for_Classification.ipynb",
+    "sha256": "2376ae69d1e1650376449e59521a6ab7c96ce617dc1503b1ad202fe17b7bd4a2",
+    "target": "courses/09-transformer-language-models/notebooks/applying-transformers-for-classification.ipynb",
+    "semantic_sha256": "9bc53a59a70971daa0405b6fea21ff105bf82052f31a3f16f79318194fe090c6",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "9bc53a59a70971daa0405b6fea21ff105bf82052f31a3f16f79318194fe090c6"
+  },
+  {
+    "course": 9,
+    "title": "A Transformer Model for Language Translation",
+    "file": "09_Language_Modeling_with_Transformers/M3-L3-Transformers_for_Translation.ipynb",
+    "sha256": "673c4c2fa5f1ef42406910b0e4a504389bcce801d954e2b740b72af410253617",
+    "target": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "semantic_sha256": "3463115f5fb1dbbd2b56ece8848c11e02cc11abae1b68baf8755b65ea7a56869",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "3463115f5fb1dbbd2b56ece8848c11e02cc11abae1b68baf8755b65ea7a56869"
+  },
+  {
+    "course": 10,
+    "title": "Adapters in PyTorch",
+    "file": "10_Fine_Tuning_Transformers/Adapters_in_PyTorch.ipynb",
+    "sha256": "885f38fe196520732f298d9452708fc846ed2e61397cf9d56e0712c93895a7a6",
+    "target": "courses/10-fine-tuning-transformers/notebooks/adapters-in-pytorch.ipynb",
+    "semantic_sha256": "86aa570f602bc60738fad1caebbc6d996de0fdb5451bd6517494d23a8d2ec6a7",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "86aa570f602bc60738fad1caebbc6d996de0fdb5451bd6517494d23a8d2ec6a7"
+  },
+  {
+    "course": 10,
+    "title": "Fine-Tuning Transformers with PyTorch and Hugging Face",
+    "file": "10_Fine_Tuning_Transformers/Fine-Tuning_Transformers_with_PyTorch_and_Hugging_Face.ipynb",
+    "sha256": "41c9a9f5084b9a4755e0ee4e5e8d3fba7002701eaf1b8d04ce6bebd4662ecc04",
+    "target": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "semantic_sha256": "2ffc65d707982e694be23995673f3e335ea139ed7e9a4edcc4fdf4a423cead8d",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "2ffc65d707982e694be23995673f3e335ea139ed7e9a4edcc4fdf4a423cead8d"
+  },
+  {
+    "course": 10,
+    "title": "LoRA with PyTorch",
+    "file": "10_Fine_Tuning_Transformers/LoRA_with_Pytorch.ipynb",
+    "sha256": "1789e5b544197f2feaad99d6ef52aa578668deeba8b5862dc78af0cb88de3b29",
+    "target": "courses/10-fine-tuning-transformers/notebooks/lora-with-pytorch.ipynb",
+    "semantic_sha256": "3645d7f367e452765518cf574f52a5c850acc51f025a0211098f6695384df622",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "3645d7f367e452765518cf574f52a5c850acc51f025a0211098f6695384df622"
+  },
+  {
+    "course": 10,
+    "title": "Loading Models and Inference with Hugging Face Inferences",
+    "file": "10_Fine_Tuning_Transformers/Loading_Models_and_Inference_with_Hugging_Face.ipynb",
+    "sha256": "3957786ac57a6a35ecb54079d6dec391cb926c7e14887c1a608facdd81ad9dc3",
+    "target": "courses/10-fine-tuning-transformers/notebooks/loading-models-and-inference-with-hugging-face-inferences.ipynb",
+    "semantic_sha256": "6c5c22801641e75243952756428aaf73dee966d282f2cccb133f82886f67086c",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 10,
+    "original_executed_cells": 12,
+    "curated_content_sha256": "6c5c22801641e75243952756428aaf73dee966d282f2cccb133f82886f67086c"
+  },
+  {
+    "course": 10,
+    "title": "Pre-training LLMs with Hugging Face",
+    "file": "10_Fine_Tuning_Transformers/Optional_Pre-training_LLMs_with_Hugging_Face.ipynb",
+    "sha256": "23e2a9b717593dacc1453efb13b069e8c3b501aada058d0e7143799fc63b0f8a",
+    "target": "courses/10-fine-tuning-transformers/notebooks/pre-training-llms-with-hugging-face.ipynb",
+    "semantic_sha256": "a79620d288600311aa9c1fe654fab2ce91e6fd0b9ab030b239018f152566e693",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "a79620d288600311aa9c1fe654fab2ce91e6fd0b9ab030b239018f152566e693"
+  },
+  {
+    "course": 10,
+    "title": "Pre-Training and Fine-Tuning with PyTorch",
+    "file": "10_Fine_Tuning_Transformers/Pre-Training_and_Fine-Tuning_with_PyTorch.ipynb",
+    "sha256": "e82586c234dbabfcfb0894d027d28b630d2dbcd060899b1932b5eea50444fa17",
+    "target": "courses/10-fine-tuning-transformers/notebooks/pre-training-and-fine-tuning-with-pytorch.ipynb",
+    "semantic_sha256": "07b0bec93927c89fa1a21c8f698738c766abd3ae95eee8c343fb49673b2fd041",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "07b0bec93927c89fa1a21c8f698738c766abd3ae95eee8c343fb49673b2fd041"
+  },
+  {
+    "course": 11,
+    "title": "Direct Preference Optimization (DPO) Using Hugging Face",
+    "file": "11_Advanced_Fine_Tuning/DPO_Fine-Tuning.ipynb",
+    "sha256": "521804fe3d6107d756b341cd8b40b07e98c6cbbc43a5b07d8500636fad680668",
+    "target": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "semantic_sha256": "dda5271f3a30f804817819d00b1dad0b04c4a002e4930810427922181c7051d4",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "dda5271f3a30f804817819d00b1dad0b04c4a002e4930810427922181c7051d4"
+  },
+  {
+    "course": 11,
+    "title": "Instruction-Tuning with LLMs",
+    "file": "11_Advanced_Fine_Tuning/Instruction_fine-tuning.ipynb",
+    "sha256": "90b0cab2fa5690f00211b6071bf80d0d65d4971678180a14b692ba003f36c765",
+    "target": "courses/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb",
+    "semantic_sha256": "507f422345bb2ae44eb6e28d6317eb5566e78afa1df313f290df08edb3e6ed94",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "507f422345bb2ae44eb6e28d6317eb5566e78afa1df313f290df08edb3e6ed94"
+  },
+  {
+    "course": 11,
+    "title": "Reinforcement Learning from Human Feedback Using PPO",
+    "file": "11_Advanced_Fine_Tuning/PPOTrainer.ipynb",
+    "sha256": "22fee4f542f057f4de95b27e9b6b95bfa4982a6df2e2c171de7db93616dd8324",
+    "target": "courses/11-advanced-fine-tuning/notebooks/reinforcement-learning-from-human-feedback-using-ppo.ipynb",
+    "semantic_sha256": "c369fc3d325bd877c82746e5d87eb71c9ec9ccf70126ac8e1778368f3f444f6e",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "c369fc3d325bd877c82746e5d87eb71c9ec9ccf70126ac8e1778368f3f444f6e"
+  },
+  {
+    "course": 11,
+    "title": "Reward Modeling",
+    "file": "11_Advanced_Fine_Tuning/Reward_Modeling.ipynb",
+    "sha256": "06b1f84d43bea57a4cfa739362da08c02022e2de6161c549e703f3b28b66531c",
+    "target": "courses/11-advanced-fine-tuning/notebooks/reward-modeling.ipynb",
+    "semantic_sha256": "150ca9dc527f7d94be424d89e827b2a3992c4677fe66bfac3a1fa9cb120081d1",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "150ca9dc527f7d94be424d89e827b2a3992c4677fe66bfac3a1fa9cb120081d1"
+  },
+  {
+    "course": 12,
+    "title": "LangChain",
+    "file": "12_AI_Agents_RAG_and_LangChain/Build_Smarter_AI_Apps_Empower_LLMs_with_LangChain.ipynb",
+    "sha256": "9adf05082a659bc05df23b69a14427bafa8dbe7897b7dcddf92105605eeec827",
+    "target": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "semantic_sha256": "48784b7268275f362d566d58fe46f19432a0be17cd49d2631588ab369f0aa4e0",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "48784b7268275f362d566d58fe46f19432a0be17cd49d2631588ab369f0aa4e0"
+  },
+  {
+    "course": 12,
+    "title": "Lab: Building AI Agents from Scratch with Python",
+    "file": "12_AI_Agents_RAG_and_LangChain/Building_AI_Agents_from_Scratch_-_Weather_Agent_Daily_Dish.ipynb",
+    "sha256": "8bd24fe074da1ec75256eb3c65bd4eaa84b7f0a972f60fa63c3e8126206ce5b2",
+    "target": "courses/12-ai-agents-and-rag/notebooks/lab-building-ai-agents-from-scratch-with-python.ipynb",
+    "semantic_sha256": "85334610e5c96735b625775164b294b8c06415cb2e1a1443bb540dd023cae3a3",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "85334610e5c96735b625775164b294b8c06415cb2e1a1443bb540dd023cae3a3"
+  },
+  {
+    "course": 12,
+    "title": "In-Context Learning and Prompt Templates",
+    "file": "12_AI_Agents_RAG_and_LangChain/In-Context_Learning_and_Prompt_Templates_for_Advanced_AI.ipynb",
+    "sha256": "50c43e3d55c264e21a936433467c8d53894ffced7d910537afd7bad85d5a509d",
+    "target": "courses/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb",
+    "semantic_sha256": "90fb4071a2f6b12b1a08023ce3f2fd6de3101caad49c9d937849a8aa115578f9",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "90fb4071a2f6b12b1a08023ce3f2fd6de3101caad49c9d937849a8aa115578f9"
+  },
+  {
+    "course": 12,
+    "title": "Enhance LLMs using RAG and Hugging Face",
+    "file": "12_AI_Agents_RAG_and_LangChain/RAG_with_Hugging_Face.ipynb",
+    "sha256": "7642fe70135a6adb0723a1d180b2c66c9f4c845afdb5f5503838707e7d23fd01",
+    "target": "courses/12-ai-agents-and-rag/notebooks/enhance-llms-using-rag-and-hugging-face.ipynb",
+    "semantic_sha256": "c1c62c1e539662536872f5d653b2892089314740c607a796f3b06d40d0f51e53",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "c1c62c1e539662536872f5d653b2892089314740c607a796f3b06d40d0f51e53"
+  },
+  {
+    "course": 12,
+    "title": "RAG with PyTorch",
+    "file": "12_AI_Agents_RAG_and_LangChain/RAG_with_Pytorch.ipynb",
+    "sha256": "cc5e4cf6d5a549f970c4983054b85c012c81e158b7b0603b978c7f5b7f3b1681",
+    "target": "courses/12-ai-agents-and-rag/notebooks/rag-with-pytorch.ipynb",
+    "semantic_sha256": "ddba1c89c7859d2fe9e70f972c30cdf2d9bea2f8a67a26cf04f09fb0e15ede74",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "ddba1c89c7859d2fe9e70f972c30cdf2d9bea2f8a67a26cf04f09fb0e15ede74"
+  },
+  {
+    "course": 12,
+    "title": "Summarize Private Documents Using RAG, LangChain, and LLMs",
+    "file": "12_AI_Agents_RAG_and_LangChain/Summarize_private_documents_using_RAG_LangChain_and_LLMs.ipynb",
+    "sha256": "2677ab1d732b982f9834e31ab500f20ee93d3fbba16b8bd26c77b1b5bb435f40",
+    "target": "courses/12-ai-agents-and-rag/notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb",
+    "semantic_sha256": "180092cf9248d9327e39060245934948fe9aefacdfa48e6412324f94352f1d57",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "180092cf9248d9327e39060245934948fe9aefacdfa48e6412324f94352f1d57"
+  },
+  {
+    "course": 13,
+    "title": "Embed documents using watsonx's embedding model",
+    "file": "13_RAG_Application_Project/Embed_documents_with_watsonx_s_embedding.ipynb",
+    "sha256": "1c1990c9c87bd63dfbda02f672513de7ad5af694d9560e9421daeb4c9391a2a0",
+    "target": "courses/13-rag-application-project/notebooks/embed-documents-using-watsonx-s-embedding-model.ipynb",
+    "semantic_sha256": "220320d7b15c4aaba1ec8317f18928dda092479c0b9145240bb6e27672f676d9",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "220320d7b15c4aaba1ec8317f18928dda092479c0b9145240bb6e27672f676d9"
+  },
+  {
+    "course": 13,
+    "title": "Put Whole Document into Prompt and Ask the Model",
+    "file": "13_RAG_Application_Project/Full_document_retrieve_limitation.ipynb",
+    "sha256": "4efb638dcc8838543a3bc5c13fe92bf23af14e31db6ebdf4cf1a3149ca5d9cb3",
+    "target": "courses/13-rag-application-project/notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb",
+    "semantic_sha256": "92a0725c96661ceb47a7ae7297ef6bd87b03dd2ede343ec275b73d2ed991004f",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "92a0725c96661ceb47a7ae7297ef6bd87b03dd2ede343ec275b73d2ed991004f"
+  },
+  {
+    "course": 13,
+    "file": "13_RAG_Application_Project/Gradio_Interface_Guide.md",
+    "sha256": "001f8a29bc5dd320bbce32d66fb6e7557348f7b6e3b22bf3448bd93bdc74a7f6",
+    "title": "Gradio Interface Guide",
+    "target": "courses/13-rag-application-project/guides/gradio-interface-guide.md",
+    "semantic_sha256": "001f8a29bc5dd320bbce32d66fb6e7557348f7b6e3b22bf3448bd93bdc74a7f6",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename"
+    ],
+    "curated_content_sha256": "001f8a29bc5dd320bbce32d66fb6e7557348f7b6e3b22bf3448bd93bdc74a7f6"
+  },
+  {
+    "course": 13,
+    "title": "Load Documents Using LangChain for Different Sources",
+    "file": "13_RAG_Application_Project/LangChain_document_loader.ipynb",
+    "sha256": "c29b6f905ef0a7c37ccf26ff7a5ced376984dd64c9ce93112484a3ec17f80aa7",
+    "target": "courses/13-rag-application-project/notebooks/load-documents-using-langchain-for-different-sources.ipynb",
+    "semantic_sha256": "6e2ff3ca0317bbd4998e19e59b034c4b7506da9913b4cabde11a3b7893331949",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "6e2ff3ca0317bbd4998e19e59b034c4b7506da9913b4cabde11a3b7893331949"
+  },
+  {
+    "course": 13,
+    "title": "Develop a Retriever to Fetch Document Segments Based on Queries",
+    "file": "13_RAG_Application_Project/LangChain_retriever.ipynb",
+    "sha256": "501098f455b565a88286f3fcbfba806ebc2b82fc7b11ac0c7362d8e7529d772f",
+    "target": "courses/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb",
+    "semantic_sha256": "38145e10a275dd344ef94619e00641363cf6ab72b7d9fb3eb03be164994e46be",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "38145e10a275dd344ef94619e00641363cf6ab72b7d9fb3eb03be164994e46be"
+  },
+  {
+    "course": 13,
+    "title": "Apply Text Splitting Techniques to Enhance Model Responsiveness",
+    "file": "13_RAG_Application_Project/LangChain_text-splitter.ipynb",
+    "sha256": "bc068d35241b09db17570583ccd07b3045b6eb5fd7a4b43873cfd03570a1f0f3",
+    "target": "courses/13-rag-application-project/notebooks/apply-text-splitting-techniques-to-enhance-model-responsiveness.ipynb",
+    "semantic_sha256": "93ce746c89f5f5a01d366127e8bed71473cf38c2f928bccef59191d150b7e830",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "93ce746c89f5f5a01d366127e8bed71473cf38c2f928bccef59191d150b7e830"
+  },
+  {
+    "course": 13,
+    "title": "Create and Configure a Vector Database to Store Document Embeddings",
+    "file": "13_RAG_Application_Project/LangChain_vector_store.ipynb",
+    "sha256": "becde4408cd9c5e23f40408af710ee92dcada679969aff08c391adbb7861ee49",
+    "target": "courses/13-rag-application-project/notebooks/create-and-configure-a-vector-database-to-store-document-embeddings.ipynb",
+    "semantic_sha256": "3fc95330a7a92dad8968e9df10838e73292110132cf5813daedffc43ca0da0d4",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename",
+      "added status and navigation",
+      "normalized notebook schema and cell IDs",
+      "cleared outputs, execution counts and transient metadata"
+    ],
+    "original_error_outputs": 0,
+    "original_executed_cells": 0,
+    "curated_content_sha256": "3fc95330a7a92dad8968e9df10838e73292110132cf5813daedffc43ca0da0d4"
+  },
+  {
+    "course": 13,
+    "file": "13_RAG_Application_Project/QA_Bot_Project_Guide.md",
+    "sha256": "01edfb8a392d238e3895ddcfe988a86204ab5fb97d3a58bf01f457a9d5843268",
+    "title": "QA Bot Project Guide",
+    "target": "courses/13-rag-application-project/guides/qa-bot-project-guide.md",
+    "semantic_sha256": "01edfb8a392d238e3895ddcfe988a86204ab5fb97d3a58bf01f457a9d5843268",
+    "duplicate": false,
+    "changes": [
+      "descriptive filename"
+    ],
+    "curated_content_sha256": "01edfb8a392d238e3895ddcfe988a86204ab5fb97d3a58bf01f457a9d5843268"
+  }
+]

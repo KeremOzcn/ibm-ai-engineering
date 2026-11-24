@@ -1,0 +1,577 @@
+[
+  {
+    "number": 1,
+    "slug": "01-machine-learning-with-python",
+    "title": "Machine Learning with Python",
+    "track": "Tabular ML",
+    "summary": "Regression, classification, clustering and model selection with scikit-learn.",
+    "concepts": [
+      "Regression: predict a continuous target; classification: predict a class or its probability. Choose metrics that match the decision.",
+      "A pipeline fits preprocessing on each training fold. Fit scalers and imputers after splitting to avoid leakage.",
+      "Cross-validation selects hyperparameters on the training partition. The final test partition stays untouched until the model choice is fixed.",
+      "For clustering, inspect stability and domain meaning as well as silhouette scores. PCA summarizes variance; t-SNE and UMAP are primarily exploratory views."
+    ],
+    "formula": "Precision = TP / (TP + FP); recall = TP / (TP + FN); F1 = 2PR / (P + R). MAE and RMSE use target units; R² compares squared error to a mean predictor.",
+    "revisit": [
+      "Compare a DummyClassifier with a scaled logistic-regression pipeline using the same folds.",
+      "Revisit the rainfall project; record class balance, preprocessing, split rule and confusion matrix.",
+      "Explain when a stratified random split would be inappropriate, such as grouped customers or time series."
+    ],
+    "pitfalls": [
+      "Preprocessing all data before splitting leaks information.",
+      "Training accuracy and a single favorable split can hide weak generalization.",
+      "Several exercise cells contain deliberate syntax blanks; inspect the catalog before using Run All."
+    ],
+    "start_with": [
+      [
+        "ML_Pipelines_and_GridSearchCV.ipynb",
+        "Model selection and preprocessing"
+      ],
+      [
+        "FinalProject_AUSWeather.ipynb",
+        "Rainfall classification project"
+      ],
+      [
+        "PCA.ipynb",
+        "Dimensionality reduction"
+      ]
+    ],
+    "questions": [
+      "Why does scaling belong inside the pipeline?",
+      "Which error is more costly in a chosen application: false positives or false negatives?",
+      "When would PR-AUC be more useful than accuracy?"
+    ]
+  },
+  {
+    "number": 2,
+    "slug": "02-deep-learning-with-keras",
+    "title": "Introduction to Deep Learning and Neural Networks with Keras",
+    "track": "Keras foundations",
+    "summary": "Forward propagation, backpropagation, activation functions and first Keras models.",
+    "concepts": [
+      "A dense layer computes an affine transformation followed by an activation. Nonlinear activations allow a network to learn nonlinear relationships.",
+      "Backpropagation applies the chain rule to compute gradients. The optimizer updates parameters; it does not define the loss.",
+      "Choose the output layer and loss together: logits and cross-entropy for classification, a continuous output and a regression loss for regression.",
+      "Validation curves guide regularization and stopping. A final test set is for evaluation after architecture decisions."
+    ],
+    "formula": "For a batch X of shape (B, d), a dense layer with h units maps XW + b to shape (B, h). Gradient descent updates θ ← θ − η∇θL.",
+    "revisit": [
+      "Trace the shapes through a two-layer dense model before running it.",
+      "Compare a linear baseline with a small MLP while fixing the split and training budget.",
+      "Inspect the aircraft damage classification and captioning starter; distinguish discriminative and generative outputs."
+    ],
+    "pitfalls": [
+      "Large networks can memorize small datasets.",
+      "Softmax probabilities and raw logits require matching loss settings.",
+      "The final project has unfinished hyperparameter assignments; it is a study template."
+    ],
+    "start_with": [
+      [
+        "DL0101EN-1-1-Forward-Propgation-py-v1.jupyterlite.ipynb",
+        "Forward propagation from first principles"
+      ],
+      [
+        "DL0101EN-2-1-Backpropagation-py-v1.jupyterlite.ipynb",
+        "Gradient flow"
+      ],
+      [
+        "Final_Project_Classification_and_Captioning.ipynb",
+        "Aircraft damage project"
+      ]
+    ],
+    "questions": [
+      "What does a vanishing gradient do to early layers?",
+      "How do batch size and learning rate affect optimization?",
+      "Why does low training loss fail to prove useful generalization?"
+    ]
+  },
+  {
+    "number": 3,
+    "slug": "03-keras-and-tensorflow",
+    "title": "Deep Learning with Keras and TensorFlow",
+    "track": "Advanced TensorFlow",
+    "summary": "Functional models, transfer learning, generative models and reinforcement-learning introductions.",
+    "concepts": [
+      "Use the Functional API for models with multiple branches or shared layers. A custom Layer owns reusable computation and trainable state.",
+      "Transfer learning starts from a pretrained representation. Freeze the backbone first, then consider a smaller learning rate for fine-tuning.",
+      "Autoencoders reconstruct inputs; GANs learn through a generator-discriminator objective; diffusion models learn a denoising process.",
+      "Q-learning estimates action values. A DQN replaces the value table with a neural network and needs a carefully controlled training loop."
+    ],
+    "formula": "A custom training step computes predictions, evaluates the loss under GradientTape, differentiates with respect to trainable variables, and applies optimizer gradients.",
+    "revisit": [
+      "Sketch the data flow for the Functional API notebook, including each tensor shape.",
+      "Compare a frozen feature extractor with fine-tuning using identical validation data.",
+      "Use the waste classification starter to record augmentation, split rules and class-level errors."
+    ],
+    "pitfalls": [
+      "Augmentation belongs on training data; validation should reflect the intended evaluation distribution.",
+      "Unfreezing layers without reviewing normalization behavior and learning rates can damage pretrained representations.",
+      "One copyright-only source cell was incorrectly marked as executable code; the curated copy renders it as markdown."
+    ],
+    "start_with": [
+      [
+        "M01L01_Lab__Implementing_the_Functional_API_in_Keras.ipynb",
+        "Functional API"
+      ],
+      [
+        "M02L02_Lab_Transfer_Learning_Implementation.ipynb",
+        "Transfer learning"
+      ],
+      [
+        "Final_Proj-Classify_Waste_Products_Using_TL_FT.ipynb",
+        "Waste classification project"
+      ]
+    ],
+    "questions": [
+      "When does subclassing help more than a Sequential model?",
+      "How would you isolate the effect of data augmentation?",
+      "What is different about a generative objective and a classifier objective?"
+    ]
+  },
+  {
+    "number": 4,
+    "slug": "04-pytorch-foundations",
+    "title": "Introduction to Neural Networks and PyTorch",
+    "track": "PyTorch foundations",
+    "summary": "Tensors, autograd, datasets and gradient-based learning.",
+    "concepts": [
+      "A tensor has a shape, dtype and device. Check all three at the boundaries of a model.",
+      "Autograd records differentiable operations. backward() accumulates gradients, so clear them between optimization steps.",
+      "Dataset describes samples; DataLoader groups and optionally shuffles them. Shuffle training examples without mixing the evaluation partition into training.",
+      "For binary logits use BCEWithLogitsLoss; for multiclass logits use CrossEntropyLoss with integer class indices."
+    ],
+    "formula": "The training loop is zero_grad → forward → loss → backward → step. Evaluation uses model.eval() together with a no-gradient context.",
+    "revisit": [
+      "Run the companion PyTorch training loop and inspect the train/validation/test separation.",
+      "Compare full-batch, stochastic and mini-batch gradient descent on the same regression problem.",
+      "Review the match predictor starter and write down features that would leak the final match result."
+    ],
+    "pitfalls": [
+      "eval() changes layer behavior; it does not disable gradient recording.",
+      "The source named Wine Classification actually loads the breast-cancer dataset; the curated title follows the content.",
+      "The cross-entropy notebook was collected from course 05 because the course 04 page had no direct download link."
+    ],
+    "start_with": [
+      [
+        "Torch_Tensors_in_1D.ipynb",
+        "Tensor operations"
+      ],
+      [
+        "Differentiation_in_PyTorch.ipynb",
+        "Automatic differentiation"
+      ],
+      [
+        "Final_Project_League_of_Legends_Match_Predictor-v2.ipynb",
+        "Match prediction starter"
+      ]
+    ],
+    "questions": [
+      "Why do gradients accumulate by default?",
+      "What happens if floating-point labels are passed to multiclass cross-entropy?",
+      "Why should normalization statistics come from training data?"
+    ]
+  },
+  {
+    "number": 5,
+    "slug": "05-deep-learning-with-pytorch",
+    "title": "Deep Learning with PyTorch",
+    "track": "Neural networks and CNNs",
+    "summary": "Multilayer networks, initialization, optimization, normalization, CNNs and transfer learning.",
+    "concepts": [
+      "Hidden layers build representations; nonlinearities control which functions a network can express.",
+      "Initialization and normalization influence activation and gradient scales. Compare them under the same seed, data and training budget.",
+      "Convolution shares local filters. Pooling and strided convolutions change spatial resolution and affect the receptive field.",
+      "Dropout and batch normalization behave differently during training and evaluation. Save the chosen model state and evaluate with the correct mode."
+    ],
+    "formula": "A 2D convolution output size per spatial axis is floor((input + 2·padding − dilation·(kernel − 1) − 1) / stride + 1).",
+    "revisit": [
+      "Calculate CNN tensor shapes before executing the MNIST notebook.",
+      "Compare initialization choices with a fixed optimizer and plot both training and validation loss.",
+      "Use the collected Fashion-MNIST project as a separate classification study; document the label mapping and split."
+    ],
+    "pitfalls": [
+      "Flattening the wrong dimensions mixes examples or changes the classifier input size.",
+      "Selecting the best epoch on the test set contaminates the final estimate.",
+      "A saved checkpoint is useful only if it can be reloaded into the matching architecture."
+    ],
+    "start_with": [
+      [
+        "Convolutional_Neural_Network_MNIST.ipynb",
+        "CNN classification"
+      ],
+      [
+        "Batch_Normalization_with_the_MNIST_Dataset.ipynb",
+        "Batch normalization"
+      ],
+      [
+        "Activation_Functions.ipynb",
+        "Nonlinear activations"
+      ]
+    ],
+    "questions": [
+      "How does a convolution reduce the number of learned parameters?",
+      "When can dropout hurt a small model?",
+      "How would you compare two initializations fairly?"
+    ]
+  },
+  {
+    "number": 6,
+    "slug": "06-computer-vision-capstone",
+    "title": "AI Capstone Project with Deep Learning",
+    "track": "Computer vision capstone",
+    "summary": "Satellite land classification with Keras, PyTorch, vision transformers and CNN–ViT integration.",
+    "concepts": [
+      "Build a dataset inventory before training: class counts, image dimensions, duplicate images and split membership.",
+      "Keep data preprocessing and class mappings consistent when comparing Keras and PyTorch classifiers.",
+      "A vision transformer converts image patches into token embeddings and models their relationships with attention.",
+      "A hybrid CNN–ViT combines local visual features with attention. Compare it to simpler baselines under an explicit resource budget."
+    ],
+    "formula": "For square images of side H and patch size P, the image contributes (H/P)² patch tokens when H is divisible by P. Attention cost grows with the square of the token count.",
+    "revisit": [
+      "Start with data loading, then preprocessing and augmentation, then the framework-specific classifiers.",
+      "Compare the Keras and PyTorch experiments using the same held-out images and class ordering.",
+      "Write a model card covering the dataset, metric, compute budget and likely geographic distribution shift."
+    ],
+    "pitfalls": [
+      "Similar satellite tiles can leak across a random split.",
+      "Different preprocessing or checkpoint weights can invalidate model comparisons.",
+      "These are the collected course templates; previously executed final-submission artifacts from another workspace are not imported here."
+    ],
+    "start_with": [
+      [
+        "AI-capstone-M1L1-v1.ipynb",
+        "Dataset loading"
+      ],
+      [
+        "AI-capstone-M1L2-v1.ipynb",
+        "Data preprocessing"
+      ],
+      [
+        "AI-capstone-M1L3-v1.ipynb",
+        "Augmentation"
+      ],
+      [
+        "lab_M4L1_Land_Classification_CNN-ViT_Integration_Evaluation.ipynb",
+        "CNN–ViT integration"
+      ]
+    ],
+    "questions": [
+      "How would you split images to reduce location leakage?",
+      "What evidence would justify choosing a hybrid over a smaller CNN?",
+      "Which preprocessing steps must be shared across framework comparisons?"
+    ]
+  },
+  {
+    "number": 7,
+    "slug": "07-llm-data-preparation",
+    "title": "Generative AI and LLMs: Architecture and Data Preparation",
+    "track": "LLM data preparation",
+    "summary": "Tokenization, vocabulary design and data loaders for language models.",
+    "concepts": [
+      "A tokenizer maps text into model-specific token IDs. The tokenizer, vocabulary and model checkpoint must agree.",
+      "Padding tokens align sequence lengths; an attention mask distinguishes real input from padding.",
+      "A causal language model predicts the next token. Shift inputs and targets consistently.",
+      "Data splitting must prevent duplicated or overlapping documents from contaminating evaluation."
+    ],
+    "formula": "Typical token IDs and attention masks have shape (batch, sequence_length); embeddings have shape (batch, sequence_length, hidden_size).",
+    "revisit": [
+      "Inspect the tokenization of punctuation, accented text and an unfamiliar word.",
+      "Build a tiny padded batch and verify the mask by hand.",
+      "Trace the text-to-batch transformations in the NLP data loader."
+    ],
+    "pitfalls": [
+      "Token count differs from word count and affects context limits and cost.",
+      "Legacy torchtext imports have strict binary compatibility requirements.",
+      "Some source install cells request newer torch with old torchtext; those combinations are not a validated environment."
+    ],
+    "start_with": [
+      [
+        "Implementing_Tokenization.ipynb",
+        "Tokenization"
+      ],
+      [
+        "Creating_an_NLP_Data_Loader.ipynb",
+        "Data loading"
+      ],
+      [
+        "Exploring_Generative_AI_Libraries.ipynb",
+        "Library overview"
+      ]
+    ],
+    "questions": [
+      "Why must inference use the training tokenizer?",
+      "How should padding be excluded from loss computation?",
+      "How can overlapping text windows leak across a split?"
+    ]
+  },
+  {
+    "number": 8,
+    "slug": "08-foundational-nlp-models",
+    "title": "Gen AI Foundational Models for NLP and Language Understanding",
+    "track": "NLP foundations",
+    "summary": "N-gram models, word embeddings, feedforward language models and sequence-to-sequence models.",
+    "concepts": [
+      "An n-gram model estimates the next token from a fixed context. Smoothing helps when a context is unseen.",
+      "Word embeddings learn continuous representations; similarity reflects the training objective and corpus.",
+      "Sequence models track order. A sequence-to-sequence model maps an input sequence to an output sequence of potentially different length.",
+      "Document classification aggregates token-level information into a prediction; padding and pooling choices affect the representation."
+    ],
+    "formula": "A causal sequence likelihood factors as P(x₁…xₜ) = ∏ P(xᵢ | x₁…xᵢ₋₁). Perplexity is exp(mean token negative log-likelihood).",
+    "revisit": [
+      "Compare unigram and bigram predictions on a tiny corpus with unseen contexts.",
+      "Explore nearest neighbors for Word2Vec embeddings and identify corpus bias.",
+      "Trace teacher forcing through the translation notebook."
+    ],
+    "pitfalls": [
+      "A low training perplexity can reflect memorization.",
+      "Averaging embeddings discards order and can confuse negation.",
+      "Evaluate translation on held-out sequences rather than cherry-picked generated examples."
+    ],
+    "start_with": [
+      [
+        "LanguageModelling.ipynb",
+        "N-gram language modeling"
+      ],
+      [
+        "Integrating_Word2Vec_Part1.ipynb",
+        "Word2Vec"
+      ],
+      [
+        "Developing_a_Sequence-to-Sequence_Model.ipynb",
+        "Sequence-to-sequence translation"
+      ]
+    ],
+    "questions": [
+      "What information does bag-of-words discard?",
+      "Why is teacher forcing different from inference?",
+      "When can embedding similarity be misleading?"
+    ]
+  },
+  {
+    "number": 9,
+    "slug": "09-transformer-language-models",
+    "title": "Generative AI Language Modeling with Transformers",
+    "track": "Transformers",
+    "summary": "Self-attention, positional encoding, BERT-style encoders and causal decoders.",
+    "concepts": [
+      "Attention mixes value vectors according to query-key similarity. Multiple heads learn different projections.",
+      "Position information is needed because self-attention alone does not encode sequence order.",
+      "Encoder models support bidirectional context; a causal decoder masks future tokens. Their training objectives differ.",
+      "Attention masks, padding masks and label shifts have distinct roles. Inspect them with a short synthetic sequence."
+    ],
+    "formula": "Attention(Q,K,V) = softmax(QKᵀ / √dₖ + mask)V. A causal mask excludes keys at positions later than the query position.",
+    "revisit": [
+      "Compute a small attention matrix by hand and confirm each row sums to one.",
+      "Compare a BERT masked-token target with a decoder next-token target.",
+      "Review the classifier and translation notebooks, identifying the task-specific output heads."
+    ],
+    "pitfalls": [
+      "Mask shape errors can silently allow future-token leakage.",
+      "Applying softmax over the wrong axis changes the computation.",
+      "Several collected transformer exercise cells are intentionally incomplete; the audit lists their locations."
+    ],
+    "start_with": [
+      [
+        "Attention_Mechanism_and_Positional_Encoding.ipynb",
+        "Attention and positions"
+      ],
+      [
+        "Encoder_Models_with_Baby_BERT.ipynb",
+        "Encoder models"
+      ],
+      [
+        "Decoder_Causal_LM_GPT-like_Models.ipynb",
+        "Decoder models"
+      ]
+    ],
+    "questions": [
+      "Why scale attention scores by √dₖ?",
+      "What changes when a decoder sees future tokens during training?",
+      "How does sequence length affect attention memory?"
+    ]
+  },
+  {
+    "number": 10,
+    "slug": "10-fine-tuning-transformers",
+    "title": "Generative AI Engineering and Fine-Tuning Transformers",
+    "track": "Fine-tuning",
+    "summary": "Inference, pretraining, task adaptation, adapters and LoRA.",
+    "concepts": [
+      "Pretraining learns general representations; fine-tuning adapts parameters to a task or domain. Evaluate both on the same held-out examples.",
+      "Adapters add trainable modules while most base weights stay frozen. LoRA learns a low-rank update to selected weight matrices.",
+      "Parameter efficiency reduces trainable state but does not eliminate base-model memory or activation cost.",
+      "A reproducible adapter result requires the base revision, tokenizer, adapter checkpoint, generation settings and an exact reload test."
+    ],
+    "formula": "LoRA represents ΔW = (α/r)BA, where B has shape (out_features,r) and A has shape (r,in_features). Its trainable parameter count is r·(in_features + out_features).",
+    "revisit": [
+      "Count trainable versus total parameters in the adapter and LoRA labs.",
+      "Compare the base model and adapter with identical prompts and decoding settings.",
+      "Reload the saved adapter in a fresh process before describing it as a reusable artifact."
+    ],
+    "pitfalls": [
+      "Lower training loss alone does not prove a better downstream model.",
+      "The collected Hugging Face inference notebook had 10 saved error outputs; they were cleared and recorded in provenance.",
+      "Quantization, padding and tokenizer changes can confound base-versus-adapter comparisons."
+    ],
+    "start_with": [
+      [
+        "Loading_Models_and_Inference_with_Hugging_Face.ipynb",
+        "Inference and model loading"
+      ],
+      [
+        "Adapters_in_PyTorch.ipynb",
+        "Adapters"
+      ],
+      [
+        "LoRA_with_Pytorch.ipynb",
+        "Low-rank adaptation"
+      ]
+    ],
+    "questions": [
+      "Which memory costs remain when base weights are frozen?",
+      "What makes an adapter evaluation a fair comparison?",
+      "Why does checkpoint reload matter separately from training success?"
+    ]
+  },
+  {
+    "number": 11,
+    "slug": "11-advanced-fine-tuning",
+    "title": "Generative AI Advanced Fine-Tuning for LLMs",
+    "track": "Preference alignment",
+    "summary": "Instruction tuning, reward models, PPO and direct preference optimization.",
+    "concepts": [
+      "Instruction tuning learns from prompt-response examples. Template consistency and label masking are part of the training specification.",
+      "A reward model estimates preference from comparison data; its score is a learned proxy with its own biases.",
+      "PPO optimizes a policy using a reward signal and a constraint against drifting too far from a reference policy.",
+      "DPO uses chosen/rejected response pairs directly. Data quality and reference-model assumptions affect its behavior."
+    ],
+    "formula": "A preference record contains a prompt, a chosen response and a rejected response. Keep related prompts together when forming train/evaluation partitions.",
+    "revisit": [
+      "Inspect chosen/rejected pairs for labeling errors and near duplicates.",
+      "Explain the role of the reference model before running PPO or DPO.",
+      "Design a held-out preference evaluation including regressions on factual and refusal behavior."
+    ],
+    "pitfalls": [
+      "Optimizing a reward score can exploit weaknesses in the reward model.",
+      "Preference wins do not establish factual accuracy or domain safety.",
+      "TRL APIs vary by version; the course pins are reference snapshots, not a tested unified environment."
+    ],
+    "start_with": [
+      [
+        "Instruction_fine-tuning.ipynb",
+        "Instruction tuning"
+      ],
+      [
+        "Reward_Modeling.ipynb",
+        "Reward modeling"
+      ],
+      [
+        "DPO_Fine-Tuning.ipynb",
+        "Direct preference optimization"
+      ],
+      [
+        "PPOTrainer.ipynb",
+        "PPO"
+      ]
+    ],
+    "questions": [
+      "What can a reward model get wrong?",
+      "How does DPO use the rejected response?",
+      "Which regressions would make you retain the original model?"
+    ]
+  },
+  {
+    "number": 12,
+    "slug": "12-ai-agents-and-rag",
+    "title": "Fundamentals of AI Agents Using RAG and LangChain",
+    "track": "Agents and retrieval",
+    "summary": "Prompt templates, retrieval-augmented generation, document summarization and tool use.",
+    "concepts": [
+      "A retriever selects evidence; a generator writes an answer conditioned on that evidence. Evaluate those stages separately.",
+      "Chunk boundaries, overlap and metadata determine what can be retrieved and cited. Preserve stable source IDs.",
+      "An agent selects actions or tools. Tool calls need explicit inputs, observable results and bounded execution.",
+      "Prompt text from a retrieved document is untrusted data; it should not redefine application instructions."
+    ],
+    "formula": "Recall@k is the fraction of relevant items found among the top k results. For queries with one expected source, Hit@k checks whether that source appears in the top k.",
+    "revisit": [
+      "Run the local retrieval companion to inspect ranking, source attribution and an unsupported query.",
+      "Trace a document through loading, chunking, indexing, retrieval and answer construction.",
+      "Review the weather-agent starter and identify required credentials and external requests before execution."
+    ],
+    "pitfalls": [
+      "A fluent answer does not prove that the retrieved evidence supports it.",
+      "Retrieval scores are ranking signals rather than calibrated confidence probabilities.",
+      "Cloud-backed labs depend on provider credentials and current APIs; no live calls were made during curation."
+    ],
+    "start_with": [
+      [
+        "RAG_with_Pytorch.ipynb",
+        "Retrieval concepts in PyTorch"
+      ],
+      [
+        "RAG_with_Hugging_Face.ipynb",
+        "Hugging Face RAG"
+      ],
+      [
+        "Build_Smarter_AI_Apps_Empower_LLMs_with_LangChain.ipynb",
+        "LangChain components"
+      ]
+    ],
+    "questions": [
+      "How do you tell a retrieval failure from a generation failure?",
+      "What should happen when no useful source is found?",
+      "Which metadata is needed to trace an answer back to its source?"
+    ]
+  },
+  {
+    "number": 13,
+    "slug": "13-rag-application-project",
+    "title": "Project: Generative AI Applications with RAG and LangChain",
+    "track": "RAG application",
+    "summary": "Document loaders, splitting, embeddings, vector stores, retrievers and a Gradio QA interface.",
+    "concepts": [
+      "Keep ingestion separate from answering so documents are not repeatedly parsed and embedded for every query.",
+      "Choose chunk size and overlap using retrieval evidence, not the maximum model context alone.",
+      "Persist source identifiers alongside embeddings, then return source references with answers.",
+      "A usable QA app needs failure handling for empty files, unsupported questions, provider errors and private data."
+    ],
+    "formula": "The application flow is document → loader → chunks → embeddings → index → retriever → prompt context → model response → source references.",
+    "revisit": [
+      "Study the loader, splitter, vector-store and retriever notebooks in that order.",
+      "Read the QA bot and Gradio guides as integration references; they are not a saved runnable application.",
+      "Compare the course architecture with a future separate Mevzuat RAG case study, focusing on evaluation and citations."
+    ],
+    "pitfalls": [
+      "Passing a whole document into a prompt can exceed limits or bury useful evidence.",
+      "The Skills Network project identifier is lab infrastructure, not a personal production credential.",
+      "The collected archive contains project guides rather than an application source directory; Mevzuat RAG will be linked separately."
+    ],
+    "start_with": [
+      [
+        "LangChain_document_loader.ipynb",
+        "Document loading"
+      ],
+      [
+        "LangChain_text-splitter.ipynb",
+        "Text splitting"
+      ],
+      [
+        "LangChain_vector_store.ipynb",
+        "Vector storage"
+      ],
+      [
+        "LangChain_retriever.ipynb",
+        "Retrieval"
+      ],
+      [
+        "QA_Bot_Project_Guide.md",
+        "QA bot integration guide"
+      ]
+    ],
+    "questions": [
+      "Which step must be repeated when the embedding model changes?",
+      "How would you show that an answer is supported by a particular page?",
+      "How would you evaluate unsupported questions and document updates?"
+    ]
+  }
+]

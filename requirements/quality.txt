@@ -1,0 +1,3 @@
+nbformat==5.10.4
+ipython==8.18.1
+ruff==0.8.6

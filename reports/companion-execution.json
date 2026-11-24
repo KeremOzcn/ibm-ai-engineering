@@ -1,0 +1,76 @@
+{
+  "executed_at_utc": "2026-11-24T20:34:59.827422+00:00",
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.9.4",
+    "torch": "2.8.0",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "ipykernel": "6.31.0",
+    "ipython": "8.18.1"
+  },
+  "scope": "Three companion examples only; no course reference notebook was executed.",
+  "results": [
+    {
+      "notebook": "companions/01-ml-pipeline-and-evaluation.ipynb",
+      "sha256": "96f992bdff746eb6c0b8122f52a612d3ab59290f83bb5b1309cae572d7f19dba",
+      "executed_code_cells": 5,
+      "error_outputs": 0,
+      "embedded_png_outputs": 1,
+      "metrics": {
+        "cv_folds": 5,
+        "cv_macro_f1": 0.9853801169590642,
+        "dataset": "sklearn-wine",
+        "dummy_test_macro_f1": 0.19047619047619047,
+        "seed": 42,
+        "selected_C": 0.01,
+        "test_accuracy": 1.0,
+        "test_examples": 45,
+        "test_macro_f1": 1.0,
+        "training_examples": 133
+      }
+    },
+    {
+      "notebook": "companions/02-pytorch-training-and-checkpoint.ipynb",
+      "sha256": "672598c527982cdce33fa9cb92f0240f070afc908b507734a512a64f0f11c45d",
+      "executed_code_cells": 5,
+      "error_outputs": 0,
+      "embedded_png_outputs": 1,
+      "metrics": {
+        "checkpoint_reload_exact": true,
+        "dataset": "synthetic-two-moons",
+        "device": "cpu",
+        "dummy_test_accuracy": 0.5,
+        "seed": 42,
+        "selected_epoch": 80,
+        "test_accuracy": 0.945,
+        "test_examples": 400,
+        "test_macro_f1": 0.9449986249656241,
+        "training_examples": 1200,
+        "validation_examples": 400,
+        "validation_loss": 0.14893551170825958
+      }
+    },
+    {
+      "notebook": "companions/03-local-retrieval-and-source-tracing.ipynb",
+      "sha256": "e336d65b7762c328f9a3563934c9cbb0c346af6fdc07adbbc20a9161acf67766",
+      "executed_code_cells": 5,
+      "error_outputs": 0,
+      "embedded_png_outputs": 0,
+      "metrics": {
+        "chunks": 12,
+        "generator_used": false,
+        "hit_at_1": 0.8333333333333334,
+        "hit_at_3": 0.8333333333333334,
+        "queries": 6,
+        "sources": 6,
+        "unsupported_queries": 2,
+        "unsupported_queries_with_no_hits": 2
+      }
+    }
+  ]
+}

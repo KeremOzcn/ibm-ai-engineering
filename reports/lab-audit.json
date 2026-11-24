@@ -1,0 +1,3820 @@
+{
+  "summary": {
+    "source_assets": 149,
+    "source_notebooks": 147,
+    "curated_notebooks": 138,
+    "curated_guides": 2,
+    "consolidated_duplicates": 9,
+    "code_cells": 3384,
+    "syntax_issue_cells": 26,
+    "notebooks_with_syntax_issues": 14,
+    "reference_notebooks_execution_verified": 0,
+    "original_saved_error_outputs": 10
+  },
+  "labs": [
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/comparing-dbscan-and-hdbscan-clustering.ipynb",
+      "title": "Comparing DBSCAN and HDBSCAN clustering",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [
+        18,
+        21,
+        24,
+        27,
+        43,
+        46
+      ],
+      "syntax_issues": [
+        {
+          "cell": 43,
+          "line": 7,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "contextily",
+        "geopandas",
+        "hdbscan",
+        "io",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "requests",
+        "shapely",
+        "sklearn",
+        "warnings",
+        "zipfile"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3",
+        "!pip install hdbscan==0.8.40",
+        "!pip install geopandas==1.0.1",
+        "!pip install contextily==1.6.2",
+        "!pip install shapely==2.0.6"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/credit-card-fraud-detection-with-decision-trees-and-svm.ipynb",
+      "title": "Credit Card Fraud Detection with Decision Trees and SVM",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 16,
+      "exercise_marker_cells": [
+        50,
+        53
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "__future__",
+        "matplotlib",
+        "pandas",
+        "sklearn",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/decision-trees.ipynb",
+      "title": "Decision Trees",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 18,
+      "exercise_marker_cells": [
+        22,
+        47
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "sklearn",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/evaluating-classification-models.ipynb",
+      "title": "Evaluating Classification Models",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 22,
+      "exercise_marker_cells": [
+        28,
+        45,
+        49
+      ],
+      "syntax_issues": [
+        {
+          "cell": 49,
+          "line": 6,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "seaborn",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3",
+        "!pip install seaborn==0.13.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/evaluating-k-means-clustering.ipynb",
+      "title": "Evaluating k-means clustering",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 8,
+      "exercise_marker_cells": [
+        21
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "scipy",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3",
+        "!pip install scipy==1.14.1"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/evaluating-random-forest-performance.ipynb",
+      "title": "Evaluating Random Forest Performance",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 18,
+      "exercise_marker_cells": [
+        13,
+        33,
+        37,
+        43
+      ],
+      "syntax_issues": [
+        {
+          "cell": 43,
+          "line": 4,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "scipy",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3",
+        "!pip install scipy==1.14.1"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+      "title": "Final Project: Building a Rainfall Prediction Classifier",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 30,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "pandas",
+        "seaborn",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy",
+        "!pip install pandas",
+        "!pip install matplotlib",
+        "!pip install scikit-learn",
+        "!pip install seaborn"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/k-means-customer-segmentation.ipynb",
+      "title": "K-Means Customer Segmentation",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 22,
+      "exercise_marker_cells": [
+        28,
+        31,
+        48
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "plotly",
+        "seaborn",
+        "sklearn",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install numpy",
+        "!pip install pandas",
+        "!pip install matplotlib",
+        "!pip install scikit-learn",
+        "!pip install plotly",
+        "!pip install seaborn"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/k-nearest-neighbors-classification.ipynb",
+      "title": "K-Nearest Neighbors Classification",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [
+        39,
+        50
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "seaborn",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3",
+        "!pip install seaborn==0.13.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/lab-applications-of-principal-component-analysis-pca.ipynb",
+      "title": "Lab: Applications of Principal Component Analysis (PCA)",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 18,
+      "exercise_marker_cells": [
+        12,
+        36,
+        39,
+        44,
+        47
+      ],
+      "syntax_issues": [
+        {
+          "cell": 39,
+          "line": 4,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 47,
+          "line": 9,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/lab-comparing-random-forest-and-xgboost-modeling-performance.ipynb",
+      "title": "Lab: Comparing Random Forest and XGBoost modeling performance",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [
+        10,
+        17,
+        20,
+        23,
+        27,
+        32
+      ],
+      "syntax_issues": [
+        {
+          "cell": 10,
+          "line": 2,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 17,
+          "line": 4,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 20,
+          "line": 4,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 32,
+          "line": 2,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "sklearn",
+        "time",
+        "xgboost"
+      ],
+      "install_commands": [
+        "!pip install pandas",
+        "!pip install numpy==2.2.0",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3",
+        "!pip install xgboost==2.1.3"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/lab-comparing-tsne-and-umap-dimension-reduction-models.ipynb",
+      "title": "Lab: Comparing tSNE and UMAP Dimension Reduction Models",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 9,
+      "exercise_marker_cells": [
+        14
+      ],
+      "syntax_issues": [
+        {
+          "cell": 14,
+          "line": 3,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "plotly",
+        "sklearn",
+        "umap"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install matplotlib==3.9.3",
+        "!pip install plotly==5.24.1",
+        "!pip install --upgrade scikit-learn umap-learn"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/logistic-regression-with-python.ipynb",
+      "title": "Logistic Regression with Python",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "sklearn",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/machine-learning-pipelines-and-gridsearchcv.ipynb",
+      "title": "Machine Learning Pipelines and GridSearchCV",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [
+        16,
+        23,
+        35,
+        41
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "seaborn",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3",
+        "!pip install seaborn==0.13.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/multi-class-classification.ipynb",
+      "title": "Multi-class Classification",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [
+        23,
+        52,
+        55,
+        58
+      ],
+      "syntax_issues": [
+        {
+          "cell": 58,
+          "line": 5,
+          "message": "expected an indented block after function definition on line 2"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "seaborn",
+        "sklearn",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3",
+        "!pip install seaborn==0.13.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/multiple-linear-regression.ipynb",
+      "title": "Multiple Linear Regression",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 24,
+      "exercise_marker_cells": [
+        48,
+        51,
+        55,
+        58,
+        61
+      ],
+      "syntax_issues": [
+        {
+          "cell": 48,
+          "line": 1,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 51,
+          "line": 3,
+          "message": "'(' was never closed"
+        },
+        {
+          "cell": 55,
+          "line": 2,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 58,
+          "line": 1,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 61,
+          "line": 4,
+          "message": "'(' was never closed"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+      "title": "Practice Project: Titanic Survival Prediction",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 24,
+      "exercise_marker_cells": [
+        20,
+        23,
+        38,
+        41,
+        44,
+        57,
+        60,
+        65
+      ],
+      "syntax_issues": [
+        {
+          "cell": 20,
+          "line": 2,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 41,
+          "line": 2,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "seaborn",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy",
+        "!pip install matplotlib",
+        "!pip install pandas",
+        "!pip install scikit-learn",
+        "!pip install seaborn"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/regression-trees-for-taxi-tip-prediction.ipynb",
+      "title": "Regression Trees for Taxi Tip Prediction",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 11,
+      "exercise_marker_cells": [
+        40,
+        43
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "__future__",
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "sklearn",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install numpy",
+        "!pip install pandas",
+        "!pip install matplotlib",
+        "!pip install scikit-learn"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/regularization-in-linear-regression.ipynb",
+      "title": "Regularization in Linear Regression",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 22,
+      "exercise_marker_cells": [
+        14,
+        24,
+        51,
+        55
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy",
+        "!pip install pandas",
+        "!pip install scikit-learn",
+        "!pip install matplotlib"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+      "title": "Simple Linear Regression",
+      "course": 1,
+      "status": "reference-not-executed",
+      "code_cells": 23,
+      "exercise_marker_cells": [
+        26,
+        44,
+        47,
+        50,
+        53,
+        56
+      ],
+      "syntax_issues": [
+        {
+          "cell": 47,
+          "line": 1,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 50,
+          "line": 1,
+          "message": "invalid syntax"
+        },
+        {
+          "cell": 53,
+          "line": 1,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.2.0",
+        "!pip install pandas==2.2.3",
+        "!pip install scikit-learn==1.6.0",
+        "!pip install matplotlib==3.9.3"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/02-deep-learning-with-keras/notebooks/activation-functions-and-vanishing-gradients.ipynb",
+      "title": "Activation Functions and Vanishing Gradients",
+      "course": 2,
+      "status": "reference-not-executed",
+      "code_cells": 11,
+      "exercise_marker_cells": [
+        33,
+        37
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.0.2",
+        "!pip install matplotlib==3.9.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+      "title": "Aircraft Damage Classification and Captioning",
+      "course": 2,
+      "status": "reference-not-executed",
+      "code_cells": 33,
+      "exercise_marker_cells": [
+        33,
+        35,
+        38,
+        44,
+        47,
+        53,
+        59,
+        70,
+        78,
+        81
+      ],
+      "syntax_issues": [
+        {
+          "cell": 23,
+          "line": 2,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "PIL",
+        "keras",
+        "matplotlib",
+        "numpy",
+        "os",
+        "random",
+        "shutil",
+        "tarfile",
+        "tensorflow",
+        "torch",
+        "transformers",
+        "urllib",
+        "warnings",
+        "zipfile"
+      ],
+      "install_commands": [
+        "!pip install pandas==2.2.3",
+        "!pip install tensorflow_cpu==2.17.1",
+        "!pip install pillow==11.1.0",
+        "!pip install matplotlib==3.9.2",
+        "!pip install \"numpy<2\" \"contourpy<1.4\"",
+        "!pip install transformers==4.38.2",
+        "!pip install torch==2.2.0+cpu torchvision==0.17.0+cpu torchaudio==2.2.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+      "title": "Artificial Neural Networks - Forward Propagation",
+      "course": 2,
+      "status": "reference-not-executed",
+      "code_cells": 30,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "numpy",
+        "random"
+      ],
+      "install_commands": [],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/02-deep-learning-with-keras/notebooks/backpropagation.ipynb",
+      "title": "Backpropagation",
+      "course": 2,
+      "status": "reference-not-executed",
+      "code_cells": 9,
+      "exercise_marker_cells": [
+        21,
+        25
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy"
+      ],
+      "install_commands": [],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/02-deep-learning-with-keras/notebooks/classification-models-with-keras.ipynb",
+      "title": "Classification Models with Keras",
+      "course": 2,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [
+        44,
+        48
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "keras",
+        "matplotlib",
+        "os"
+      ],
+      "install_commands": [
+        "!pip install tensorflow_cpu==2.18.0",
+        "!pip install matplotlib==3.9.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/02-deep-learning-with-keras/notebooks/convolutional-neural-networks-with-keras.ipynb",
+      "title": "Convolutional Neural Networks with Keras",
+      "course": 2,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "keras",
+        "os"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.0.2",
+        "!pip install pandas==2.2.2",
+        "!pip install tensorflow_cpu==2.18.0",
+        "!pip install matplotlib==3.9.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/02-deep-learning-with-keras/notebooks/regression-models-with-keras.ipynb",
+      "title": "Regression Models with Keras",
+      "course": 2,
+      "status": "reference-not-executed",
+      "code_cells": 19,
+      "exercise_marker_cells": [
+        53,
+        57
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "keras",
+        "numpy",
+        "os",
+        "pandas",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install numpy==2.0.2",
+        "!pip install pandas==2.2.2",
+        "!pip install tensorflow_cpu==2.18.0"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/02-deep-learning-with-keras/notebooks/transformers-with-keras.ipynb",
+      "title": "Transformers with Keras",
+      "course": 2,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "keras",
+        "matplotlib",
+        "numpy",
+        "os",
+        "tensorflow",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install tensorflow_cpu==2.17.1",
+        "!pip install matplotlib==3.9.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-advanced-data-augmentation-with-keras.ipynb",
+      "title": "Lab: Advanced Data Augmentation with Keras",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 12,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "PIL",
+        "matplotlib",
+        "numpy",
+        "tensorflow"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2 matplotlib==3.9.1 scipy"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-building-a-deep-q-network-with-keras.ipynb",
+      "title": "Lab: Building a Deep Q-Network with Keras",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 12,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "collections",
+        "gymnasium",
+        "numpy",
+        "random",
+        "tensorflow",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install gymnasium",
+        "!pip install tensorflow==2.16.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-building-advanced-transformers.ipynb",
+      "title": "Lab: Building Advanced Transformers",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 14,
+      "exercise_marker_cells": [
+        34,
+        37,
+        40
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "requests",
+        "sklearn",
+        "tensorflow"
+      ],
+      "install_commands": [
+        "%pip install tensorflow pyarrow",
+        "%pip install pandas",
+        "%pip install scikit-learn",
+        "%pip install matplotlib",
+        "%pip install requests"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-building-autoencoders.ipynb",
+      "title": "Lab: Building Autoencoders",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [
+        31,
+        34,
+        37
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "tensorflow"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2",
+        "!pip install matplotlib==3.9.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-creating-custom-layers-and-models.ipynb",
+      "title": "Lab: Creating Custom Layers and Models",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 10,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "numpy",
+        "tensorflow"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2",
+        "!pip install pydot graphviz"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+      "title": "Lab: Custom Training Loops in Keras",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 28,
+      "exercise_marker_cells": [
+        54,
+        57,
+        60,
+        63,
+        66,
+        69,
+        72,
+        75
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "numpy",
+        "os",
+        "tensorflow",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install tensorflow numpy"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-develop-gans-using-keras.ipynb",
+      "title": "Lab: Develop GANs Using Keras",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 12,
+      "exercise_marker_cells": [
+        32,
+        35,
+        38
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os",
+        "tensorflow",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install tensorflow-cpu==2.16.2",
+        "!pip install matplotlib"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb",
+      "title": "Lab: Hyperparameter Tuning with Keras Tuner",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [
+        28,
+        31,
+        34,
+        37,
+        40
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "keras_tuner",
+        "os",
+        "sys",
+        "tensorflow",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2",
+        "!pip install keras-tuner==1.4.7",
+        "!pip install numpy<2.0.0"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-diffusion-models.ipynb",
+      "title": "Lab: Implementing Diffusion Models",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 14,
+      "exercise_marker_cells": [
+        27,
+        30,
+        33
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os",
+        "tensorflow"
+      ],
+      "install_commands": [
+        "!pip install tensorflow-cpu==2.16.2",
+        "!pip install numpy",
+        "!pip install matplotlib"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-q-learning-in-keras.ipynb",
+      "title": "Lab: Implementing Q-Learning in Keras",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 10,
+      "exercise_marker_cells": [
+        23,
+        26,
+        29
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "collections",
+        "gymnasium",
+        "numpy",
+        "os",
+        "random",
+        "sys",
+        "tensorflow",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install gymnasium",
+        "!pip install --upgrade numpy==1.26.4",
+        "!pip uninstall tensorflow -y",
+        "!pip install tensorflow==2.16.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-the-functional-api-in-keras.ipynb",
+      "title": "Lab: Implementing the Functional API in Keras",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [
+        31,
+        34,
+        37
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "numpy",
+        "tensorflow",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb",
+      "title": "Lab: Implementing Transformers for Text Generation",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 14,
+      "exercise_marker_cells": [
+        16,
+        26,
+        29,
+        32
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "tensorflow"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2",
+        "!pip install pandas",
+        "!pip install scikit-learn",
+        "!pip install matplotlib"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-practical-application-of-transpose-convolution.ipynb",
+      "title": "Lab: Practical Application of Transpose Convolution",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 11,
+      "exercise_marker_cells": [
+        25,
+        28,
+        31
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "tensorflow",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2",
+        "!pip install matplotlib"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/lab-transfer-learning-implementation.ipynb",
+      "title": "Lab: Transfer Learning Implementation",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 9,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "PIL",
+        "matplotlib",
+        "numpy",
+        "os",
+        "tensorflow"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2 matplotlib==3.9.1"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/practice-project-fruit-classification-using-transfer-learning.ipynb",
+      "title": "Practice Project: Fruit Classification Using Transfer Learning",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 12,
+      "exercise_marker_cells": [
+        18
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "collections",
+        "matplotlib",
+        "numpy",
+        "os",
+        "subprocess",
+        "tensorflow",
+        "warnings",
+        "zipfile"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.16.2",
+        "!pip install matplotlib==3.9.2",
+        "!pip install numpy==1.26.4",
+        "!pip install scipy==1.14.1",
+        "!pip install scikit-learn==1.5.2"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/03-keras-and-tensorflow/notebooks/waste-classification-using-transfer-learning.ipynb",
+      "title": "Waste Classification Using Transfer Learning",
+      "course": 3,
+      "status": "reference-not-executed",
+      "code_cells": 29,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "glob",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "requests",
+        "sklearn",
+        "tensorflow",
+        "tqdm",
+        "warnings",
+        "zipfile"
+      ],
+      "install_commands": [
+        "!pip install tensorflow==2.17.0 | tail -n 1",
+        "!pip install numpy | tail -n 1",
+        "!pip install scikit-learn==1.5.1  | tail -n 1",
+        "!pip install matplotlib==3.9.2  | tail -n 1"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/deep-neural-network-for-breast-cancer-classification.ipynb",
+      "title": "Deep Neural Network for Breast Cancer Classification",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 16,
+      "exercise_marker_cells": [
+        46
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "pandas",
+        "sklearn",
+        "torch",
+        "ucimlrepo"
+      ],
+      "install_commands": [
+        "%pip install pandas==2.2.2 numpy==1.26.4 matplotlib==3.8.0 scikit-learn==1.5.0 ucimlrepo==0.0.7",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/differentiation-in-pytorch.ipynb",
+      "title": "Differentiation in PyTorch",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 19,
+      "exercise_marker_cells": [
+        31
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+      "title": "Final Project: League of Legends Match Predictor",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 9,
+      "exercise_marker_cells": [
+        7,
+        9,
+        11,
+        13,
+        15,
+        18,
+        20,
+        22
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "pandas"
+      ],
+      "install_commands": [
+        "%pip install pandas scikit-learn matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-optimization-in-pytorch.ipynb",
+      "title": "Linear Regression 1D: Optimization in PyTorch",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 18,
+      "exercise_marker_cells": [
+        54
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-prediction.ipynb",
+      "title": "Linear Regression 1D: Prediction",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 23,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-mini-batch-gradient-descent.ipynb",
+      "title": "Linear Regression 1D: Training Two Parameter Mini-Batch Gradient Descent",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 28,
+      "exercise_marker_cells": [
+        78
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-stochastic-gradient-descent-sgd.ipynb",
+      "title": "Linear regression 1D: Training Two Parameter Stochastic Gradient Descent (SGD)",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 29,
+      "exercise_marker_cells": [
+        71,
+        74
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter.ipynb",
+      "title": "Linear regression 1D: Training Two Parameter",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [
+        44,
+        47
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/linear-regression-multiple-outputs.ipynb",
+      "title": "Linear Regression Multiple Outputs",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 15,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/linear-regression-training-and-validation-data.ipynb",
+      "title": "Linear regression: Training and Validation Data",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 12,
+      "exercise_marker_cells": [
+        40
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/linear-regression-with-multiple-outputs.ipynb",
+      "title": "Linear Regression with Multiple Outputs",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 10,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/logistic-regression-and-bad-initialization-value.ipynb",
+      "title": "Logistic Regression and Bad Initialization Value",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/logistic-regression-cross-entropy.ipynb",
+      "title": "Logistic Regression Cross Entropy",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu --index-url https://download.pytorch.org/whl/cpu"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/logistic-regression.ipynb",
+      "title": "Logistic Regression",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 29,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/multiple-linear-regression.ipynb",
+      "title": "Multiple Linear Regression",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/prebuilt-datasets-and-transforms.ipynb",
+      "title": "Prebuilt Datasets and Transforms",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [
+        42
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\",
+        "%pip install numpy matplotlib"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/simple-dataset.ipynb",
+      "title": "Simple Dataset",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 21,
+      "exercise_marker_cells": [
+        25,
+        44,
+        65
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/torch-tensors-in-1d.ipynb",
+      "title": "Torch Tensors in 1D",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 55,
+      "exercise_marker_cells": [
+        165,
+        212
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/training-linear-regression-with-multiple-outputs.ipynb",
+      "title": "Training Linear Regression with Multiple Outputs",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 12,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/04-pytorch-foundations/notebooks/two-dimensional-tensors.ipynb",
+      "title": "Two-Dimensional Tensors",
+      "course": 4,
+      "status": "reference-not-executed",
+      "code_cells": 18,
+      "exercise_marker_cells": [
+        102
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\",
+        "%pip install numpy pandas matplotlib"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/activation-functions-and-max-pooling.ipynb",
+      "title": "Activation Functions and Max Pooling",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 10,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "scipy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib scipy",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/activation-functions.ipynb",
+      "title": "Activation Functions",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 14,
+      "exercise_marker_cells": [
+        42
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/batch-normalization-with-the-mnist-dataset.ipynb",
+      "title": "Batch Normalization with the MNIST Dataset",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 16,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-for-anime-image-classification.ipynb",
+      "title": "Convolutional Neural Network for Anime Image Classification",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 19,
+      "exercise_marker_cells": [
+        44,
+        47
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "PIL",
+        "io",
+        "matplotlib",
+        "numpy",
+        "os",
+        "requests",
+        "sklearn",
+        "torch",
+        "torchvision",
+        "zipfile"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib scikit-learn",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-mnist.ipynb",
+      "title": "Convolutional Neural Network MNIST",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 32,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-simple-example.ipynb",
+      "title": "Convolutional Neural Network Simple Example",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 35,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "math",
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-networks-with-batch-norms.ipynb",
+      "title": "Convolutional Neural Networks with Batch Norms",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/deep-neural-networks.ipynb",
+      "title": "Deep Neural Networks",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/deeper-neural-networks-with-nn-modulelist.ipynb",
+      "title": "Deeper Neural Networks with nn.ModuleList()",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 12,
+      "exercise_marker_cells": [
+        34
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/fashion-mnist-project.ipynb",
+      "title": "Fashion-MNIST Project",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 15,
+      "exercise_marker_cells": [
+        20,
+        23,
+        35
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "PIL",
+        "matplotlib",
+        "time",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/initialization-with-same-weights.ipynb",
+      "title": "Initialization with Same Weights",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 15,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/logistic-regression-and-bad-initialization-value.ipynb",
+      "title": "Logistic Regression and Bad Initialization Value",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/logistic-regression-cross-entropy.ipynb",
+      "title": "Logistic Regression Cross Entropy",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu --index-url https://download.pytorch.org/whl/cpu"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/momentum-with-different-polynomials.ipynb",
+      "title": "Momentum with Different Polynomials",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 18,
+      "exercise_marker_cells": [
+        49
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/multiple-input-and-output-channels.ipynb",
+      "title": "Multiple Input and Output Channels",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 24,
+      "exercise_marker_cells": [
+        79
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "scipy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib scipy",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/neural-networks-more-hidden-neurons.ipynb",
+      "title": "Neural Networks More Hidden Neurons",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 11,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/neural-networks-with-momentum.ipynb",
+      "title": "Neural Networks with Momentum",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/neural-networks-with-one-hidden-layer.ipynb",
+      "title": "Neural Networks with One Hidden Layer",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 18,
+      "exercise_marker_cells": [
+        51
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/practice-neural-networks-with-one-hidden-layer-noisy-xor.ipynb",
+      "title": "Practice: Neural Networks with One Hidden Layer: Noisy XOR",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 14,
+      "exercise_marker_cells": [
+        31,
+        39,
+        47
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/simple-one-hidden-layer-neural-network.ipynb",
+      "title": "Simple One Hidden Layer Neural Network",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 12,
+      "exercise_marker_cells": [
+        37
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/softmax-classifier-1d.ipynb",
+      "title": "Softmax Classifier 1D",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 14,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/softmax-classifier.ipynb",
+      "title": "Softmax Classifier",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 22,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/test-default-he-and-uniform-initialization-on-mnist-dataset-with-relu-activation.ipynb",
+      "title": "Test Default, He, and Uniform Initialization on MNIST Dataset with ReLU Activation",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/test-default-xavier-and-uniform-initialization-on-mnist-dataset-with-tanh-activation.ipynb",
+      "title": "Test Default, Xavier, and Uniform Initialization on MNIST Dataset with Tanh Activation",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/test-sigmoid-tanh-and-relu-activations-functions-on-the-mnist-dataset.ipynb",
+      "title": "Test Sigmoid, Tanh, and Relu Activations Functions on the MNIST Dataset",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/using-dropout-for-classification.ipynb",
+      "title": "Using Dropout for Classification",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 21,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/using-dropout-in-regression.ipynb",
+      "title": "Using Dropout in Regression",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 16,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/05-deep-learning-with-pytorch/notebooks/what-is-convolution.ipynb",
+      "title": "What is Convolution?",
+      "course": 5,
+      "status": "reference-not-executed",
+      "code_cells": 17,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "scipy",
+        "torch"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy matplotlib scipy",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/compare-memory-based-versus-generator-based-data-loading.ipynb",
+      "title": "Compare Memory-Based versus Generator-Based Data Loading",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 24,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "PIL",
+        "matplotlib",
+        "numpy",
+        "os",
+        "skillsnetwork"
+      ],
+      "install_commands": [
+        "!pip install numpy==1.26",
+        "!pip install matplotlib==3.9.2",
+        "!pip install skillsnetwork"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/data-loading-and-augmentation-using-keras.ipynb",
+      "title": "Data Loading and Augmentation Using Keras",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 13,
+      "exercise_marker_cells": [
+        33
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "os",
+        "skillsnetwork",
+        "tensorflow"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26 matplotlib==3.9.2 tensorflow==2.19",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb",
+      "title": "Lab: Comparative Analysis of Keras and PyTorch Models",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 20,
+      "exercise_marker_cells": [
+        9,
+        36
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "httpx",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "skillsnetwork",
+        "sklearn",
+        "tarfile",
+        "tensorflow",
+        "time",
+        "torch",
+        "torchvision",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26",
+        "%pip install matplotlib==3.9.2",
+        "%pip install skillsnetwork",
+        "%pip install torch==2.7.0",
+        "%pip install torchvision==0.22",
+        "%pip install tensorflow==2.19",
+        "%pip install scikit-learn==1.7.0"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+      "title": "Lab: Data Loading and Augmentation Using PyTorch",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 20,
+      "exercise_marker_cells": [
+        23,
+        24,
+        33,
+        38,
+        42,
+        50,
+        57
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "PIL",
+        "httpx",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "skillsnetwork",
+        "tarfile",
+        "torch",
+        "torchvision"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26 matplotlib==3.9.2 pandas==2.2.3",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+      "title": "Lab: Implement and Test a PyTorch-Based Classifier",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 34,
+      "exercise_marker_cells": [
+        25,
+        26,
+        45,
+        49,
+        59,
+        61,
+        66,
+        68
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "httpx",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "random",
+        "shutil",
+        "skillsnetwork",
+        "sklearn",
+        "sys",
+        "tarfile",
+        "time",
+        "torch",
+        "torchvision",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install scikit-learn==1.7.0 numpy==1.26 matplotlib==3.9.2",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+      "title": "Lab: Land Classification: CNN-Transformer Integration evaluation",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 28,
+      "exercise_marker_cells": [
+        13,
+        15,
+        29
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "httpx",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "random",
+        "skillsnetwork",
+        "sklearn",
+        "tarfile",
+        "tensorflow",
+        "time",
+        "torch",
+        "torchvision",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install scikit-learn==1.7.0 tensorflow==2.19 numpy==1.26 matplotlib==3.9.2 skillsnetwork",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+      "title": "Lab: Train and Evaluate a Keras-Based Classifier",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 31,
+      "exercise_marker_cells": [
+        33,
+        34,
+        46,
+        56,
+        69,
+        77,
+        90
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "httpx",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "random",
+        "shutil",
+        "skillsnetwork",
+        "sklearn",
+        "sys",
+        "tarfile",
+        "tensorflow",
+        "time",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26",
+        "%pip install matplotlib==3.9.2",
+        "%pip install skillsnetwork",
+        "%pip install tensorflow==2.19",
+        "%pip install scikit-learn==1.7.0"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+      "title": "Lab: Vision Transformers Using Keras",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 22,
+      "exercise_marker_cells": [
+        9,
+        21,
+        58
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "datetime",
+        "httpx",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "random",
+        "skillsnetwork",
+        "tarfile",
+        "tensorflow",
+        "time",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26",
+        "%pip install matplotlib==3.9.2",
+        "%pip install skillsnetwork",
+        "%pip install tensorflow==2.19",
+        "%pip install scikit-learn==1.7.0"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+      "title": "Lab: Vision Transformers Using PyTorch",
+      "course": 6,
+      "status": "reference-not-executed",
+      "code_cells": 27,
+      "exercise_marker_cells": [
+        9,
+        17,
+        46,
+        50,
+        55
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "datetime",
+        "httpx",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "random",
+        "skillsnetwork",
+        "tarfile",
+        "time",
+        "torch",
+        "torchvision",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26 matplotlib==3.9.2 skillsnetwork",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/07-llm-data-preparation/notebooks/creating-an-nlp-data-loader.ipynb",
+      "title": "Creating an NLP Data Loader",
+      "course": 7,
+      "status": "reference-not-executed",
+      "code_cells": 41,
+      "exercise_marker_cells": [],
+      "syntax_issues": [],
+      "imports": [
+        "numpy",
+        "pandas",
+        "random",
+        "torch",
+        "torchdata",
+        "torchtext",
+        "typing"
+      ],
+      "install_commands": [
+        "!pip install nltk",
+        "!pip install transformers==4.42.1",
+        "!pip install sentencepiece",
+        "!pip install spacy",
+        "!pip install torch==2.2.2 torchtext==0.17.2",
+        "!pip install torchdata==0.7.1",
+        "!pip install portalocker",
+        "!pip install numpy pandas",
+        "!pip install numpy scikit-learn"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/07-llm-data-preparation/notebooks/exploring-generative-ai-libraries.ipynb",
+      "title": "Exploring Generative AI Libraries",
+      "course": 7,
+      "status": "reference-not-executed",
+      "code_cells": 6,
+      "exercise_marker_cells": [
+        23
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "sentencepiece",
+        "transformers"
+      ],
+      "install_commands": [
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu torchtext==0.18.0+cpu  \\",
+        "%pip install transformers==4.42.1 tensorflow sentencepiece numpy==1.26"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/07-llm-data-preparation/notebooks/implementing-tokenization.ipynb",
+      "title": "Implementing Tokenization",
+      "course": 7,
+      "status": "reference-not-executed",
+      "code_cells": 21,
+      "exercise_marker_cells": [
+        60
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "collections",
+        "nltk",
+        "spacy",
+        "torchtext",
+        "transformers",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install nltk",
+        "!pip install transformers==4.42.1",
+        "!pip install sentencepiece",
+        "!pip install spacy",
+        "!pip install scikit-learn",
+        "!pip install torch==2.2.2",
+        "!pip install torchtext==0.17.2",
+        "!pip install numpy==1.26.0"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/08-foundational-nlp-models/notebooks/building-a-language-model-using-histogram-n-gram-analysis.ipynb",
+      "title": "Building a Language Model Using Histogram N-Gram Analysis",
+      "course": 8,
+      "status": "reference-not-executed",
+      "code_cells": 31,
+      "exercise_marker_cells": [
+        13
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "collections",
+        "matplotlib",
+        "nltk",
+        "numpy",
+        "pandas",
+        "re",
+        "sklearn",
+        "string",
+        "time",
+        "torch",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install -q numpy pandas matplotlib seaborn scikit-learn nltk --upgrade --force-reinstall scipy scikit-learn",
+        "%pip install torch==2.2.2+cpu torchvision==0.17.2+cpu torchtext==0.17.2+cpu  \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+      "title": "Building and Training a Feedforward Neural Network for Language Modeling",
+      "course": 8,
+      "status": "reference-not-executed",
+      "code_cells": 50,
+      "exercise_marker_cells": [
+        13,
+        98,
+        101,
+        104,
+        107,
+        110,
+        113
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "collections",
+        "matplotlib",
+        "nltk",
+        "numpy",
+        "pandas",
+        "random",
+        "re",
+        "sklearn",
+        "string",
+        "time",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install -q numpy==1.26.4 pandas matplotlib seaborn scikit-learn nltk",
+        "%pip install torch==2.2.2+cpu torchvision==0.17.2+cpu torchtext==0.17.2+cpu  \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/08-foundational-nlp-models/notebooks/document-classification-with-word-embeddings.ipynb",
+      "title": "Document Classification with Word Embeddings",
+      "course": 8,
+      "status": "reference-not-executed",
+      "code_cells": 36,
+      "exercise_marker_cells": [
+        13,
+        87,
+        90,
+        93
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "IPython",
+        "itertools",
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "plotly",
+        "sklearn",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install pandas numpy==1.26.4 seaborn==0.9.0 matplotlib scikit-learn pmdarima portalocker>=2.0.0 plotly dash",
+        "%pip install torch==2.3.0+cpu torchdata==0.9.0+cpu torchtext==0.18.0+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part1.ipynb",
+      "title": "Integrating Word2Vec Part1",
+      "course": 8,
+      "status": "reference-not-executed",
+      "code_cells": 36,
+      "exercise_marker_cells": [
+        15,
+        25
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "IPython",
+        "collections",
+        "gensim",
+        "logging",
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "seaborn",
+        "sklearn",
+        "torch",
+        "torchdata",
+        "torchtext",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install -q numpy==1.26.4 pandas matplotlib seaborn scikit-learn gensim portalocker>=2.0.0",
+        "%pip install torch==2.2.2+cpu torchvision==0.17.2+cpu torchaudio==2.2.2+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part2.ipynb",
+      "title": "Integrating Word2Vec Part2",
+      "course": 8,
+      "status": "reference-not-executed",
+      "code_cells": 37,
+      "exercise_marker_cells": [
+        22
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "collections",
+        "gensim",
+        "matplotlib",
+        "numpy",
+        "os",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "utils",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install -q numpy pandas matplotlib seaborn scikit-learn gensim portalocker>=2.0.0",
+        "%pip install torchdata==0.7.1",
+        "%pip install torch==2.2.2+cpu torchtext==0.17.2+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb",
+      "title": "Sequence-to-Sequence RNN Models: Translation Task",
+      "course": 8,
+      "status": "reference-not-executed",
+      "code_cells": 39,
+      "exercise_marker_cells": [
+        15,
+        74,
+        109
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "math",
+        "matplotlib",
+        "nltk",
+        "numpy",
+        "random",
+        "time",
+        "torch",
+        "torchdata",
+        "torchtext",
+        "tqdm",
+        "typing",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26.4 pandas matplotlib seaborn scikit-learn portalocker==2.8.2 nltk spacy",
+        "%pip install torch==2.3.0+cpu torchdata==0.9.0+cpu torchtext==0.18.0+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+      "title": "A Transformer Model for Language Translation",
+      "course": 9,
+      "status": "reference-not-executed",
+      "code_cells": 74,
+      "exercise_marker_cells": [
+        9,
+        23,
+        144,
+        149
+      ],
+      "syntax_issues": [
+        {
+          "cell": 149,
+          "line": 6,
+          "message": "expected an indented block after function definition on line 5"
+        },
+        {
+          "cell": 154,
+          "line": 1,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "fpdf",
+        "math",
+        "matplotlib",
+        "nltk",
+        "pdfplumber",
+        "spacy",
+        "textwrap",
+        "timeit",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "typing",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install spacy==3.7.2  portalocker==2.7.0 --upgrade nltk pdfplumber==0.9.0 fpdf==1.7.2 matplotlib",
+        "%pip uninstall -y torch torchtext torchdata",
+        "%pip install torch==2.3.0+cpu torchtext==0.18.0+cpu torchdata==0.8.0+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/09-transformer-language-models/notebooks/applying-transformers-for-classification.ipynb",
+      "title": "Applying Transformers for Classification",
+      "course": 9,
+      "status": "reference-not-executed",
+      "code_cells": 78,
+      "exercise_marker_cells": [
+        16
+      ],
+      "syntax_issues": [
+        {
+          "cell": 164,
+          "line": 1,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "IPython",
+        "itertools",
+        "math",
+        "matplotlib",
+        "numpy",
+        "pandas",
+        "pickle",
+        "plotly",
+        "sklearn",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install dash==2.9.3 dash-table==5.0.0 plotly pandas==2.2.2 numpy==2.3.3 portalocker==2.8.2 \\",
+        "%pip install torch==2.3.0+cpu torchdata==0.9.0+cpu torchtext==0.18.0+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/09-transformer-language-models/notebooks/data-loading-and-text-processing-for-bert.ipynb",
+      "title": "Data Loading and Text Processing for BERT",
+      "course": 9,
+      "status": "reference-not-executed",
+      "code_cells": 23,
+      "exercise_marker_cells": [
+        14,
+        57,
+        60,
+        63
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "copy",
+        "csv",
+        "itertools",
+        "json",
+        "pandas",
+        "random",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "transformers",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26.0 portalocker==2.8.2 pandas==2.2.1 transformers==4.35.2",
+        "%pip install torch==2.2.2+cpu torchvision==0.17.2+cpu torchaudio==2.2.2+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/09-transformer-language-models/notebooks/decoder-causal-language-models.ipynb",
+      "title": "Decoder Causal Language Models",
+      "course": 9,
+      "status": "reference-not-executed",
+      "code_cells": 64,
+      "exercise_marker_cells": [
+        13,
+        125
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "math",
+        "matplotlib",
+        "time",
+        "torch",
+        "torchtext",
+        "transformers",
+        "typing",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26.0 portalocker==2.8.2 pandas==2.2.1 matplotlib==3.9.0 scikit-learn==1.5.0 transformers==4.35.2",
+        "%pip install torch==2.3.0+cpu torchdata==0.9.0+cpu torchtext==0.18.0+cpu torchvision torchaudio\\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/09-transformer-language-models/notebooks/pretraining-bert-models.ipynb",
+      "title": "Pretraining BERT Models",
+      "course": 9,
+      "status": "reference-not-executed",
+      "code_cells": 35,
+      "exercise_marker_cells": [
+        12,
+        65,
+        68
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "copy",
+        "csv",
+        "itertools",
+        "json",
+        "math",
+        "matplotlib",
+        "pandas",
+        "random",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "transformers",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install numpy==1.26.4 pandas==2.2.1 matplotlib==3.9.0 transformers==4.35.2",
+        "%pip install torch==2.3.0+cpu torchtext==0.18.0+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/09-transformer-language-models/notebooks/self-attention-and-positional-encoding.ipynb",
+      "title": "Self-Attention and Positional Encoding",
+      "course": 9,
+      "status": "reference-not-executed",
+      "code_cells": 61,
+      "exercise_marker_cells": [
+        13,
+        135
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "Levenshtein",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pathlib",
+        "requests",
+        "sys",
+        "time",
+        "torch",
+        "torchtext",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install Levenshtein matplotlib numpy==1.26.3",
+        "%pip install torch==2.2.1+cpu torchtext==0.17.1+cpu  \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/10-fine-tuning-transformers/notebooks/adapters-in-pytorch.ipynb",
+      "title": "Adapters in PyTorch",
+      "course": 10,
+      "status": "reference-not-executed",
+      "code_cells": 67,
+      "exercise_marker_cells": [
+        14
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "IPython",
+        "io",
+        "itertools",
+        "math",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pickle",
+        "tarfile",
+        "tempfile",
+        "time",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "urllib",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install matplotlib==3.9.0 scikit-learn==1.5.0 plotly==5.22.0 pandas==2.2.2 numpy==1.26.4",
+        "%pip install -q --user --prefer-binary --upgrade-strategy only-if-needed \\",
+        "%pip uninstall -y numpy pandas scipy",
+        "%pip install numpy==1.26.4 pandas==2.2.2 scipy==1.11.4"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+      "title": "Fine-Tuning Transformers with PyTorch and Hugging Face",
+      "course": 10,
+      "status": "reference-not-executed",
+      "code_cells": 30,
+      "exercise_marker_cells": [
+        14,
+        66,
+        69,
+        72,
+        75,
+        78,
+        81,
+        85,
+        89,
+        92
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "datasets",
+        "math",
+        "matplotlib",
+        "time",
+        "torch",
+        "torchmetrics",
+        "tqdm",
+        "transformers",
+        "trl",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install -q --user --prefer-binary --upgrade-strategy only-if-needed matplotlib==3.9.0 transformers==4.42.1 datasets trl==0.9.4 torchmetrics -U lightning-utilities -U",
+        "%pip install torch==2.3.0+cpu torchtext==0.18.0+cpu torchdata==0.9.0+cpu torchvision torchaudio \\",
+        "!pip install rich"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/10-fine-tuning-transformers/notebooks/loading-models-and-inference-with-hugging-face-inferences.ipynb",
+      "title": "Loading Models and Inference with Hugging Face Inferences",
+      "course": 10,
+      "status": "reference-not-executed",
+      "code_cells": 20,
+      "exercise_marker_cells": [
+        16,
+        64
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "torch",
+        "transformers",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install transformers~=4.40.0",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu torchtext==0.18.0+cpu  \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/10-fine-tuning-transformers/notebooks/lora-with-pytorch.ipynb",
+      "title": "LoRA with PyTorch",
+      "course": 10,
+      "status": "reference-not-executed",
+      "code_cells": 82,
+      "exercise_marker_cells": [
+        13,
+        181
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "IPython",
+        "io",
+        "itertools",
+        "math",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pickle",
+        "plotly",
+        "scipy",
+        "sklearn",
+        "sympy",
+        "tarfile",
+        "tempfile",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "urllib",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install matplotlib==3.9.0 portalocker==2.8.2 plotly==5.22.0 scikit-learn==1.5.0 pandas==2.2.2 numpy==1.26.0",
+        "%pip install -q --user --prefer-binary --upgrade-strategy only-if-needed \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/10-fine-tuning-transformers/notebooks/pre-training-and-fine-tuning-with-pytorch.ipynb",
+      "title": "Pre-Training and Fine-Tuning with PyTorch",
+      "course": 10,
+      "status": "reference-not-executed",
+      "code_cells": 53,
+      "exercise_marker_cells": [
+        14
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "IPython",
+        "io",
+        "itertools",
+        "math",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pandas",
+        "pickle",
+        "tarfile",
+        "tempfile",
+        "time",
+        "torch",
+        "torchtext",
+        "tqdm",
+        "urllib",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install matplotlib==3.9.0 portalocker==2.8.2 scikit-learn==1.5.0 pandas~=2.2.2 numpy~=1.26.0",
+        "%pip install torch==2.3.0+cpu torchdata==0.9.0+cpu torchtext==0.18.0+cpu \\"
+      ],
+      "environment_notes": [
+        "legacy torchtext environment"
+      ]
+    },
+    {
+      "path": "courses/10-fine-tuning-transformers/notebooks/pre-training-llms-with-hugging-face.ipynb",
+      "title": "Pre-training LLMs with Hugging Face",
+      "course": 10,
+      "status": "reference-not-executed",
+      "code_cells": 26,
+      "exercise_marker_cells": [
+        14
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "datasets",
+        "math",
+        "os",
+        "sklearn",
+        "time",
+        "torch",
+        "tqdm",
+        "transformers",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install transformers==4.40.0 --user dataset datasets==2.15.0 accelerate==0.34.0 portalocker==3.2.0 protobuf==3.20.0",
+        "%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu torchtext==0.18.0+cpu  \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+      "title": "Direct Preference Optimization (DPO) Using Hugging Face",
+      "course": 11,
+      "status": "reference-not-executed",
+      "code_cells": 37,
+      "exercise_marker_cells": [
+        64,
+        68,
+        71,
+        74,
+        81,
+        84,
+        87,
+        90,
+        93
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "datasets",
+        "matplotlib",
+        "multiprocessing",
+        "os",
+        "pandas",
+        "peft",
+        "requests",
+        "tarfile",
+        "torch",
+        "transformers",
+        "trl"
+      ],
+      "install_commands": [
+        "%pip install --user trl==0.11.4 peft==0.14.0 matplotlib==3.9.0 pandas numpy==1.26.0 --user datasets==3.2.0 transformers==4.45.2",
+        "%pip install torch==2.8.0+cpu  \\",
+        "%pip install --user -qq rich==13.7.1"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb",
+      "title": "Instruction-Tuning with LLMs",
+      "course": 11,
+      "status": "reference-not-executed",
+      "code_cells": 43,
+      "exercise_marker_cells": [
+        92,
+        96,
+        101,
+        104,
+        107
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "datasets",
+        "evaluate",
+        "io",
+        "json",
+        "matplotlib",
+        "peft",
+        "pickle",
+        "torch",
+        "tqdm",
+        "transformers",
+        "trl",
+        "urllib",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install --user -qq datasets==2.20.0 rich trl==0.9.6 transformers==4.42.3 peft==0.11.1 tqdm==4.66.4 numpy==1.26.4 pandas==2.2.2 matplotlib==3.9.1 seaborn==0.13.2 scikit-learn==1.5.1 sacrebleu==2.4.2 --upgrade evaluate",
+        "%pip install torch==2.3.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/11-advanced-fine-tuning/notebooks/reinforcement-learning-from-human-feedback-using-ppo.ipynb",
+      "title": "Reinforcement Learning from Human Feedback Using PPO",
+      "course": 11,
+      "status": "reference-not-executed",
+      "code_cells": 89,
+      "exercise_marker_cells": [
+        181
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "datasets",
+        "json",
+        "matplotlib",
+        "os",
+        "pandas",
+        "pickle",
+        "tarfile",
+        "torch",
+        "tqdm",
+        "transformers",
+        "trl",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install datasets==3.2.0 trl==0.11 transformers==4.43.4 nltk==3.9.1 rouge_score==0.1.2 matplotlib==3.10.0 numpy==1.26.0",
+        "%pip install torch==2.8.0+cpu torchtext==0.18.0+cpu  \\",
+        "%pip install --user -qq rich==13.7.1"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/11-advanced-fine-tuning/notebooks/reward-modeling.ipynb",
+      "title": "Reward Modeling",
+      "course": 11,
+      "status": "reference-not-executed",
+      "code_cells": 36,
+      "exercise_marker_cells": [
+        76
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "datasets",
+        "json",
+        "matplotlib",
+        "peft",
+        "torch",
+        "transformers",
+        "trl",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install --user torch==2.3.1",
+        "!pip install --user datasets==3.2.0",
+        "!pip install --user trl==0.11",
+        "!pip install --user huggingface_hub==0.36.0",
+        "!pip install --user transformers==4.43.4",
+        "!pip install --user peft==0.14.0",
+        "!pip install --user nltk==3.9.1 rouge_score==0.1.2",
+        "!pip install --user bitsandbytes==0.43.1",
+        "!pip install --user matplotlib==3.10.0",
+        "%pip install --user -qq rich==13.7.1"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/12-ai-agents-and-rag/notebooks/enhance-llms-using-rag-and-hugging-face.ipynb",
+      "title": "Enhance LLMs using RAG and Hugging Face",
+      "course": 12,
+      "status": "reference-not-executed",
+      "code_cells": 36,
+      "exercise_marker_cells": [
+        15,
+        88
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "faiss",
+        "matplotlib",
+        "mpl_toolkits",
+        "numpy",
+        "random",
+        "sklearn",
+        "torch",
+        "transformers",
+        "warnings",
+        "wget"
+      ],
+      "install_commands": [
+        "%pip install wget --user transformers datasets faiss-cpu  matplotlib scikit-learn",
+        "%pip install torch==2.8.0+cpu \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb",
+      "title": "In-Context Learning and Prompt Templates",
+      "course": 12,
+      "status": "reference-not-executed",
+      "code_cells": 24,
+      "exercise_marker_cells": [
+        17,
+        93,
+        97,
+        101
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "ibm_watson_machine_learning",
+        "ibm_watsonx_ai",
+        "langchain",
+        "langchain_core",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install --user \"ibm-watsonx-ai==0.2.6\"",
+        "!pip install --user \"langchain==0.1.16\"",
+        "!pip install --user \"langchain-ibm==0.1.4\"",
+        "!pip install numpy==1.26.4 scipy==1.11.4"
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs",
+        "watsonx / Skills Network service required"
+      ]
+    },
+    {
+      "path": "courses/12-ai-agents-and-rag/notebooks/lab-building-ai-agents-from-scratch-with-python.ipynb",
+      "title": "Lab: Building AI Agents from Scratch with Python",
+      "course": 12,
+      "status": "reference-not-executed",
+      "code_cells": 15,
+      "exercise_marker_cells": [],
+      "syntax_issues": [
+        {
+          "cell": 11,
+          "line": 2,
+          "message": "invalid syntax"
+        }
+      ],
+      "imports": [
+        "PyPDF2",
+        "nltk",
+        "numpy",
+        "re",
+        "requests",
+        "sklearn"
+      ],
+      "install_commands": [
+        "!pip install nltk PyPDF2 scikit-learn requests numpy"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+      "title": "LangChain",
+      "course": 12,
+      "status": "reference-not-executed",
+      "code_cells": 96,
+      "exercise_marker_cells": [
+        17,
+        216,
+        224,
+        230,
+        234
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "ibm_watson_machine_learning",
+        "ibm_watsonx_ai",
+        "langchain",
+        "langchain_community",
+        "langchain_core",
+        "langchain_experimental",
+        "langchain_ibm",
+        "langchain_text_splitters",
+        "pprint",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install --force-reinstall --no-cache-dir tenacity --user",
+        "!pip install \"ibm-watsonx-ai==1.0.4\" --user",
+        "!pip install \"ibm-watson-machine-learning==1.0.357\" --user",
+        "!pip install \"langchain==0.2.1\" --user",
+        "!pip install \"langchain-community==0.2.1\" --user",
+        "!pip install \"langchain-ibm==0.1.7\" --user",
+        "!pip install \"langchain-experimental==0.0.59\" --user",
+        "!pip install \"langchainhub==0.1.17\" --user",
+        "!pip install \"pypdf==4.2.0\" --user",
+        "!pip install \"chromadb==0.4.24\" --user",
+        "!pip install \"posthog==3.5.0\" --user"
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs",
+        "watsonx / Skills Network service required"
+      ]
+    },
+    {
+      "path": "courses/12-ai-agents-and-rag/notebooks/rag-with-pytorch.ipynb",
+      "title": "RAG with PyTorch",
+      "course": 12,
+      "status": "reference-not-executed",
+      "code_cells": 42,
+      "exercise_marker_cells": [
+        14,
+        86
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "matplotlib",
+        "numpy",
+        "re",
+        "sklearn",
+        "torch",
+        "tqdm",
+        "transformers",
+        "warnings"
+      ],
+      "install_commands": [
+        "%pip install --user transformers==4.40.2 numpy sacremoses==0.1.1 matplotlib==3.8.4 sentencepiece==0.2.0 scikit-learn==1.4.2",
+        "%pip install torch==2.8.0+cpu torchtext==0.18.0+cpu  \\"
+      ],
+      "environment_notes": []
+    },
+    {
+      "path": "courses/12-ai-agents-and-rag/notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb",
+      "title": "Summarize Private Documents Using RAG, LangChain, and LLMs",
+      "course": 12,
+      "status": "reference-not-executed",
+      "code_cells": 30,
+      "exercise_marker_cells": [
+        91,
+        95,
+        100
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "ibm_watsonx_ai",
+        "langchain_chroma",
+        "langchain_classic",
+        "langchain_community",
+        "langchain_core",
+        "langchain_huggingface",
+        "langchain_ibm",
+        "langchain_text_splitters",
+        "warnings",
+        "wget"
+      ],
+      "install_commands": [
+        "%pip install -U \\",
+        "%pip install --upgrade \\"
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs",
+        "watsonx / Skills Network service required"
+      ]
+    },
+    {
+      "path": "courses/13-rag-application-project/notebooks/apply-text-splitting-techniques-to-enhance-model-responsiveness.ipynb",
+      "title": "Apply Text Splitting Techniques to Enhance Model Responsiveness",
+      "course": 13,
+      "status": "reference-not-executed",
+      "code_cells": 35,
+      "exercise_marker_cells": [
+        104,
+        109
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "langchain",
+        "langchain_core",
+        "langchain_text_splitters"
+      ],
+      "install_commands": [
+        "!pip install \"langchain==0.2.7\"",
+        "!pip install \"langchain-core==0.2.20\"",
+        "!pip install \"langchain-text-splitters==0.2.2\"",
+        "!pip install \"lxml==5.2.2\""
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs"
+      ]
+    },
+    {
+      "path": "courses/13-rag-application-project/notebooks/create-and-configure-a-vector-database-to-store-document-embeddings.ipynb",
+      "title": "Create and Configure a Vector Database to Store Document Embeddings",
+      "course": 13,
+      "status": "reference-not-executed",
+      "code_cells": 36,
+      "exercise_marker_cells": [
+        104
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "ibm_watsonx_ai",
+        "langchain",
+        "langchain_community",
+        "langchain_core",
+        "langchain_ibm"
+      ],
+      "install_commands": [
+        "!pip install --user\"ibm-watsonx-ai==1.0.4\"",
+        "!pip install  --user \"langchain==0.2.1\"",
+        "!pip install  --user \"langchain-ibm==0.1.7\"",
+        "!pip install  --user \"langchain-community==0.2.1\"",
+        "!pip install --user \"chromadb==0.4.24\"",
+        "!pip install  --user \"faiss-cpu==1.8.0\""
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs",
+        "watsonx / Skills Network service required"
+      ]
+    },
+    {
+      "path": "courses/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb",
+      "title": "Develop a Retriever to Fetch Document Segments Based on Queries",
+      "course": 13,
+      "status": "reference-not-executed",
+      "code_cells": 47,
+      "exercise_marker_cells": [
+        18,
+        86,
+        114,
+        118
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "ibm_watsonx_ai",
+        "langchain",
+        "langchain_community",
+        "langchain_core",
+        "langchain_ibm",
+        "langchain_text_splitters",
+        "lark",
+        "logging",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install --user \"ibm-watsonx-ai==1.1.2\" | tail -n 1",
+        "!pip install --user \"langchain==0.2.1\" | tail -n 1",
+        "!pip install --user \"langchain-ibm==0.1.11\" | tail -n 1",
+        "!pip install --user \"langchain-community==0.2.1\" | tail -n 1",
+        "!pip install --user \"chromadb==0.4.24\" | tail -n 1",
+        "!pip install --user \"pypdf==4.3.1\" | tail -n 1",
+        "!pip install --user \"lark==1.1.9\" | tail -n 1"
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs",
+        "watsonx / Skills Network service required"
+      ]
+    },
+    {
+      "path": "courses/13-rag-application-project/notebooks/embed-documents-using-watsonx-s-embedding-model.ipynb",
+      "title": "Embed documents using watsonx's embedding model",
+      "course": 13,
+      "status": "reference-not-executed",
+      "code_cells": 28,
+      "exercise_marker_cells": [
+        85
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "ibm_watsonx_ai",
+        "langchain",
+        "langchain_community",
+        "langchain_ibm"
+      ],
+      "install_commands": [
+        "!pip install --user \"ibm-watsonx-ai==1.1.2\"",
+        "!pip install --user \"langchain==0.2.11\"",
+        "!pip install --user \"langchain-ibm==0.1.11\"",
+        "!pip install --user \"langchain-community==0.2.10\"",
+        "!pip install --user \"sentence-transformers==3.0.1\""
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs",
+        "watsonx / Skills Network service required"
+      ]
+    },
+    {
+      "path": "courses/13-rag-application-project/notebooks/load-documents-using-langchain-for-different-sources.ipynb",
+      "title": "Load Documents Using LangChain for Different Sources",
+      "course": 13,
+      "status": "reference-not-executed",
+      "code_cells": 45,
+      "exercise_marker_cells": [
+        16,
+        103,
+        107
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "bs4",
+        "json",
+        "langchain_community",
+        "nltk",
+        "pathlib",
+        "pprint",
+        "requests",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install --user \"langchain-community==0.2.1\"",
+        "!pip install --user \"pypdf==4.2.0\"",
+        "!pip install --user \"PyMuPDF==1.24.5\"",
+        "!pip install --user \"unstructured==0.14.8\"",
+        "!pip install --user \"markdown==3.6\"",
+        "!pip install --user  \"jq==1.7.0\"",
+        "!pip install --user \"pandas==2.2.2\"",
+        "!pip install --user \"docx2txt==0.8\"",
+        "!pip install --user \"requests==2.32.3\"",
+        "!pip install --user \"beautifulsoup4==4.12.3\"",
+        "!pip install --user \"nltk==3.8.0\""
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs"
+      ]
+    },
+    {
+      "path": "courses/13-rag-application-project/notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb",
+      "title": "Put Whole Document into Prompt and Ask the Model",
+      "course": 13,
+      "status": "reference-not-executed",
+      "code_cells": 16,
+      "exercise_marker_cells": [
+        15,
+        58
+      ],
+      "syntax_issues": [],
+      "imports": [
+        "ibm_watsonx_ai",
+        "langchain",
+        "langchain_community",
+        "langchain_core",
+        "langchain_ibm",
+        "warnings"
+      ],
+      "install_commands": [
+        "!pip install --user \"ibm-watsonx-ai==1.0.10\"",
+        "!pip install --user \"langchain==0.2.6\"",
+        "!pip install --user \"langchain-ibm==0.1.8\"",
+        "!pip install --user \"langchain-community==0.2.1\""
+      ],
+      "environment_notes": [
+        "version-specific LangChain APIs",
+        "watsonx / Skills Network service required"
+      ]
+    }
+  ]
+}
