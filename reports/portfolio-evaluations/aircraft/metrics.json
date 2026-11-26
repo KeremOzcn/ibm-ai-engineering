@@ -1,0 +1,218 @@
+{
+  "project": "aircraft",
+  "profile": "full",
+  "seed": 42,
+  "class_names": [
+    "crack",
+    "dent"
+  ],
+  "complete_split_counts": {
+    "train": {
+      "0": 150,
+      "1": 150
+    },
+    "validation": {
+      "0": 48,
+      "1": 48
+    },
+    "test": {
+      "0": 25,
+      "1": 25
+    }
+  },
+  "selected_split_counts": {
+    "train": {
+      "0": 150,
+      "1": 150
+    },
+    "validation": {
+      "0": 48,
+      "1": 48
+    },
+    "test": {
+      "0": 25,
+      "1": 25
+    }
+  },
+  "split_manifest_sha256": "24da12dbc5becf40b99c7e1a41498041a7433d1775a549e13441933493526b5e",
+  "vgg_weights_sha256": "bfe5187d0a272bed55ba430631598124cff8e880b98d38c9e56c8d66032abdc1",
+  "preprocessing": "RGB 0..255 -> VGG BGR channel centering; no 1/255 rescale",
+  "checkpoint_sha256": "234a2c68c319b7abad3f3051dc5459b5a0faa12800ab0ad59f3695e4d65ae23e",
+  "exact_reload": true,
+  "test": {
+    "samples": 50,
+    "accuracy": 0.72,
+    "macro_f1": 0.7181964573268921,
+    "roc_auc": 0.7888000000000001,
+    "confusion_matrix": [
+      [
+        16,
+        9
+      ],
+      [
+        5,
+        20
+      ]
+    ],
+    "per_class": {
+      "0": {
+        "precision": 0.7619047619047619,
+        "recall": 0.64,
+        "f1-score": 0.6956521739130435,
+        "support": 25.0
+      },
+      "1": {
+        "precision": 0.6896551724137931,
+        "recall": 0.8,
+        "f1-score": 0.7407407407407407,
+        "support": 25.0
+      },
+      "accuracy": 0.72,
+      "macro avg": {
+        "precision": 0.7257799671592775,
+        "recall": 0.72,
+        "f1-score": 0.7181964573268921,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.7257799671592775,
+        "recall": 0.72,
+        "f1-score": 0.7181964573268921,
+        "support": 50.0
+      }
+    },
+    "ids": [
+      "test/crack/101_1_JPG_jpg.rf.695bc0b3ba5ada38ee27d71dbacaf408.jpg",
+      "test/crack/103_6_JPG_jpg.rf.cbca4aacf826003ef682dc96f1dcbd4e.jpg",
+      "test/crack/104_16_JPG_jpg.rf.2c23b11777e1fbd5881eb06614f0d8b4.jpg",
+      "test/crack/105_22_JPG_jpg.rf.91531fce9d13ea5c9743426e43880986.jpg",
+      "test/crack/109_1_JPG_jpg.rf.e4846d98df8f2dbd7e98bad3c56e9bcb.jpg",
+      "test/crack/110_24_JPG_jpg.rf.5f5fb2963645a85c655c5492c0d5096a.jpg",
+      "test/crack/113_6_JPG_jpg.rf.c578c9850bdfe12f3941b0f53d35f419.jpg",
+      "test/crack/130_3_JPG_jpg.rf.cde17ae5dab82b38b9cd5634935e35d2.jpg",
+      "test/crack/130_7_JPG_jpg.rf.bc87b168142d43574d6b666d553f4761.jpg",
+      "test/crack/140_1_JPG_jpg.rf.783ec2a489ddc3692ef15efcb14436c6.jpg",
+      "test/crack/143_0_JPG_jpg.rf.6a95ea163581ec7c566872f750ee120e.jpg",
+      "test/crack/144_16_JPG_jpg.rf.547306a019ec79eae9c7ba648f0de46a.jpg",
+      "test/crack/145_4_JPG_jpg.rf.c24479fe868d62e5efe987e248c2b1af.jpg",
+      "test/crack/146_8_JPG_jpg.rf.e162c4a1747ab4f757124d7fe5b4d805.jpg",
+      "test/crack/147_21_JPG_jpg.rf.4a2f51b2528b8248ac03c472db85394a.jpg",
+      "test/crack/147_2_JPG_jpg.rf.802b0015783a68295804fba0280b0917.jpg",
+      "test/crack/14_23_JPG_jpg.rf.b7dbf66f2939f210dcf0bcbd1d814e8f.jpg",
+      "test/crack/150_7_JPG_jpg.rf.5c8caa876dd7a868523eadd51317e8bc.jpg",
+      "test/crack/157_19_JPG_jpg.rf.ecf121ab0af548f7f7a5d35019aec573.jpg",
+      "test/crack/158_24_JPG_jpg.rf.548c65fc199c9888ceb4164fbac1e785.jpg",
+      "test/crack/162_22_JPG_jpg.rf.e6255f348691910a58c3e321b687a32d.jpg",
+      "test/crack/164_0_JPG_jpg.rf.059d16e63e2619b7bbf2ed294821089f.jpg",
+      "test/crack/47_18_JPG_jpg.rf.397ab323d58fe27910299d792bc61830.jpg",
+      "test/crack/47_6_JPG_jpg.rf.f806f6f7dd3487c687b6530e588a8618.jpg",
+      "test/crack/81_3_JPG_jpg.rf.b34336e2de0ac0270ec1476e8204fa00.jpg",
+      "test/dent/100_12_JPG_jpg.rf.c9eba14c33080322c8039295a4564509.jpg",
+      "test/dent/100_6_JPG_jpg.rf.5735b6c11e91aeff859f3d34fd772ddb.jpg",
+      "test/dent/105_3_JPG_jpg.rf.f410c0d6b274a5c73623651c30e32e35.jpg",
+      "test/dent/134_11_JPG_jpg.rf.8483e7d113ce9487a48dc13419dff292.jpg",
+      "test/dent/135_4_JPG_jpg.rf.7145e74e4655919b4bc24c9648592e32.jpg",
+      "test/dent/136_14_JPG_jpg.rf.ebc6db2f4244eb3f538fc7d8f22af435.jpg",
+      "test/dent/136_15_JPG_jpg.rf.35554276cb237619af1cf7fb465e3f46.jpg",
+      "test/dent/136_20_JPG_jpg.rf.e13ff88f88a3dbf20345eae5eeeb6bb4.jpg",
+      "test/dent/143_13_JPG_jpg.rf.29ff136584e5e0cc50f837396e6995a2.jpg",
+      "test/dent/144_10_JPG_jpg.rf.4d008cc33e217c1606b76585469d626b.jpg",
+      "test/dent/145_21_JPG_jpg.rf.d2d9d14202775dd0f28a3db931ae057e.jpg",
+      "test/dent/146_21_JPG_jpg.rf.62814adf2e016eb273290756cff2e993.jpg",
+      "test/dent/146_24_JPG_jpg.rf.5ba010de4a4a48e8b3a21c661c3bb6a4.jpg",
+      "test/dent/148_1_JPG_jpg.rf.28b72de8fd57df5bd56b19dd06b0b61c.jpg",
+      "test/dent/149_10_JPG_jpg.rf.844c798f0abf58d2c77b3bf78c88e478.jpg",
+      "test/dent/149_22_JPG_jpg.rf.4899cbb6f4aad9588fa3811bb886c34d.jpg",
+      "test/dent/151_24_JPG_jpg.rf.8e7b0f67da38bf329a56fc46fd34f92f.jpg",
+      "test/dent/151_25_JPG_jpg.rf.ae27b09909820740a74ef8747820fde6.jpg",
+      "test/dent/151_3_JPG_jpg.rf.9bd68d33951da927be018c23bbf3760a.jpg",
+      "test/dent/152_1_JPG_jpg.rf.c29e17e6a259f691c2786151b952ef21.jpg",
+      "test/dent/154_8_JPG_jpg.rf.b1f70e012515aa49e1d965b92198be63.jpg",
+      "test/dent/156_19_JPG_jpg.rf.ce86a8763333f7a0736a24f0537c38a3.jpg",
+      "test/dent/161_6_JPG_jpg.rf.4ade35715c20be78546832880ae2bed7.jpg",
+      "test/dent/17_16_JPG_jpg.rf.1bbfc7fc59a41c5e6a70a5628fe55310.jpg",
+      "test/dent/213_1_JPG_jpg.rf.a38a31b48f2206fbf7f0cf5e49736dc7.jpg"
+    ]
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.7000220417976379
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.7419881820678711
+    },
+    {
+      "epoch": 3,
+      "validation_loss": 0.6428691744804382
+    },
+    {
+      "epoch": 4,
+      "validation_loss": 0.6352019309997559
+    },
+    {
+      "epoch": 5,
+      "validation_loss": 0.6785540580749512
+    },
+    {
+      "epoch": 6,
+      "validation_loss": 0.7853336334228516
+    },
+    {
+      "epoch": 7,
+      "validation_loss": 0.6838303208351135
+    },
+    {
+      "epoch": 8,
+      "validation_loss": 0.7412700653076172
+    },
+    {
+      "epoch": 9,
+      "validation_loss": 0.8443765640258789
+    },
+    {
+      "epoch": 10,
+      "validation_loss": 0.8063834309577942
+    }
+  ],
+  "caption_model": "Salesforce/blip-image-captioning-base",
+  "caption_revision": "82a37760796d32b1411fe092ab5d4e227313294b",
+  "captions": [
+    {
+      "file": "test/crack/101_1_JPG_jpg.rf.695bc0b3ba5ada38ee27d71dbacaf408.jpg",
+      "label": "crack",
+      "classifier_prediction": "crack",
+      "caption": "a close up of a metal plate with ris",
+      "visible_defect_supported": null,
+      "hallucination_review": null
+    },
+    {
+      "file": "test/dent/100_12_JPG_jpg.rf.c9eba14c33080322c8039295a4564509.jpg",
+      "label": "dent",
+      "classifier_prediction": "dent",
+      "caption": "a black and white photo of a car with a broken windshield",
+      "visible_defect_supported": null,
+      "hallucination_review": null
+    }
+  ],
+  "caption_quality": "Not evaluated; human review fields remain null.",
+  "near_duplicate_or_source_group_leakage_audited": false,
+  "seconds": 151.84052366699325,
+  "source": {
+    "project_sha256": "3d442cb44a949540bd46098c8861b9a1f97e7bcc3bd7a758a72a9fd0593b7426",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  },
+  "runtime": {
+    "utc": "2026-11-25T20:10:08.961643+00:00",
+    "python": "3.11.15",
+    "platform": "Darwin",
+    "packages": {
+      "tensorflow": "2.19.0",
+      "transformers": "4.45.2",
+      "torch": "2.8.0",
+      "numpy": "2.0.2",
+      "Pillow": "13.0.0"
+    }
+  }
+}

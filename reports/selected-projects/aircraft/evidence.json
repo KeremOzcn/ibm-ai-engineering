@@ -1,0 +1,12 @@
+{
+  "project": "aircraft",
+  "status": "bounded-pilot-passed",
+  "fresh_kernel": true,
+  "source_notebook": "projects/aircraft/notebook.ipynb",
+  "source_notebook_sha256": "84d08f21d5239f10c1017af7dba4f0eaf3cdecd352ac2dae2be3fc99409e862f",
+  "files": {
+    "executed.ipynb": "9ae5bfe45bf20ed6fc721b19cae3e4b7e364cab03187b15959c030dcfeff1dc6",
+    "metrics.json": "6c64ecb2e5c8c9559dc19f70f2627aa2c881632aab4bef0993817e21cf4e7f77",
+    "split-manifest.json": "24da12dbc5becf40b99c7e1a41498041a7433d1775a549e13441933493526b5e"
+  }
+}

@@ -41,13 +41,13 @@ LoRA represents ΔW = (α/r)BA, where B has shape (out_features,r) and A has sha
 
 ## Collected material
 
-6 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+6 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Adapters in PyTorch](notebooks/adapters-in-pytorch.ipynb) | Reference |
-| [Fine-Tuning Transformers with PyTorch and Hugging Face](notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb) | Reference |
-| [Loading Models and Inference with Hugging Face Inferences](notebooks/loading-models-and-inference-with-hugging-face-inferences.ipynb) | Reference |
-| [LoRA with PyTorch](notebooks/lora-with-pytorch.ipynb) | Reference |
-| [Pre-Training and Fine-Tuning with PyTorch](notebooks/pre-training-and-fine-tuning-with-pytorch.ipynb) | Reference |
-| [Pre-training LLMs with Hugging Face](notebooks/pre-training-llms-with-hugging-face.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Adapters in PyTorch](notebooks/adapters-in-pytorch.ipynb) | Reference | [Worked copy](../../solutions/10-fine-tuning-transformers/notebooks/adapters-in-pytorch.ipynb) |
+| [Fine-Tuning Transformers with PyTorch and Hugging Face](notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb) | Reference | [Worked copy](../../solutions/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb) |
+| [Loading Models and Inference with Hugging Face Inferences](notebooks/loading-models-and-inference-with-hugging-face-inferences.ipynb) | Reference | [Worked copy](../../solutions/10-fine-tuning-transformers/notebooks/loading-models-and-inference-with-hugging-face-inferences.ipynb) |
+| [LoRA with PyTorch](notebooks/lora-with-pytorch.ipynb) | Reference | [Worked copy](../../solutions/10-fine-tuning-transformers/notebooks/lora-with-pytorch.ipynb) |
+| [Pre-Training and Fine-Tuning with PyTorch](notebooks/pre-training-and-fine-tuning-with-pytorch.ipynb) | Reference | [Worked copy](../../solutions/10-fine-tuning-transformers/notebooks/pre-training-and-fine-tuning-with-pytorch.ipynb) |
+| [Pre-training LLMs with Hugging Face](notebooks/pre-training-llms-with-hugging-face.ipynb) | Reference | [Worked copy](../../solutions/10-fine-tuning-transformers/notebooks/pre-training-llms-with-hugging-face.ipynb) |

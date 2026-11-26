@@ -1,0 +1,42 @@
+[
+  {
+    "solution": "solutions/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb",
+    "category": "provider-service",
+    "reason": "Requires IBM watsonx/Skills Network model access and a compatible LangChain integration. No provider calls were made in local verification."
+  },
+  {
+    "solution": "solutions/12-ai-agents-and-rag/notebooks/lab-building-ai-agents-from-scratch-with-python.ipynb",
+    "category": "provider-service",
+    "reason": "The weather tool requires a user-supplied OPENWEATHER_API_KEY; verify retrieval/routing locally before a service-enabled run."
+  },
+  {
+    "solution": "solutions/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "category": "provider-service",
+    "reason": "Requires IBM watsonx/Skills Network model access and a compatible LangChain integration. No provider calls were made in local verification."
+  },
+  {
+    "solution": "solutions/12-ai-agents-and-rag/notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb",
+    "category": "provider-service",
+    "reason": "Requires IBM watsonx/Skills Network model access and a compatible LangChain integration. No provider calls were made in local verification."
+  },
+  {
+    "solution": "solutions/13-rag-application-project/notebooks/create-and-configure-a-vector-database-to-store-document-embeddings.ipynb",
+    "category": "provider-service",
+    "reason": "Requires IBM watsonx embedding or generation access and matching LangChain integration. Provider execution remains separate from code preparation."
+  },
+  {
+    "solution": "solutions/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb",
+    "category": "provider-service",
+    "reason": "Requires IBM watsonx embedding or generation access and matching LangChain integration. Provider execution remains separate from code preparation."
+  },
+  {
+    "solution": "solutions/13-rag-application-project/notebooks/embed-documents-using-watsonx-s-embedding-model.ipynb",
+    "category": "provider-service",
+    "reason": "Requires IBM watsonx embedding or generation access and matching LangChain integration. Provider execution remains separate from code preparation."
+  },
+  {
+    "solution": "solutions/13-rag-application-project/notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb",
+    "category": "provider-service",
+    "reason": "Requires IBM watsonx embedding or generation access and matching LangChain integration. Provider execution remains separate from code preparation."
+  }
+]

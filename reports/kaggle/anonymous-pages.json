@@ -1,0 +1,38 @@
+{
+  "result": "unverified-web-route-unavailable",
+  "note": "Anonymous requests returned empty 404 responses for all three new pages and also Kaggle home, an existing user notebook and the established credit-card dataset control. Public visibility is separately checked through authenticated returned notebook metadata; no successful anonymous browser check is claimed.",
+  "new_pages": [
+    {
+      "project": "satellite",
+      "status": 404,
+      "url": "https://www.kaggle.com/code/kerem0zcan/satellite-cnn-vs-transformer-across-source-scenes",
+      "title": null
+    },
+    {
+      "project": "aircraft",
+      "status": 404,
+      "url": "https://www.kaggle.com/code/kerem0zcan/aircraft-damage-and-caption-reliability",
+      "title": null
+    },
+    {
+      "project": "instruction_tuning",
+      "status": 404,
+      "url": "https://www.kaggle.com/code/kerem0zcan/lora-instruction-tuning-and-verified-reload",
+      "title": null
+    }
+  ],
+  "controls": [
+    {
+      "url": "https://www.kaggle.com",
+      "status": 404
+    },
+    {
+      "url": "https://www.kaggle.com/code/kerem0zcan/waste-classification-with-vgg16-full-dataset",
+      "status": 404
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud",
+      "status": 404
+    }
+  ]
+}

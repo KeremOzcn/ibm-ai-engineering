@@ -1,0 +1,148 @@
+{
+  "partitions": {
+    "train": [
+      {
+        "id": "b46d0e94fb9a625534d18a38d2478d9d8e8d57fbfa6efcd54f534484cfccffb2",
+        "group": "d9b0167a193093c16171a947d49de5cedba66c52cc51ce0ec5ba81966673da88"
+      },
+      {
+        "id": "ed2ed3041a763f1eb7e41f8d52dabb70cda9573b263925a5620d39d364a3788b",
+        "group": "d1ded72d9a6c229d4a9652f20d4dbef5ac06543ac98855d39371e164b0ce1a2f"
+      },
+      {
+        "id": "af2f99a10a9701ba3eac3398a730e9fa93ea76ec950919d338b8545cb4e6b3d2",
+        "group": "5fcc2b70f0125a7b71998a6e0a76b50dd97fc7bf358e690687efb10c21ca5dc0"
+      },
+      {
+        "id": "faa5be4232582fd261801a00fbf173eac1240aad482451b23a7cd31ea66c59d4",
+        "group": "794a5273e1036a7174f5d3edd5d41d8e4cc5d6d85e75e2e72ca4558c9a82fd92"
+      },
+      {
+        "id": "750a80dc6b68278e9c1478d817a93089cfebdd53926bc8a1c11a4cbdec47ab3f",
+        "group": "ae19779452156e80485fd12f52fc1f565748978b0273484e10ccdef89d48ff63"
+      },
+      {
+        "id": "3c9342b7421eb6a5edbdf7237be32d336077c406139c0aab011a28bd17177c45",
+        "group": "02d86af80b90e5ab4e04f6668f30e908e1cc1a86fe6c4f7d4157c86ee8505617"
+      },
+      {
+        "id": "73cc033ad10f241947dd6589444d75aee1bff7aab2cb6669b6787e8ad8e250b3",
+        "group": "2530bc8f8447c601d91ba1dc5faa3cd695ae1a6ef57710b5440dbc0f20c16807"
+      },
+      {
+        "id": "d4fc4cd593401b745c52afa988bea118cc7d85c8cbba93edd412d37da7e93828",
+        "group": "04df3d694dce5d1648c719f8a9397a8194cb112326f99259ec5b66986c51b9c7"
+      },
+      {
+        "id": "f742eef62a65979e19a010a8ffc216d5d5d244be44bfbd864603d25d66cf4842",
+        "group": "97d343a546b91620f2b2cb2fff3611e106db1f7efa8685ae8f358163f696493c"
+      },
+      {
+        "id": "18dbbb2c6833b4e23a9f6c30739be86f04b0079f995b501292668e079450f157",
+        "group": "613410d0bb37be3af23008fbfecd377a2c2643e6f3cf0320019f2407080ff163"
+      },
+      {
+        "id": "b90aecb0489fdcc0052cfc8f7610f83e298fa839884d89a71553b165b50d806a",
+        "group": "b8a87a0fd86e5f2571f6f028e928a879c1037f886f3a6caab9397bb9fd2878df"
+      },
+      {
+        "id": "c9b57eef0dba1a987570740dcda3a00c5b7eb3ae8075cae57596ecc2a0eadc76",
+        "group": "dab960bef171ed1bc33f4889db26a1d6136e2c950f671b3dc24bceceea6f3eac"
+      },
+      {
+        "id": "c94a728a8b10b7c21843f89a590ee2ac3ee6ed765e91dfb62f9a41cd42a13af7",
+        "group": "86528008de45a19e715371bd65511c73e374512cafc76ec30102cd097cfd2dcb"
+      },
+      {
+        "id": "a64da4995c8d23fa55ad9a7fa1ebe37968b36308f18b5e6f4b2eac442436e679",
+        "group": "b1a60303719f082ad1aac1720a818006b99a70a9a3015f528e1af6902d57485a"
+      },
+      {
+        "id": "b7f2dbac6736ca3d9a757c1deceff98effb72c171d529edbfd37f8713b718787",
+        "group": "be855643ae54affa5af9879d4a657768a6e1c33c9bdba2e0c69feb478a0831ee"
+      },
+      {
+        "id": "366b77e1d1a9ad741eeef40584d6f69e51c31bb6928be2d63a568918213007f9",
+        "group": "6daa59d2804d894b82ed10c8494f70560e8f0413c5363fed97844a009072209a"
+      }
+    ],
+    "validation": [
+      {
+        "id": "1fe7a36cb6f4a9e6edc3502402e52e1e852fd45b7f533e17fb90b70e4de78c9a",
+        "group": "363b45d554cb3d639748718185ec611b769dc80cf0aca141db18ba6ecfdf804f"
+      },
+      {
+        "id": "387e33673a8921b36916b53dfea2272425dfaa0baf6b08882888719d90592a4a",
+        "group": "39b491c08825e6e6b52c1302cf99cd3555ec651810fdee1560533f25d25e8d54"
+      },
+      {
+        "id": "7abb4797ac3772e7aa64feef7b43629d6dd6d7f08ddfff28cc803f2cb33a0b9e",
+        "group": "fabaf57ff54ac7e38060bc8d93f82f4124e3d38a1f2f7b6f8fbb6208c3ff49e8"
+      },
+      {
+        "id": "f407d131f5238d0076063d05575738202aa593557f88610d1c5c2410e16e8856",
+        "group": "4d523fedb4d47d6de4fc925186e49c353e5e459ce38671151f5decc9887427d8"
+      },
+      {
+        "id": "f751639e850249e164fd29da5af35fd4737e29fad92e106a9c09c071deb12aca",
+        "group": "0a7f24d72a07b732a48e2c7d651aa42df3f8447909e28f27cec875700da62b90"
+      },
+      {
+        "id": "4016ae53e68197423dfe67fb2cef4104b941105b3f2562ac6218d2732b32878d",
+        "group": "d21cde819fa7ce21fb2820f1ce26bd4b90e052a720a7898d759aaf3ea9535a68"
+      },
+      {
+        "id": "65e141884d7c35b5362d76d22475917ae75a7e2445ea0d7a78213a5053ed83a0",
+        "group": "8885a46a68ab7e929baad70bce458dc0b65dcc98d3912f2601071e1883aaf6fd"
+      },
+      {
+        "id": "a8283dfa5d681faf4fb2e917d4de3a33542641ff423cd573a3edc3519d2be88d",
+        "group": "3cf75bce9cf6249d17be905339c7c3b30c2db6da230533942cc49095d2a62ff4"
+      }
+    ],
+    "test": [
+      {
+        "id": "145484a449f623c6d19e894201c69e31201fe457d20b8c7d7b869b343d6ad89a",
+        "group": "b2f22f5ed3ce1d73eef591c0e7c4c07593752ed8a0fb6a2e9b7c0c0eef163cd3"
+      },
+      {
+        "id": "c927cf854323f3105460d9b9f57230cc816d8d1ed3c66e18523603e76e4687cf",
+        "group": "74b6542f082aa6a38d1f4544f9f00f2c89a51f0599d340687fbfb1dbbd256777"
+      },
+      {
+        "id": "467c186f1d93a56c5d9ea1dcbb976b8b56ad24168f859d102875480b8caddca7",
+        "group": "84508f01961aa6029c158f1689723403d7c085dc367d40c8e6dfd38d82ac4a8e"
+      },
+      {
+        "id": "0029b9f688c2e42e1eeb27623443f6da8d47aeb81503dce2150589df0c65047e",
+        "group": "f7633d4cc8bbdef1556c75f5e8cced2c5a2fbbdd16671753a63a53ff33e8b483"
+      },
+      {
+        "id": "6ea109ff94f51f0d80a4d3dbe06306141547a1afb09fcffc9e4ae8ba02449d69",
+        "group": "5e873c44e80707d7f69251fa8cf190d2dada4e651ab58a24cea428d2b4f29b62"
+      },
+      {
+        "id": "2ba1def6a2963952419c753eaeb3dc8e8e9e8c33697f8c58bfa3914fce78487e",
+        "group": "e0ed2d090d7c2972090da7dec51f9d543ac45f9dce8dcd0c239ad9e5b45c0dda"
+      },
+      {
+        "id": "499195f6743d986eac9440bdf55d8190dd4aa82ac4e2680bc6cd5e1e99ea0761",
+        "group": "66f0913c583628664bee22a564e9ca51a29ca97bcc57c15da6816d12265415d1"
+      },
+      {
+        "id": "c4c4ae71a6199ad9242db7259a8258212dacc092e1dd77203992a27b490a1401",
+        "group": "19e6022fd53f03cc5aad0a5fdae61b29820150fa9ce29ec85a1b8d990bfdcbb6"
+      }
+    ]
+  },
+  "available_grouped_counts": {
+    "train": 48672,
+    "validation": 6084,
+    "test": 6089
+  },
+  "rejected_before_selection": {
+    "train": 11,
+    "validation": 5,
+    "test": 9
+  }
+}

@@ -1,0 +1,67 @@
+[{"stream_name":"stderr","time":11.661952424,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.661999052,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.662005427,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.662009802,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.382361527,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.382391978,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.382397403,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.382401684,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":52.627790347,"data":"gru epoch 1 validation_nll 4.126716476664017\n"}
+,{"stream_name":"stdout","time":56.710513104,"data":"gru epoch 2 validation_nll 3.669447700852744\n"}
+,{"stream_name":"stdout","time":60.796177222,"data":"gru epoch 3 validation_nll 3.4085749045306883\n"}
+,{"stream_name":"stdout","time":64.923425319,"data":"gru epoch 4 validation_nll 3.2248934238761837\n"}
+,{"stream_name":"stdout","time":69.041104014,"data":"gru epoch 5 validation_nll 3.090087705005227\n"}
+,{"stream_name":"stdout","time":73.19356992,"data":"gru epoch 6 validation_nll 2.9842606666571267\n"}
+,{"stream_name":"stderr","time":74.969816413,"data":"That's 100 lines that end in a tokenized period ('.')\n"}
+,{"stream_name":"stderr","time":74.969869962,"data":"\n"}
+,{"stream_name":"stderr","time":74.969878363,"data":"That's 100 lines that end in a tokenized period ('.')\n"}
+,{"stream_name":"stderr","time":74.970703047,"data":"It looks like you forgot to detokenize your test data, which may hurt your score.\n"}
+,{"stream_name":"stderr","time":74.970723177,"data":"\n"}
+,{"stream_name":"stderr","time":74.970728329,"data":"It looks like you forgot to detokenize your test data, which may hurt your score.\n"}
+,{"stream_name":"stderr","time":74.971492629,"data":"If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.\n"}
+,{"stream_name":"stderr","time":74.97151005,"data":"\n"}
+,{"stream_name":"stderr","time":74.971514878,"data":"If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.\n"}
+,{"stream_name":"stdout","time":83.824356184,"data":"transformer epoch 1 validation_nll 3.6094510366088093\n"}
+,{"stream_name":"stderr","time":83.857745068,"data":"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/transformer.py:531: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)\n"}
+,{"stream_name":"stderr","time":83.857789865,"data":"  output = torch._nested_tensor_from_mask(\n"}
+,{"stream_name":"stderr","time":83.857794751,"data":"\n"}
+,{"stream_name":"stderr","time":83.857822478,"data":"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/transformer.py:531: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)\n"}
+,{"stream_name":"stderr","time":83.857843351,"data":"  output = torch._nested_tensor_from_mask(\n"}
+,{"stream_name":"stdout","time":92.128178482,"data":"transformer epoch 2 validation_nll 3.1540460858122237\n"}
+,{"stream_name":"stdout","time":100.38368803,"data":"transformer epoch 3 validation_nll 2.911934318679586\n"}
+,{"stream_name":"stdout","time":108.996536206,"data":"transformer epoch 4 validation_nll 2.7277374225391813\n"}
+,{"stream_name":"stdout","time":117.788036438,"data":"transformer epoch 5 validation_nll 2.592316441619004\n"}
+,{"stream_name":"stdout","time":126.548288613,"data":"transformer epoch 6 validation_nll 2.488130324250069\n"}
+,{"stream_name":"stderr","time":131.950801975,"data":"That's 100 lines that end in a tokenized period ('.')\n"}
+,{"stream_name":"stderr","time":131.950864337,"data":"\n"}
+,{"stream_name":"stderr","time":131.950870886,"data":"That's 100 lines that end in a tokenized period ('.')\n"}
+,{"stream_name":"stderr","time":131.952223051,"data":"It looks like you forgot to detokenize your test data, which may hurt your score.\n"}
+,{"stream_name":"stderr","time":131.952254718,"data":"\n"}
+,{"stream_name":"stderr","time":131.952261928,"data":"It looks like you forgot to detokenize your test data, which may hurt your score.\n"}
+,{"stream_name":"stderr","time":131.953388298,"data":"If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.\n"}
+,{"stream_name":"stderr","time":131.953403849,"data":"\n"}
+,{"stream_name":"stderr","time":131.953408527,"data":"If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.\n"}
+,{"stream_name":"stdout","time":132.302423947,"data":"Executed profile: complete-retained-splits\n"}
+,{"stream_name":"stdout","time":132.302450984,"data":"Actual runtime: {'utc': '2026-11-26T11:59:20.380405+00:00', 'python': '3.13.16', 'platform': 'Linux', 'packages': {'torch': '2.11.0+cu130', 'sacrebleu': '2.5.1', 'numpy': '2.1.3'}}\n"}
+,{"stream_name":"stdout","time":132.302456756,"data":"Source identity: {'project_sha256': '0a1a42aec67caecd549b1614ce19655b5f54038f7683ca5d388fae85f022f8e6', 'common_sha256': 'ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853'}\n"}
+,{"stream_name":"stdout","time":132.504138254,"data":"gru parameters 3327296 BLEU signature nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.5.1 test samples 1000 reload True\n"}
+,{"stream_name":"stdout","time":132.504169123,"data":"{\"source\": \"Ein Mann mittleren Alters mit roten Haaren und Brille hält einen Säugling.\", \"reference\": \"A middle-aged man with red-hair and glasses holding an infant.\", \"prediction\": \"a person with a red hat and a hat is standing with a large white and white .\"}\n"}
+,{"stream_name":"stdout","time":132.504191715,"data":"{\"source\": \"Die Silhouetten von zwei Personen auf einem See, der einen bunten Himmel reflektiert.\", \"reference\": \"Two people are silhouetted against a lake reflecting a painted sky.\", \"prediction\": \"the two men are walking on a beach while a picture of people on a beach .\"}\n"}
+,{"stream_name":"stdout","time":132.504198681,"data":"{\"source\": \"Ein Typ in einem weißen Trikot mit der Nummer 3 auf dem Rücken spielt Fußball.\", \"reference\": \"A guy dressed in a white uniform with a number 3 on it playing soccer.\", \"prediction\": \"a man in a red hat is standing on the sidewalk with a red ball on the beach .\"}\n"}
+,{"stream_name":"stdout","time":132.504205481,"data":"transformer parameters 3743040 BLEU signature nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.5.1 test samples 1000 reload True\n"}
+,{"stream_name":"stdout","time":132.504226123,"data":"{\"source\": \"Ein Mann mittleren Alters mit roten Haaren und Brille hält einen Säugling.\", \"reference\": \"A middle-aged man with red-hair and glasses holding an infant.\", \"prediction\": \"a middle - aged man with glasses holds a red - aged man with glasses and glasses holds a red glasses .\"}\n"}
+,{"stream_name":"stdout","time":132.504231466,"data":"{\"source\": \"Die Silhouetten von zwei Personen auf einem See, der einen bunten Himmel reflektiert.\", \"reference\": \"Two people are silhouetted against a lake reflecting a painted sky.\", \"prediction\": \"two people are performing a lake on a lake .\"}\n"}
+,{"stream_name":"stdout","time":132.504241731,"data":"{\"source\": \"Ein Typ in einem weißen Trikot mit der Nummer 3 auf dem Rücken spielt Fußball.\", \"reference\": \"A guy dressed in a white uniform with a number 3 on it playing soccer.\", \"prediction\": \"a guy in a white uniform playing soccer ball on the soccer ball .\"}\n"}
+,{"stream_name":"stdout","time":132.895371168,"data":"Actual selected counts: {'test': 1000, 'validation': 1014, 'train': 28974}\n"}
+,{"stream_name":"stdout","time":132.895409637,"data":"Same retained pairs, initial embeddings, example order, learning rate and epochs; model capacities and computation differ. Not an isolated causal test of attention.\n"}
+,{"stream_name":"stderr","time":138.491894559,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":138.491930973,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":138.700905054,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":138.700931064,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":139.574461434,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":139.66152656,"data":"[NbConvertApp] Writing 112064 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":142.410683985,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":143.109366327,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":143.109399874,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":143.109648907,"data":"[NbConvertApp] Writing 424543 bytes to __results__.html\n"}
+]

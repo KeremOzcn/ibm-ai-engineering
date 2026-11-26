@@ -1,0 +1,297 @@
+{
+  "project": "cartpole",
+  "profile": "bounded-pilot",
+  "models": {
+    "online_target": {
+      "runs": [
+        {
+          "seed": 11,
+          "history": [
+            {
+              "environment_steps": 200,
+              "validation_mean_return": 9.0
+            },
+            {
+              "environment_steps": 400,
+              "validation_mean_return": 9.0
+            },
+            {
+              "environment_steps": 600,
+              "validation_mean_return": 9.0
+            },
+            {
+              "environment_steps": 800,
+              "validation_mean_return": 9.0
+            },
+            {
+              "environment_steps": 1000,
+              "validation_mean_return": 9.0
+            }
+          ],
+          "training_episode_returns": [
+            26,
+            18,
+            14,
+            17,
+            16,
+            25,
+            15,
+            24,
+            25,
+            34,
+            35,
+            11,
+            11,
+            12,
+            11,
+            14,
+            11,
+            14,
+            9,
+            42,
+            15,
+            14,
+            10,
+            10,
+            11,
+            18,
+            9,
+            12,
+            17,
+            12,
+            12,
+            9,
+            16,
+            14,
+            10,
+            8,
+            12,
+            10,
+            10,
+            9,
+            9,
+            9,
+            9,
+            10,
+            9,
+            9,
+            14,
+            11,
+            11,
+            9,
+            10,
+            9,
+            9,
+            9,
+            10,
+            8,
+            9,
+            12,
+            10,
+            9,
+            9,
+            8,
+            10,
+            10,
+            8,
+            9,
+            11,
+            9,
+            10,
+            9,
+            9,
+            9,
+            10,
+            11,
+            9,
+            9,
+            9,
+            8,
+            9
+          ],
+          "checkpoint_sha256": "dff800b68f85979d970cb7a86dd8542dbbdec3df12c0d5cd82a843bbb4c9db6c",
+          "exact_reload": true,
+          "environment_steps": 1000,
+          "test_returns": [
+            8,
+            9,
+            10,
+            10,
+            10
+          ],
+          "test_mean_return": 9.4
+        }
+      ],
+      "mean_of_seed_means": 9.4,
+      "std_of_seed_means": null
+    },
+    "lagged_target": {
+      "runs": [
+        {
+          "seed": 11,
+          "history": [
+            {
+              "environment_steps": 200,
+              "validation_mean_return": 9.0
+            },
+            {
+              "environment_steps": 400,
+              "validation_mean_return": 13.8
+            },
+            {
+              "environment_steps": 600,
+              "validation_mean_return": 11.2
+            },
+            {
+              "environment_steps": 800,
+              "validation_mean_return": 9.6
+            },
+            {
+              "environment_steps": 1000,
+              "validation_mean_return": 9.6
+            }
+          ],
+          "training_episode_returns": [
+            26,
+            18,
+            14,
+            17,
+            16,
+            25,
+            15,
+            24,
+            25,
+            34,
+            35,
+            11,
+            11,
+            12,
+            11,
+            14,
+            11,
+            14,
+            9,
+            42,
+            19,
+            21,
+            24,
+            49,
+            22,
+            20,
+            13,
+            12,
+            13,
+            15,
+            13,
+            10,
+            10,
+            12,
+            10,
+            8,
+            12,
+            10,
+            9,
+            10,
+            10,
+            10,
+            9,
+            9,
+            10,
+            9,
+            12,
+            9,
+            10,
+            10,
+            9,
+            12,
+            10,
+            11,
+            8,
+            10,
+            9,
+            9,
+            8,
+            10,
+            10,
+            10,
+            10,
+            9,
+            12,
+            10,
+            8,
+            10,
+            9,
+            10,
+            9
+          ],
+          "checkpoint_sha256": "295dd2379a9d35aa40887e9a1ba3a9ccd4623b74197b27def330fe835dbb2e9f",
+          "exact_reload": true,
+          "environment_steps": 1000,
+          "test_returns": [
+            12,
+            14,
+            16,
+            17,
+            17
+          ],
+          "test_mean_return": 15.2
+        }
+      ],
+      "mean_of_seed_means": 15.2,
+      "std_of_seed_means": null
+    }
+  },
+  "random_baseline_returns": [
+    24,
+    10,
+    17,
+    13,
+    16
+  ],
+  "manifest": {
+    "train_seeds": [
+      11
+    ],
+    "validation_seeds": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004
+    ],
+    "test_seeds": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004
+    ],
+    "episode_limit": 500
+  },
+  "training_config": {
+    "replay_capacity": 10000,
+    "batch_size": 64,
+    "warmup_steps": 256,
+    "gradient_interval": 4,
+    "target_sync_steps": 500,
+    "gamma": 0.99,
+    "learning_rate": 0.001
+  },
+  "split_manifest_sha256": "ad2bbde9ca4b8d9b914b14a5c38be340d249cde5580abd5d8f98cfc454acd3dd",
+  "limitations": "CartPole is a simple simulated control task. Three seeds and twenty test episodes per seed do not establish general RL robustness; no real-world control claim.",
+  "seconds": 0.7019383340375498,
+  "runtime": {
+    "utc": "2026-11-26T11:38:41.415228+00:00",
+    "python": "3.11.15",
+    "platform": "Darwin",
+    "packages": {
+      "torch": "2.8.0",
+      "numpy": "2.0.2",
+      "gymnasium": "1.1.1"
+    }
+  },
+  "source": {
+    "project_sha256": "fb22b8dd65d9f3e9f7f486a0a88b5899e869e84a709ca7ca0bb61ef61f9ffcbe",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  }
+}

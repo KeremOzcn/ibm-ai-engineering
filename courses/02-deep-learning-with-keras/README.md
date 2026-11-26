@@ -41,15 +41,15 @@ For a batch X of shape (B, d), a dense layer with h units maps XW + b to shape (
 
 ## Collected material
 
-8 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+8 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Activation Functions and Vanishing Gradients](notebooks/activation-functions-and-vanishing-gradients.ipynb) | Reference |
-| [Aircraft Damage Classification and Captioning](notebooks/aircraft-damage-classification-and-captioning.ipynb) | Reference; 1 syntax blanks |
-| [Artificial Neural Networks - Forward Propagation](notebooks/artificial-neural-networks-forward-propagation.ipynb) | Reference |
-| [Backpropagation](notebooks/backpropagation.ipynb) | Reference |
-| [Classification Models with Keras](notebooks/classification-models-with-keras.ipynb) | Reference |
-| [Convolutional Neural Networks with Keras](notebooks/convolutional-neural-networks-with-keras.ipynb) | Reference |
-| [Regression Models with Keras](notebooks/regression-models-with-keras.ipynb) | Reference |
-| [Transformers with Keras](notebooks/transformers-with-keras.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Activation Functions and Vanishing Gradients](notebooks/activation-functions-and-vanishing-gradients.ipynb) | Reference | [Worked copy](../../solutions/02-deep-learning-with-keras/notebooks/activation-functions-and-vanishing-gradients.ipynb) |
+| [Aircraft Damage Classification and Captioning](notebooks/aircraft-damage-classification-and-captioning.ipynb) | Reference; 1 syntax blanks | [Worked copy](../../solutions/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb) |
+| [Artificial Neural Networks - Forward Propagation](notebooks/artificial-neural-networks-forward-propagation.ipynb) | Reference | [Worked copy](../../solutions/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb) |
+| [Backpropagation](notebooks/backpropagation.ipynb) | Reference | [Worked copy](../../solutions/02-deep-learning-with-keras/notebooks/backpropagation.ipynb) |
+| [Classification Models with Keras](notebooks/classification-models-with-keras.ipynb) | Reference | [Worked copy](../../solutions/02-deep-learning-with-keras/notebooks/classification-models-with-keras.ipynb) |
+| [Convolutional Neural Networks with Keras](notebooks/convolutional-neural-networks-with-keras.ipynb) | Reference | [Worked copy](../../solutions/02-deep-learning-with-keras/notebooks/convolutional-neural-networks-with-keras.ipynb) |
+| [Regression Models with Keras](notebooks/regression-models-with-keras.ipynb) | Reference | [Worked copy](../../solutions/02-deep-learning-with-keras/notebooks/regression-models-with-keras.ipynb) |
+| [Transformers with Keras](notebooks/transformers-with-keras.ipynb) | Reference | [Worked copy](../../solutions/02-deep-learning-with-keras/notebooks/transformers-with-keras.ipynb) |

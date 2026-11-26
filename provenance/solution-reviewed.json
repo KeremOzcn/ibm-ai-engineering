@@ -1,0 +1,202 @@
+[
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-k-means-clustering.ipynb",
+    "cell": 21,
+    "reason": "The cell is implemented; correct its k values to match the exercise before execution."
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/machine-learning-pipelines-and-gridsearchcv.ipynb",
+    "cell": 50,
+    "reason": "Empty trailing cell after authorship footer; no question or answer required."
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "cell": 60,
+    "reason": "Empty trailing cell after the course footer; no exercise."
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb",
+    "cell": 16,
+    "reason": "The Transformer classes are implemented; no unanswered expression. Later generation code is adapted separately."
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/practice-project-fruit-classification-using-transfer-learning.ipynb",
+    "cell": 18,
+    "reason": "The dataset downloader is implemented; the word placeholder occurs only in its documentation, not as an unanswered exercise."
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/data-loading-and-augmentation-using-keras.ipynb",
+    "cell": 33,
+    "reason": "The complete source cell matches the previously verified template; no unanswered exercise remains in this cell."
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 61,
+    "reason": "The complete source cell matches the previously verified template; no unanswered exercise remains in this cell."
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 66,
+    "reason": "The complete source cell matches the previously verified template; no unanswered exercise remains in this cell."
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "cell": 29,
+    "reason": "The complete source cell matches the previously verified template; no unanswered exercise remains in this cell."
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 58,
+    "reason": "The complete source cell matches the previously verified template; no unanswered exercise remains in this cell."
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-a-language-model-using-histogram-n-gram-analysis.ipynb",
+    "cell": 13,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "cell": 13,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/document-classification-with-word-embeddings.ipynb",
+    "cell": 13,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part1.ipynb",
+    "cell": 15,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part1.ipynb",
+    "cell": 25,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part2.ipynb",
+    "cell": 22,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb",
+    "cell": 15,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb",
+    "cell": 74,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 9,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 23,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 144,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/applying-transformers-for-classification.ipynb",
+    "cell": 16,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/data-loading-and-text-processing-for-bert.ipynb",
+    "cell": 14,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/decoder-causal-language-models.ipynb",
+    "cell": 13,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/pretraining-bert-models.ipynb",
+    "cell": 12,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/self-attention-and-positional-encoding.ipynb",
+    "cell": 13,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/adapters-in-pytorch.ipynb",
+    "cell": 14,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 14,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/loading-models-and-inference-with-hugging-face-inferences.ipynb",
+    "cell": 16,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/lora-with-pytorch.ipynb",
+    "cell": 13,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/pre-training-and-fine-tuning-with-pytorch.ipynb",
+    "cell": 14,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/pre-training-llms-with-hugging-face.ipynb",
+    "cell": 14,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/enhance-llms-using-rag-and-hugging-face.ipynb",
+    "cell": 15,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb",
+    "cell": 17,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "cell": 17,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "cell": 216,
+    "reason": "The phrase \"your code\" is part of a completed agent prompt, not an unanswered Python exercise."
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/rag-with-pytorch.ipynb",
+    "cell": 14,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb",
+    "cell": 18,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/load-documents-using-langchain-for-different-sources.ipynb",
+    "cell": 16,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb",
+    "cell": 15,
+    "reason": "Reviewed implemented import/helper/example code; the audit matched a comment or string, not an unanswered exercise."
+  }
+]

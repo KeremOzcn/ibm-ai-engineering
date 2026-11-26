@@ -1,0 +1,26 @@
+[
+  {
+    "project": "satellite",
+    "ref": "kerem0zcan/satellite-cnn-vs-transformer-across-source-scenes",
+    "version": 2,
+    "status": "COMPLETE",
+    "is_private": false,
+    "verified_client_date": "2026-11-26"
+  },
+  {
+    "project": "aircraft",
+    "ref": "kerem0zcan/aircraft-damage-and-caption-reliability",
+    "version": 2,
+    "status": "COMPLETE",
+    "is_private": false,
+    "verified_client_date": "2026-11-26"
+  },
+  {
+    "project": "instruction_tuning",
+    "ref": "kerem0zcan/lora-instruction-tuning-and-verified-reload",
+    "version": 2,
+    "status": "COMPLETE",
+    "is_private": false,
+    "verified_client_date": "2026-11-26"
+  }
+]

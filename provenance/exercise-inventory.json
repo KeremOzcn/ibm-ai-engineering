@@ -1,0 +1,1458 @@
+[
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/comparing-dbscan-and-hdbscan-clustering.ipynb",
+    "cell": 18
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/comparing-dbscan-and-hdbscan-clustering.ipynb",
+    "cell": 21
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/comparing-dbscan-and-hdbscan-clustering.ipynb",
+    "cell": 24
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/comparing-dbscan-and-hdbscan-clustering.ipynb",
+    "cell": 27
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/comparing-dbscan-and-hdbscan-clustering.ipynb",
+    "cell": 43
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/comparing-dbscan-and-hdbscan-clustering.ipynb",
+    "cell": 46
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/credit-card-fraud-detection-with-decision-trees-and-svm.ipynb",
+    "cell": 50
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/credit-card-fraud-detection-with-decision-trees-and-svm.ipynb",
+    "cell": 53
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/decision-trees.ipynb",
+    "cell": 22
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/decision-trees.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/decision-trees.ipynb",
+    "cell": 47
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-classification-models.ipynb",
+    "cell": 28
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-classification-models.ipynb",
+    "cell": 45
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-classification-models.ipynb",
+    "cell": 49
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-k-means-clustering.ipynb",
+    "cell": 21
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-random-forest-performance.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-random-forest-performance.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-random-forest-performance.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/evaluating-random-forest-performance.ipynb",
+    "cell": 43
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/k-means-customer-segmentation.ipynb",
+    "cell": 28
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/k-means-customer-segmentation.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/k-means-customer-segmentation.ipynb",
+    "cell": 48
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/k-nearest-neighbors-classification.ipynb",
+    "cell": 39
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/k-nearest-neighbors-classification.ipynb",
+    "cell": 50
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-applications-of-principal-component-analysis-pca.ipynb",
+    "cell": 12
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-applications-of-principal-component-analysis-pca.ipynb",
+    "cell": 36
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-applications-of-principal-component-analysis-pca.ipynb",
+    "cell": 39
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-applications-of-principal-component-analysis-pca.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-applications-of-principal-component-analysis-pca.ipynb",
+    "cell": 47
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-comparing-random-forest-and-xgboost-modeling-performance.ipynb",
+    "cell": 10
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-comparing-random-forest-and-xgboost-modeling-performance.ipynb",
+    "cell": 17
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-comparing-random-forest-and-xgboost-modeling-performance.ipynb",
+    "cell": 20
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-comparing-random-forest-and-xgboost-modeling-performance.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-comparing-random-forest-and-xgboost-modeling-performance.ipynb",
+    "cell": 27
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-comparing-random-forest-and-xgboost-modeling-performance.ipynb",
+    "cell": 32
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/lab-comparing-tsne-and-umap-dimension-reduction-models.ipynb",
+    "cell": 14
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/machine-learning-pipelines-and-gridsearchcv.ipynb",
+    "cell": 16
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/machine-learning-pipelines-and-gridsearchcv.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/machine-learning-pipelines-and-gridsearchcv.ipynb",
+    "cell": 35
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/machine-learning-pipelines-and-gridsearchcv.ipynb",
+    "cell": 41
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/machine-learning-pipelines-and-gridsearchcv.ipynb",
+    "cell": 50
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multi-class-classification.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multi-class-classification.ipynb",
+    "cell": 52
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multi-class-classification.ipynb",
+    "cell": 55
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multi-class-classification.ipynb",
+    "cell": 58
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multiple-linear-regression.ipynb",
+    "cell": 48
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multiple-linear-regression.ipynb",
+    "cell": 51
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multiple-linear-regression.ipynb",
+    "cell": 55
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multiple-linear-regression.ipynb",
+    "cell": 58
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/multiple-linear-regression.ipynb",
+    "cell": 61
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "cell": 20
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "cell": 38
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "cell": 41
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "cell": 57
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "cell": 60
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/practice-project-titanic-survival-prediction.ipynb",
+    "cell": 65
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/regression-trees-for-taxi-tip-prediction.ipynb",
+    "cell": 40
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/regression-trees-for-taxi-tip-prediction.ipynb",
+    "cell": 43
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/regularization-in-linear-regression.ipynb",
+    "cell": 14
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/regularization-in-linear-regression.ipynb",
+    "cell": 24
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/regularization-in-linear-regression.ipynb",
+    "cell": 51
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/regularization-in-linear-regression.ipynb",
+    "cell": 55
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/regularization-in-linear-regression.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "cell": 26
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "cell": 47
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "cell": 50
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "cell": 53
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "cell": 56
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/simple-linear-regression.ipynb",
+    "cell": 60
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/activation-functions-and-vanishing-gradients.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/activation-functions-and-vanishing-gradients.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/activation-functions-and-vanishing-gradients.ipynb",
+    "cell": 21
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/activation-functions-and-vanishing-gradients.ipynb",
+    "cell": 26
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 35
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 38
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 47
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 53
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 59
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 70
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 78
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/aircraft-damage-classification-and-captioning.ipynb",
+    "cell": 81
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/backpropagation.ipynb",
+    "cell": 21
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/backpropagation.ipynb",
+    "cell": 25
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/classification-models-with-keras.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/classification-models-with-keras.ipynb",
+    "cell": 48
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/regression-models-with-keras.ipynb",
+    "cell": 53
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/regression-models-with-keras.ipynb",
+    "cell": 57
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-advanced-data-augmentation-with-keras.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-advanced-data-augmentation-with-keras.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-a-deep-q-network-with-keras.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-a-deep-q-network-with-keras.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-a-deep-q-network-with-keras.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-advanced-transformers.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-advanced-transformers.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-advanced-transformers.ipynb",
+    "cell": 40
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-autoencoders.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-autoencoders.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-building-autoencoders.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-creating-custom-layers-and-models.ipynb",
+    "cell": 21
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-creating-custom-layers-and-models.ipynb",
+    "cell": 24
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-creating-custom-layers-and-models.ipynb",
+    "cell": 27
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "cell": 54
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "cell": 57
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "cell": 60
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "cell": 63
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "cell": 66
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "cell": 69
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "cell": 72
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb",
+    "cell": 75
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-develop-gans-using-keras.ipynb",
+    "cell": 32
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-develop-gans-using-keras.ipynb",
+    "cell": 35
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-develop-gans-using-keras.ipynb",
+    "cell": 38
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb",
+    "cell": 28
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb",
+    "cell": 40
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-diffusion-models.ipynb",
+    "cell": 27
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-diffusion-models.ipynb",
+    "cell": 30
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-diffusion-models.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-q-learning-in-keras.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-q-learning-in-keras.ipynb",
+    "cell": 26
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-q-learning-in-keras.ipynb",
+    "cell": 29
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-the-functional-api-in-keras.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-the-functional-api-in-keras.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-the-functional-api-in-keras.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb",
+    "cell": 16
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb",
+    "cell": 26
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb",
+    "cell": 29
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb",
+    "cell": 32
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-practical-application-of-transpose-convolution.ipynb",
+    "cell": 25
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-practical-application-of-transpose-convolution.ipynb",
+    "cell": 28
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-practical-application-of-transpose-convolution.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-transfer-learning-implementation.ipynb",
+    "cell": 21
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-transfer-learning-implementation.ipynb",
+    "cell": 24
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/lab-transfer-learning-implementation.ipynb",
+    "cell": 27
+  },
+  {
+    "reference": "courses/03-keras-and-tensorflow/notebooks/practice-project-fruit-classification-using-transfer-learning.ipynb",
+    "cell": 18
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/deep-neural-network-for-breast-cancer-classification.ipynb",
+    "cell": 46
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/differentiation-in-pytorch.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "cell": 7
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "cell": 9
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "cell": 11
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "cell": 15
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "cell": 18
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "cell": 20
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb",
+    "cell": 22
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-optimization-in-pytorch.ipynb",
+    "cell": 54
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-mini-batch-gradient-descent.ipynb",
+    "cell": 78
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-stochastic-gradient-descent-sgd.ipynb",
+    "cell": 71
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-stochastic-gradient-descent-sgd.ipynb",
+    "cell": 74
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter.ipynb",
+    "cell": 47
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/linear-regression-training-and-validation-data.ipynb",
+    "cell": 40
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/prebuilt-datasets-and-transforms.ipynb",
+    "cell": 42
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/simple-dataset.ipynb",
+    "cell": 25
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/simple-dataset.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/simple-dataset.ipynb",
+    "cell": 65
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/torch-tensors-in-1d.ipynb",
+    "cell": 165
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/torch-tensors-in-1d.ipynb",
+    "cell": 212
+  },
+  {
+    "reference": "courses/04-pytorch-foundations/notebooks/two-dimensional-tensors.ipynb",
+    "cell": 102
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/activation-functions.ipynb",
+    "cell": 42
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-for-anime-image-classification.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-for-anime-image-classification.ipynb",
+    "cell": 47
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/deeper-neural-networks-with-nn-modulelist.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/fashion-mnist-project.ipynb",
+    "cell": 20
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/fashion-mnist-project.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/fashion-mnist-project.ipynb",
+    "cell": 35
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/momentum-with-different-polynomials.ipynb",
+    "cell": 49
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/multiple-input-and-output-channels.ipynb",
+    "cell": 79
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/neural-networks-with-one-hidden-layer.ipynb",
+    "cell": 51
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/practice-neural-networks-with-one-hidden-layer-noisy-xor.ipynb",
+    "cell": 31
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/practice-neural-networks-with-one-hidden-layer-noisy-xor.ipynb",
+    "cell": 39
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/practice-neural-networks-with-one-hidden-layer-noisy-xor.ipynb",
+    "cell": 47
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/simple-one-hidden-layer-neural-network.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/05-deep-learning-with-pytorch/notebooks/what-is-convolution.ipynb",
+    "cell": 71
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/data-loading-and-augmentation-using-keras.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb",
+    "cell": 9
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb",
+    "cell": 36
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb",
+    "cell": 49
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb",
+    "cell": 59
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+    "cell": 24
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+    "cell": 38
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+    "cell": 42
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+    "cell": 50
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb",
+    "cell": 57
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 25
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 26
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 45
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 49
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 59
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 61
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 66
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb",
+    "cell": 68
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "cell": 15
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "cell": 29
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "cell": 39
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "cell": 58
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb",
+    "cell": 62
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "cell": 46
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "cell": 56
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "cell": 69
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "cell": 77
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb",
+    "cell": 90
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 9
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 21
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 58
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 29
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 32
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 47
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 50
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb",
+    "cell": 55
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "cell": 9
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "cell": 17
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "cell": 46
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "cell": 50
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "cell": 55
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "cell": 61
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "cell": 66
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb",
+    "cell": 69
+  },
+  {
+    "reference": "courses/07-llm-data-preparation/notebooks/exploring-generative-ai-libraries.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/07-llm-data-preparation/notebooks/implementing-tokenization.ipynb",
+    "cell": 60
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-a-language-model-using-histogram-n-gram-analysis.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "cell": 98
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "cell": 101
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "cell": 104
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "cell": 107
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "cell": 110
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb",
+    "cell": 113
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/document-classification-with-word-embeddings.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/document-classification-with-word-embeddings.ipynb",
+    "cell": 87
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/document-classification-with-word-embeddings.ipynb",
+    "cell": 90
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/document-classification-with-word-embeddings.ipynb",
+    "cell": 93
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part1.ipynb",
+    "cell": 15
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part1.ipynb",
+    "cell": 25
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/integrating-word2vec-part2.ipynb",
+    "cell": 22
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb",
+    "cell": 15
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb",
+    "cell": 74
+  },
+  {
+    "reference": "courses/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb",
+    "cell": 109
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 9
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 23
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 144
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 149
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 154
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/applying-transformers-for-classification.ipynb",
+    "cell": 16
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/applying-transformers-for-classification.ipynb",
+    "cell": 164
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/data-loading-and-text-processing-for-bert.ipynb",
+    "cell": 14
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/data-loading-and-text-processing-for-bert.ipynb",
+    "cell": 57
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/data-loading-and-text-processing-for-bert.ipynb",
+    "cell": 60
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/data-loading-and-text-processing-for-bert.ipynb",
+    "cell": 63
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/decoder-causal-language-models.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/decoder-causal-language-models.ipynb",
+    "cell": 125
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/pretraining-bert-models.ipynb",
+    "cell": 12
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/pretraining-bert-models.ipynb",
+    "cell": 65
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/pretraining-bert-models.ipynb",
+    "cell": 68
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/self-attention-and-positional-encoding.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/09-transformer-language-models/notebooks/self-attention-and-positional-encoding.ipynb",
+    "cell": 135
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/adapters-in-pytorch.ipynb",
+    "cell": 14
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/adapters-in-pytorch.ipynb",
+    "cell": 153
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 14
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 66
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 69
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 72
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 75
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 78
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 81
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 85
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 89
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 92
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/loading-models-and-inference-with-hugging-face-inferences.ipynb",
+    "cell": 16
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/loading-models-and-inference-with-hugging-face-inferences.ipynb",
+    "cell": 64
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/lora-with-pytorch.ipynb",
+    "cell": 13
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/lora-with-pytorch.ipynb",
+    "cell": 181
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/pre-training-and-fine-tuning-with-pytorch.ipynb",
+    "cell": 14
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/pre-training-and-fine-tuning-with-pytorch.ipynb",
+    "cell": 123
+  },
+  {
+    "reference": "courses/10-fine-tuning-transformers/notebooks/pre-training-llms-with-hugging-face.ipynb",
+    "cell": 14
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 64
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 68
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 71
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 74
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 81
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 84
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 87
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 90
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 93
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb",
+    "cell": 92
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb",
+    "cell": 96
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb",
+    "cell": 101
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb",
+    "cell": 104
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb",
+    "cell": 107
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/reinforcement-learning-from-human-feedback-using-ppo.ipynb",
+    "cell": 181
+  },
+  {
+    "reference": "courses/11-advanced-fine-tuning/notebooks/reward-modeling.ipynb",
+    "cell": 76
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/enhance-llms-using-rag-and-hugging-face.ipynb",
+    "cell": 15
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/enhance-llms-using-rag-and-hugging-face.ipynb",
+    "cell": 88
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb",
+    "cell": 17
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb",
+    "cell": 93
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb",
+    "cell": 97
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb",
+    "cell": 101
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/lab-building-ai-agents-from-scratch-with-python.ipynb",
+    "cell": 11
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "cell": 17
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "cell": 216
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "cell": 224
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "cell": 230
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/langchain.ipynb",
+    "cell": 234
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/rag-with-pytorch.ipynb",
+    "cell": 14
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/rag-with-pytorch.ipynb",
+    "cell": 86
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb",
+    "cell": 91
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb",
+    "cell": 95
+  },
+  {
+    "reference": "courses/12-ai-agents-and-rag/notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb",
+    "cell": 100
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/apply-text-splitting-techniques-to-enhance-model-responsiveness.ipynb",
+    "cell": 104
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/apply-text-splitting-techniques-to-enhance-model-responsiveness.ipynb",
+    "cell": 109
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/create-and-configure-a-vector-database-to-store-document-embeddings.ipynb",
+    "cell": 104
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb",
+    "cell": 18
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb",
+    "cell": 86
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb",
+    "cell": 114
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb",
+    "cell": 118
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/embed-documents-using-watsonx-s-embedding-model.ipynb",
+    "cell": 85
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/load-documents-using-langchain-for-different-sources.ipynb",
+    "cell": 16
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/load-documents-using-langchain-for-different-sources.ipynb",
+    "cell": 103
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/load-documents-using-langchain-for-different-sources.ipynb",
+    "cell": 107
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb",
+    "cell": 15
+  },
+  {
+    "reference": "courses/13-rag-application-project/notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb",
+    "cell": 58
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 29
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 32
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 36
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 38
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 40
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 44
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 46
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 53
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 57
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 60
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 62
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 64
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 69
+  },
+  {
+    "reference": "courses/01-machine-learning-with-python/notebooks/final-project-building-a-rainfall-prediction-classifier.ipynb",
+    "cell": 74
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 21
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 28
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 38
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 55
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 64
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 71
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 79
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/artificial-neural-networks-forward-propagation.ipynb",
+    "cell": 89
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/convolutional-neural-networks-with-keras.ipynb",
+    "cell": 33
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/convolutional-neural-networks-with-keras.ipynb",
+    "cell": 37
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/transformers-with-keras.ipynb",
+    "cell": 34
+  },
+  {
+    "reference": "courses/02-deep-learning-with-keras/notebooks/transformers-with-keras.ipynb",
+    "cell": 38
+  },
+  {
+    "reference": "courses/06-computer-vision-capstone/notebooks/compare-memory-based-versus-generator-based-data-loading.ipynb",
+    "cell": 59
+  }
+]

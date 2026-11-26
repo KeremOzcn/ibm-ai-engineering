@@ -1,0 +1,21 @@
+# Direct dependencies observed in local bounded course 01-06 runs; Python 3.11.
+# This is a compatibility profile, not a full transitive lockfile.
+-r companions.txt
+torchvision==0.23.0
+tensorflow==2.19.0
+keras==3.9.0
+pandas==2.2.3
+seaborn==0.13.2
+plotly==5.24.1
+xgboost==2.1.4
+hdbscan==0.8.40
+geopandas==1.0.1
+contextily==1.6.2
+shapely==2.0.6
+umap-learn==0.5.7
+ucimlrepo==0.0.7
+gymnasium==1.1.1
+keras-tuner==1.4.7
+pydot==3.0.4
+httpx==0.28.1
+transformers==4.45.2

@@ -41,10 +41,10 @@ Typical token IDs and attention masks have shape (batch, sequence_length); embed
 
 ## Collected material
 
-3 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+3 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Creating an NLP Data Loader](notebooks/creating-an-nlp-data-loader.ipynb) | Reference |
-| [Exploring Generative AI Libraries](notebooks/exploring-generative-ai-libraries.ipynb) | Reference |
-| [Implementing Tokenization](notebooks/implementing-tokenization.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Creating an NLP Data Loader](notebooks/creating-an-nlp-data-loader.ipynb) | Reference | [Worked copy](../../solutions/07-llm-data-preparation/notebooks/creating-an-nlp-data-loader.ipynb) |
+| [Exploring Generative AI Libraries](notebooks/exploring-generative-ai-libraries.ipynb) | Reference | [Worked copy](../../solutions/07-llm-data-preparation/notebooks/exploring-generative-ai-libraries.ipynb) |
+| [Implementing Tokenization](notebooks/implementing-tokenization.ipynb) | Reference | [Worked copy](../../solutions/07-llm-data-preparation/notebooks/implementing-tokenization.ipynb) |

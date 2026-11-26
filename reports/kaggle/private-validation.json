@@ -1,0 +1,65 @@
+[
+  {
+    "project": "satellite",
+    "ref": "kerem0zcan/satellite-cnn-vs-transformer-across-source-scenes",
+    "version": 1,
+    "status": "COMPLETE",
+    "source": {
+      "project_sha256": "bf1d0613411d582ae60786fc63080e3c90be901a8879ecd33f6555250e53bdb4",
+      "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+    },
+    "runtime": {
+      "utc": "2026-11-25T20:15:02.540416+00:00",
+      "python": "3.13.18",
+      "platform": "Linux",
+      "packages": {
+        "torch": "2.11.0+cpu",
+        "numpy": "2.1.3",
+        "scikit-learn": "1.6.1",
+        "Pillow": "13.0.0"
+      }
+    }
+  },
+  {
+    "project": "aircraft",
+    "ref": "kerem0zcan/aircraft-damage-and-caption-reliability",
+    "version": 1,
+    "status": "COMPLETE",
+    "source": {
+      "project_sha256": "3d442cb44a949540bd46098c8861b9a1f97e7bcc3bd7a758a72a9fd0593b7426",
+      "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+    },
+    "runtime": {
+      "utc": "2026-11-25T20:20:30.144399+00:00",
+      "python": "3.13.18",
+      "platform": "Linux",
+      "packages": {
+        "tensorflow": "2.21.0",
+        "transformers": "4.45.2",
+        "torch": "2.11.0+cpu",
+        "numpy": "2.1.3",
+        "Pillow": "13.0.0"
+      }
+    }
+  },
+  {
+    "project": "instruction_tuning",
+    "ref": "kerem0zcan/lora-instruction-tuning-and-verified-reload",
+    "version": 1,
+    "status": "COMPLETE",
+    "source": {
+      "project_sha256": "7bcf4c35919ee98a92bbb62ea3c573db73a0ae9d2e380145f4b19250ffe11cc6",
+      "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+    },
+    "runtime": {
+      "utc": "2026-11-25T20:18:42.061057+00:00",
+      "python": "3.13.16",
+      "platform": "Linux",
+      "packages": {
+        "torch": "2.11.0+cu130",
+        "transformers": "4.45.2",
+        "peft": "0.11.1"
+      }
+    }
+  }
+]

@@ -1,0 +1,192 @@
+{
+  "project": "translation",
+  "profile": "complete-retained-splits",
+  "seed": 42,
+  "device": "cuda",
+  "complete_split_counts": {
+    "test": 1000,
+    "validation": 1014,
+    "train": 28974
+  },
+  "selected_split_counts": {
+    "test": 1000,
+    "validation": 1014,
+    "train": 28974
+  },
+  "split_manifest_sha256": "15a90bea8bb71ab941dc8360f9c37122b571efb3f8d39f3fa6ef5ff3b10a23b7",
+  "models": {
+    "gru": {
+      "test_samples": 1000,
+      "corpus_bleu": 11.093199350954059,
+      "bleu_signature": "nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.5.1",
+      "test_response_loss": {
+        "nll": 2.9878502932461823,
+        "tokens": 14080
+      },
+      "parameters": 3327296,
+      "history": [
+        {
+          "epoch": 1,
+          "train_samples": 28974,
+          "validation_nll": 4.126716476664017
+        },
+        {
+          "epoch": 2,
+          "train_samples": 28974,
+          "validation_nll": 3.669447700852744
+        },
+        {
+          "epoch": 3,
+          "train_samples": 28974,
+          "validation_nll": 3.4085749045306883
+        },
+        {
+          "epoch": 4,
+          "train_samples": 28974,
+          "validation_nll": 3.2248934238761837
+        },
+        {
+          "epoch": 5,
+          "train_samples": 28974,
+          "validation_nll": 3.090087705005227
+        },
+        {
+          "epoch": 6,
+          "train_samples": 28974,
+          "validation_nll": 2.9842606666571267
+        }
+      ],
+      "checkpoint_sha256": "312cae06867bc3746baaeed9f2af404edf177c9327de5e62b551d77cf586736d",
+      "exact_reload": true,
+      "examples": [
+        {
+          "source": "Ein Mann mittleren Alters mit roten Haaren und Brille hält einen Säugling.",
+          "reference": "A middle-aged man with red-hair and glasses holding an infant.",
+          "prediction": "a person with a red hat and a hat is standing with a large white and white ."
+        },
+        {
+          "source": "Die Silhouetten von zwei Personen auf einem See, der einen bunten Himmel reflektiert.",
+          "reference": "Two people are silhouetted against a lake reflecting a painted sky.",
+          "prediction": "the two men are walking on a beach while a picture of people on a beach ."
+        },
+        {
+          "source": "Ein Typ in einem weißen Trikot mit der Nummer 3 auf dem Rücken spielt Fußball.",
+          "reference": "A guy dressed in a white uniform with a number 3 on it playing soccer.",
+          "prediction": "a man in a red hat is standing on the sidewalk with a red ball on the beach ."
+        },
+        {
+          "source": "Ein Mann in schwarz-weiß gestreifter Kleidung versucht, ein Pferd anzuhalten.",
+          "reference": "A man wearing black and white stripes is trying to stop a horse.",
+          "prediction": "a man in a black shirt and blue jeans is walking down the street ."
+        },
+        {
+          "source": "Drei Leute sitzen an einem Picknicktisch vor einem Gebäude, das wie der Union Jack bemalt ist.",
+          "reference": "Three people sit at a picnic table outside of a building painted like a union jack.",
+          "prediction": "three people are sitting on a bench in front of a building and a group of people ."
+        },
+        {
+          "source": "Zwei männliche Wanderer inspizieren einen Baumstamm, der am Rand eines Waldweges liegt.",
+          "reference": "Two male hikers inspect a log by the side of a forest path.",
+          "prediction": "two men are riding a bicycle on the sidewalk with a large <unk> ."
+        }
+      ]
+    },
+    "transformer": {
+      "test_samples": 1000,
+      "corpus_bleu": 20.60692158729197,
+      "bleu_signature": "nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.5.1",
+      "test_response_loss": {
+        "nll": 2.4994811242276973,
+        "tokens": 14080
+      },
+      "parameters": 3743040,
+      "history": [
+        {
+          "epoch": 1,
+          "train_samples": 28974,
+          "validation_nll": 3.6094510366088093
+        },
+        {
+          "epoch": 2,
+          "train_samples": 28974,
+          "validation_nll": 3.1540460858122237
+        },
+        {
+          "epoch": 3,
+          "train_samples": 28974,
+          "validation_nll": 2.911934318679586
+        },
+        {
+          "epoch": 4,
+          "train_samples": 28974,
+          "validation_nll": 2.7277374225391813
+        },
+        {
+          "epoch": 5,
+          "train_samples": 28974,
+          "validation_nll": 2.592316441619004
+        },
+        {
+          "epoch": 6,
+          "train_samples": 28974,
+          "validation_nll": 2.488130324250069
+        }
+      ],
+      "checkpoint_sha256": "c9a4536ac345a089a4ce1749a855fc767ae26349d15dd73f8459f4c83944e782",
+      "exact_reload": true,
+      "examples": [
+        {
+          "source": "Ein Mann mittleren Alters mit roten Haaren und Brille hält einen Säugling.",
+          "reference": "A middle-aged man with red-hair and glasses holding an infant.",
+          "prediction": "a middle - aged man with glasses holds a red - aged man with glasses and glasses holds a red glasses ."
+        },
+        {
+          "source": "Die Silhouetten von zwei Personen auf einem See, der einen bunten Himmel reflektiert.",
+          "reference": "Two people are silhouetted against a lake reflecting a painted sky.",
+          "prediction": "two people are performing a lake on a lake ."
+        },
+        {
+          "source": "Ein Typ in einem weißen Trikot mit der Nummer 3 auf dem Rücken spielt Fußball.",
+          "reference": "A guy dressed in a white uniform with a number 3 on it playing soccer.",
+          "prediction": "a guy in a white uniform playing soccer ball on the soccer ball ."
+        },
+        {
+          "source": "Ein Mann in schwarz-weiß gestreifter Kleidung versucht, ein Pferd anzuhalten.",
+          "reference": "A man wearing black and white stripes is trying to stop a horse.",
+          "prediction": "a man in black and white is trying to catch a horse ."
+        },
+        {
+          "source": "Drei Leute sitzen an einem Picknicktisch vor einem Gebäude, das wie der Union Jack bemalt ist.",
+          "reference": "Three people sit at a picnic table outside of a building painted like a union jack.",
+          "prediction": "three people sitting at a building with a building ."
+        },
+        {
+          "source": "Zwei männliche Wanderer inspizieren einen Baumstamm, der am Rand eines Waldweges liegt.",
+          "reference": "Two male hikers inspect a log by the side of a forest path.",
+          "prediction": "two hikers lying on the edge of a boat , one is lying on the edge of a football ."
+        }
+      ]
+    }
+  },
+  "vocabulary_sizes": {
+    "source": 8000,
+    "target": 8000
+  },
+  "comparison": "Same retained pairs, initial embeddings, example order, learning rate and epochs; model capacities and computation differ. Not an isolated causal test of attention.",
+  "limitations": "One seed, short-caption domain, capped vocabulary and six-epoch budget. Case-insensitive corpus BLEU is not a general translation quality or human preference benchmark.",
+  "seconds": 99.33687473400002,
+  "runtime": {
+    "utc": "2026-11-26T11:59:20.380405+00:00",
+    "python": "3.13.16",
+    "platform": "Linux",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "sacrebleu": "2.5.1",
+      "numpy": "2.1.3"
+    }
+  },
+  "source": {
+    "project_sha256": "0a1a42aec67caecd549b1614ce19655b5f54038f7683ca5d388fae85f022f8e6",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  }
+}

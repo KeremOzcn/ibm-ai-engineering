@@ -1,0 +1,19 @@
+{
+  "id": "kerem0zcan/satellite-cnn-vs-transformer-across-source-scenes",
+  "id_no": 147450156,
+  "title": "Satellite CNN vs Transformer Across Source Scenes",
+  "code_file": "satellite-cnn-vs-transformer-across-source-scenes.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:7de5e1496c568335455c8bb1f86f5c36f0591e87e92e9aa9f0eefcd07f227c66",
+  "machine_shape": "None"
+}

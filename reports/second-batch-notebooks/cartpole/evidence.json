@@ -1,0 +1,12 @@
+{
+  "project": "cartpole",
+  "fresh_kernel": true,
+  "profile": "bounded-pilot",
+  "source_notebook_sha256": "37d77b198d0fe0dd8785fcfb33da1de454c5e9c8373da1d708785a938875f721",
+  "files": {
+    "metrics.json": "79f845558cdcc80d5536105c712c60a041d1f1f203da1cd82a0b9a5bde4f9764",
+    "executed.ipynb": "139d457d935c41511a3a485d0ba2262cbe0bec80de1c3446e2763967c63e4c4d",
+    "results.png": "fa6a1f4913db90a00ee2a6c10dd3ba53b270b97e7c3eeab6549bb4d09a94cbc2",
+    "split-manifest.json": "ad2bbde9ca4b8d9b914b14a5c38be340d249cde5580abd5d8f98cfc454acd3dd"
+  }
+}

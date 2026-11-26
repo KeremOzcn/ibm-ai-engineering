@@ -41,35 +41,35 @@ A 2D convolution output size per spatial axis is floor((input + 2·padding − d
 
 ## Collected material
 
-28 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+28 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Activation Functions and Max Pooling](notebooks/activation-functions-and-max-pooling.ipynb) | Reference |
-| [Activation Functions](notebooks/activation-functions.ipynb) | Reference |
-| [Batch Normalization with the MNIST Dataset](notebooks/batch-normalization-with-the-mnist-dataset.ipynb) | Reference |
-| [Convolutional Neural Network for Anime Image Classification](notebooks/convolutional-neural-network-for-anime-image-classification.ipynb) | Reference |
-| [Convolutional Neural Network MNIST](notebooks/convolutional-neural-network-mnist.ipynb) | Reference |
-| [Convolutional Neural Network Simple Example](notebooks/convolutional-neural-network-simple-example.ipynb) | Reference |
-| [Convolutional Neural Networks with Batch Norms](notebooks/convolutional-neural-networks-with-batch-norms.ipynb) | Reference |
-| [Deep Neural Networks](notebooks/deep-neural-networks.ipynb) | Reference |
-| [Deeper Neural Networks with nn.ModuleList()](notebooks/deeper-neural-networks-with-nn-modulelist.ipynb) | Reference |
-| [Fashion-MNIST Project](notebooks/fashion-mnist-project.ipynb) | Reference |
-| [Initialization with Same Weights](notebooks/initialization-with-same-weights.ipynb) | Reference |
-| [Logistic Regression and Bad Initialization Value](notebooks/logistic-regression-and-bad-initialization-value.ipynb) | Reference |
-| [Logistic Regression Cross Entropy](notebooks/logistic-regression-cross-entropy.ipynb) | Reference |
-| [Momentum with Different Polynomials](notebooks/momentum-with-different-polynomials.ipynb) | Reference |
-| [Multiple Input and Output Channels](notebooks/multiple-input-and-output-channels.ipynb) | Reference |
-| [Neural Networks More Hidden Neurons](notebooks/neural-networks-more-hidden-neurons.ipynb) | Reference |
-| [Neural Networks with Momentum](notebooks/neural-networks-with-momentum.ipynb) | Reference |
-| [Neural Networks with One Hidden Layer](notebooks/neural-networks-with-one-hidden-layer.ipynb) | Reference |
-| [Practice: Neural Networks with One Hidden Layer: Noisy XOR](notebooks/practice-neural-networks-with-one-hidden-layer-noisy-xor.ipynb) | Reference |
-| [Simple One Hidden Layer Neural Network](notebooks/simple-one-hidden-layer-neural-network.ipynb) | Reference |
-| [Softmax Classifier 1D](notebooks/softmax-classifier-1d.ipynb) | Reference |
-| [Softmax Classifier](notebooks/softmax-classifier.ipynb) | Reference |
-| [Test Default, He, and Uniform Initialization on MNIST Dataset with ReLU Activation](notebooks/test-default-he-and-uniform-initialization-on-mnist-dataset-with-relu-activation.ipynb) | Reference |
-| [Test Default, Xavier, and Uniform Initialization on MNIST Dataset with Tanh Activation](notebooks/test-default-xavier-and-uniform-initialization-on-mnist-dataset-with-tanh-activation.ipynb) | Reference |
-| [Test Sigmoid, Tanh, and Relu Activations Functions on the MNIST Dataset](notebooks/test-sigmoid-tanh-and-relu-activations-functions-on-the-mnist-dataset.ipynb) | Reference |
-| [Using Dropout for Classification](notebooks/using-dropout-for-classification.ipynb) | Reference |
-| [Using Dropout in Regression](notebooks/using-dropout-in-regression.ipynb) | Reference |
-| [What is Convolution?](notebooks/what-is-convolution.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Activation Functions and Max Pooling](notebooks/activation-functions-and-max-pooling.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/activation-functions-and-max-pooling.ipynb) |
+| [Activation Functions](notebooks/activation-functions.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/activation-functions.ipynb) |
+| [Batch Normalization with the MNIST Dataset](notebooks/batch-normalization-with-the-mnist-dataset.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/batch-normalization-with-the-mnist-dataset.ipynb) |
+| [Convolutional Neural Network for Anime Image Classification](notebooks/convolutional-neural-network-for-anime-image-classification.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-for-anime-image-classification.ipynb) |
+| [Convolutional Neural Network MNIST](notebooks/convolutional-neural-network-mnist.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-mnist.ipynb) |
+| [Convolutional Neural Network Simple Example](notebooks/convolutional-neural-network-simple-example.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/convolutional-neural-network-simple-example.ipynb) |
+| [Convolutional Neural Networks with Batch Norms](notebooks/convolutional-neural-networks-with-batch-norms.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/convolutional-neural-networks-with-batch-norms.ipynb) |
+| [Deep Neural Networks](notebooks/deep-neural-networks.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/deep-neural-networks.ipynb) |
+| [Deeper Neural Networks with nn.ModuleList()](notebooks/deeper-neural-networks-with-nn-modulelist.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/deeper-neural-networks-with-nn-modulelist.ipynb) |
+| [Fashion-MNIST Project](notebooks/fashion-mnist-project.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/fashion-mnist-project.ipynb) |
+| [Initialization with Same Weights](notebooks/initialization-with-same-weights.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/initialization-with-same-weights.ipynb) |
+| [Logistic Regression and Bad Initialization Value](notebooks/logistic-regression-and-bad-initialization-value.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/logistic-regression-and-bad-initialization-value.ipynb) |
+| [Logistic Regression Cross Entropy](notebooks/logistic-regression-cross-entropy.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/logistic-regression-cross-entropy.ipynb) |
+| [Momentum with Different Polynomials](notebooks/momentum-with-different-polynomials.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/momentum-with-different-polynomials.ipynb) |
+| [Multiple Input and Output Channels](notebooks/multiple-input-and-output-channels.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/multiple-input-and-output-channels.ipynb) |
+| [Neural Networks More Hidden Neurons](notebooks/neural-networks-more-hidden-neurons.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/neural-networks-more-hidden-neurons.ipynb) |
+| [Neural Networks with Momentum](notebooks/neural-networks-with-momentum.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/neural-networks-with-momentum.ipynb) |
+| [Neural Networks with One Hidden Layer](notebooks/neural-networks-with-one-hidden-layer.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/neural-networks-with-one-hidden-layer.ipynb) |
+| [Practice: Neural Networks with One Hidden Layer: Noisy XOR](notebooks/practice-neural-networks-with-one-hidden-layer-noisy-xor.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/practice-neural-networks-with-one-hidden-layer-noisy-xor.ipynb) |
+| [Simple One Hidden Layer Neural Network](notebooks/simple-one-hidden-layer-neural-network.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/simple-one-hidden-layer-neural-network.ipynb) |
+| [Softmax Classifier 1D](notebooks/softmax-classifier-1d.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/softmax-classifier-1d.ipynb) |
+| [Softmax Classifier](notebooks/softmax-classifier.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/softmax-classifier.ipynb) |
+| [Test Default, He, and Uniform Initialization on MNIST Dataset with ReLU Activation](notebooks/test-default-he-and-uniform-initialization-on-mnist-dataset-with-relu-activation.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/test-default-he-and-uniform-initialization-on-mnist-dataset-with-relu-activation.ipynb) |
+| [Test Default, Xavier, and Uniform Initialization on MNIST Dataset with Tanh Activation](notebooks/test-default-xavier-and-uniform-initialization-on-mnist-dataset-with-tanh-activation.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/test-default-xavier-and-uniform-initialization-on-mnist-dataset-with-tanh-activation.ipynb) |
+| [Test Sigmoid, Tanh, and Relu Activations Functions on the MNIST Dataset](notebooks/test-sigmoid-tanh-and-relu-activations-functions-on-the-mnist-dataset.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/test-sigmoid-tanh-and-relu-activations-functions-on-the-mnist-dataset.ipynb) |
+| [Using Dropout for Classification](notebooks/using-dropout-for-classification.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/using-dropout-for-classification.ipynb) |
+| [Using Dropout in Regression](notebooks/using-dropout-in-regression.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/using-dropout-in-regression.ipynb) |
+| [What is Convolution?](notebooks/what-is-convolution.ipynb) | Reference | [Worked copy](../../solutions/05-deep-learning-with-pytorch/notebooks/what-is-convolution.ipynb) |

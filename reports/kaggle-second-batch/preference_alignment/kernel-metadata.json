@@ -1,0 +1,21 @@
+{
+  "id": "kerem0zcan/sft-vs-dpo-with-frozen-reference-and-reload-proof",
+  "id_no": 147592594,
+  "title": "SFT vs DPO With Frozen Reference and Reload Proof",
+  "code_file": "sft-vs-dpo-with-frozen-reference-and-reload-proof.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:fc720c15545eb096a510e1f085b17fc118387a007599424d953a4f327b71cacf",
+  "machine_shape": "NvidiaTeslaT4"
+}

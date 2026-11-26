@@ -1,0 +1,35 @@
+[{"stream_name":"stderr","time":11.262706396,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.262760696,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.262767877,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.262772215,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.129382453,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.129422936,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.129428403,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.12943307,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":18.382499999,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.382528953,"data":"kaggle-environments 1.32.2 requires gymnasium==1.2.0, but you have gymnasium 1.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.382534192,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.585891596,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.585925459,"data":"kaggle-environments 1.32.2 requires gymnasium==1.2.0, but you have gymnasium 1.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.585931193,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.585935922,"data":"\n"}
+,{"stream_name":"stderr","time":18.585940505,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.585945568,"data":"kaggle-environments 1.32.2 requires gymnasium==1.2.0, but you have gymnasium 1.1.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.585950409,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":111.155945138,"data":"Executed profile: three-seed-step-budget\n"}
+,{"stream_name":"stdout","time":111.155980992,"data":"Actual runtime: {'utc': '2026-11-26T11:45:52.077202+00:00', 'python': '3.13.18', 'platform': 'Linux', 'packages': {'torch': '2.11.0+cpu', 'numpy': '2.1.3', 'gymnasium': '1.1.1'}}\n"}
+,{"stream_name":"stdout","time":111.15598844,"data":"Source identity: {'project_sha256': 'fb22b8dd65d9f3e9f7f486a0a88b5899e869e84a709ca7ca0bb61ef61f9ffcbe', 'common_sha256': 'ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853'}\n"}
+,{"stream_name":"stdout","time":111.805482957,"data":"online_target [(11, 9.3, True), (22, 9.5, True), (33, 9.5, True)]\n"}
+,{"stream_name":"stdout","time":111.805524857,"data":"lagged_target [(11, 228.55, True), (22, 224.65, True), (33, 253.2, True)]\n"}
+,{"stream_name":"stdout","time":111.805533526,"data":"Seed separation and episode cap: {'train_seeds': [11, 22, 33], 'validation_seeds': [1000, 1001, 1002, 1003, 1004], 'test_seeds': [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], 'episode_limit': 500}\n"}
+,{"stream_name":"stderr","time":116.22755735,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":116.227599741,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":116.44317044,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":116.443201819,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":117.383120702,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":117.483081614,"data":"[NbConvertApp] Writing 101456 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":120.785073547,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":121.570422372,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":121.570448812,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":121.570788454,"data":"[NbConvertApp] Writing 382298 bytes to __results__.html\n"}
+]

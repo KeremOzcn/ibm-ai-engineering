@@ -1,0 +1,15 @@
+{
+  "project": "translation",
+  "fresh_kernel": true,
+  "profile": "bounded-pilot",
+  "source_notebook_sha256": "d51601fafb0a0fc41e3ec2384773a1e4ccf0939085682d5df27a17a8c73e9f45",
+  "files": {
+    "metrics.json": "12a66c3bddef45038ed57c4514d3f6fe6c7d59646d97a86158abccba43494936",
+    "executed.ipynb": "1a7824ebf9b9afce8c592555c8daaea33a47e2b7007455eb11ab08a32e20fe02",
+    "results.png": "3b0c03083d24ae41718da9affcf5e5807f9ded5272e5334404aa292629ada181",
+    "transformer-predictions.json": "e8787d37168b1c2450e75975b4994d0cb459d4022e439ace18ca842addfbe8d8",
+    "gru-predictions.json": "e8787d37168b1c2450e75975b4994d0cb459d4022e439ace18ca842addfbe8d8",
+    "split-manifest.json": "391154276585c07626608a70b0a57712c7c2e0ad077e96aedd338788308e6018"
+  },
+  "stderr_path_redaction": "Local and upstream compiler filesystem roots redacted; code and numerical outputs unchanged."
+}

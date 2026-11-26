@@ -1,0 +1,13 @@
+{
+  "project": "preference_alignment",
+  "fresh_kernel": true,
+  "profile": "bounded-pilot",
+  "source_notebook_sha256": "cd66e521a57e49464827c3e5ab706c72e3c0651b4215305065b47f806252e877",
+  "files": {
+    "metrics.json": "ae8a6ff261d89a96601e5f6d2e5ff37a25a9a45808fa8fdbe39086a1c671e72d",
+    "executed.ipynb": "eaaf30a49722a7b4ba340934cd58a154d153bac34826ed94a689ea3f38657545",
+    "reference-logps.json": "ebab2e9c7f77a952c92b4b2225ad0edcf48ba039d8ea4d8324cc227a9c7a5c80",
+    "results.png": "dab0087444aeb3ee2b79cf380b04af2a42092d50817ce4efdcfec73d40d16439",
+    "split-manifest.json": "431995bb7326086e833c75aaaae3232647fb9d95c5ab61d5cd613e2125762187"
+  }
+}

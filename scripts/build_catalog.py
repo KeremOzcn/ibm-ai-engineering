@@ -119,6 +119,7 @@ def build_artifacts() -> dict[Path, str]:
         "All course notebooks are **reference / exercise copies**. They were validated as notebook files, "
         "but were not executed during curation. Exercise markers are a search heuristic, not a completion score. "
         "Syntax issues below identify preserved blanks after IPython input transformation; valid syntax does not prove runtime correctness.",
+        "Separate worked answers are linked below. Their preparation and bounded execution status are in the [solution progress report](SOLUTION_PROGRESS.md).",
         "",
         "[Setup](SETUP.md) · [Study roadmap](STUDY_ROADMAP.md) · "
         "[Machine-readable audit](../reports/lab-audit.json) · [Source mapping](../provenance/source-manifest.json)",
@@ -148,7 +149,14 @@ def build_artifacts() -> dict[Path, str]:
                 if lab and lab["syntax_issues"]
                 else "Reference"
             )
-            rows.append(f"| [{entry['title']}]({relative}) | {status if lab else 'Source guide'} |")
+            worked = (
+                f"[Worked copy](../../{target.replace('courses/', 'solutions/', 1)})"
+                if lab
+                else "—"
+            )
+            rows.append(
+                f"| [{entry['title']}]({relative}) | {status if lab else 'Source guide'} | {worked} |"
+            )
         page = f"""# {number:02} · {course['title']}
 
 {course['summary']}
@@ -181,10 +189,10 @@ def build_artifacts() -> dict[Path, str]:
 
 ## Collected material
 
-{notebook_count} reference notebooks{f' and {guide_count} source guides' if guide_count else ''}. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+{notebook_count} reference notebooks{f' and {guide_count} source guides' if guide_count else ''}. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
+| Material | Reference status | Study answer |
+|---|---|---|
 {chr(10).join(rows)}
 """
         artifacts[ROOT / f"courses/{course['slug']}/README.md"] = page
@@ -193,8 +201,8 @@ def build_artifacts() -> dict[Path, str]:
             "",
             f"[Study notes](../courses/{course['slug']}/README.md)",
             "",
-            "| Material | Code cells | Exercise marker cells | Syntax issue cells |",
-            "|---|---:|---:|---:|",
+            "| Material | Code cells | Exercise marker cells | Syntax issue cells | Study answer |",
+            "|---|---:|---:|---:|---|",
         ]
         for target in targets:
             entry = by_target[target][0]
@@ -202,10 +210,11 @@ def build_artifacts() -> dict[Path, str]:
             if lab:
                 catalog.append(
                     f"| [{entry['title']}](../{target}) | {lab['code_cells']} | "
-                    f"{len(lab['exercise_marker_cells'])} | {len(lab['syntax_issues'])} |"
+                    f"{len(lab['exercise_marker_cells'])} | {len(lab['syntax_issues'])} | "
+                    f"[Worked copy](../{target.replace('courses/', 'solutions/', 1)}) |"
                 )
             else:
-                catalog.append(f"| [{entry['title']}](../{target}) | Guide | — | — |")
+                catalog.append(f"| [{entry['title']}](../{target}) | Guide | — | — | — |")
         catalog.append("")
     artifacts[ROOT / "docs/LAB_CATALOG.md"] = "\n".join(catalog).rstrip() + "\n"
     return artifacts

@@ -1,0 +1,23 @@
+{
+  "scope": "Two pilot examples only; model-assisted visual review, not a human-validated caption benchmark.",
+  "reviews": [
+    {
+      "file": "test/crack/140_1_JPG_jpg.rf.783ec2a489ddc3692ef15efcb14436c6.jpg",
+      "file_sha256": "435eb402ec86309a67c7514b1487a5831a29bc5b4b67579304bdcc47ce04349b",
+      "caption": "a car that is sitting in the grass",
+      "assessment": "unsupported object identification; visible damage omitted",
+      "observation": "The caption identifies a car; the image shows a damaged aircraft nose/cockpit with large torn openings. It does not describe the visible defect.",
+      "reviewer_type": "assistant_visual_review",
+      "human_validated": false
+    },
+    {
+      "file": "test/dent/105_3_JPG_jpg.rf.f410c0d6b274a5c73623651c30e32e35.jpg",
+      "file_sha256": "90ffcbd60b1fb5d65175e6ea6cf0fb08383b818455bbe29153cdfa4e80aef7d4",
+      "caption": "a black and white photo of a person ' s feet",
+      "assessment": "unsupported object identification; visible damage omitted",
+      "observation": "The caption identifies a person's feet; the image shows a dented metal aircraft surface. The named object is unsupported and the visible defect is omitted.",
+      "reviewer_type": "assistant_visual_review",
+      "human_validated": false
+    }
+  ]
+}

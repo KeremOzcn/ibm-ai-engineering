@@ -41,27 +41,27 @@ The training loop is zero_grad → forward → loss → backward → step. Evalu
 
 ## Collected material
 
-20 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+20 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Deep Neural Network for Breast Cancer Classification](notebooks/deep-neural-network-for-breast-cancer-classification.ipynb) | Reference |
-| [Differentiation in PyTorch](notebooks/differentiation-in-pytorch.ipynb) | Reference |
-| [Final Project: League of Legends Match Predictor](notebooks/final-project-league-of-legends-match-predictor.ipynb) | Reference |
-| [Linear Regression 1D: Optimization in PyTorch](notebooks/linear-regression-1d-optimization-in-pytorch.ipynb) | Reference |
-| [Linear Regression 1D: Prediction](notebooks/linear-regression-1d-prediction.ipynb) | Reference |
-| [Linear Regression 1D: Training Two Parameter Mini-Batch Gradient Descent](notebooks/linear-regression-1d-training-two-parameter-mini-batch-gradient-descent.ipynb) | Reference |
-| [Linear regression 1D: Training Two Parameter Stochastic Gradient Descent (SGD)](notebooks/linear-regression-1d-training-two-parameter-stochastic-gradient-descent-sgd.ipynb) | Reference |
-| [Linear regression 1D: Training Two Parameter](notebooks/linear-regression-1d-training-two-parameter.ipynb) | Reference |
-| [Linear Regression Multiple Outputs](notebooks/linear-regression-multiple-outputs.ipynb) | Reference |
-| [Linear regression: Training and Validation Data](notebooks/linear-regression-training-and-validation-data.ipynb) | Reference |
-| [Linear Regression with Multiple Outputs](notebooks/linear-regression-with-multiple-outputs.ipynb) | Reference |
-| [Logistic Regression and Bad Initialization Value](notebooks/logistic-regression-and-bad-initialization-value.ipynb) | Reference |
-| [Logistic Regression Cross Entropy](notebooks/logistic-regression-cross-entropy.ipynb) | Reference |
-| [Logistic Regression](notebooks/logistic-regression.ipynb) | Reference |
-| [Multiple Linear Regression](notebooks/multiple-linear-regression.ipynb) | Reference |
-| [Prebuilt Datasets and Transforms](notebooks/prebuilt-datasets-and-transforms.ipynb) | Reference |
-| [Simple Dataset](notebooks/simple-dataset.ipynb) | Reference |
-| [Torch Tensors in 1D](notebooks/torch-tensors-in-1d.ipynb) | Reference |
-| [Training Linear Regression with Multiple Outputs](notebooks/training-linear-regression-with-multiple-outputs.ipynb) | Reference |
-| [Two-Dimensional Tensors](notebooks/two-dimensional-tensors.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Deep Neural Network for Breast Cancer Classification](notebooks/deep-neural-network-for-breast-cancer-classification.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/deep-neural-network-for-breast-cancer-classification.ipynb) |
+| [Differentiation in PyTorch](notebooks/differentiation-in-pytorch.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/differentiation-in-pytorch.ipynb) |
+| [Final Project: League of Legends Match Predictor](notebooks/final-project-league-of-legends-match-predictor.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/final-project-league-of-legends-match-predictor.ipynb) |
+| [Linear Regression 1D: Optimization in PyTorch](notebooks/linear-regression-1d-optimization-in-pytorch.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/linear-regression-1d-optimization-in-pytorch.ipynb) |
+| [Linear Regression 1D: Prediction](notebooks/linear-regression-1d-prediction.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/linear-regression-1d-prediction.ipynb) |
+| [Linear Regression 1D: Training Two Parameter Mini-Batch Gradient Descent](notebooks/linear-regression-1d-training-two-parameter-mini-batch-gradient-descent.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-mini-batch-gradient-descent.ipynb) |
+| [Linear regression 1D: Training Two Parameter Stochastic Gradient Descent (SGD)](notebooks/linear-regression-1d-training-two-parameter-stochastic-gradient-descent-sgd.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter-stochastic-gradient-descent-sgd.ipynb) |
+| [Linear regression 1D: Training Two Parameter](notebooks/linear-regression-1d-training-two-parameter.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/linear-regression-1d-training-two-parameter.ipynb) |
+| [Linear Regression Multiple Outputs](notebooks/linear-regression-multiple-outputs.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/linear-regression-multiple-outputs.ipynb) |
+| [Linear regression: Training and Validation Data](notebooks/linear-regression-training-and-validation-data.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/linear-regression-training-and-validation-data.ipynb) |
+| [Linear Regression with Multiple Outputs](notebooks/linear-regression-with-multiple-outputs.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/linear-regression-with-multiple-outputs.ipynb) |
+| [Logistic Regression and Bad Initialization Value](notebooks/logistic-regression-and-bad-initialization-value.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/logistic-regression-and-bad-initialization-value.ipynb) |
+| [Logistic Regression Cross Entropy](notebooks/logistic-regression-cross-entropy.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/logistic-regression-cross-entropy.ipynb) |
+| [Logistic Regression](notebooks/logistic-regression.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/logistic-regression.ipynb) |
+| [Multiple Linear Regression](notebooks/multiple-linear-regression.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/multiple-linear-regression.ipynb) |
+| [Prebuilt Datasets and Transforms](notebooks/prebuilt-datasets-and-transforms.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/prebuilt-datasets-and-transforms.ipynb) |
+| [Simple Dataset](notebooks/simple-dataset.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/simple-dataset.ipynb) |
+| [Torch Tensors in 1D](notebooks/torch-tensors-in-1d.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/torch-tensors-in-1d.ipynb) |
+| [Training Linear Regression with Multiple Outputs](notebooks/training-linear-regression-with-multiple-outputs.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/training-linear-regression-with-multiple-outputs.ipynb) |
+| [Two-Dimensional Tensors](notebooks/two-dimensional-tensors.ipynb) | Reference | [Worked copy](../../solutions/04-pytorch-foundations/notebooks/two-dimensional-tensors.ipynb) |

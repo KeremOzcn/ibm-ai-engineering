@@ -41,13 +41,13 @@ Recall@k is the fraction of relevant items found among the top k results. For qu
 
 ## Collected material
 
-6 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+6 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Enhance LLMs using RAG and Hugging Face](notebooks/enhance-llms-using-rag-and-hugging-face.ipynb) | Reference |
-| [In-Context Learning and Prompt Templates](notebooks/in-context-learning-and-prompt-templates.ipynb) | Reference |
-| [Lab: Building AI Agents from Scratch with Python](notebooks/lab-building-ai-agents-from-scratch-with-python.ipynb) | Reference; 1 syntax blanks |
-| [LangChain](notebooks/langchain.ipynb) | Reference |
-| [RAG with PyTorch](notebooks/rag-with-pytorch.ipynb) | Reference |
-| [Summarize Private Documents Using RAG, LangChain, and LLMs](notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Enhance LLMs using RAG and Hugging Face](notebooks/enhance-llms-using-rag-and-hugging-face.ipynb) | Reference | [Worked copy](../../solutions/12-ai-agents-and-rag/notebooks/enhance-llms-using-rag-and-hugging-face.ipynb) |
+| [In-Context Learning and Prompt Templates](notebooks/in-context-learning-and-prompt-templates.ipynb) | Reference | [Worked copy](../../solutions/12-ai-agents-and-rag/notebooks/in-context-learning-and-prompt-templates.ipynb) |
+| [Lab: Building AI Agents from Scratch with Python](notebooks/lab-building-ai-agents-from-scratch-with-python.ipynb) | Reference; 1 syntax blanks | [Worked copy](../../solutions/12-ai-agents-and-rag/notebooks/lab-building-ai-agents-from-scratch-with-python.ipynb) |
+| [LangChain](notebooks/langchain.ipynb) | Reference | [Worked copy](../../solutions/12-ai-agents-and-rag/notebooks/langchain.ipynb) |
+| [RAG with PyTorch](notebooks/rag-with-pytorch.ipynb) | Reference | [Worked copy](../../solutions/12-ai-agents-and-rag/notebooks/rag-with-pytorch.ipynb) |
+| [Summarize Private Documents Using RAG, LangChain, and LLMs](notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb) | Reference | [Worked copy](../../solutions/12-ai-agents-and-rag/notebooks/summarize-private-documents-using-rag-langchain-and-llms.ipynb) |

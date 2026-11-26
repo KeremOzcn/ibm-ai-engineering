@@ -1,0 +1,152 @@
+{
+  "project": "translation",
+  "profile": "bounded-pilot",
+  "seed": 42,
+  "device": "cpu",
+  "complete_split_counts": {
+    "test": 1000,
+    "validation": 1014,
+    "train": 28974
+  },
+  "selected_split_counts": {
+    "test": 64,
+    "validation": 64,
+    "train": 512
+  },
+  "split_manifest_sha256": "391154276585c07626608a70b0a57712c7c2e0ad077e96aedd338788308e6018",
+  "models": {
+    "gru": {
+      "test_samples": 64,
+      "corpus_bleu": 0.03622294397541885,
+      "bleu_signature": "nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.5.1",
+      "test_response_loss": {
+        "nll": 6.224049422057749,
+        "tokens": 855
+      },
+      "parameters": 787268,
+      "history": [
+        {
+          "epoch": 1,
+          "train_samples": 512,
+          "validation_nll": 6.818301072761194
+        },
+        {
+          "epoch": 2,
+          "train_samples": 512,
+          "validation_nll": 6.246164025019989
+        }
+      ],
+      "checkpoint_sha256": "6de72e95f4f0d46ad121bcc712cf80d2e7d886dcc10f701a848a61428c755ed6",
+      "exact_reload": true,
+      "examples": [
+        {
+          "source": "Ein Mann mittleren Alters mit roten Haaren und Brille hält einen Säugling.",
+          "reference": "A middle-aged man with red-hair and glasses holding an infant.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Die Silhouetten von zwei Personen auf einem See, der einen bunten Himmel reflektiert.",
+          "reference": "Two people are silhouetted against a lake reflecting a painted sky.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Ein Typ in einem weißen Trikot mit der Nummer 3 auf dem Rücken spielt Fußball.",
+          "reference": "A guy dressed in a white uniform with a number 3 on it playing soccer.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Ein Mann in schwarz-weiß gestreifter Kleidung versucht, ein Pferd anzuhalten.",
+          "reference": "A man wearing black and white stripes is trying to stop a horse.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Drei Leute sitzen an einem Picknicktisch vor einem Gebäude, das wie der Union Jack bemalt ist.",
+          "reference": "Three people sit at a picnic table outside of a building painted like a union jack.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Zwei männliche Wanderer inspizieren einen Baumstamm, der am Rand eines Waldweges liegt.",
+          "reference": "Two male hikers inspect a log by the side of a forest path.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        }
+      ]
+    },
+    "transformer": {
+      "test_samples": 64,
+      "corpus_bleu": 0.03622294397541885,
+      "bleu_signature": "nrefs:1|case:lc|eff:no|tok:13a|smooth:exp|version:2.5.1",
+      "test_response_loss": {
+        "nll": 5.623728469937865,
+        "tokens": 855
+      },
+      "parameters": 1203012,
+      "history": [
+        {
+          "epoch": 1,
+          "train_samples": 512,
+          "validation_nll": 6.025949181269989
+        },
+        {
+          "epoch": 2,
+          "train_samples": 512,
+          "validation_nll": 5.6634727103877935
+        }
+      ],
+      "checkpoint_sha256": "acb1bd7aa6459498b03b42a9260e8ec27862ba95be197595059dda479f8f9906",
+      "exact_reload": true,
+      "examples": [
+        {
+          "source": "Ein Mann mittleren Alters mit roten Haaren und Brille hält einen Säugling.",
+          "reference": "A middle-aged man with red-hair and glasses holding an infant.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Die Silhouetten von zwei Personen auf einem See, der einen bunten Himmel reflektiert.",
+          "reference": "Two people are silhouetted against a lake reflecting a painted sky.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Ein Typ in einem weißen Trikot mit der Nummer 3 auf dem Rücken spielt Fußball.",
+          "reference": "A guy dressed in a white uniform with a number 3 on it playing soccer.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Ein Mann in schwarz-weiß gestreifter Kleidung versucht, ein Pferd anzuhalten.",
+          "reference": "A man wearing black and white stripes is trying to stop a horse.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Drei Leute sitzen an einem Picknicktisch vor einem Gebäude, das wie der Union Jack bemalt ist.",
+          "reference": "Three people sit at a picnic table outside of a building painted like a union jack.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        },
+        {
+          "source": "Zwei männliche Wanderer inspizieren einen Baumstamm, der am Rand eines Waldweges liegt.",
+          "reference": "Two male hikers inspect a log by the side of a forest path.",
+          "prediction": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a"
+        }
+      ]
+    }
+  },
+  "vocabulary_sizes": {
+    "source": 1512,
+    "target": 1348
+  },
+  "comparison": "Same retained pairs, initial embeddings, example order, learning rate and epochs; model capacities and computation differ. Not an isolated causal test of attention.",
+  "limitations": "One seed, short-caption domain, capped vocabulary and six-epoch budget. Case-insensitive corpus BLEU is not a general translation quality or human preference benchmark.",
+  "seconds": 3.2555872080265544,
+  "runtime": {
+    "utc": "2026-11-26T11:29:43.737347+00:00",
+    "python": "3.11.15",
+    "platform": "Darwin",
+    "packages": {
+      "torch": "2.8.0",
+      "sacrebleu": "2.5.1",
+      "numpy": "2.0.2"
+    }
+  },
+  "source": {
+    "project_sha256": "ce0376edd354cfdb5b8f82d49511cbd5fff7e1b07dc069dc797a946baf12cc41",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  }
+}

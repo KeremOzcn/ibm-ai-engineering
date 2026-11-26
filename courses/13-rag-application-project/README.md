@@ -43,15 +43,15 @@ The application flow is document → loader → chunks → embeddings → index 
 
 ## Collected material
 
-6 reference notebooks and 2 source guides. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+6 reference notebooks and 2 source guides. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Gradio Interface Guide](guides/gradio-interface-guide.md) | Source guide |
-| [QA Bot Project Guide](guides/qa-bot-project-guide.md) | Source guide |
-| [Apply Text Splitting Techniques to Enhance Model Responsiveness](notebooks/apply-text-splitting-techniques-to-enhance-model-responsiveness.ipynb) | Reference |
-| [Create and Configure a Vector Database to Store Document Embeddings](notebooks/create-and-configure-a-vector-database-to-store-document-embeddings.ipynb) | Reference |
-| [Develop a Retriever to Fetch Document Segments Based on Queries](notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb) | Reference |
-| [Embed documents using watsonx's embedding model](notebooks/embed-documents-using-watsonx-s-embedding-model.ipynb) | Reference |
-| [Load Documents Using LangChain for Different Sources](notebooks/load-documents-using-langchain-for-different-sources.ipynb) | Reference |
-| [Put Whole Document into Prompt and Ask the Model](notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Gradio Interface Guide](guides/gradio-interface-guide.md) | Source guide | — |
+| [QA Bot Project Guide](guides/qa-bot-project-guide.md) | Source guide | — |
+| [Apply Text Splitting Techniques to Enhance Model Responsiveness](notebooks/apply-text-splitting-techniques-to-enhance-model-responsiveness.ipynb) | Reference | [Worked copy](../../solutions/13-rag-application-project/notebooks/apply-text-splitting-techniques-to-enhance-model-responsiveness.ipynb) |
+| [Create and Configure a Vector Database to Store Document Embeddings](notebooks/create-and-configure-a-vector-database-to-store-document-embeddings.ipynb) | Reference | [Worked copy](../../solutions/13-rag-application-project/notebooks/create-and-configure-a-vector-database-to-store-document-embeddings.ipynb) |
+| [Develop a Retriever to Fetch Document Segments Based on Queries](notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb) | Reference | [Worked copy](../../solutions/13-rag-application-project/notebooks/develop-a-retriever-to-fetch-document-segments-based-on-queries.ipynb) |
+| [Embed documents using watsonx's embedding model](notebooks/embed-documents-using-watsonx-s-embedding-model.ipynb) | Reference | [Worked copy](../../solutions/13-rag-application-project/notebooks/embed-documents-using-watsonx-s-embedding-model.ipynb) |
+| [Load Documents Using LangChain for Different Sources](notebooks/load-documents-using-langchain-for-different-sources.ipynb) | Reference | [Worked copy](../../solutions/13-rag-application-project/notebooks/load-documents-using-langchain-for-different-sources.ipynb) |
+| [Put Whole Document into Prompt and Ask the Model](notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb) | Reference | [Worked copy](../../solutions/13-rag-application-project/notebooks/put-whole-document-into-prompt-and-ask-the-model.ipynb) |

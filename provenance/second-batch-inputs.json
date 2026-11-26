@@ -1,0 +1,50 @@
+[
+  {
+    "file": "fraud/creditcard.csv",
+    "url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/creditcard.csv",
+    "sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+    "bytes": 150828752
+  },
+  {
+    "file": "translation/train.de.gz",
+    "url": "https://raw.githubusercontent.com/multi30k/dataset/a3d2e0d26b56f3846f66a952536ffed4e401d05a/data/task1/raw/train.de.gz",
+    "sha256": "726e39b2fa9eb9ffb6dc763fb35a179f80fae06ffc5d28b6ace5faa883de28a6",
+    "bytes": 637044
+  },
+  {
+    "file": "translation/train.en.gz",
+    "url": "https://raw.githubusercontent.com/multi30k/dataset/a3d2e0d26b56f3846f66a952536ffed4e401d05a/data/task1/raw/train.en.gz",
+    "sha256": "d79cfa999dd4c51d2cb42499b6796d5a882c3a8a961923c25a898c90f8bbd56f",
+    "bytes": 568929
+  },
+  {
+    "file": "translation/val.de.gz",
+    "url": "https://raw.githubusercontent.com/multi30k/dataset/a3d2e0d26b56f3846f66a952536ffed4e401d05a/data/task1/raw/val.de.gz",
+    "sha256": "f0cba2f995189cf5770f29a8a9a537a3ad3f51657ad873405082ff6863a5e75a",
+    "bytes": 24681
+  },
+  {
+    "file": "translation/val.en.gz",
+    "url": "https://raw.githubusercontent.com/multi30k/dataset/a3d2e0d26b56f3846f66a952536ffed4e401d05a/data/task1/raw/val.en.gz",
+    "sha256": "14f7d25ddd868909a9213e361768460edcacdd6ab9d1e77b92560dc10c10dc28",
+    "bytes": 21650
+  },
+  {
+    "file": "translation/test_2016_flickr.de.gz",
+    "url": "https://raw.githubusercontent.com/multi30k/dataset/a3d2e0d26b56f3846f66a952536ffed4e401d05a/data/task1/raw/test_2016_flickr.de.gz",
+    "sha256": "9204244e408ccb38d2a55cfcd344df15005fc42a07a6e55ca6c52b6ababb8cc8",
+    "bytes": 22890
+  },
+  {
+    "file": "translation/test_2016_flickr.en.gz",
+    "url": "https://raw.githubusercontent.com/multi30k/dataset/a3d2e0d26b56f3846f66a952536ffed4e401d05a/data/task1/raw/test_2016_flickr.en.gz",
+    "sha256": "611d361c6334bc7246101d48097c13cf5c4413c5befc793cc629934359d532d9",
+    "bytes": 21077
+  },
+  {
+    "file": "preference/cleaned.parquet",
+    "url": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned/resolve/770076f077c4c5e298498fa32f804857f46d5134/data/train-00000-of-00001.parquet",
+    "sha256": "27dc59041d73654aecfa7685b6f839a0bbb2014d640ee92eefa047b262d1f1ca",
+    "bytes": 143257393
+  }
+]

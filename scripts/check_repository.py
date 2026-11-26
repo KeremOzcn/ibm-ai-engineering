@@ -11,9 +11,13 @@ from urllib.parse import unquote
 
 import nbformat
 from build_catalog import ROOT, build_artifacts, load_inventory
+from check_second_batch import check as check_second_batch
+from check_selected_projects import check as check_projects
+from check_solutions import check as check_solutions
 from import_labs import content_digest
 
 SECRET_PATTERNS = [
+    re.compile(r"KGAT_[A-Za-z0-9]{20,}"),
     re.compile(r"gh[pousr]_[A-Za-z0-9]{25,}"),
     re.compile(r"AKIA[A-Z0-9]{16}"),
     re.compile(r"sk-[A-Za-z0-9]{20,}"),
@@ -85,6 +89,7 @@ def main() -> None:
         *sorted((ROOT / "docs").glob("*.md")),
         *sorted((ROOT / "courses").glob("*/README.md")),
         ROOT / "companions/README.md",
+        *sorted((ROOT / "projects").rglob("*.md")),
     ]
     for path in authored_docs:
         check_links(path, path.read_text(encoding="utf-8"))
@@ -114,6 +119,21 @@ def main() -> None:
         *sorted((ROOT / "provenance").glob("*.json")),
         *sorted((ROOT / "reports").glob("*.json")),
         *sorted((ROOT / "courses").rglob("*.ipynb")),
+        *sorted((ROOT / "solutions").rglob("*.ipynb")),
+        *sorted((ROOT / "reports/executed-labs").rglob("*.ipynb")),
+        *sorted((ROOT / "reports/selected-projects").rglob("*.json")),
+        *sorted((ROOT / "reports/selected-projects").rglob("*.ipynb")),
+        *sorted((ROOT / "reports/portfolio-evaluations").rglob("*.json")),
+        *sorted((ROOT / "reports/kaggle").rglob("*.json")),
+        *sorted((ROOT / "reports/kaggle").rglob("*.ipynb")),
+        *sorted((ROOT / "reports/second-batch-notebooks").rglob("*.json")),
+        *sorted((ROOT / "reports/second-batch-notebooks").rglob("*.ipynb")),
+        *sorted((ROOT / "reports/kaggle-second-batch").rglob("*.json")),
+        *sorted((ROOT / "reports/kaggle-second-batch").rglob("*.ipynb")),
+        *sorted((ROOT / "kaggle").rglob("*.json")),
+        *sorted((ROOT / "kaggle").rglob("*.ipynb")),
+        *sorted((ROOT / "projects").rglob("*.py")),
+        *sorted((ROOT / "projects").rglob("*.ipynb")),
         *companions,
         *sorted((ROOT / "scripts").glob("*.py")),
     ]
@@ -123,9 +143,54 @@ def main() -> None:
             raise ValueError(f"Personal filesystem path found: {path.relative_to(ROOT)}")
         if any(pattern.search(text) for pattern in SECRET_PATTERNS):
             raise ValueError(f"Possible credential found: {path.relative_to(ROOT)}")
+    solutions = check_solutions()
+    projects = check_projects()
+    second_batch = check_second_batch()
+    release_path = ROOT / "reports/kaggle/release.json"
+    if release_path.exists():
+        release = json.loads(release_path.read_text())
+        if len(release) != 3 or {row["project"] for row in release} != {
+            "satellite",
+            "instruction_tuning",
+            "aircraft",
+        }:
+            raise ValueError("Incomplete Kaggle release ledger.")
+        for row in release:
+            required = {
+                "metrics.json",
+                "split-manifest.json",
+                "source.ipynb",
+                "kernel-metadata.json",
+                "results.png",
+                "execution.log",
+            }
+            if set(row["files"]) != required:
+                raise ValueError("Incomplete Kaggle evidence bundle.")
+            if row["status"] != "COMPLETE" or row["is_private"]:
+                raise ValueError("The Kaggle release is not completed and public.")
+            folder = ROOT / "reports/kaggle" / row["project"]
+            for name, expected_digest in row["files"].items():
+                if not (folder / name).resolve().is_relative_to(folder.resolve()):
+                    raise ValueError("Out-of-project Kaggle evidence path.")
+                if hashlib.sha256((folder / name).read_bytes()).hexdigest() != expected_digest:
+                    raise ValueError(f"Changed Kaggle evidence: {row['project']}/{name}")
+            published = nbformat.read(folder / "source.ipynb", as_version=4)
+            authored = nbformat.read(
+                ROOT / "kaggle" / row["project"] / "notebook.ipynb", as_version=4
+            )
+            if [(c.cell_type, c.source) for c in published.cells] != [
+                (c.cell_type, c.source) for c in authored.cells
+            ]:
+                raise ValueError(f"Published Kaggle source differs: {row['project']}")
+            remote = json.loads((folder / "kernel-metadata.json").read_text())
+            if remote["is_private"] or remote["id"] != row["ref"]:
+                raise ValueError("Kaggle visibility or identity differs from the release ledger.")
     print(
         f"PASS: {len(sources)} source mappings, {len(canonical)} course assets, "
-        f"{len(companions)} executed companions, generated docs, links and credential patterns."
+        f"{len(companions)} executed companions, {solutions['notebooks']} worked copies, "
+        f"{solutions['current_smoke_runs']} current smoke runs, {projects['selected_projects']} selected project pilots, "
+        f"{second_batch['local_notebooks']} second-batch local notebooks, "
+        f"{second_batch['public_versions']} second-batch public versions, generated docs, links and credential patterns."
     )
 
 

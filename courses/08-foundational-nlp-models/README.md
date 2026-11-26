@@ -41,13 +41,13 @@ A causal sequence likelihood factors as P(x₁…xₜ) = ∏ P(xᵢ | x₁…x�
 
 ## Collected material
 
-6 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+6 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Building a Language Model Using Histogram N-Gram Analysis](notebooks/building-a-language-model-using-histogram-n-gram-analysis.ipynb) | Reference |
-| [Building and Training a Feedforward Neural Network for Language Modeling](notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb) | Reference |
-| [Document Classification with Word Embeddings](notebooks/document-classification-with-word-embeddings.ipynb) | Reference |
-| [Integrating Word2Vec Part1](notebooks/integrating-word2vec-part1.ipynb) | Reference |
-| [Integrating Word2Vec Part2](notebooks/integrating-word2vec-part2.ipynb) | Reference |
-| [Sequence-to-Sequence RNN Models: Translation Task](notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Building a Language Model Using Histogram N-Gram Analysis](notebooks/building-a-language-model-using-histogram-n-gram-analysis.ipynb) | Reference | [Worked copy](../../solutions/08-foundational-nlp-models/notebooks/building-a-language-model-using-histogram-n-gram-analysis.ipynb) |
+| [Building and Training a Feedforward Neural Network for Language Modeling](notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb) | Reference | [Worked copy](../../solutions/08-foundational-nlp-models/notebooks/building-and-training-a-feedforward-neural-network-for-language-modeling.ipynb) |
+| [Document Classification with Word Embeddings](notebooks/document-classification-with-word-embeddings.ipynb) | Reference | [Worked copy](../../solutions/08-foundational-nlp-models/notebooks/document-classification-with-word-embeddings.ipynb) |
+| [Integrating Word2Vec Part1](notebooks/integrating-word2vec-part1.ipynb) | Reference | [Worked copy](../../solutions/08-foundational-nlp-models/notebooks/integrating-word2vec-part1.ipynb) |
+| [Integrating Word2Vec Part2](notebooks/integrating-word2vec-part2.ipynb) | Reference | [Worked copy](../../solutions/08-foundational-nlp-models/notebooks/integrating-word2vec-part2.ipynb) |
+| [Sequence-to-Sequence RNN Models: Translation Task](notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb) | Reference | [Worked copy](../../solutions/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb) |

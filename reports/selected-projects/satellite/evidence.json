@@ -1,0 +1,12 @@
+{
+  "project": "satellite",
+  "status": "bounded-pilot-passed",
+  "fresh_kernel": true,
+  "source_notebook": "projects/satellite/notebook.ipynb",
+  "source_notebook_sha256": "57dc14c1f1bd640b7b2245c80bbe05bdbba938ae81399010dcbefc32a2be16e9",
+  "files": {
+    "executed.ipynb": "c9a9313838d2090e1c7141a60fe9ceaee95667367b44ac4a1a13bca981459252",
+    "metrics.json": "3b8a0e8514cb8a41ac0b06f10d6d50f0064d411e4a5d94edc3170d6cbc9eee64",
+    "split-manifest.json": "a428c910924213a337c11bffc9c2a9562c7303278b3b8c504065f0a43b5d874c"
+  }
+}

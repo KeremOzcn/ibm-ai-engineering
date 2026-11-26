@@ -1,0 +1,114 @@
+[
+  {
+    "solution": "solutions/08-foundational-nlp-models/notebooks/sequence-to-sequence-rnn-models-translation-task.ipynb",
+    "cell": 74,
+    "source_sha256": "fb05e72454dd91eb8ca6e60dacd061b23ddb5a2cfd403ad291ae915bed295e6f",
+    "source": "data_itr = iter(train_dataloader)\n# moving forward in the dataset to reach sequences of longer length for illustration purpose. (Remember the dataset is sorted on sequence len for optimal padding)\nfor n in range(5):\n    german, english= next(data_itr)\n\nfor n in range(3):\n    german, english=next(data_itr)\n    german=german.T\n    english=english.T\n    print(\"________________\")\n    print(\"german\")\n    for g in german:\n        print(index_to_german(g))\n    print(\"________________\")\n    print(\"english\")\n    for e in english:\n        print(index_to_eng(e))",
+    "reason": "The bounded DataLoader has 12 batches. Seek five rather than 1000 batches for the sequence display, retaining three illustrative batches. This changes display selection only."
+  },
+  {
+    "solution": "solutions/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb",
+    "cell": 14,
+    "source_sha256": "07a32438d80e8d7c8159bc154be3e567b07aa062bc0cd1e603372042a3c6a90e",
+    "source": "def create_sequences(text, seq_length): \n    input_seqs = [] \n    target_seqs = [] \n    for i in range(min(32, len(text) - seq_length)): \n        input_seq = text[i:i + seq_length] \n        target_seq = text[i + 1:i + seq_length + 1] \n        input_seqs.append(input_seq) \n        target_seqs.append(target_seq) \n    return np.array(input_seqs), np.array(target_seqs) \n\n# Generate sequences \nX, Y = create_sequences(vectorized_text.numpy(), seq_length) \n\n# Check if sequences are correctly generated \nprint(\"Number of sequences generated:\", len(X)) \nprint(\"Sample input sequence:\", X[0] if len(X) > 0 else \"No sequences generated\") \n\n# Check if X and Y are not empty \nassert X.size > 0, \"Input data X is empty\" \nassert Y.size > 0, \"Target data Y is empty\" \nX = tf.convert_to_tensor(X) \nY = tf.convert_to_tensor(Y) \nprint(\"Shape of X:\", X.shape) \nprint(\"Shape of Y:\", Y.shape)",
+    "reason": "For bounded text-generation verification, construct only the first 32 shifted token windows. Both sequence-length variants use this limit; the full Transformer architecture is retained."
+  },
+  {
+    "solution": "solutions/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 19,
+    "source_sha256": "b8f1576b5829eb5522f974f9a462eaee6ac38f6768e2717e53348618825f664a",
+    "source": "for n in range(5):\n    german, english= next(data_itr)",
+    "reason": "For bounded translation display, seek five rather than 1000 batches so the sequence illustration fits the 12-batch iterator."
+  },
+  {
+    "solution": "solutions/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 23,
+    "source_sha256": "df05cda25e6d8395e54522523d79cc36b9c13b491b5d7ff1b575c4c410fa8b3f",
+    "source": "for n in range(3):\n    german, english= next(data_itr)\n\n    print(\"sample {}\".format(n))\n    print(\"german input\")\n    print(index_to_german(german))\n    print(\"english target\")\n    print(index_to_eng(english))\n    print(\"_________\\n\")",
+    "reason": "Display three rather than ten translation samples so the bounded 12-batch iterator is not exhausted."
+  },
+  {
+    "solution": "solutions/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb",
+    "cell": 43,
+    "source_sha256": "ae59dacd9561b63c6582bfae14c5b4c381c1b274eaad668e59c2df67fa69b5fa",
+    "source": "data_itr = iter(train_dataloader)\nfor n in range(5):\n    src ,tgt= next(data_itr)",
+    "reason": "Reset the bounded iterator and advance five rather than 100 batches so downstream mask and evaluation examples stay within the 12-batch iterator."
+  },
+  {
+    "solution": "solutions/09-transformer-language-models/notebooks/decoder-causal-language-models.ipynb",
+    "cell": 70,
+    "source_sha256": "587a19a7504f95d09c9f93309935f06c8c50f75c8e2bc505b4a2700392c3eb9d",
+    "source": "print(index_to_en(encode_prompt(\"This is a valid prompt.\")))",
+    "reason": "Pass a non-empty prompt in non-interactive smoke execution instead of calling input() on stdin."
+  },
+  {
+    "solution": "solutions/07-llm-data-preparation/notebooks/exploring-generative-ai-libraries.ipynb",
+    "cell": 13,
+    "source_sha256": "de6df646c254a3051026eb850b7abcfcd63a915db0ab7eea34aec2b46b8349f7",
+    "source": "# Define the chat function\ndef chat_with_bot():\n    _prompts = iter([\"Hello, how are you?\", \"quit\"])\n    while True:\n        # Get user input\n        input_text = next(_prompts, \"quit\")\n        print(\"You:\", input_text)\n\n        # Exit conditions\n        if input_text.lower() in [\"quit\", \"exit\", \"bye\"]:\n            print(\"Chatbot: Goodbye!\")\n            break\n\n        # Tokenize input and generate response\n        inputs = tokenizer.encode(input_text, return_tensors=\"pt\")\n        outputs = model.generate(inputs, max_new_tokens=150) \n        response = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()\n\n        # Display bot's response\n        print(\"Chatbot:\", response)\n\n# Start chatting\nchat_with_bot()",
+    "reason": "Provide one scripted prompt and a quit signal for non-interactive smoke execution instead of calling input()."
+  },
+  {
+    "solution": "solutions/07-llm-data-preparation/notebooks/exploring-generative-ai-libraries.ipynb",
+    "cell": 18,
+    "source_sha256": "5b79a61a08a3ed0977d0f5b8ea430818c1b5d6678d1e66b93e451ec477f4abb2",
+    "source": "### Let's chat with another bot\ndef chat_with_another_bot():\n    _prompts = iter([\"Translate English to French: Hello, how are you?\", \"quit\"])\n    while True:\n        # Get user input\n        input_text = next(_prompts, \"quit\")\n        print(\"You:\", input_text)\n\n        # Exit conditions\n        if input_text.lower() in [\"quit\", \"exit\", \"bye\"]:\n            print(\"Chatbot: Goodbye!\")\n            break\n\n        # Tokenize input and generate response\n        inputs = tokenizer.encode(input_text, return_tensors=\"pt\")\n        outputs = model.generate(inputs, max_new_tokens=150) \n        response = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()\n        \n        # Display bot's response\n        print(\"Chatbot:\", response)\n\n# Start chatting\nchat_with_another_bot()",
+    "reason": "Provide one scripted prompt and a quit signal for non-interactive smoke execution instead of calling input()."
+  },
+  {
+    "solution": "solutions/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 78,
+    "source_sha256": "f3d9cb77223d886f28ba2ed91814f5ea2c920b50ab3a7c8a84e88188db8c1c88",
+    "source": "training_args = SFTConfig(\n    output_dir=\"/tmp\",\n    num_train_epochs=1,\n    max_steps=2,\n    save_strategy=\"no\",\n    fp16=torch.cuda.is_available(),\n    per_device_train_batch_size=2,\n    per_device_eval_batch_size=2,\n    max_seq_length=256,\n    do_eval=False\n)\n\ntrainer = SFTTrainer(\n    model,\n    args=training_args,\n    train_dataset=dataset.select(range(min(8, len(dataset)))),\n    dataset_text_field=\"text\",\n    data_collator=collator,\n)",
+    "reason": "Guard fp16 with CUDA availability and bound SFTTrainer to 2 steps on 8 rows for CPU smoke execution."
+  },
+  {
+    "solution": "solutions/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 38,
+    "source_sha256": "88194783a555113636fb3ae865a69df92e460bb16b41638f78ce142b20fc239e",
+    "source": "from peft import get_peft_model\ntraining_args = DPOConfig(\n    beta=0.1,\n    output_dir=\"dpo\",\n    num_train_epochs=1,\n    max_steps=2,\n    per_device_train_batch_size=1,\n    per_device_eval_batch_size=1,\n    remove_unused_columns=False,\n    logging_steps=1,\n    gradient_accumulation_steps=1,\n    learning_rate=1e-4,\n    evaluation_strategy=\"steps\",\n    eval_steps=1,\n    warmup_steps=1,\n    fp16=False,\n    save_steps=2,\n    report_to='none'\n)",
+    "reason": "Bound DPOTrainer to 2 steps with step-level evaluation and checkpointing so eval_loss and checkpoint-2 are produced."
+  },
+  {
+    "solution": "solutions/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 50,
+    "source_sha256": "0cb981a58f390241604a08590d3a5f203795ebb73dac526af2a1f86eb1232fa9",
+    "source": "dpo_model = AutoModelForCausalLM.from_pretrained('./dpo/checkpoint-2')",
+    "reason": "Load the step-2 smoke checkpoint saved by the bounded DPOTrainer run."
+  },
+  {
+    "solution": "solutions/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 40,
+    "source_sha256": "346882363f6fd009d400798b63bae9b9d848a6cbe930106d9e33f0fd75dd1176",
+    "source": "tokenizer.pad_token = tokenizer.eos_token\n\ntrainer = DPOTrainer(\n    model=model,\n    ref_model=None,\n    args=training_args,\n    train_dataset=train_dataset.select(range(min(4, len(train_dataset)))),\n    eval_dataset=eval_dataset.select(range(min(2, len(eval_dataset)))),\n    tokenizer=tokenizer,\n    peft_config=peft_config,\n    max_length=256,\n)",
+    "reason": "Slice train and eval splits for 2-step CPU smoke verification while preserving eval_loss logging."
+  },
+  {
+    "solution": "solutions/10-fine-tuning-transformers/notebooks/fine-tuning-transformers-with-pytorch-and-hugging-face.ipynb",
+    "cell": 14,
+    "source_sha256": "d7efce8fc3fddf741eb8046dd8c7837bb73d93b93101450c2999bbf9286247c6",
+    "source": "import torch\nif hasattr(torch.backends, 'mps'):\n    torch.backends.mps.is_available = lambda: False\nfrom torchmetrics import Accuracy\nfrom torch.optim.lr_scheduler import LambdaLR\nfrom torch.utils.data import DataLoader\nfrom torch.optim import AdamW\nfrom transformers import AutoConfig,AutoModelForCausalLM,AutoModelForSequenceClassification,BertConfig,BertForMaskedLM,TrainingArguments, Trainer, TrainingArguments\nfrom transformers import AutoTokenizer,BertTokenizerFast,TextDataset,DataCollatorForLanguageModeling\nfrom transformers import pipeline\nfrom datasets import load_dataset\nfrom trl import SFTConfig,SFTTrainer, DataCollatorForCompletionOnlyLM\nfrom tqdm.auto import tqdm\nimport math\nimport time\nimport matplotlib.pyplot as plt\n\n\ndef warn(*args, **kwargs):\n    pass\nimport warnings\nwarnings.warn = warn\nwarnings.filterwarnings('ignore')",
+    "reason": "Force CPU execution on macOS because transformers 4.45.2 with torch 2.2.2 raises IndexError in isin_mps_friendly on MPS."
+  },
+  {
+    "solution": "solutions/11-advanced-fine-tuning/notebooks/reinforcement-learning-from-human-feedback-using-ppo.ipynb",
+    "cell": 15,
+    "source_sha256": "c47d62be66262c8da489ee92dab414bb23293fb56fe5f6cd9a23bad58c503db4",
+    "source": "import torch\nif hasattr(torch.backends, 'mps'):\n    torch.backends.mps.is_available = lambda: False\nfrom tqdm import tqdm\nimport pandas as pd\n\ntqdm.pandas()\n\nfrom transformers import pipeline, AutoTokenizer,AutoModelForCausalLM\nfrom datasets import load_dataset\n\nfrom trl import PPOTrainer, PPOConfig, AutoModelForCausalLMWithValueHead\nfrom trl.core import LengthSampler\nimport os\n\nimport tarfile\nimport pickle\nimport json\nimport matplotlib.pyplot as plt\nimport torch\nimport pandas as pd\nimport warnings\n\nwarnings.filterwarnings('ignore')\ndef warn(*args, **kwargs):\n    pass\nwarnings.warn = warn",
+    "reason": "Force CPU execution on macOS because transformers 4.45.2 with torch 2.2.2 raises IndexError in isin_mps_friendly on MPS."
+  },
+  {
+    "solution": "solutions/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb",
+    "cell": 79,
+    "source_sha256": "6fe2b3e41b61ba4d2af4318d8419c4f4f89412c2cac75208d882f9ab504f382f",
+    "source": "PROMPT = \"What is reinforcement learning?\"",
+    "reason": "Provide a fixed prompt in non-interactive smoke execution instead of calling input()."
+  },
+  {
+    "solution": "solutions/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb",
+    "cell": 64,
+    "source_sha256": "7e958701906444c83e279637488ac4f28e4ee6542e74c26cf8f88d0db8deac86",
+    "source": "training_args = SFTConfig(\n    output_dir=\"/tmp\",\n    num_train_epochs=1,\n    max_steps=2,\n    save_strategy=\"no\",\n    fp16=torch.cuda.is_available(),\n    per_device_train_batch_size=2,\n    per_device_eval_batch_size=2,\n    max_seq_length=256,\n    do_eval=False\n)\n\ntrainer = SFTTrainer(\n    model,\n    train_dataset=train_dataset,\n    eval_dataset=test_dataset,\n    formatting_func=formatting_prompts_func,\n    args=training_args,\n    packing=False,\n    data_collator=collator,\n)",
+    "reason": "Guard fp16 with CUDA availability and bound SFTTrainer to 2 steps for CPU smoke execution."
+  }
+]

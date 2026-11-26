@@ -1,0 +1,57 @@
+# Lab completion handoff
+
+Resumed on 25 November 2026 after the owner said "continue". All new solution work remains local and uncommitted; the published repository revision is still `c160a14`.
+
+## Scope
+
+Complete all collected lab exercises in separate worked copies, preserve original references, and make the collection useful for study and portfolio review. Keep Mevzuat RAG separate. Use bounded local verification first and list full training/provider execution separately. Replies and documentation stay in English.
+
+## Durable state
+
+- 138 worked notebooks generated from guarded source-cell patches.
+- Use [solution progress](SOLUTION_PROGRESS.md) for current patch, syntax and execution counts; this handoff intentionally does not duplicate changing totals.
+- `provenance/solution-patches.json` is the durable answer/compatibility source. Edit it and rebuild rather than editing generated notebooks.
+- Exercise inventory and explicit review decisions are under `provenance/`.
+- `provenance/verification-plan.json` records heavy/service requirements; `provenance/smoke-overrides.json` records guarded translation-display and text-generation sample adaptations.
+- Actual successful bounded notebooks live under `reports/executed-labs/`; failed attempts and exact source/output hashes are in `reports/solution-execution.json`.
+- The local and legacy NLP/document dependency profiles are under `requirements/`. These are direct compatibility pins, not universal lockfiles.
+- Original course assets are still guarded by the source manifest. Caches and virtual environments remain ignored.
+
+## Verification tools
+
+```bash
+.venv/bin/python scripts/build_solutions.py
+.venv/bin/python scripts/build_solutions.py --check
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/ruff check scripts tests
+.venv/bin/ruff format --check scripts tests
+.venv/bin/python scripts/check_repository.py
+```
+
+`scripts/run_solutions.py` uses the launching interpreter and an asynchronous temporary kernel, applies explicit bounded adaptations, records each attempt and returns nonzero for failures. `--course` is repeatable; `--match`, `--exclude` and `--skip-passed` select runs. Reuse requires the same source, verification code and saved artifact hashes. Run one runner at a time because the ledger is single-writer.
+
+Read [remaining full runs](FULL_RUNS.md), [setup](SETUP.md) and [validation](VALIDATION.md) before claiming model quality or broader runtime coverage. Passing the preparation audit does not establish every answer's semantic correctness. No real provider calls, course submissions or new GitHub publication are included in this continuation.
+
+## Corrections during this continuation
+
+Fashion-MNIST now defines its 16-pixel image size and evaluates against the actual processed sample count. The failed breast-cancer dependency and three PyTorch regression reruns passed. All course05 PyTorch notebooks passed bounded runs. Standard-library downloads replace external wget calls in worked copies; optional torchtext warning helpers are guarded for 0.17.2. Setup cells no longer install spaCy models inside a running notebook. The TensorFlow fit profile now limits tensors as well as NumPy arrays. Regression tests cover those boundaries and stale/corrupt execution proof.
+
+Historical output paths were redacted and code digests reconstructed from saved executed notebooks; earlier package versions cannot be reconstructed honestly. Any subsequent path cleanup must update the actual executed-file digest in the ledger. Do not run such a migration concurrently with a runner holding an older ledger snapshot.
+
+Additional correctness fixes: autoregressive TensorFlow attention is causal, its loss consumes logits, and generation samples the final token position (both generation helpers). Vision history plots use actual recorded lengths; the Keras checkpoint answer avoids an unsupported callback attribute. `prepare_vision_smoke.py` reproduces comparison subsets in fresh caches.
+
+All 10 Tasks in `waste-classification-using-transfer-learning.ipynb` and the missing derivative practice cell in `differentiation-in-pytorch.ipynb` are now patched in `provenance/solution-patches.json`. Compatibility fixes also replace external `wget` in `practice-project-fruit-classification-using-transfer-learning.ipynb`, place `%%capture` on line 1 in `lora-with-pytorch.ipynb`, load `wikitext-2-raw-v1` before exporting text splits in `pre-training-llms-with-hugging-face.ipynb`, and unpack the 3-tuple returned by `Trainer.predict`. Bounded local smoke runs now pass for all 130 non-provider-gated notebooks (Courses 01–11 plus local RAG/document labs in Courses 12–13); only the 8 notebooks requiring live IBM watsonx or OpenWeatherMap API keys remain `not-run` in `provenance/verification-plan.json`.
+
+## Selected projects added after the course-lab continuation
+
+The three accepted portfolio projects are under `projects/`, with standalone notebooks generated by `scripts/build_project_notebooks.py`. All three ran in fresh local kernels; evidence is under `reports/selected-projects/` and checked by `scripts/check_selected_projects.py`. The audit is `docs/SELECTED_PROJECT_AUDIT.md`. These are original corrected experiment paths; the course references and Antigravity worked copies were preserved.
+
+The original selected-project stage verified bounded pilots and checkpoint/source/data integrity. Subsequent [Kaggle publication work](KAGGLE_RELEASE.md) expanded image experiments to all source splits and LoRA to 512 training records, then ran the notebooks on Kaggle. Near-duplicate/source overlap review, generated-code task quality and human caption review remain pending. The BLIP captioner failed semantically on the two visually inspected pilot images; retain those failures honestly in the reliability case study. Kaggle uploads are documented in the later release; no GitHub commit or push was performed.
+
+## Completed Kaggle release
+
+Verified on 26 November 2026: all three public version-2 notebooks are COMPLETE, with source equality, runtime, split/checkpoint proof, returned public visibility and hashed cloud artifacts recorded in `reports/kaggle/release.json`. The final five-page attachment is `output/pdf/ibm-ai-engineering-portfolio.pdf`. See [release notes](KAGGLE_RELEASE.md). The owner explicitly chose to finish these three first; fraud detection remains a later addition. Remaining research work is repeated seeds/runtime sensitivity, broader image source/near-duplicate review, generated-code task evaluation and human caption review. No Kaggle execution remains pending for these versions. No GitHub commit/push or LinkedIn post was performed.
+
+## Additional projects completed -26 November2026
+
+The second batch adds translation, fraud, CartPole and a DPO extension. All four public Kaggle version-2 runs are COMPLETE, with full budgets/source/counts/reloads/visibility checked in `reports/kaggle-second-batch/release.json`. Read [the batch record](SECOND_BATCH.md) for links, measured trade-offs and reproduction. The five-page supplement is `output/pdf/ibm-ai-engineering-additional-projects.pdf`. The original three public projects and their PDF remain valid. Seven case-study notebooks are now public (six standalone studies plus the alignment extension). Remaining quality work includes broader seeds/domains, temporal/customer grouping provenance, human translation/preference review and longer context budgets. No GitHub commit/push or LinkedIn posting was done.

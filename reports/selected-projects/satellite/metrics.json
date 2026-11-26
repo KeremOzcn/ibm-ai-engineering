@@ -1,0 +1,276 @@
+{
+  "project": "satellite",
+  "profile": "bounded-pilot",
+  "seed": 42,
+  "device": "cpu",
+  "complete_split_counts": {
+    "train": {
+      "0": 1629,
+      "1": 1754
+    },
+    "validation": {
+      "0": 55,
+      "1": 38
+    },
+    "test": {
+      "0": 1316,
+      "1": 1208
+    }
+  },
+  "selected_split_counts": {
+    "train": {
+      "0": 16,
+      "1": 16
+    },
+    "validation": {
+      "0": 8,
+      "1": 8
+    },
+    "test": {
+      "0": 8,
+      "1": 8
+    }
+  },
+  "split_manifest_sha256": "a428c910924213a337c11bffc9c2a9562c7303278b3b8c504065f0a43b5d874c",
+  "comparison": "Different parameter counts; shared stem initialization and sample order. Not an isolated attention-only ablation.",
+  "near_duplicate_or_geographic_overlap_audited": false,
+  "models": {
+    "cnn": {
+      "parameters": 23938,
+      "spatial_tokens": null,
+      "seconds": 0.6625477920169942,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.6644037216901779,
+          "validation_macro_f1": 0.9372549019607843,
+          "train_samples": 32
+        }
+      ],
+      "checkpoint_sha256": "6458d4d920024dd1c3376b836429fc380e7306e5c7e907eb8c33045a3f77af1a",
+      "exact_reload": true,
+      "training_ids": [
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_7695.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_8846.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_2287.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_14400.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_10823.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_0696.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_2711.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_15554.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_11383.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_1791.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_2073.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_8413.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_19698.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_21818.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_3086.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_7085.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_4909.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_13681.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_14224.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_6387.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_16951.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_7244.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQD_20250427T170513.SAFE_0672.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_11329.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_4429.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_5091.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_13781.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_23774.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_16408.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_3995.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_10458.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_9491.jpg"
+      ],
+      "test": {
+        "samples": 16,
+        "accuracy": 0.625,
+        "macro_f1": 0.5636363636363637,
+        "roc_auc": 0.703125,
+        "confusion_matrix": [
+          [
+            8,
+            0
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "per_class": {
+          "0": {
+            "precision": 0.5714285714285714,
+            "recall": 1.0,
+            "f1-score": 0.7272727272727273,
+            "support": 8.0
+          },
+          "1": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1-score": 0.4,
+            "support": 8.0
+          },
+          "accuracy": 0.625,
+          "macro avg": {
+            "precision": 0.7857142857142857,
+            "recall": 0.625,
+            "f1-score": 0.5636363636363637,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.7857142857142857,
+            "recall": 0.625,
+            "f1-score": 0.5636363636363637,
+            "support": 16.0
+          }
+        },
+        "loss": 0.6600919663906097,
+        "ids": [
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_0311.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_16645.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_18636.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_19275.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_29031.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_7411.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_7979.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_9187.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_14131.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_15462.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_17010.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_19834.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_21129.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_26321.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_27181.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_3425.jpg"
+        ]
+      }
+    },
+    "spatial_hybrid": {
+      "parameters": 108482,
+      "spatial_tokens": 16,
+      "seconds": 0.03661716595524922,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.8738401085138321,
+          "validation_macro_f1": 0.3333333333333333,
+          "train_samples": 32
+        }
+      ],
+      "checkpoint_sha256": "93b40f40369fa16f001b8908d2a552bb6222587d8f76f5ec2b788e24429cc6ec",
+      "exact_reload": true,
+      "training_ids": [
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_7695.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_8846.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_2287.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_14400.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_10823.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_0696.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_2711.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_15554.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_11383.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_1791.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_2073.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_8413.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_19698.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_21818.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_3086.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_7085.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_4909.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_13681.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_14224.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_6387.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_16951.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_7244.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQD_20250427T170513.SAFE_0672.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_11329.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_4429.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_5091.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_13781.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_23774.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_16408.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_3995.jpg",
+        "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_10458.jpg",
+        "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UQB_20250427T170513.SAFE_9491.jpg"
+      ],
+      "test": {
+        "samples": 16,
+        "accuracy": 0.4375,
+        "macro_f1": 0.30434782608695654,
+        "roc_auc": 0.34375,
+        "confusion_matrix": [
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "per_class": {
+          "0": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 8.0
+          },
+          "1": {
+            "precision": 0.4666666666666667,
+            "recall": 0.875,
+            "f1-score": 0.6086956521739131,
+            "support": 8.0
+          },
+          "accuracy": 0.4375,
+          "macro avg": {
+            "precision": 0.23333333333333334,
+            "recall": 0.4375,
+            "f1-score": 0.30434782608695654,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.23333333333333334,
+            "recall": 0.4375,
+            "f1-score": 0.30434782608695654,
+            "support": 16.0
+          }
+        },
+        "loss": 0.7213559150695801,
+        "ids": [
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_0311.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_16645.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_18636.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_19275.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_29031.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_7411.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_7979.jpg",
+          "class_0_non_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_9187.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_14131.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_15462.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_17010.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_19834.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_21129.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_26321.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_27181.jpg",
+          "class_1_agri/tile_S2A_MSIL2A_20250427T101701_N0511_R065_T32UPE_20250427T170513.SAFE_3425.jpg"
+        ]
+      }
+    }
+  },
+  "source": {
+    "project_sha256": "bf1d0613411d582ae60786fc63080e3c90be901a8879ecd33f6555250e53bdb4",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  },
+  "runtime": {
+    "utc": "2026-11-25T19:49:55.667785+00:00",
+    "python": "3.11.15",
+    "platform": "Darwin",
+    "packages": {
+      "torch": "2.8.0",
+      "numpy": "2.0.2",
+      "scikit-learn": "1.6.1",
+      "Pillow": "13.0.0"
+    }
+  }
+}

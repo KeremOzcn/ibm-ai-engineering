@@ -1,0 +1,16 @@
+{
+  "id": "kerem0zcan/aircraft-damage-and-caption-reliability",
+  "title": "Aircraft Damage and Caption Reliability",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "machine_shape": "",
+  "docker_image_pinning_type": "original",
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

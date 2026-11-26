@@ -41,13 +41,13 @@ Attention(Q,K,V) = softmax(QKᵀ / √dₖ + mask)V. A causal mask excludes keys
 
 ## Collected material
 
-6 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+6 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [A Transformer Model for Language Translation](notebooks/a-transformer-model-for-language-translation.ipynb) | Reference; 2 syntax blanks |
-| [Applying Transformers for Classification](notebooks/applying-transformers-for-classification.ipynb) | Reference; 1 syntax blanks |
-| [Data Loading and Text Processing for BERT](notebooks/data-loading-and-text-processing-for-bert.ipynb) | Reference |
-| [Decoder Causal Language Models](notebooks/decoder-causal-language-models.ipynb) | Reference |
-| [Pretraining BERT Models](notebooks/pretraining-bert-models.ipynb) | Reference |
-| [Self-Attention and Positional Encoding](notebooks/self-attention-and-positional-encoding.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [A Transformer Model for Language Translation](notebooks/a-transformer-model-for-language-translation.ipynb) | Reference; 2 syntax blanks | [Worked copy](../../solutions/09-transformer-language-models/notebooks/a-transformer-model-for-language-translation.ipynb) |
+| [Applying Transformers for Classification](notebooks/applying-transformers-for-classification.ipynb) | Reference; 1 syntax blanks | [Worked copy](../../solutions/09-transformer-language-models/notebooks/applying-transformers-for-classification.ipynb) |
+| [Data Loading and Text Processing for BERT](notebooks/data-loading-and-text-processing-for-bert.ipynb) | Reference | [Worked copy](../../solutions/09-transformer-language-models/notebooks/data-loading-and-text-processing-for-bert.ipynb) |
+| [Decoder Causal Language Models](notebooks/decoder-causal-language-models.ipynb) | Reference | [Worked copy](../../solutions/09-transformer-language-models/notebooks/decoder-causal-language-models.ipynb) |
+| [Pretraining BERT Models](notebooks/pretraining-bert-models.ipynb) | Reference | [Worked copy](../../solutions/09-transformer-language-models/notebooks/pretraining-bert-models.ipynb) |
+| [Self-Attention and Positional Encoding](notebooks/self-attention-and-positional-encoding.ipynb) | Reference | [Worked copy](../../solutions/09-transformer-language-models/notebooks/self-attention-and-positional-encoding.ipynb) |

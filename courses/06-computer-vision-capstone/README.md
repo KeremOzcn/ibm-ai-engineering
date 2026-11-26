@@ -42,16 +42,16 @@ For square images of side H and patch size P, the image contributes (H/P)² patc
 
 ## Collected material
 
-9 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+9 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Compare Memory-Based versus Generator-Based Data Loading](notebooks/compare-memory-based-versus-generator-based-data-loading.ipynb) | Reference |
-| [Data Loading and Augmentation Using Keras](notebooks/data-loading-and-augmentation-using-keras.ipynb) | Reference |
-| [Lab: Comparative Analysis of Keras and PyTorch Models](notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb) | Reference |
-| [Lab: Data Loading and Augmentation Using PyTorch](notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb) | Reference |
-| [Lab: Implement and Test a PyTorch-Based Classifier](notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb) | Reference |
-| [Lab: Land Classification: CNN-Transformer Integration evaluation](notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb) | Reference |
-| [Lab: Train and Evaluate a Keras-Based Classifier](notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb) | Reference |
-| [Lab: Vision Transformers Using Keras](notebooks/lab-vision-transformers-using-keras.ipynb) | Reference |
-| [Lab: Vision Transformers Using PyTorch](notebooks/lab-vision-transformers-using-pytorch.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Compare Memory-Based versus Generator-Based Data Loading](notebooks/compare-memory-based-versus-generator-based-data-loading.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/compare-memory-based-versus-generator-based-data-loading.ipynb) |
+| [Data Loading and Augmentation Using Keras](notebooks/data-loading-and-augmentation-using-keras.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/data-loading-and-augmentation-using-keras.ipynb) |
+| [Lab: Comparative Analysis of Keras and PyTorch Models](notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/lab-comparative-analysis-of-keras-and-pytorch-models.ipynb) |
+| [Lab: Data Loading and Augmentation Using PyTorch](notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/lab-data-loading-and-augmentation-using-pytorch.ipynb) |
+| [Lab: Implement and Test a PyTorch-Based Classifier](notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/lab-implement-and-test-a-pytorch-based-classifier.ipynb) |
+| [Lab: Land Classification: CNN-Transformer Integration evaluation](notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/lab-land-classification-cnn-transformer-integration-evaluation.ipynb) |
+| [Lab: Train and Evaluate a Keras-Based Classifier](notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/lab-train-and-evaluate-a-keras-based-classifier.ipynb) |
+| [Lab: Vision Transformers Using Keras](notebooks/lab-vision-transformers-using-keras.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-keras.ipynb) |
+| [Lab: Vision Transformers Using PyTorch](notebooks/lab-vision-transformers-using-pytorch.ipynb) | Reference | [Worked copy](../../solutions/06-computer-vision-capstone/notebooks/lab-vision-transformers-using-pytorch.ipynb) |

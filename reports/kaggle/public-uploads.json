@@ -1,0 +1,32 @@
+[
+  {
+    "project": "satellite",
+    "ref": "kerem0zcan/satellite-cnn-vs-transformer-across-source-scenes",
+    "url": "https://www.kaggle.com/code/kerem0zcan/satellite-cnn-vs-transformer-across-source-scenes",
+    "version": 2,
+    "kernel_id": 147450156,
+    "is_private": false,
+    "uploaded_utc": "2026-11-25T20:21:47.465471+00:00",
+    "notebook_sha256": "1dfe0f49108a552675a0238ab8c6412efc6157c8f5be64131f5a36be35dadb36"
+  },
+  {
+    "project": "aircraft",
+    "ref": "kerem0zcan/aircraft-damage-and-caption-reliability",
+    "url": "https://www.kaggle.com/code/kerem0zcan/aircraft-damage-and-caption-reliability",
+    "version": 2,
+    "kernel_id": 147450283,
+    "is_private": false,
+    "uploaded_utc": "2026-11-25T20:21:49.209338+00:00",
+    "notebook_sha256": "88f519e097ca75695c835a72167618fa450cd3a7047f2e20c0ebe426afdd0da1"
+  },
+  {
+    "project": "instruction_tuning",
+    "ref": "kerem0zcan/lora-instruction-tuning-and-verified-reload",
+    "url": "https://www.kaggle.com/code/kerem0zcan/lora-instruction-tuning-and-verified-reload",
+    "version": 2,
+    "kernel_id": 147450285,
+    "is_private": false,
+    "uploaded_utc": "2026-11-25T20:21:50.938136+00:00",
+    "notebook_sha256": "9e3dc4e9c93bcce5ad68742c43e6cc04a63e96f55bab8f9a1eacea4c6549425a"
+  }
+]

@@ -1,0 +1,5 @@
+# Add to the existing core study environment; preserve its working Torch build.
+pandas==2.2.3
+sacrebleu==2.5.1
+gymnasium==1.1.1
+pyarrow>=17,<27

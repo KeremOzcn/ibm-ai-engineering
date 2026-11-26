@@ -1,0 +1,46 @@
+[
+  {
+    "project": "translation",
+    "ref": "kerem0zcan/german-english-translation-gru-vs-transformer",
+    "url": "https://www.kaggle.com/code/kerem0zcan/german-english-translation-gru-vs-transformer",
+    "version": 1,
+    "kernel_id": 147592579,
+    "is_private": true,
+    "uploaded_utc": "2026-11-26T11:37:19.042364+00:00",
+    "notebook_sha256": "d51601fafb0a0fc41e3ec2384773a1e4ccf0939085682d5df27a17a8c73e9f45",
+    "error": ""
+  },
+  {
+    "project": "fraud",
+    "ref": "kerem0zcan/fraud-detection-under-a-100-alert-review-budget",
+    "url": "https://www.kaggle.com/code/kerem0zcan/fraud-detection-under-a-100-alert-review-budget",
+    "version": 1,
+    "kernel_id": 147592585,
+    "is_private": true,
+    "uploaded_utc": "2026-11-26T11:37:20.883062+00:00",
+    "notebook_sha256": "6bbc1b79131ee37c93191942e30222cceefb86c650c144a6853f0b1b4c8df71e",
+    "error": ""
+  },
+  {
+    "project": "cartpole",
+    "ref": "kerem0zcan/cartpole-dqn-target-networks-across-three-seeds",
+    "url": "https://www.kaggle.com/code/kerem0zcan/cartpole-dqn-target-networks-across-three-seeds",
+    "version": 1,
+    "kernel_id": 147592591,
+    "is_private": true,
+    "uploaded_utc": "2026-11-26T11:37:22.638929+00:00",
+    "notebook_sha256": "37d77b198d0fe0dd8785fcfb33da1de454c5e9c8373da1d708785a938875f721",
+    "error": ""
+  },
+  {
+    "project": "preference_alignment",
+    "ref": "kerem0zcan/sft-vs-dpo-with-frozen-reference-and-reload-proof",
+    "url": "https://www.kaggle.com/code/kerem0zcan/sft-vs-dpo-with-frozen-reference-and-reload-proof",
+    "version": 1,
+    "kernel_id": 147592594,
+    "is_private": true,
+    "uploaded_utc": "2026-11-26T11:37:24.468246+00:00",
+    "notebook_sha256": "cd66e521a57e49464827c3e5ab706c72e3c0651b4215305065b47f806252e877",
+    "error": ""
+  }
+]

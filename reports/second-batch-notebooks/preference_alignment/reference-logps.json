@@ -1,0 +1,232 @@
+{
+  "train": [
+    {
+      "id": "b46d0e94fb9a625534d18a38d2478d9d8e8d57fbfa6efcd54f534484cfccffb2",
+      "chosen": -402.65869140625,
+      "rejected": -467.62274169921875,
+      "chosen_tokens": 192,
+      "rejected_tokens": 192
+    },
+    {
+      "id": "ed2ed3041a763f1eb7e41f8d52dabb70cda9573b263925a5620d39d364a3788b",
+      "chosen": -228.1818389892578,
+      "rejected": -458.7899169921875,
+      "chosen_tokens": 112,
+      "rejected_tokens": 182
+    },
+    {
+      "id": "af2f99a10a9701ba3eac3398a730e9fa93ea76ec950919d338b8545cb4e6b3d2",
+      "chosen": -593.4052124023438,
+      "rejected": -154.38626098632812,
+      "chosen_tokens": 235,
+      "rejected_tokens": 51
+    },
+    {
+      "id": "faa5be4232582fd261801a00fbf173eac1240aad482451b23a7cd31ea66c59d4",
+      "chosen": -465.8181457519531,
+      "rejected": -130.37205505371094,
+      "chosen_tokens": 234,
+      "rejected_tokens": 59
+    },
+    {
+      "id": "750a80dc6b68278e9c1478d817a93089cfebdd53926bc8a1c11a4cbdec47ab3f",
+      "chosen": -547.1441650390625,
+      "rejected": -372.3078918457031,
+      "chosen_tokens": 225,
+      "rejected_tokens": 220
+    },
+    {
+      "id": "3c9342b7421eb6a5edbdf7237be32d336077c406139c0aab011a28bd17177c45",
+      "chosen": -415.73687744140625,
+      "rejected": -50.41877746582031,
+      "chosen_tokens": 214,
+      "rejected_tokens": 29
+    },
+    {
+      "id": "73cc033ad10f241947dd6589444d75aee1bff7aab2cb6669b6787e8ad8e250b3",
+      "chosen": -26.394119262695312,
+      "rejected": -18.714282989501953,
+      "chosen_tokens": 3,
+      "rejected_tokens": 2
+    },
+    {
+      "id": "d4fc4cd593401b745c52afa988bea118cc7d85c8cbba93edd412d37da7e93828",
+      "chosen": -158.57254028320312,
+      "rejected": -69.96172332763672,
+      "chosen_tokens": 60,
+      "rejected_tokens": 21
+    },
+    {
+      "id": "f742eef62a65979e19a010a8ffc216d5d5d244be44bfbd864603d25d66cf4842",
+      "chosen": -358.04248046875,
+      "rejected": -383.86590576171875,
+      "chosen_tokens": 223,
+      "rejected_tokens": 223
+    },
+    {
+      "id": "18dbbb2c6833b4e23a9f6c30739be86f04b0079f995b501292668e079450f157",
+      "chosen": -281.39825439453125,
+      "rejected": -439.092529296875,
+      "chosen_tokens": 158,
+      "rejected_tokens": 158
+    },
+    {
+      "id": "b90aecb0489fdcc0052cfc8f7610f83e298fa839884d89a71553b165b50d806a",
+      "chosen": -170.0407257080078,
+      "rejected": -268.024169921875,
+      "chosen_tokens": 135,
+      "rejected_tokens": 135
+    },
+    {
+      "id": "c9b57eef0dba1a987570740dcda3a00c5b7eb3ae8075cae57596ecc2a0eadc76",
+      "chosen": -460.1300048828125,
+      "rejected": -335.6580505371094,
+      "chosen_tokens": 203,
+      "rejected_tokens": 203
+    },
+    {
+      "id": "c94a728a8b10b7c21843f89a590ee2ac3ee6ed765e91dfb62f9a41cd42a13af7",
+      "chosen": -481.754638671875,
+      "rejected": -36.903865814208984,
+      "chosen_tokens": 230,
+      "rejected_tokens": 19
+    },
+    {
+      "id": "a64da4995c8d23fa55ad9a7fa1ebe37968b36308f18b5e6f4b2eac442436e679",
+      "chosen": -216.79454040527344,
+      "rejected": -156.72454833984375,
+      "chosen_tokens": 84,
+      "rejected_tokens": 95
+    },
+    {
+      "id": "b7f2dbac6736ca3d9a757c1deceff98effb72c171d529edbfd37f8713b718787",
+      "chosen": -248.5219268798828,
+      "rejected": -142.11322021484375,
+      "chosen_tokens": 128,
+      "rejected_tokens": 44
+    },
+    {
+      "id": "366b77e1d1a9ad741eeef40584d6f69e51c31bb6928be2d63a568918213007f9",
+      "chosen": -312.3648986816406,
+      "rejected": -308.6955871582031,
+      "chosen_tokens": 144,
+      "rejected_tokens": 144
+    }
+  ],
+  "validation": [
+    {
+      "id": "1fe7a36cb6f4a9e6edc3502402e52e1e852fd45b7f533e17fb90b70e4de78c9a",
+      "chosen": -315.0550537109375,
+      "rejected": -58.014610290527344,
+      "chosen_tokens": 164,
+      "rejected_tokens": 39
+    },
+    {
+      "id": "387e33673a8921b36916b53dfea2272425dfaa0baf6b08882888719d90592a4a",
+      "chosen": -481.6634216308594,
+      "rejected": -446.9891662597656,
+      "chosen_tokens": 229,
+      "rejected_tokens": 229
+    },
+    {
+      "id": "7abb4797ac3772e7aa64feef7b43629d6dd6d7f08ddfff28cc803f2cb33a0b9e",
+      "chosen": -651.6817016601562,
+      "rejected": -693.7153930664062,
+      "chosen_tokens": 227,
+      "rejected_tokens": 227
+    },
+    {
+      "id": "f407d131f5238d0076063d05575738202aa593557f88610d1c5c2410e16e8856",
+      "chosen": -451.34710693359375,
+      "rejected": -374.807861328125,
+      "chosen_tokens": 214,
+      "rejected_tokens": 214
+    },
+    {
+      "id": "f751639e850249e164fd29da5af35fd4737e29fad92e106a9c09c071deb12aca",
+      "chosen": -255.04129028320312,
+      "rejected": -53.368064880371094,
+      "chosen_tokens": 150,
+      "rejected_tokens": 67
+    },
+    {
+      "id": "4016ae53e68197423dfe67fb2cef4104b941105b3f2562ac6218d2732b32878d",
+      "chosen": -417.86126708984375,
+      "rejected": -510.1230773925781,
+      "chosen_tokens": 216,
+      "rejected_tokens": 216
+    },
+    {
+      "id": "65e141884d7c35b5362d76d22475917ae75a7e2445ea0d7a78213a5053ed83a0",
+      "chosen": -469.5640563964844,
+      "rejected": -313.41015625,
+      "chosen_tokens": 223,
+      "rejected_tokens": 130
+    },
+    {
+      "id": "a8283dfa5d681faf4fb2e917d4de3a33542641ff423cd573a3edc3519d2be88d",
+      "chosen": -183.91183471679688,
+      "rejected": -37.333492279052734,
+      "chosen_tokens": 89,
+      "rejected_tokens": 8
+    }
+  ],
+  "test": [
+    {
+      "id": "145484a449f623c6d19e894201c69e31201fe457d20b8c7d7b869b343d6ad89a",
+      "chosen": -224.43658447265625,
+      "rejected": -193.82052612304688,
+      "chosen_tokens": 131,
+      "rejected_tokens": 88
+    },
+    {
+      "id": "c927cf854323f3105460d9b9f57230cc816d8d1ed3c66e18523603e76e4687cf",
+      "chosen": -303.1754150390625,
+      "rejected": -286.4950866699219,
+      "chosen_tokens": 142,
+      "rejected_tokens": 142
+    },
+    {
+      "id": "467c186f1d93a56c5d9ea1dcbb976b8b56ad24168f859d102875480b8caddca7",
+      "chosen": -367.54486083984375,
+      "rejected": -352.19720458984375,
+      "chosen_tokens": 149,
+      "rejected_tokens": 149
+    },
+    {
+      "id": "0029b9f688c2e42e1eeb27623443f6da8d47aeb81503dce2150589df0c65047e",
+      "chosen": -421.4728088378906,
+      "rejected": -256.4986267089844,
+      "chosen_tokens": 233,
+      "rejected_tokens": 118
+    },
+    {
+      "id": "6ea109ff94f51f0d80a4d3dbe06306141547a1afb09fcffc9e4ae8ba02449d69",
+      "chosen": -296.18914794921875,
+      "rejected": -333.2974853515625,
+      "chosen_tokens": 166,
+      "rejected_tokens": 166
+    },
+    {
+      "id": "2ba1def6a2963952419c753eaeb3dc8e8e9e8c33697f8c58bfa3914fce78487e",
+      "chosen": -265.58624267578125,
+      "rejected": -29.737472534179688,
+      "chosen_tokens": 123,
+      "rejected_tokens": 22
+    },
+    {
+      "id": "499195f6743d986eac9440bdf55d8190dd4aa82ac4e2680bc6cd5e1e99ea0761",
+      "chosen": -170.3660125732422,
+      "rejected": -218.74197387695312,
+      "chosen_tokens": 97,
+      "rejected_tokens": 114
+    },
+    {
+      "id": "c4c4ae71a6199ad9242db7259a8258212dacc092e1dd77203992a27b490a1401",
+      "chosen": -549.013427734375,
+      "rejected": -286.1084899902344,
+      "chosen_tokens": 235,
+      "rejected_tokens": 144
+    }
+  ]
+}

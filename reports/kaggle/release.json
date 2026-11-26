@@ -1,0 +1,65 @@
+[
+  {
+    "project": "satellite",
+    "ref": "kerem0zcan/satellite-cnn-vs-transformer-across-source-scenes",
+    "url": "https://www.kaggle.com/code/kerem0zcan/satellite-cnn-vs-transformer-across-source-scenes",
+    "version": 2,
+    "kernel_id": 147450156,
+    "is_private": false,
+    "uploaded_utc": "2026-11-25T20:21:47.465471+00:00",
+    "notebook_sha256": "1dfe0f49108a552675a0238ab8c6412efc6157c8f5be64131f5a36be35dadb36",
+    "status": "COMPLETE",
+    "verified_utc": "2026-11-25T20:24:23.013787+00:00",
+    "docker_image": "gcr.io/kaggle-images/python@sha256:7de5e1496c568335455c8bb1f86f5c36f0591e87e92e9aa9f0eefcd07f227c66",
+    "files": {
+      "metrics.json": "9c5e728318253cd5cb1d98cfddbab2dc02999e7725498900acb579cfda3f9d2f",
+      "split-manifest.json": "a428c910924213a337c11bffc9c2a9562c7303278b3b8c504065f0a43b5d874c",
+      "results.png": "7288500a74dceb45b4de08ba00e5228b2ceb8dbf2730567b3511ce21fdaffcde",
+      "source.ipynb": "05e682f81d2e169cde2668549dced6e6e797fe68c2d0fce47d6557274f8d5d01",
+      "kernel-metadata.json": "e4104fb55df8ecd87ed52442583b74d30033b9654d111d599ff44a9f5d365283",
+      "execution.log": "1ea82ffc9fe169fd677a918daf0ad0da089eb97756db3a1a15eecdd1c749092d"
+    }
+  },
+  {
+    "project": "aircraft",
+    "ref": "kerem0zcan/aircraft-damage-and-caption-reliability",
+    "url": "https://www.kaggle.com/code/kerem0zcan/aircraft-damage-and-caption-reliability",
+    "version": 2,
+    "kernel_id": 147450283,
+    "is_private": false,
+    "uploaded_utc": "2026-11-25T20:21:49.209338+00:00",
+    "notebook_sha256": "88f519e097ca75695c835a72167618fa450cd3a7047f2e20c0ebe426afdd0da1",
+    "status": "COMPLETE",
+    "verified_utc": "2026-11-25T20:29:08.489492+00:00",
+    "docker_image": "gcr.io/kaggle-images/python@sha256:7de5e1496c568335455c8bb1f86f5c36f0591e87e92e9aa9f0eefcd07f227c66",
+    "files": {
+      "metrics.json": "13b0aee545f710c1101768d0c4300764a7c4c7901d00d93dd158af6f076baea2",
+      "split-manifest.json": "24da12dbc5becf40b99c7e1a41498041a7433d1775a549e13441933493526b5e",
+      "results.png": "9fa55a0fbcc463b53381ccb825bb5edeb17cec2566e74f5632514f6dfeb86411",
+      "source.ipynb": "dd2bd8f786045acf1df681a8bfca0b60a06a0bac30675823048a12d2857ae4b7",
+      "kernel-metadata.json": "d6691de4a4e10f177a2f44a421a3771046b18c814a8707721f3835aa3a3e1c79",
+      "execution.log": "2f3f4dcea50a994c7561edcf978b49abc8831e1ecf405dad74c8c30c62c39c07"
+    }
+  },
+  {
+    "project": "instruction_tuning",
+    "ref": "kerem0zcan/lora-instruction-tuning-and-verified-reload",
+    "url": "https://www.kaggle.com/code/kerem0zcan/lora-instruction-tuning-and-verified-reload",
+    "version": 2,
+    "kernel_id": 147450285,
+    "is_private": false,
+    "uploaded_utc": "2026-11-25T20:21:50.938136+00:00",
+    "notebook_sha256": "9e3dc4e9c93bcce5ad68742c43e6cc04a63e96f55bab8f9a1eacea4c6549425a",
+    "status": "COMPLETE",
+    "verified_utc": "2026-11-25T20:27:02.187356+00:00",
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:fc720c15545eb096a510e1f085b17fc118387a007599424d953a4f327b71cacf",
+    "files": {
+      "metrics.json": "6546ef538b54fb60743cabe3ca6de5f2970ee61da3d9d5b7e5ec3e6094b86a09",
+      "split-manifest.json": "5808460acab1205526f6647f714916dad9214c4006094eb77f296298d88edb9b",
+      "results.png": "7b7d13bb0ac85f77d134cf98ac1caf8b2c339162d6119a00b91127045c21bd76",
+      "source.ipynb": "7666fe348f48333ff3ddc8408f45d7f718361b8c77c84ec5e8b5cd258179742c",
+      "kernel-metadata.json": "00407075f6e2c538ca1e95da23a0e484b2e300afb8889bf9a958421cbeca6f19",
+      "execution.log": "abfd80bcbc918a3585656c22418885f6d193b4c7a2818f5d667b74d296425b19"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "project": "fraud",
+  "fresh_kernel": true,
+  "profile": "chronological-complete-splits",
+  "source_notebook_sha256": "6bbc1b79131ee37c93191942e30222cceefb86c650c144a6853f0b1b4c8df71e",
+  "files": {
+    "metrics.json": "ac37cfc38056c5ec7eebfa8dbd43a9df8b2191d947dcb1701a797c91cb791292",
+    "executed.ipynb": "554b36eeab42ddd13eaa77fdc1f1d58687add0564bb1497ce73dad1ffedcd8d5",
+    "results.png": "2380f8e6c86e6ccba6db34d09a6abb2e3dbfd04c254aa9258139f42e9e8ec5fb",
+    "split-manifest.json": "34643e893e8b142cbd23855a8245300b429e5722717f37682a3d9bbd7f693e8d"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "project": "preference_alignment",
+  "profile": "bounded-pilot",
+  "seed": 42,
+  "base_model": "facebook/opt-350m",
+  "base_revision": "08ab08cc4b72ff5593870b5d527cf4230323703c",
+  "device": "cpu",
+  "data_sha256": "27dc59041d73654aecfa7685b6f839a0bbb2014d640ee92eefa047b262d1f1ca",
+  "split_manifest_sha256": "431995bb7326086e833c75aaaae3232647fb9d95c5ab61d5cd613e2125762187",
+  "selected_split_counts": {
+    "train": 16,
+    "validation": 8,
+    "test": 8
+  },
+  "sft_optimizer_steps": 8,
+  "dpo_optimizer_steps": 8,
+  "sft_adapter_sha256": "e30d4fb6d82f57a10c600e9d1b9c87024da89a4a261503b6fcdb6951e9670381",
+  "selected_adapter_sha256": "9527fa8638bdcb4ceaa3e7ef3b2ed01d1088ea720492dd7fba26fae54ff841c5",
+  "reference_logps_sha256": "ebab2e9c7f77a952c92b4b2225ad0edcf48ba039d8ea4d8324cc227a9c7a5c80",
+  "selected_stage": "dpo",
+  "sft_reload_max_abs_difference": 0.0,
+  "dpo_reload_max_abs_difference": 0.0,
+  "reload_verified": true,
+  "dpo_training_changed_adapter": true,
+  "validation_losses": {
+    "sft_reference": 0.6931471824645996,
+    "dpo_candidate": 0.6832292154431343
+  },
+  "models": {
+    "base": {
+      "pairs": 8,
+      "chosen_response_nll": 2.065522663271913,
+      "raw_sequence_preference_rate": 0.25,
+      "length_normalized_preference_rate": 0.5
+    },
+    "sft": {
+      "pairs": 8,
+      "chosen_response_nll": 2.0358812696881428,
+      "raw_sequence_preference_rate": 0.25,
+      "length_normalized_preference_rate": 0.5,
+      "reference_adjusted_dpo_loss": 0.6931471824645996,
+      "reference_adjusted_margin_positive_rate": 0.0
+    },
+    "selected_dpo": {
+      "pairs": 8,
+      "chosen_response_nll": 2.0343778245501385,
+      "raw_sequence_preference_rate": 0.25,
+      "length_normalized_preference_rate": 0.5,
+      "reference_adjusted_dpo_loss": 0.6946422755718231,
+      "reference_adjusted_margin_positive_rate": 0.625
+    }
+  },
+  "truncated_response_counts": {
+    "train": 18,
+    "validation": 9,
+    "test": 8
+  },
+  "examples": [
+    {
+      "prompt": "Why can firewoods burn in the water?",
+      "base": "\n### Instruction:\nWhy can firewoods burn in the water?\n\n### Response:\n\n### Instruction:\nWhy can firewoods burn in the water?\n\n### Response:\n\n### Instruction:\nWhy can firewoods burn in the water?\n\n### Response:\n\n### Instruction:",
+      "sft": "\nFirewood is a natural resource that is used in many different ways. It is used to make firewood, to make firewood products, to make firewood products for firewood, and to make firewood products for firewood.\n\n### Instruction:\nHow can firewood be used in the water?",
+      "selected_dpo": "\nFirewood is a natural resource that is used in many different ways. It is used to make firewood, to make firewood products, to make firewood products for firewood, and to make firewood products for firewood.\n\nFirewood is a natural resource that is used in many different ways."
+    },
+    {
+      "prompt": "Create a fashion design game in Ruby which enables players to design their clothing and accessories. Users must be able to choose from a wide range of fabric types, colors, patterns, and design styles. The game should be intuitive and simple to understand, allowing players to select their garment and accessorize it with jewels, buttons, and other decorations. The game should feature a virtual runway where players can showcase their designs to other users. Additionally, it should allow players to save their creations and share them on social media.",
+      "base": "We are very excited to be working with the Ruby community. We are looking forward to working with the Ruby community to create a game that will be a great addition to the Ruby community. We are looking forward to working with the Ruby community to create a game that will be a great addition to the Ruby community.\n\n",
+      "sft": "We are excited to hear feedback from our community. We are committed to making the game as easy to play as possible. We are also committed to making sure that the game is fun for everyone. We will continue to work with our community to improve the game and make it more accessible to everyone.\n\n### Responses",
+      "selected_dpo": "We are excited to hear feedback from our community. We are committed to making the game as easy to play as possible. We are also committed to making sure that the game is fun for everyone. We will continue to work with our community to improve the game and make it more accessible to everyone.\n\n### Responses"
+    },
+    {
+      "prompt": "What is the formula for calculating the maximum heart rate and how can it be used to determine the appropriate intensity for a sustained cardio routine? Additionally, can wearable technology or a mobile application be utilized to track heart rate during exercise and monitor progress over time? How can a personalized nutrition plan be integrated to optimize results and what role can professional training sessions play in maintaining long-term adherence to the fitness routine? Please provide a comprehensive and multi-faceted approach that addresses these factors.",
+      "base": "The goal of this workshop is to provide a comprehensive and multi-faceted approach that addresses these factors.\n\n### Response:\nThe goal of this workshop is to provide a comprehensive and multi-faceted approach that addresses these factors.\n\n### Response:\nThe goal of this workshop is to provide",
+      "sft": "The goal of this study is to determine the optimal intensity for a sustained cardio routine. The study will be conducted in a controlled environment with a focus on the cardiovascular system. The study will be conducted in a controlled environment with a focus on the cardiovascular system.\n\n### Response:\nThe goal of this study is to",
+      "selected_dpo": "The goal of this study is to determine the optimal intensity for a sustained cardio routine. The study will be conducted in a controlled environment with a focus on the cardiovascular system. The study will be conducted in a controlled environment with a focus on the cardiovascular system.\n\n### Response:\nThe goal of this study is to"
+    },
+    {
+      "prompt": "Discuss how to make healthy food swaps to prevent overeating.",
+      "base": "\n### Instruction:\nDiscuss how to make healthy food swaps to prevent overeating.\n\n### Response:\n\n### Instruction:\nDiscuss how to make healthy food swaps to prevent overeating.\n\n### Response:\n\n### Instruction:\nDiscuss how to make healthy food swaps to prevent overeating.\n",
+      "sft": "\nI'm sorry, but I don't think this is a good idea. I think it's a good idea to make healthy food swaps to prevent overeating. I think it's a good idea to make healthy food swaps to prevent overeating. I think it's a good idea to make healthy food swaps to prevent",
+      "selected_dpo": "\nWe are looking for a person who is willing to help us with our food swaps. We are looking for someone who is willing to help us with our food swaps. We are looking for someone who is willing to help us with our food swaps.\n\n### Instruction:\nDiscuss how to make healthy food swaps to"
+    },
+    {
+      "prompt": "What context is required for braze to send push notification to mobile\n\nWhat api will be used to send the push notification? Required parameters?\n\nWhat else is required to send a push notification to mobile?\n\nCan we also send a broadcast notification in braze?\n\n \n\nTo do:\n\nCreate a confluence document that lists down all of the steps in detail",
+      "base": "\nWhat is the response?\n\n### Instruction:\nWhat context is required for braze to send push notification to mobile\n\nWhat api will be used to send push notification to mobile\n\n### Instruction:\nWhat context is required for braze to send push notification to mobile\n\nWhat api will be used",
+      "sft": "\nSend push notification to mobile\n\n### Response:\n\nSend push notification to mobile\n\n### Response:\n\nSend push notification to mobile\n\n### Response:\n\nSend push notification to mobile\n\n### Response:\n\nSend push notification to mobile\n\n### Response:\n\nSend push notification",
+      "selected_dpo": "\nSend push notification to mobile\n\n### Response:\n\nSend push notification to mobile\n\n### Response:\n\nSend push notification to mobile\n\n### Response:\n\nSend push notification to mobile\n\n### Response:\n\nSend push notification to mobile\n\n### Response:\n\nSend push notification"
+    },
+    {
+      "prompt": "Do you often use the circuit to water flowers?",
+      "base": "I do not. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have",
+      "sft": "Yes, I do. I use the circuit to water flowers.\n\n### Instruction:\nDo you often use the circuit to water flowers?\n\n### Response:\nYes, I do. I use the circuit to water flowers.\n\n### Instruction:\nDo you often use the circuit to water flowers?",
+      "selected_dpo": "Yes, I do. I use the circuit to water flowers.\n\n### Instruction:\nDo you often use the circuit to water flowers?\n\n### Response:\nYes, I do. I use the circuit to water flowers.\n\n### Instruction:\nDo you often use the circuit to water flowers?"
+    }
+  ],
+  "limitations": "Small preference/SFT budgets, one seed and synthetic preference labels. Pairwise reference likelihood and DPO margins are not generated-response win rates or human-validated quality. Long responses are truncated; identical truncated pairs are excluded. The SFT checkpoint is retained when validation does not favor DPO.",
+  "seconds": 85.62163237499772,
+  "runtime": {
+    "utc": "2026-11-26T11:40:42.284339+00:00",
+    "python": "3.11.15",
+    "platform": "Darwin",
+    "packages": {
+      "torch": "2.2.2",
+      "transformers": "4.45.2",
+      "peft": "0.11.1",
+      "pyarrow": "17.0.0"
+    }
+  },
+  "source": {
+    "project_sha256": "832469907bdec27e5aa569c23917626af0dbc2df30c116ef2b638ce92bb80132",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  }
+}

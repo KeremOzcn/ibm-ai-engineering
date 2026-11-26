@@ -1,0 +1,12 @@
+{
+  "execution": "local-module-fresh-process",
+  "profile": "full",
+  "files": {
+    "metrics.json": "97f712a6316f989771cbbb86b4ef7cc6b25218dd5518b49181ddbfd972fd94a7",
+    "split-manifest.json": "a428c910924213a337c11bffc9c2a9562c7303278b3b8c504065f0a43b5d874c"
+  },
+  "source": {
+    "project_sha256": "bf1d0613411d582ae60786fc63080e3c90be901a8879ecd33f6555250e53bdb4",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  }
+}

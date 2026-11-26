@@ -1,0 +1,12 @@
+{
+  "project": "instruction_tuning",
+  "status": "bounded-pilot-passed",
+  "fresh_kernel": true,
+  "source_notebook": "projects/instruction_tuning/notebook.ipynb",
+  "source_notebook_sha256": "a25b84f00df3cdf11724fe8a24dbb6d5145ced92cf23f162259c11897d497ac9",
+  "files": {
+    "executed.ipynb": "9fcda9bc0480c2743753049607db1b794d19d3ebd6468cf8c8c588b27091493f",
+    "metrics.json": "9e99c9bcf64c4c67eea13e8941b369b7e85cbb6c30b3c8a926d951439fca49e0",
+    "split-manifest.json": "5808460acab1205526f6647f714916dad9214c4006094eb77f296298d88edb9b"
+  }
+}

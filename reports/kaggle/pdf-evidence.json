@@ -1,0 +1,7 @@
+{
+  "path": "output/pdf/ibm-ai-engineering-portfolio.pdf",
+  "sha256": "8d51b9fc3f7b7b89bbdeb9ce28c6c1ce2cc977860408a18d469662e13addce79",
+  "pages": 5,
+  "visual_review": "All five rendered pages inspected; no clipping, overlap or missing glyphs found.",
+  "measurements": "Final public Kaggle version-2 outputs; local measurements retained separately."
+}

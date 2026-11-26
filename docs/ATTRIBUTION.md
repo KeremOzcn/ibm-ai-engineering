@@ -16,7 +16,7 @@ No blanket open-source license is applied to the downloaded material. This repos
 - Added course study notes, revision questions, setup guidance, an inventory and validation tooling.
 - Added three distinct companion notebooks created with AI assistance, with local execution evidence.
 
-Course exercises were not filled in, submitted or graded as part of this repository preparation. The collected files do not establish the owner's certificate status or individual authorship of all notebook code.
+Worked exercise answers and compatibility corrections were subsequently added under `solutions/`, without modifying the reference layer. The answers use embedded instructor explanations where available and additional AI-assisted implementations. They were not submitted or graded. The collected files do not establish the owner's certificate status or individual authorship of all notebook code.
 
 ## Trace every source
 
@@ -33,3 +33,9 @@ The RAG application project is present as instructional guides and component not
 ## Companion material
 
 The companion notebooks and repository documentation were newly prepared with AI assistance for this collection. They illustrate concepts independently of the course assignments and include their own limitations. The Wine companion uses the bundled scikit-learn dataset and links its documentation; the PyTorch example uses generated data; the retrieval example uses newly written short notes. No third-party model weights or datasets are redistributed here.
+
+## Worked-copy provenance
+
+[Guarded patches](../provenance/solution-patches.json) record each original cell hash, replacement, origin and explanation. [Exercise inventory](../provenance/exercise-inventory.json) and [review decisions](../provenance/solution-reviewed.json) distinguish exercises from existing implementations and false-positive markers. The build verifies all recorded locations and source hashes before applying a patch.
+
+Nine earlier vision-capstone answer sets were reused after every template cell matched the current references. Historical outputs were not imported as current execution evidence. New bounded outputs are recorded separately, with the exact worked-source hash. The supplied answers are study material; syntax checks and smoke execution do not certify independent authorship or full model performance.

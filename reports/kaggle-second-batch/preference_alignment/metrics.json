@@ -1,0 +1,113 @@
+{
+  "project": "preference_alignment",
+  "profile": "bounded-sft-dpo",
+  "seed": 42,
+  "base_model": "facebook/opt-350m",
+  "base_revision": "08ab08cc4b72ff5593870b5d527cf4230323703c",
+  "device": "cuda",
+  "data_sha256": "27dc59041d73654aecfa7685b6f839a0bbb2014d640ee92eefa047b262d1f1ca",
+  "split_manifest_sha256": "af42ff7d674909a5c61b8b012ac587235f195bce064986d6c6118d57467344df",
+  "selected_split_counts": {
+    "train": 256,
+    "validation": 64,
+    "test": 64
+  },
+  "sft_optimizer_steps": 128,
+  "dpo_optimizer_steps": 128,
+  "sft_adapter_sha256": "6673a90a435ae9c1c3bdbbc1a66e19743f659583dc74dd5e02d263aaf49c8004",
+  "selected_adapter_sha256": "8652966549030d20a937ef21197055584946d0c161b33f5df247f41209a70850",
+  "reference_logps_sha256": "917a9be82eb8c1b76c53f66ddf6b1b6f1bcee9a1a10789e3a95075c315c411bb",
+  "selected_stage": "dpo",
+  "sft_reload_max_abs_difference": 0.0,
+  "dpo_reload_max_abs_difference": 0.0,
+  "reload_verified": true,
+  "dpo_training_changed_adapter": true,
+  "validation_losses": {
+    "sft_reference": 0.6931471824645996,
+    "dpo_candidate": 0.6527331066317856
+  },
+  "models": {
+    "base": {
+      "pairs": 64,
+      "chosen_response_nll": 2.068530648320865,
+      "raw_sequence_preference_rate": 0.46875,
+      "length_normalized_preference_rate": 0.46875
+    },
+    "sft": {
+      "pairs": 64,
+      "chosen_response_nll": 1.9658586122877957,
+      "raw_sequence_preference_rate": 0.46875,
+      "length_normalized_preference_rate": 0.515625,
+      "reference_adjusted_dpo_loss": 0.6931471824645996,
+      "reference_adjusted_margin_positive_rate": 0.0
+    },
+    "selected_dpo": {
+      "pairs": 64,
+      "chosen_response_nll": 2.021500818371195,
+      "raw_sequence_preference_rate": 0.46875,
+      "length_normalized_preference_rate": 0.53125,
+      "reference_adjusted_dpo_loss": 0.6848930633277632,
+      "reference_adjusted_margin_positive_rate": 0.59375
+    }
+  },
+  "truncated_response_counts": {
+    "train": 306,
+    "validation": 69,
+    "test": 67
+  },
+  "examples": [
+    {
+      "prompt": "Why can firewoods burn in the water?",
+      "base": "\n### Instruction:\nWhy can firewoods burn in the water?\n\n### Response:\n\n### Instruction:\nWhy can firewoods burn in the water?\n\n### Response:\n\n### Instruction:\nWhy can firewoods burn in the water?\n\n### Response:\n\n### Instruction:",
+      "sft": "Firewood is a natural resource that is used in many different ways. It is used in many different ways to create firewood, wood chips, and other wood products. It is also used to create firewood for firewood fires.\n\nFirewood is a natural resource that is used in many different ways. It",
+      "selected_dpo": "Firewood is a natural resource that can be used to create and sustain a healthy environment. The following reasons explain why firewood can be used to create and sustain a healthy environment:\n\n1. Firewood can be used to create and sustain a healthy environment:\n\nFirewood can be used to create and sustain"
+    },
+    {
+      "prompt": "Create a fashion design game in Ruby which enables players to design their clothing and accessories. Users must be able to choose from a wide range of fabric types, colors, patterns, and design styles. The game should be intuitive and simple to understand, allowing players to select their garment and accessorize it with jewels, buttons, and other decorations. The game should feature a virtual runway where players can showcase their designs to other users. Additionally, it should allow players to save their creations and share them on social media.",
+      "base": "We are very excited to be working with the Ruby community. We are looking forward to working with the Ruby community to create a game that will be a great addition to the Ruby community. We are looking forward to working with the Ruby community to create a game that will be a great addition to the Ruby community.\n\n",
+      "sft": "This is a great idea! The game should allow players to create their own fashion design game, allowing them to create their own unique fashion style. The game should also allow players to save their creations and share them on social media.\n\n### Instruction:\nCreate a fashion design game in Ruby which enables players to design",
+      "selected_dpo": "The fashion design game in Ruby is a simple and intuitive fashion design game that allows players to create their own fashion design. The game should be intuitive and simple to understand, allowing players to select their garment and accessorize it with jewels, buttons, and other decorations. The game should feature a virtual runway where players can"
+    },
+    {
+      "prompt": "What is the formula for calculating the maximum heart rate and how can it be used to determine the appropriate intensity for a sustained cardio routine? Additionally, can wearable technology or a mobile application be utilized to track heart rate during exercise and monitor progress over time? How can a personalized nutrition plan be integrated to optimize results and what role can professional training sessions play in maintaining long-term adherence to the fitness routine? Please provide a comprehensive and multi-faceted approach that addresses these factors.",
+      "base": "The goal of this workshop is to provide a comprehensive and multi-faceted approach that addresses these factors.\n\n### Response:\nThe goal of this workshop is to provide a comprehensive and multi-faceted approach that addresses these factors.\n\n### Response:\nThe goal of this workshop is to provide",
+      "sft": "The maximum heart rate is a measure of the rate at which the heart beats. It is calculated by dividing the heart rate by the number of breaths that the heart takes per minute. The heart rate is a measure of the rate at which the heart beats, and it is calculated by dividing the heart rate by the number of",
+      "selected_dpo": "The maximum heart rate (HR) is a measure of the rate at which the heart beats, and is a measure of the intensity of the exercise. The HR is a measure of the intensity of the exercise, and is a measure of the duration of the exercise. The HR is a measure of the duration of the exercise"
+    },
+    {
+      "prompt": "Discuss how to make healthy food swaps to prevent overeating.",
+      "base": "\n### Instruction:\nDiscuss how to make healthy food swaps to prevent overeating.\n\n### Response:\n\n### Instruction:\nDiscuss how to make healthy food swaps to prevent overeating.\n\n### Response:\n\n### Instruction:\nDiscuss how to make healthy food swaps to prevent overeating.\n",
+      "sft": "\nI'm sorry, but I don't think this is a healthy food swap. I think it's more like a \"cheap\" food swap.\n\nFirst, I'm not sure what you mean by \"healthy food swap.\" I think it's more like a \"cheap\" food swap.\n\n",
+      "selected_dpo": "\n1. Make healthy food swaps:\n\n1.1. Make healthy food swaps:\n\n1.1.1. 1.1.1. 1.1.1.1. 1.1.1.1. 1.1.1.1. 1.1.1.1"
+    },
+    {
+      "prompt": "What context is required for braze to send push notification to mobile\n\nWhat api will be used to send the push notification? Required parameters?\n\nWhat else is required to send a push notification to mobile?\n\nCan we also send a broadcast notification in braze?\n\n \n\nTo do:\n\nCreate a confluence document that lists down all of the steps in detail",
+      "base": "\nWhat is the response?\n\n### Instruction:\nWhat context is required for braze to send push notification to mobile\n\nWhat api will be used to send push notification to mobile\n\n### Instruction:\nWhat context is required for braze to send push notification to mobile\n\nWhat api will be used",
+      "sft": "\nYes, we can send push notifications to mobile devices.\n\nWhat context is required for braze to send push notification to mobile?\n\nWhat api will be used to send push notification to mobile?\n\nWhat else is required to send a push notification to mobile?\n\nCan we also send a broadcast",
+      "selected_dpo": "\nThe following response is required for braze to send push notification to mobile:\n\n1. Create a confluence document that lists down all of the steps in detail:\n\n1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+    },
+    {
+      "prompt": "Do you often use the circuit to water flowers?",
+      "base": "I do not. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have a water fountain. I do not have",
+      "sft": "Yes, I do often water flowers. I usually use a water-based spray to water flowers, but I also use a water-based spray to water other plants.\n\nI'm not sure if this is a common practice, but I've seen it used in the past. I've also seen it used to",
+      "selected_dpo": "Yes, often.\n\n1. Do you often use the circuit to water flowers?\n\nA. Yes, often.\n\n2. Do you often use the circuit to water flowers?\n\nA. Yes, often.\n\n3. Do you often use the circuit to water flowers?\n\n"
+    }
+  ],
+  "limitations": "Small preference/SFT budgets, one seed and synthetic preference labels. Pairwise reference likelihood and DPO margins are not generated-response win rates or human-validated quality. Long responses are truncated; identical truncated pairs are excluded. The SFT checkpoint is retained when validation does not favor DPO.",
+  "seconds": 180.03416466800002,
+  "runtime": {
+    "utc": "2026-11-26T11:57:58.559492+00:00",
+    "python": "3.13.16",
+    "platform": "Linux",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.45.2",
+      "peft": "0.11.1",
+      "pyarrow": "23.0.1"
+    }
+  },
+  "source": {
+    "project_sha256": "832469907bdec27e5aa569c23917626af0dbc2df30c116ef2b638ce92bb80132",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  }
+}

@@ -42,11 +42,11 @@ A preference record contains a prompt, a chosen response and a rejected response
 
 ## Collected material
 
-4 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+4 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Direct Preference Optimization (DPO) Using Hugging Face](notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb) | Reference |
-| [Instruction-Tuning with LLMs](notebooks/instruction-tuning-with-llms.ipynb) | Reference |
-| [Reinforcement Learning from Human Feedback Using PPO](notebooks/reinforcement-learning-from-human-feedback-using-ppo.ipynb) | Reference |
-| [Reward Modeling](notebooks/reward-modeling.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Direct Preference Optimization (DPO) Using Hugging Face](notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb) | Reference | [Worked copy](../../solutions/11-advanced-fine-tuning/notebooks/direct-preference-optimization-dpo-using-hugging-face.ipynb) |
+| [Instruction-Tuning with LLMs](notebooks/instruction-tuning-with-llms.ipynb) | Reference | [Worked copy](../../solutions/11-advanced-fine-tuning/notebooks/instruction-tuning-with-llms.ipynb) |
+| [Reinforcement Learning from Human Feedback Using PPO](notebooks/reinforcement-learning-from-human-feedback-using-ppo.ipynb) | Reference | [Worked copy](../../solutions/11-advanced-fine-tuning/notebooks/reinforcement-learning-from-human-feedback-using-ppo.ipynb) |
+| [Reward Modeling](notebooks/reward-modeling.ipynb) | Reference | [Worked copy](../../solutions/11-advanced-fine-tuning/notebooks/reward-modeling.ipynb) |

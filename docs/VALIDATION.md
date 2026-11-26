@@ -45,10 +45,34 @@ python scripts/run_companions.py
 python scripts/check_repository.py
 ```
 
-Five importer regression tests cover unchanged source files, duplicate consolidation, failed-publication rollback and retry, modified source rejection, path traversal rejection, and existing-collection protection.
+Importer regression tests cover unchanged source files, duplicate consolidation, failed-publication rollback and retry, modified source rejection, path traversal rejection, and existing-collection protection.
 
 The integrity checker verifies source mapping, curated content, clean reference outputs, notebook schemas, current generated pages, local navigation, companion execution state and report hashes. It also searches common credential patterns and personal filesystem paths; that scan is not a full security audit.
 
 The [GitHub Actions workflow](../.github/workflows/validate.yml) runs collection checks and re-executes companions in separate Ubuntu/Python 3.11 jobs. Successful local execution and successful GitHub execution are separate evidence; consult the actual workflow run for its result.
 
-No cloud-provider notebook, TensorFlow training run, full course solution set, course submission, certificate credential or Mevzuat RAG experiment was validated as part of this repository preparation.
+No provider-backed notebook execution, full prescribed course experiment, course submission, certificate credential or Mevzuat RAG experiment is verified by this work. Bounded TensorFlow/PyTorch runs are documented separately below.
+
+## Worked lab verification
+
+The 25 November continuation adds 138 generated worked copies, guarded answer/compatibility patches, exercise-review decisions and actual bounded notebook runs. The current counts are generated in [solution progress](SOLUTION_PROGRESS.md); the [ledger](../reports/solution-execution.json) records successes and failed attempts individually.
+
+| Evidence | What is checked |
+|---|---|
+| Answer preparation | Every inventory location is patched or explicitly reviewed; patch source hashes match; zero syntax/stub issues in generated worked copies. |
+| Reference preservation | The original course content hashes remain guarded independently of the worked copies. |
+| Saved execution | Each current pass points to its exact worked-source hash and saved executed notebook; schema, executed code cells, absence of error outputs, and output-file hashes are checked. |
+| Profile identity | New runs record transformed-code hashes, package versions, explicit smoke overrides and any cached-data manifest. Earlier runs have saved executable code but incomplete environment capture. |
+| Stale evidence | Old outputs remain historical evidence when a source changes; current-pass counts require the current worked-source hash. |
+| Regression behavior | Tests cover importer rollback/provenance; stub detection; bounded-budget transformations; stale/corrupt proof; Fashion input shape; multi-page PDF translation; selective unfreezing; and isolated retrieval corpora. |
+
+The notebook runner uses asynchronous kernel management, creates an interpreter-specific temporary kernel, cleans it up, and returns a failing exit status when any selected notebook fails. Reports are written after each attempted notebook. Run one runner process at a time. Output paths are redacted before saving; private caches and environments remain ignored.
+
+The Python reviewer examined the solution tooling and selected answer corrections. Review and regression checks do not establish every answer's semantic correctness. Full experiments, large asset/model runs and provider execution remain listed in [remaining full runs](FULL_RUNS.md).
+
+```bash
+python scripts/build_solutions.py
+python scripts/build_solutions.py --check
+python scripts/check_solutions.py
+python scripts/check_repository.py
+```

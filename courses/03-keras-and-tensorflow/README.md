@@ -41,23 +41,23 @@ A custom training step computes predictions, evaluates the loss under GradientTa
 
 ## Collected material
 
-16 reference notebooks. Course source, authorship and copyright notices remain in the collected files. No course notebook has been certified as runnable by this curation.
+16 reference notebooks. Course source, authorship and copyright notices remain in the collected files. Separate worked copies contain AI-assisted study answers; consult [solution progress](../../docs/SOLUTION_PROGRESS.md) for runtime evidence.
 
-| Material | Status |
-|---|---|
-| [Lab: Advanced Data Augmentation with Keras](notebooks/lab-advanced-data-augmentation-with-keras.ipynb) | Reference |
-| [Lab: Building a Deep Q-Network with Keras](notebooks/lab-building-a-deep-q-network-with-keras.ipynb) | Reference |
-| [Lab: Building Advanced Transformers](notebooks/lab-building-advanced-transformers.ipynb) | Reference |
-| [Lab: Building Autoencoders](notebooks/lab-building-autoencoders.ipynb) | Reference |
-| [Lab: Creating Custom Layers and Models](notebooks/lab-creating-custom-layers-and-models.ipynb) | Reference |
-| [Lab: Custom Training Loops in Keras](notebooks/lab-custom-training-loops-in-keras.ipynb) | Reference |
-| [Lab: Develop GANs Using Keras](notebooks/lab-develop-gans-using-keras.ipynb) | Reference |
-| [Lab: Hyperparameter Tuning with Keras Tuner](notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb) | Reference |
-| [Lab: Implementing Diffusion Models](notebooks/lab-implementing-diffusion-models.ipynb) | Reference |
-| [Lab: Implementing Q-Learning in Keras](notebooks/lab-implementing-q-learning-in-keras.ipynb) | Reference |
-| [Lab: Implementing the Functional API in Keras](notebooks/lab-implementing-the-functional-api-in-keras.ipynb) | Reference |
-| [Lab: Implementing Transformers for Text Generation](notebooks/lab-implementing-transformers-for-text-generation.ipynb) | Reference |
-| [Lab: Practical Application of Transpose Convolution](notebooks/lab-practical-application-of-transpose-convolution.ipynb) | Reference |
-| [Lab: Transfer Learning Implementation](notebooks/lab-transfer-learning-implementation.ipynb) | Reference |
-| [Practice Project: Fruit Classification Using Transfer Learning](notebooks/practice-project-fruit-classification-using-transfer-learning.ipynb) | Reference |
-| [Waste Classification Using Transfer Learning](notebooks/waste-classification-using-transfer-learning.ipynb) | Reference |
+| Material | Reference status | Study answer |
+|---|---|---|
+| [Lab: Advanced Data Augmentation with Keras](notebooks/lab-advanced-data-augmentation-with-keras.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-advanced-data-augmentation-with-keras.ipynb) |
+| [Lab: Building a Deep Q-Network with Keras](notebooks/lab-building-a-deep-q-network-with-keras.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-building-a-deep-q-network-with-keras.ipynb) |
+| [Lab: Building Advanced Transformers](notebooks/lab-building-advanced-transformers.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-building-advanced-transformers.ipynb) |
+| [Lab: Building Autoencoders](notebooks/lab-building-autoencoders.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-building-autoencoders.ipynb) |
+| [Lab: Creating Custom Layers and Models](notebooks/lab-creating-custom-layers-and-models.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-creating-custom-layers-and-models.ipynb) |
+| [Lab: Custom Training Loops in Keras](notebooks/lab-custom-training-loops-in-keras.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-custom-training-loops-in-keras.ipynb) |
+| [Lab: Develop GANs Using Keras](notebooks/lab-develop-gans-using-keras.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-develop-gans-using-keras.ipynb) |
+| [Lab: Hyperparameter Tuning with Keras Tuner](notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-hyperparameter-tuning-with-keras-tuner.ipynb) |
+| [Lab: Implementing Diffusion Models](notebooks/lab-implementing-diffusion-models.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-implementing-diffusion-models.ipynb) |
+| [Lab: Implementing Q-Learning in Keras](notebooks/lab-implementing-q-learning-in-keras.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-implementing-q-learning-in-keras.ipynb) |
+| [Lab: Implementing the Functional API in Keras](notebooks/lab-implementing-the-functional-api-in-keras.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-implementing-the-functional-api-in-keras.ipynb) |
+| [Lab: Implementing Transformers for Text Generation](notebooks/lab-implementing-transformers-for-text-generation.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-implementing-transformers-for-text-generation.ipynb) |
+| [Lab: Practical Application of Transpose Convolution](notebooks/lab-practical-application-of-transpose-convolution.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-practical-application-of-transpose-convolution.ipynb) |
+| [Lab: Transfer Learning Implementation](notebooks/lab-transfer-learning-implementation.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/lab-transfer-learning-implementation.ipynb) |
+| [Practice Project: Fruit Classification Using Transfer Learning](notebooks/practice-project-fruit-classification-using-transfer-learning.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/practice-project-fruit-classification-using-transfer-learning.ipynb) |
+| [Waste Classification Using Transfer Learning](notebooks/waste-classification-using-transfer-learning.ipynb) | Reference | [Worked copy](../../solutions/03-keras-and-tensorflow/notebooks/waste-classification-using-transfer-learning.ipynb) |

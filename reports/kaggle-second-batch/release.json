@@ -1,0 +1,89 @@
+[
+  {
+    "project": "translation",
+    "ref": "kerem0zcan/german-english-translation-gru-vs-transformer",
+    "url": "https://www.kaggle.com/code/kerem0zcan/german-english-translation-gru-vs-transformer",
+    "version": 2,
+    "kernel_id": 147592579,
+    "is_private": false,
+    "uploaded_utc": "2026-11-26T11:43:47.881727+00:00",
+    "notebook_sha256": "d51601fafb0a0fc41e3ec2384773a1e4ccf0939085682d5df27a17a8c73e9f45",
+    "status": "COMPLETE",
+    "verified_utc": "2026-11-26T11:59:45.301685+00:00",
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:fc720c15545eb096a510e1f085b17fc118387a007599424d953a4f327b71cacf",
+    "files": {
+      "metrics.json": "29257e73b46aba6fe93cab63d1b7c23d04c325fc024276157398da85482339b6",
+      "results.png": "e16aaa9121aa655dd0ddd10fc89c882e197619106b5ce6813a3f30331070d1ce",
+      "transformer-predictions.json": "bd8f53c6cedee65d805c306ad7a2bef337548bfa06de219396f3b6322ef86fb1",
+      "kernel-metadata.json": "0ca113090bd010eca142f65069040b9986f1d97fb3a778c93f7e1a27d088144c",
+      "execution.log": "25c1e577450e56e5871749ef710866704d1190415174672ac4bb5265659b96d1",
+      "gru-predictions.json": "88b416843104b3c408c322f7e9e1169a8f7d6b06ba34b2207a050d5d718a9370",
+      "source.ipynb": "a1f27d93f00379c221629869c72e07d325796e1599bd1a4696f87d9a4da39277",
+      "split-manifest.json": "15a90bea8bb71ab941dc8360f9c37122b571efb3f8d39f3fa6ef5ff3b10a23b7"
+    }
+  },
+  {
+    "project": "fraud",
+    "ref": "kerem0zcan/fraud-detection-under-a-100-alert-review-budget",
+    "url": "https://www.kaggle.com/code/kerem0zcan/fraud-detection-under-a-100-alert-review-budget",
+    "version": 2,
+    "kernel_id": 147592585,
+    "is_private": false,
+    "uploaded_utc": "2026-11-26T11:43:53.513424+00:00",
+    "notebook_sha256": "6bbc1b79131ee37c93191942e30222cceefb86c650c144a6853f0b1b4c8df71e",
+    "status": "COMPLETE",
+    "verified_utc": "2026-11-26T11:45:04.111852+00:00",
+    "docker_image": "gcr.io/kaggle-images/python@sha256:7de5e1496c568335455c8bb1f86f5c36f0591e87e92e9aa9f0eefcd07f227c66",
+    "files": {
+      "metrics.json": "f0662119d5c0c54ffa5541503581a02113b688434405f236e5a8d21b3993f802",
+      "results.png": "6503dbf54213b2db9c23d5d2424c99522b8d938d69e271b1917ed517cb3fd056",
+      "kernel-metadata.json": "af00c7661f3f6ced66ffe407c0aa9e9f5afa2dd67dd2b62ad6927bd29aacfd63",
+      "execution.log": "501aba731532ea9fae5d576c72765eea97a0185f90d2da2ae4e880d5e12b9fec",
+      "source.ipynb": "eb878c396666e56f61f412dcb7152bf88751cf8bf659242095f2fc6f7bae8922",
+      "split-manifest.json": "34643e893e8b142cbd23855a8245300b429e5722717f37682a3d9bbd7f693e8d"
+    }
+  },
+  {
+    "project": "cartpole",
+    "ref": "kerem0zcan/cartpole-dqn-target-networks-across-three-seeds",
+    "url": "https://www.kaggle.com/code/kerem0zcan/cartpole-dqn-target-networks-across-three-seeds",
+    "version": 2,
+    "kernel_id": 147592591,
+    "is_private": false,
+    "uploaded_utc": "2026-11-26T11:43:58.428712+00:00",
+    "notebook_sha256": "37d77b198d0fe0dd8785fcfb33da1de454c5e9c8373da1d708785a938875f721",
+    "status": "COMPLETE",
+    "verified_utc": "2026-11-26T11:46:09.868601+00:00",
+    "docker_image": "gcr.io/kaggle-images/python@sha256:7de5e1496c568335455c8bb1f86f5c36f0591e87e92e9aa9f0eefcd07f227c66",
+    "files": {
+      "metrics.json": "f8592989ff908a20860d835dbe725ad5553cb9eb56781b3f008802ddde46eb15",
+      "results.png": "1dbcc13e68d52aa2255be522ff873b91ccb42c93e8ddebde2a5530a3d0af4c53",
+      "kernel-metadata.json": "e00de0557f2d1b1728259110eb28fe4745c2d7a857dcf5ad68d9c75ef39f9d6e",
+      "execution.log": "ec7e9e5f0357a4bc7ed1cbdd1bd2a2e25eb101e85f4da5833f467849626aa53e",
+      "source.ipynb": "b891147d8e481388f282c0ba0db2fb1c0c2587f57c3089c095d4ae1cf8c0863c",
+      "split-manifest.json": "e5cff7d9afbd8fbdb6c12467ecf01751011edd01da00226193a92fdd828d8956"
+    }
+  },
+  {
+    "project": "preference_alignment",
+    "ref": "kerem0zcan/sft-vs-dpo-with-frozen-reference-and-reload-proof",
+    "url": "https://www.kaggle.com/code/kerem0zcan/sft-vs-dpo-with-frozen-reference-and-reload-proof",
+    "version": 2,
+    "kernel_id": 147592594,
+    "is_private": false,
+    "uploaded_utc": "2026-11-26T11:53:58.693738+00:00",
+    "notebook_sha256": "cd66e521a57e49464827c3e5ab706c72e3c0651b4215305065b47f806252e877",
+    "status": "COMPLETE",
+    "verified_utc": "2026-11-26T11:58:39.664497+00:00",
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:fc720c15545eb096a510e1f085b17fc118387a007599424d953a4f327b71cacf",
+    "files": {
+      "metrics.json": "63f87154a0bd3bd81f2053e8c85c12f773118c4a0e8cc025d64cc5dff614d941",
+      "reference-logps.json": "917a9be82eb8c1b76c53f66ddf6b1b6f1bcee9a1a10789e3a95075c315c411bb",
+      "results.png": "60afbafd525915df868cf5858b3df3ef83cfa1dcc0c56b8ee372408e49e3b446",
+      "kernel-metadata.json": "3ac3de4d1d70f1befa205539330c710ca2746b2a6bae09e475baf84e267ed5c9",
+      "execution.log": "2daebab99ad375d2452ac1c64fae2ae6bdc894158d3c873afd778960f34e6254",
+      "source.ipynb": "4c3b9a8ff210a31035da0c6767434db8c2cf4e724a2a5c3beed8c7221fc9f7b1",
+      "split-manifest.json": "af42ff7d674909a5c61b8b012ac587235f195bce064986d6c6118d57467344df"
+    }
+  }
+]

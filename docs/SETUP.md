@@ -77,3 +77,47 @@ python scripts/check_repository.py
 ```
 
 Course pages are generated from [course definitions](../provenance/courses.json); edit that file before regenerating. Course cell content is guarded by [the source manifest](../provenance/source-manifest.json). If you intentionally change a reference lab, document the change and update its curated content hash; preserve the original source hash. Keep personal experiments separate from the reference copy.
+
+## Worked labs and bounded verification
+
+Use the [progress report](SOLUTION_PROGRESS.md) to choose a worked copy under `solutions/`. Source references under `courses/` retain the original exercises. Worked copies replace package-install cells with setup notes; install dependencies before opening a notebook.
+
+Keep the two framework profiles separate:
+
+```bash
+# Course 01-06 compatibility profile (Python 3.11)
+python -m pip install -r requirements/labs-core.txt
+python scripts/run_solutions.py --course 5 --match fashion-mnist-project --timeout 60
+
+# Separate legacy NLP environment
+python3.11 -m venv .venv-legacy
+.venv-legacy/bin/python -m pip install -r requirements/labs-nlp-legacy.txt
+.venv-legacy/bin/python -m pip install -r requirements/labs-document-tools.txt
+.venv-legacy/bin/python -m spacy download en_core_web_sm
+.venv-legacy/bin/python -m spacy download de_core_news_sm
+.venv-legacy/bin/python scripts/run_solutions.py --course 8 --match integrating-word2vec-part1 --timeout 60
+```
+
+Use the corresponding `Scripts\python.exe` path on Windows. Graphviz's `dot` executable is needed by Keras model diagrams; some reference shell examples also use `unzip`. Direct dependency files are compatibility profiles, not transitive lockfiles or verification of every lab. Packages observed in new runs are recorded in the execution ledger. Early runs predate package capture; their verification-code digests were reconstructed from the saved executed notebooks, and their full environment cannot be recovered from those files.
+
+The solution runner writes an explicitly adapted execution copy under `reports/executed-labs/`, keeps input/model caches in ignored `.lab-cache/`, and records failures in `reports/solution-execution.json`. Limits include small training budgets, 12 DataLoader batches, sampled CSVs and restricted TensorFlow fit inputs. `--skip-passed` requires matching worked source, verification code and saved artifact hashes. `--exclude` can keep heavy or provider-dependent labs out of a local batch. Run one solution runner at a time; the ledger is a single-writer file.
+
+Rebuild and verify the study layer after edits or runs:
+
+```bash
+python scripts/build_solutions.py
+python scripts/build_solutions.py --check
+python scripts/check_repository.py
+```
+
+Change guarded entries in `provenance/solution-patches.json` and rebuild, rather than editing generated worked copies. Full prescribed training must use the worked notebook without the smoke runner's adaptations. Cloud labs require a compatible IBM/Skills Network or provider environment and local credentials. No provider execution or public publication is implied by local checks.
+
+### Recreate the vision-comparison subset
+
+Before a first run of the two comparison notebooks, download the course `images-dataSAT.tar` archive using the URL in their setup cells. For fresh caches, stage the exact deterministic subset with:
+
+```bash
+python scripts/prepare_vision_smoke.py --archive .lab-cache/images-dataSAT.tar --per-class 64
+```
+
+The helper copies only regular image members from the two expected class folders, rejects archive links/escape paths, and records archive/selected-image hashes. It refuses to overwrite an existing image dataset. Existing local comparison caches already contain their selected images. Cached pretrained weights are optional; missing weights are downloaded by the notebook's recorded setup path and may exceed a bounded attempt's time limit.

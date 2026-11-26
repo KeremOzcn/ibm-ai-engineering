@@ -4,14 +4,16 @@
 
 A personal study repository following the [IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer). It turns collected course material into a navigable reference for revision, experimentation and technical interviews.
 
-**13 course study guides · 138 distinct course notebooks · 2 integration guides · 3 executed companion examples**
+**13 course study guides · 138 reference notebooks + 138 worked study copies · 2 integration guides · 3 executed companions**
 
-> Course notebooks retain IBM / Skills Network authorship and exercise blanks. The companion examples were created with AI assistance during curation and are separately identified. Execution evidence covers the three companions, not the full course collection. This repository is currently a private study archive.
+> Original course references retain IBM / Skills Network authorship and exercise blanks. Separate worked copies contain AI-assisted answers and compatibility corrections. Code preparation, bounded execution and full training are tracked separately in the [solution progress report](docs/SOLUTION_PROGRESS.md). This repository is a private study archive.
 
 ## Start here
 
 | Your goal | Open |
 |---|---|
+| Inspect the selected portfolio experiments | [Selected projects and correctness checks](projects/README.md) |
+| Study the worked answers and check execution status | [Worked lab progress](docs/SOLUTION_PROGRESS.md) |
 | Review a concept and find its lab | [Course catalog](docs/LAB_CATALOG.md) |
 | Work through a structured revision plan | [Study roadmap](docs/STUDY_ROADMAP.md) |
 | Run a small, verified example | [Companion notebooks](companions/README.md) |
@@ -77,18 +79,32 @@ On Windows, activate with `.venv\Scripts\Activate.ps1`. The course reference not
 
 ```text
 courses/       13 course folders, study notes, reference notebooks and guides
+solutions/     Worked copies generated from guarded answer/code patches
+projects/      Six standalone studies, one DPO extension, notebooks and measured evidence
 companions/    Three locally executed examples with saved outputs
 docs/          Catalog, revision plan, setup, attribution and validation
 provenance/    Source hashes, original-to-curated paths and course definitions
-reports/       Deterministic lab audit and measured companion execution results
+reports/       Lab audit, execution ledger and actual bounded-run notebooks
 requirements/  Pinned direct dependencies for examples and quality checks
-scripts/       Import, catalog generation, integrity checks and example runner
+scripts/       Import, catalog/solution builds, integrity checks and notebook runners
 ```
 
 149 source assets are traceable to 140 curated files. Nine copies with identical cell types and source text within the same course were consolidated. Cross-course shared labs remain available in their respective courses. The original download archive is outside this Git repository and unchanged.
 
 ## Separate capstone: Mevzuat RAG
 
-Mevzuat RAG will be linked later as a separate capstone project and case study. Its source, experiments and results are not bundled here. Course 06 contains the certificate's collected computer vision capstone material; course 13 contains the collected RAG application references.
+[Mevzuat RAG](https://github.com/KeremOzcn/mevzuat-rag) is the separate local research application and capstone case study. Its public repository contains the application, tests, dated evaluation and genuine demo assets. Its source and private research data are not bundled here. Course 06 contains the certificate's collected computer vision capstone material; course 13 contains the collected RAG application references.
 
 For a future CV or LinkedIn presentation, use the [portfolio evidence brief](docs/PORTFOLIO.md) to distinguish course coverage, repository work and independently measured results.
+
+## Selected Kaggle experiments
+
+Three independently authored notebooks have separate Kaggle pages for satellite CNN/hybrid comparison, verified LoRA instruction tuning and aircraft caption reliability. Open the [release record](docs/KAGGLE_RELEASE.md) for links, actual execution evidence and measured scope. The IBM reference and assessment archive remains private; the public notebooks fetch provider-hosted data at runtime and include source/model attribution.
+
+## Additional portfolio studies
+
+Four additional public notebooks cover German-English GRU/Transformer translation, chronological fraud detection under a review budget, repeated-seed CartPole DQN evaluation, and an SFT/DPO alignment extension. Open the [second-batch record](docs/SECOND_BATCH.md) for source, exact budgets and actual Kaggle execution/publication status.
+
+## Combined portfolio presentation
+
+The public Mevzuat repository also contains the [combined portfolio carousel and draft post](https://github.com/KeremOzcn/mevzuat-rag/blob/main/docs/portfolio/README.md), with links to all seven executed Kaggle case studies. This study archive remains private; use the public application and notebook links when sharing the work.

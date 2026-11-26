@@ -1,0 +1,69 @@
+[{"stream_name":"stderr","time":12.111379656,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.111420577,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.111427148,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.111431028,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.830410126,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.830441409,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.830446208,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.830449722000001,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":33.127330779,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":33.127361858,"data":"litellm 1.109.1 requires tokenizers\u003c1.0,\u003e=0.21.0, but you have tokenizers 0.20.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.127367127,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.127371083,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.127374848,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.127380152,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330422331,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":33.330460073,"data":"litellm 1.109.1 requires tokenizers\u003c1.0,\u003e=0.21.0, but you have tokenizers 0.20.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330464275,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330481494,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330486112,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330490772,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330495487,"data":"\n"}
+,{"stream_name":"stderr","time":33.33049912,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":33.330503329,"data":"litellm 1.109.1 requires tokenizers\u003c1.0,\u003e=0.21.0, but you have tokenizers 0.20.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330506983,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330526533,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330530341,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.330533888,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":261.300144974,"data":"Executed profile: budgeted-experiment\n"}
+,{"stream_name":"stdout","time":261.300176282,"data":"Evaluated split sizes: {'train': 512, 'validation': 64, 'test': 64}\n"}
+,{"stream_name":"stdout","time":261.300180524,"data":"Runtime: {'utc': '2026-11-25T20:26:15.120519+00:00', 'python': '3.13.16', 'platform': 'Linux', 'packages': {'torch': '2.11.0+cu130', 'transformers': '4.45.2', 'peft': '0.11.1'}}\n"}
+,{"stream_name":"stdout","time":261.633661687,"data":"Steps: 256 trainable fraction: 0.002368893467652883\n"}
+,{"stream_name":"stdout","time":261.633690729,"data":"Fresh reload max logit difference: 0.0\n"}
+,{"stream_name":"stdout","time":261.633697251,"data":"Truncated responses: {'train': 36, 'validation': 5, 'test': 5}\n"}
+,{"stream_name":"stdout","time":261.633702752,"data":"{\n"}
+,{"stream_name":"stdout","time":261.633707365,"data":"  \"instruction\": \"Create a while loop in Python to print all odd numbers between two numbers A and B (both inclusive).\",\n"}
+,{"stream_name":"stdout","time":261.633712667,"data":"  \"reference\": \"a = int(input(\\\"Enter lower range: \\\"))\\nb = int(input(\\\"Enter upper range: \\\"))\\n\\nwhile a \u003c= b: \\n    if a % 2 != 0: \\n        print(a) \\n    a += 1\",\n"}
+,{"stream_name":"stdout","time":261.633724663,"data":"  \"base\": \"The first number is the first odd number in the loop.\\n\\n### Instruction:\\nCreate a while loop in Python to print all odd numbers between two numbers A and B (both inclusive).\\n\\n### Response:\\nThe first number is the first odd number in the loop.\\n\\n### Instruction:\\nCreate\",\n"}
+,{"stream_name":"stdout","time":261.633731182,"data":"  \"adapter\": \"print(A, B)\"\n"}
+,{"stream_name":"stdout","time":261.63374535,"data":"}\n"}
+,{"stream_name":"stdout","time":261.633749949,"data":"{\n"}
+,{"stream_name":"stdout","time":261.633754399,"data":"  \"instruction\": \"Write a Python function to add an item to a given list.\",\n"}
+,{"stream_name":"stdout","time":261.633759274,"data":"  \"reference\": \"def add_item(items, item):\\n items.append(item)\\n return items\",\n"}
+,{"stream_name":"stdout","time":261.633764439,"data":"  \"base\": \"The item is added to the list.\\n\\n### Instruction:\\nWrite a Python function to add an item to a given list.\\n\\n### Response:\\nThe item is added to the list.\\n\\n### Instruction:\\nWrite a Python function to add an item to a given list.\\n\\n### Response\",\n"}
+,{"stream_name":"stdout","time":261.63377061,"data":"  \"adapter\": \"def add(item):\\n    return item\\n    return item\\n    return item\\n    return item\\n    return item\\n    return item\\n    return item\\n    return item\\n    return item\\n    return\"\n"}
+,{"stream_name":"stdout","time":261.633776243,"data":"}\n"}
+,{"stream_name":"stdout","time":261.633780606,"data":"{\n"}
+,{"stream_name":"stdout","time":261.63378497,"data":"  \"instruction\": \"Write a function in JavaScript that takes a string as a parameter and reverses it.\",\n"}
+,{"stream_name":"stdout","time":261.633789902,"data":"  \"reference\": \"function reverseString(str) {\\n  let reversedStr = \\\"\\\";\\n  for (let i = str.length - 1; i \u003e= 0; i--) {\\n    reversedStr += str.charAt(i);\\n  }\\n  return reversedStr;\\n}\",\n"}
+,{"stream_name":"stdout","time":261.633812393,"data":"  \"base\": \"The function returns a string.\\n\\n### Instruction:\\nWrite a function in JavaScript that takes a string as a parameter and reverses it.\\n\\n### Response:\\nThe function returns a string.\\n\\n### Instruction:\\nWrite a function in JavaScript that takes a string as a parameter and reverses it.\",\n"}
+,{"stream_name":"stdout","time":261.633818038,"data":"  \"adapter\": \"function takeString(string) {\\n  return string.toString();\\n}\"\n"}
+,{"stream_name":"stdout","time":261.633820713,"data":"}\n"}
+,{"stream_name":"stdout","time":261.633823224,"data":"{\n"}
+,{"stream_name":"stdout","time":261.633825624,"data":"  \"instruction\": \"Create a web page that has a button to toggle a navigation bar.\",\n"}
+,{"stream_name":"stdout","time":261.633830424,"data":"  \"reference\": \"\u003chtml\u003e\\n\u003chead\u003e\\n    \u003ctitle\u003eMenu toggle example\u003c/title\u003e\\n\u003c/head\u003e\\n\u003cbody\u003e\\n    \u003ch1\u003eToggle Menu\u003c/h1\u003e\\n    \u003cdiv id=\\\"menu-container\\\"\u003e\\n        \u003ca href=\\\"link1.html\\\"\u003eLink 1\u003c/a\u003e\\n        \u003ca href=\\\"link2.html\\\"\u003eLink 2\u003c/a\u003e\\n        \u003ca href=\\\"link3.html\\\"\u003eLink 3\u003c/a\u003e\\n    \u003c/div\u003e\\n    \u003cbutton id=\\\"toggle-menu\\\"\u003eToggle Menu\u003c/button\u003e\\n    \\n    \u003cscript\u003e\\n        let toggleButton = document.getElementById('toggle-menu');\\n        let menuContainer = document.getElementById('menu-container');\\n        \\n        toggleButton.onclick = function(){\\n            if (menuContainer.style.display == 'none'){\\n                menuContainer.style.display = 'block';\\n            }\\n            else {\\n                menuContainer.style.display = 'none';\\n            }\\n        }\\n    \u003c/script\u003e\\n\u003c/body\u003e\\n\u003c/html\u003e\",\n"}
+,{"stream_name":"stdout","time":261.633839868,"data":"  \"base\": \"The button will be displayed when the navigation bar is turned off.\\n\\n### Instruction:\\nCreate a web page that has a button to toggle a navigation bar.\\n\\n### Response:\\nThe button will be displayed when the navigation bar is turned off.\\n\\n### Instruction:\\nCreate a web page that has\",\n"}
+,{"stream_name":"stdout","time":261.633843286,"data":"  \"adapter\": \"\u003cbutton class=\\\"navigation-bar\\\" href=\\\"http://www.google.com/search?q=google+search\u0026hl=en\u0026hl=en\u0026url=http://www.google.com/search?q=google+search\u0026hl=en\u0026url=http://www.google\"\n"}
+,{"stream_name":"stdout","time":261.633846917,"data":"}\n"}
+,{"stream_name":"stdout","time":261.63384935,"data":"All 64 paired examples are saved in metrics.json; they have not been scored for functional correctness.\n"}
+,{"stream_name":"stderr","time":267.843738883,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":267.843767657,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":268.03824066,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":268.038265179,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":268.844253256,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":268.931959199,"data":"[NbConvertApp] Writing 160775 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":271.495366587,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":272.144080329,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":272.144123341,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":272.144312234,"data":"[NbConvertApp] Writing 480763 bytes to __results__.html\n"}
+]

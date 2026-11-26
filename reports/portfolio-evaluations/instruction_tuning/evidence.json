@@ -1,0 +1,12 @@
+{
+  "execution": "local-module-fresh-process",
+  "profile": "budgeted-experiment",
+  "files": {
+    "metrics.json": "c34d41beb0f1b442104c16d7d70cfe726106aba857772c85ac2ba871eaa01c47",
+    "split-manifest.json": "5808460acab1205526f6647f714916dad9214c4006094eb77f296298d88edb9b"
+  },
+  "source": {
+    "project_sha256": "7bcf4c35919ee98a92bbb62ea3c573db73a0ae9d2e380145f4b19250ffe11cc6",
+    "common_sha256": "ded7059d91e2123ef7bc9be2823a1d220d905041f45b9dbe83bac59d27547853"
+  }
+}
