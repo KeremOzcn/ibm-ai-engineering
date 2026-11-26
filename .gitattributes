@@ -6,3 +6,5 @@
 *.png binary
 # Keep original course guide bytes, including upstream whitespace.
 courses/**/guides/*.md -whitespace
+*.pdf binary
+*.mp4 binary
